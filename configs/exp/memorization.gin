@@ -1,0 +1,3 @@
+BATCH_SIZE = 2048
+
+utils.SaveCheckpointConfig.keep = 1

@@ -1,0 +1,18 @@
+from __gin__ import dynamic_registration
+
+import __main__ as train_script
+from t5x import utils
+
+import data.sglue.tasks
+
+include 't5x/configs/runs/finetune.gin'
+
+MIXTURE_OR_TASK_NAME = "super_glue_v102_proportional"
+TASK_FEATURE_LENGTHS = {'inputs': 512, 'targets': 64}
+
+DROPOUT_RATE = 0.1
+BATCH_SIZE = 128
+EVAL_STEPS = 100
+EVAL_PERIOD = 5000
+
+utils.SaveCheckpointConfig.keep = 1

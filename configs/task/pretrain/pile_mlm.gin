@@ -1,0 +1,14 @@
+from __gin__ import dynamic_registration
+
+import __main__ as train_script
+from t5x import gin_utils
+from t5x import partitioning
+from t5x import utils
+from t5x import trainer
+
+import data.pile.tasks
+
+include 't5x/configs/runs/pretrain.gin'
+
+MIXTURE_OR_TASK_NAME = "pile_r_denoiser"
+TASK_FEATURE_LENGTHS = {"inputs": 512, "targets": 114}

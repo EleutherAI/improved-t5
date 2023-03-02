@@ -1,0 +1,6 @@
+network.TransformerConfig:
+  emb_dim = 768
+  num_heads = 6
+  num_layers = 12
+  head_dim = 128
+  mlp_dim = 2048

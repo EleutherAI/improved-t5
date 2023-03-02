@@ -1,0 +1,16 @@
+partitioning.PjitPartitioner.logical_axis_rules = [
+    ('batch', 'data'),
+    # all weight matrices have this axis; activations already shard it along 'data'
+    ('embed', 'data'),
+    ('vocab', None),
+    ('mlp', None),
+    ('heads', None),
+    ('kv', None),
+    ('joined_kv', None),
+    ('relpos_buckets', None),
+    ('abspos_buckets', None),
+    ('length', None),
+    ('layers', None),
+    ('stack', None),
+    ('mlp_activations', None),
+]

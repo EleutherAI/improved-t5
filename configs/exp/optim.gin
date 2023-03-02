@@ -1,0 +1,6 @@
+TRAIN_STEPS = 32000
+BATCH_SIZE = 2048
+DECAY_STEPS = 32000
+LEARNING_RATE = 2.0e-4
+
+utils.SaveCheckpointConfig.keep = 1

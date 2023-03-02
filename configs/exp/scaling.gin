@@ -1,0 +1,5 @@
+BATCH_SIZE = 2048
+
+utils.SaveCheckpointConfig:
+  keep = None
+  period = %SAVING_PERIOD

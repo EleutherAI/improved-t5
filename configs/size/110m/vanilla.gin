@@ -1,0 +1,7 @@
+network.T5Config:
+  emb_dim = 640
+  num_heads = 5
+  num_encoder_layers = 10
+  num_decoder_layers = 10
+  head_dim = 128
+  mlp_dim = 1920
