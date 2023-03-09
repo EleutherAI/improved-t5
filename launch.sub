@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --partition=g40423
+#SBATCH --partition=g40
 #SBATCH --job-name=pile-t5x
 #SBATCH --nodes=8
 #SBATCH --gpus-per-node=8
@@ -13,7 +13,7 @@ module load openmpi
 module show cuda/11.7
 module load cuda/11.7
 
-export NCCL_DEBUG=INFO
+export NCCL_DEBUG=WARN
 export NCCL_TREE_THRESHOLD=0
 export NCCL_PROTO=simple
 # Network issues without these set; See https://github.com/NVIDIA/nccl/issues/676

@@ -53,6 +53,8 @@ class T5Config:
     param_scan_axis: int = 1
     gptj: bool = False
     use_alibi: bool = False
+    use_rel_pos: bool = True
+    pre_layer_norm: bool = True
 
 
 class EncoderLayer(nn.Module):
@@ -63,13 +65,7 @@ class EncoderLayer(nn.Module):
   def __call__(self, inputs, encoder_mask=None, deterministic=False):
     cfg = self.config
 
-    if cfg.use_alibi:
-        encoder_bias = ALiBiPositionBiases(
-            num_heads=cfg.num_heads,
-            decoder=False,
-            dtype=cfg.dtype,
-            name='alibi_bias')(inputs.shape[-2], inputs.shape[-2])
-    else:
+    if cfg.use_rel_pos:
         # Relative position embedding as attention biases.
         encoder_bias = layers.RelativePositionBiases(
             num_buckets=32,
@@ -79,15 +75,32 @@ class EncoderLayer(nn.Module):
             embedding_init=nn.initializers.variance_scaling(1.0, 'fan_avg',
                                                             'uniform'),
             name='relpos_bias')(inputs.shape[-2], inputs.shape[-2], True)
+    else:
+        encoder_bias = None
+
+    if cfg.use_alibi:
+        alibi_bias = ALiBiPositionBiases(
+            num_heads=cfg.num_heads,
+            decoder=False,
+            dtype=cfg.dtype,
+            name='alibi_bias')(inputs.shape[-2], inputs.shape[-2])
+
+        if encoder_bias is not None:
+            encoder_bias += alibi_bias
+        else:
+            encoder_bias = alibi_bias
 
     # Attention block.
     assert inputs.ndim == 3
     inputs = with_sharding_constraint(inputs, ('batch', 'length', 'embed'))
-    x = layers.LayerNorm(
-        dtype=cfg.dtype,
-        name='pre_attention_layer_norm')(
-            inputs)
-    x = with_sharding_constraint(x, ('batch', 'length', 'embed'))
+    if cfg.pre_layer_norm == True:
+        x = layers.LayerNorm(
+            dtype=cfg.dtype,
+            name='pre_attention_layer_norm')(
+                inputs)
+        x = with_sharding_constraint(x, ('batch', 'length', 'embed'))
+    else:
+        x = inputs
     # [batch, length, emb_dim] -> [batch, length, emb_dim]
     x = layers.MultiHeadDotProductAttention(
         num_heads=cfg.num_heads,
@@ -101,13 +114,22 @@ class EncoderLayer(nn.Module):
             x, deterministic=deterministic)
     x = x + inputs
     x = with_sharding_constraint(x, ('batch', 'length', 'embed'))
+    if cfg.pre_layer_norm == False:
+        x = layers.LayerNorm(
+            dtype=cfg.dtype,
+            name='post_attention_layer_norm')(
+                x)
+        x = with_sharding_constraint(x, ('batch', 'length', 'embed'))
 
     # MLP block.
-    y = layers.LayerNorm(
-        dtype=cfg.dtype,
-        name='pre_mlp_layer_norm')(
-            x)
-    y = with_sharding_constraint(y, ('batch', 'length', 'embed'))
+    if cfg.pre_layer_norm == True:
+        y = layers.LayerNorm(
+            dtype=cfg.dtype,
+            name='pre_mlp_layer_norm')(
+                x)
+        y = with_sharding_constraint(y, ('batch', 'length', 'embed'))
+    else:
+        y = x
     # [batch, length, emb_dim] -> [batch, length, emb_dim]
     y = layers.MlpBlock(
         intermediate_dim=cfg.mlp_dim,
@@ -121,6 +143,12 @@ class EncoderLayer(nn.Module):
             y, deterministic=deterministic)
     y = y + x
     y = with_sharding_constraint(y, ('batch', 'length', 'embed'))
+    if cfg.pre_layer_norm == False:
+        y = layers.LayerNorm(
+            dtype=cfg.dtype,
+            name='post_mlp_layer_norm')(
+            y)
+        y = with_sharding_constraint(y, ('batch', 'length', 'embed'))
 
     if cfg.scan_layers:
       return y, None
@@ -203,14 +231,7 @@ class DecoderLayer(nn.Module):
     # Relative position embedding as attention biases.
     l = max_decode_length if decode and max_decode_length else inputs.shape[-2]
 
-    # https://github.com/ofirpress/attention_with_linear_biases/issues/5
-    if cfg.use_alibi:
-        decoder_bias = ALiBiPositionBiases(
-            num_heads=cfg.num_heads,
-            decoder=True,
-            dtype=cfg.dtype,
-            name='alibi_bias')(l, l)
-    else:
+    if cfg.use_rel_pos:
         decoder_bias = layers.RelativePositionBiases(
             num_buckets=32,
             max_distance=128,
@@ -219,14 +240,32 @@ class DecoderLayer(nn.Module):
             embedding_init=nn.initializers.variance_scaling(1.0, 'fan_avg',
                                                             'uniform'),
             name='relpos_bias')(l, l, False)
+    else:
+        decoder_bias = None
+
+    # https://github.com/ofirpress/attention_with_linear_biases/issues/5
+    if cfg.use_alibi:
+        alibi_bias = ALiBiPositionBiases(
+            num_heads=cfg.num_heads,
+            decoder=True,
+            dtype=cfg.dtype,
+            name='alibi_bias')(l, l)
+
+        if decoder_bias is not None:
+            decoder_bias += alibi_bias
+        else:
+            decoder_bias = alibi_bias
 
     inputs = with_sharding_constraint(inputs, ('batch', 'length', 'embed'))
 
     # inputs: embedded inputs to the decoder with shape [batch, length, emb_dim]
-    x = layers.LayerNorm(
-        dtype=cfg.dtype, name='pre_self_attention_layer_norm')(
-            inputs)
-    x = with_sharding_constraint(x, ('batch', 'length', 'embed'))
+    if cfg.pre_layer_norm == True:
+        x = layers.LayerNorm(
+            dtype=cfg.dtype, name='pre_self_attention_layer_norm')(
+                inputs)
+        x = with_sharding_constraint(x, ('batch', 'length', 'embed'))
+    else:
+        x = inputs
 
     # Self-attention block
     x = layers.MultiHeadDotProductAttention(
@@ -246,12 +285,20 @@ class DecoderLayer(nn.Module):
             x, deterministic=deterministic)
     x = x + inputs
     x = with_sharding_constraint(x, ('batch', 'length', 'embed'))
+    if cfg.pre_layer_norm == False:
+        x = layers.LayerNorm(
+            dtype=cfg.dtype, name='post_self_attention_layer_norm')(
+                inputs)
+        x = with_sharding_constraint(x, ('batch', 'length', 'embed'))
 
     # Encoder-Decoder block.
-    y = layers.LayerNorm(
-        dtype=cfg.dtype, name='pre_cross_attention_layer_norm')(
-            x)
-    y = with_sharding_constraint(y, ('batch', 'length', 'embed'))
+    if cfg.pre_layer_norm == True:
+        y = layers.LayerNorm(
+            dtype=cfg.dtype, name='pre_cross_attention_layer_norm')(
+                x)
+        y = with_sharding_constraint(y, ('batch', 'length', 'embed'))
+    else:
+        y = x
     y = layers.MultiHeadDotProductAttention(
         num_heads=cfg.num_heads,
         dtype=cfg.dtype,
@@ -264,13 +311,21 @@ class DecoderLayer(nn.Module):
             y, deterministic=deterministic)
     y = y + x
     y = with_sharding_constraint(y, ('batch', 'length', 'embed'))
+    if cfg.pre_layer_norm == False:
+        y = layers.LayerNorm(
+            dtype=cfg.dtype, name='post_cross_attention_layer_norm')(
+                y)
+        y = with_sharding_constraint(y, ('batch', 'length', 'embed'))
 
     # MLP block.
-    z = layers.LayerNorm(
-        dtype=cfg.dtype,
-        name='pre_mlp_layer_norm')(
-            y)
-    z = with_sharding_constraint(z, ('batch', 'length', 'embed'))
+    if cfg.pre_layer_norm == True:
+        z = layers.LayerNorm(
+            dtype=cfg.dtype,
+            name='pre_mlp_layer_norm')(
+                y)
+        z = with_sharding_constraint(z, ('batch', 'length', 'embed'))
+    else:
+        z = y
     z = layers.MlpBlock(
         intermediate_dim=cfg.mlp_dim,
         activations=cfg.mlp_activations,
@@ -283,6 +338,12 @@ class DecoderLayer(nn.Module):
             z, deterministic=deterministic)
     z = z + y
     z = with_sharding_constraint(z, ('batch', 'length', 'embed'))
+    if cfg.pre_layer_norm == False:
+        z = layers.LayerNorm(
+            dtype=cfg.dtype,
+            name='pre_mlp_layer_norm')(
+                z)
+        z = with_sharding_constraint(z, ('batch', 'length', 'embed'))
 
     if cfg.scan_layers:
       return z, None

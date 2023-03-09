@@ -14,6 +14,7 @@ BATCH_SIZE = 2048
 DROPOUT_RATE = 0.0
 MIXTURE_OR_TASK_NAME = "pile_ul2_causal_0_15"
 TASK_FEATURE_LENGTHS = {"inputs": 512, "targets": 512}
+EVAL_BATCH_SIZE = 128
 
 train_script.train:
   run_eval_before_training = True
@@ -26,14 +27,14 @@ infer_eval/utils.DatasetConfig:
   mixture_or_task_name = %MIXTURE_OR_TASK_NAME
   task_feature_lengths = %TASK_FEATURE_LENGTHS
   split = 'validation'
-  batch_size = 64
+  batch_size = %EVAL_BATCH_SIZE
   seed = 0
   shuffle = False
 
 seqio.Evaluator:
   logger_cls = [@seqio.PyLoggingLogger, @seqio.TensorBoardLogger, @seqio.JSONLogger]
-  num_examples = 2048 # None  # Use all examples in the infer_eval dataset.
+  num_examples = 2048 # Use all examples in the infer_eval dataset.
 
 utils.SaveCheckpointConfig:
   keep = None
-  period = 1000 # %SAVING_PERIOD
+  period = %SAVING_PERIOD

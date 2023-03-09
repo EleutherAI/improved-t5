@@ -13,6 +13,8 @@ TASK_FEATURE_LENGTHS = {'inputs': 512, 'targets': 64}
 DROPOUT_RATE = 0.1
 BATCH_SIZE = 128
 EVAL_STEPS = 100
-EVAL_PERIOD = 5000
+EVAL_PERIOD = %SAVING_PERIOD
 
-utils.SaveCheckpointConfig.keep = 1
+utils.SaveCheckpointConfig:
+  keep = 1
+  period = %SAVING_PERIOD

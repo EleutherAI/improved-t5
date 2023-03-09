@@ -11,4 +11,6 @@ import data.pile.tasks
 include 't5x/configs/runs/pretrain.gin'
 
 MIXTURE_OR_TASK_NAME = "pile_r_denoiser"
+BATCH_SIZE = 2048
+DROPOUT_RATE = 0.0
 TASK_FEATURE_LENGTHS = {"inputs": 512, "targets": 114}

@@ -8,7 +8,7 @@ python -m t5x.train \
     --gin_file="configs/size/920m/vanilla.gin" \
     --gin_file="configs/task/pretrain/pile_mixed_objective.gin" \
     --gin.MIXTURE_OR_TASK_NAME=\"'pile_ul2_causal_0_60'\" \
-    --gin.MODEL_DIR=\"'/fsx/lintangsutawika/ckpts/920m_pile_ul2_causal_0_60/'\" \
+    --gin.MODEL_DIR=\"'/fsx/lintangsutawika/improved_t5/ckpts/920m_pile_ul2_causal_0_60/'\" \
     --gin.USE_CACHED_TASKS=False \
     --gin.TRAIN_STEPS=256000 \
     --gin.SAVING_PERIOD=32000 \
