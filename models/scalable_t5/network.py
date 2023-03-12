@@ -341,7 +341,7 @@ class DecoderLayer(nn.Module):
     if cfg.pre_layer_norm == False:
         z = layers.LayerNorm(
             dtype=cfg.dtype,
-            name='pre_mlp_layer_norm')(
+            name='post_mlp_layer_norm')(
                 z)
         z = with_sharding_constraint(z, ('batch', 'length', 'embed'))
 
