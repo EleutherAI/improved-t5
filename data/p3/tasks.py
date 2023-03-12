@@ -14,9 +14,9 @@ For more details, see: seqio/scripts/cache_tasks_main.py
 
 import seqio
 
-from t5x.data.vocab import DEFAULT_OUTPUT_FEATURES
+from data.vocab import DEFAULT_OUTPUT_FEATURES
 
-from t5x.data.p3 import p3_utils
+from data.p3 import p3_utils
 
 TaskRegistry = seqio.TaskRegistry
 MixtureRegistry = seqio.MixtureRegistry
@@ -77,14 +77,17 @@ for dataset_name, subset_name in p3_utils.all_templates.keys:
         for key, dataset_subset_tuples in p3_utils.t0_train.items():
             if (dataset_name, subset_name) in dataset_subset_tuples:
                 t0_train_mixture[key].append(task_name)
-                mixture_cap[task_name] = cap
+
+        for key, dataset_subset_tuples in p3_utils.t0_eval.items():
+            if (dataset_name, subset_name) in dataset_subset_tuples:
+                t0_eval_mixture[key].append(task_name)
 
 
 MixtureRegistry.add(
     "t0_train",
     [task for task in t0_train_mixture["BASE"] \
                         if task not in p3_utils.TASK_BLACKLIST],
-    default_rate=lambda t: mixture_cap[t.name],
+    default_rate=lambda t: p3_utils.mixture_cap[t.name],
 )
 
 MixtureRegistry.add(
@@ -100,6 +103,13 @@ MixtureRegistry.add(
     [task for task in t0_train_mixture["BASE"] \
                     + t0_train_mixture["GPT_EVAL"] \
                     + t0_train_mixture["SGLUE"] \
+                        if task not in p3_utils.TASK_BLACKLIST],
+    default_rate=lambda t: p3_utils.mixture_cap[t.name],
+)
+
+MixtureRegistry.add(
+    "t0_eval",
+    [task for task in t0_eval_mixture["BASE"] \
                         if task not in p3_utils.TASK_BLACKLIST],
     default_rate=lambda t: p3_utils.mixture_cap[t.name],
 )
