@@ -33,6 +33,7 @@ TaskRegistry = seqio.TaskRegistry
 MixtureRegistry = seqio.MixtureRegistry
 
 # ==================================== Super GLUE ======================================
+# Adapted from https://github.com/google-research/text-to-text-transfer-transformer/blob/main/t5/data/tasks.py
 # Original T5 SGLUE
 for b in tfds.text.super_glue.SuperGlue.builder_configs.values():
     # We use a simplified version of WSC, defined below
