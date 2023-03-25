@@ -111,7 +111,11 @@ def make_plm_task(
                 }),
             seqio.preprocessors.tokenize,
             seqio.CacheDatasetPlaceholder(),
-            t5.data.preprocessors.prefix_lm,
+            functools.partial(
+                t5.data.preprocessors.prefix_lm,
+                **{
+                    "noise_density": noise_density,
+                }),
             seqio.preprocessors.append_eos_after_trim,
         ],
         output_features=DEFAULT_OUTPUT_FEATURES,

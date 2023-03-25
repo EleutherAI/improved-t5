@@ -10,11 +10,11 @@ import data.pile.tasks
 
 include 't5x/configs/runs/pretrain.gin'
 
-BATCH_SIZE = 2048
-DROPOUT_RATE = 0.0
 MIXTURE_OR_TASK_NAME = "pile_ul2_causal_0_15"
 TASK_FEATURE_LENGTHS = {"inputs": 512, "targets": 512}
+BATCH_SIZE = 2048
 EVAL_BATCH_SIZE = 128
+DROPOUT_RATE = 0.0
 
 train_script.train:
   run_eval_before_training = True

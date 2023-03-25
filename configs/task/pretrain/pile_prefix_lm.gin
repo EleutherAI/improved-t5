@@ -10,11 +10,11 @@ import data.pile.tasks
 
 include 't5x/configs/runs/pretrain.gin'
 
-BATCH_SIZE = 2048
-DROPOUT_RATE = 0.0
 MIXTURE_OR_TASK_NAME = "pile_s_denoiser"
 TASK_FEATURE_LENGTHS = {"inputs": 512, "targets": 114}
+BATCH_SIZE = 2048
 EVAL_BATCH_SIZE = 64
+DROPOUT_RATE = 0.0
 
 train_script.train:
   run_eval_before_training = True
@@ -37,4 +37,4 @@ seqio.Evaluator:
 
 utils.SaveCheckpointConfig:
   keep = None
-  period =  %SAVING_PERIOD
+  period = %SAVING_PERIOD

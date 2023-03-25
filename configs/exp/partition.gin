@@ -1,0 +1,6 @@
+NUM_PARTITIONS = 1
+TRAIN_STEPS = 100
+SAVING_PERIOD = 100
+
+partitioning.PjitPartitioner:
+  num_partitions = %NUM_PARTITIONS

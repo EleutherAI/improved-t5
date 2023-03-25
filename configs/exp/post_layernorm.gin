@@ -1,5 +1,0 @@
-BATCH_SIZE = 2048
-network.T5Config.normalize_before = False
-utils.SaveCheckpointConfig.keep = 1
-utils.create_learning_rate_scheduler:
-  warmup_steps = 10000
