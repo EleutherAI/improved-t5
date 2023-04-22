@@ -3,6 +3,7 @@ from __gin__ import dynamic_registration
 import __main__ as train_script
 from t5x import utils
 
+import seqio
 import data.sglue.tasks
 
 include 't5x/configs/runs/finetune.gin'
@@ -18,3 +19,22 @@ EVAL_PERIOD = %SAVING_PERIOD
 utils.SaveCheckpointConfig:
   keep = 1
   period = %SAVING_PERIOD
+
+train_script.train:
+  run_eval_before_training = True
+  eval_steps = %EVAL_STEPS
+  eval_period = %SAVING_PERIOD
+  infer_eval_dataset_cfg = @infer_eval/utils.DatasetConfig()
+  inference_evaluator_cls = @seqio.Evaluator
+
+infer_eval/utils.DatasetConfig:
+  mixture_or_task_name = %MIXTURE_OR_TASK_NAME
+  task_feature_lengths = %TASK_FEATURE_LENGTHS
+  split = 'validation'
+  batch_size = %BATCH_SIZE
+  seed = 0
+  shuffle = False
+
+seqio.Evaluator:
+  logger_cls = [@seqio.PyLoggingLogger, @seqio.TensorBoardLogger, @seqio.JSONLogger]
+  num_examples = 2048 # Use all examples in the infer_eval dataset.
