@@ -21,7 +21,7 @@ from flax import struct
 from flax.linen import partitioning as nn_partitioning
 import jax
 import jax.numpy as jnp
-from t5x.examples.scalable_t5 import layers
+from models.scalable_t5 import layers
 from models.scalable_t5.alibi_position_biases import ALiBiPositionBiases
 
 with_sharding_constraint = nn_partitioning.with_sharding_constraint
@@ -54,6 +54,7 @@ class T5Config:
     gptj: bool = False
     use_alibi: bool = False
     use_rel_pos: bool = True
+    use_rotary_embedding: bool = False
     pre_layer_norm: bool = True
 
 
@@ -107,6 +108,7 @@ class EncoderLayer(nn.Module):
         dtype=cfg.dtype,
         head_dim=cfg.head_dim,
         dropout_rate=cfg.dropout_rate,
+        use_rotary_embedding=cfg.use_rotary_embedding,
         name='attention')(
             x, x, encoder_mask, encoder_bias, deterministic=deterministic)
     x = nn.Dropout(
@@ -186,6 +188,7 @@ class GPTJEncoderLayer(EncoderLayer):
         dtype=cfg.dtype,
         head_dim=cfg.head_dim,
         dropout_rate=cfg.dropout_rate,
+        use_rotary_embedding=cfg.use_rotary_embedding,
         name='attention')(
             x, x, encoder_mask, encoder_bias, deterministic=deterministic)
 
@@ -273,6 +276,7 @@ class DecoderLayer(nn.Module):
         dtype=cfg.dtype,
         head_dim=cfg.head_dim,
         dropout_rate=cfg.dropout_rate,
+        use_rotary_embedding=cfg.use_rotary_embedding,
         name='self_attention')(
             x,
             x,
@@ -304,6 +308,7 @@ class DecoderLayer(nn.Module):
         dtype=cfg.dtype,
         head_dim=cfg.head_dim,
         dropout_rate=cfg.dropout_rate,
+        use_rotary_embedding=cfg.use_rotary_embedding,
         name='encoder_decoder_attention')(
             y, encoded, encoder_decoder_mask, deterministic=deterministic)
     y = nn.Dropout(
@@ -390,6 +395,7 @@ class GPTJDecoderLayer(DecoderLayer):
         dtype=cfg.dtype,
         head_dim=cfg.head_dim,
         dropout_rate=cfg.dropout_rate,
+        use_rotary_embedding=cfg.use_rotary_embedding,
         name='self_attention')(
             x,
             x,
@@ -404,6 +410,7 @@ class GPTJDecoderLayer(DecoderLayer):
         dtype=cfg.dtype,
         head_dim=cfg.head_dim,
         dropout_rate=cfg.dropout_rate,
+        use_rotary_embedding=cfg.use_rotary_embedding,
         name='encoder_decoder_attention')(
             x, encoded, encoder_decoder_mask, deterministic=deterministic)
 

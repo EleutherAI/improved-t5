@@ -29,6 +29,7 @@ from jax import random
 import jax.numpy as jnp
 import numpy as np
 
+from models.scalable_t5.rotary_embedding import apply_rotary_embedding_to_subset
 
 # from flax.linen.partitioning import param_with_axes, with_sharding_constraint
 param_with_axes = nn_partitioning.param_with_axes
@@ -213,6 +214,9 @@ class MultiHeadDotProductAttention(nn.Module):
   dropout_rate: float = 0.
   kernel_init: NdInitializer = nd_dense_init(1.0, 'fan_in', 'normal')
   float32_logits: bool = False  # computes logits in float32 for stability.
+  use_rotary_embedding: bool = False
+  rotary_embedding_max_timescale: float = 1e4
+  rotary_embedding_fraction_to_rotate: float = 1.0
 
   @nn.compact
   def __call__(self,
@@ -222,7 +226,8 @@ class MultiHeadDotProductAttention(nn.Module):
                bias: Optional[Array] = None,
                *,
                decode: bool = False,
-               deterministic: bool = False) -> Array:
+               deterministic: bool = False,
+               query_position_offset: Optional[Array] = None) -> Array:
     """Applies multi-head dot product attention on the input data.
 
     Projects the inputs into multi-headed query, key, and value vectors,
@@ -274,6 +279,8 @@ class MultiHeadDotProductAttention(nn.Module):
     key = with_sharding_constraint(key, ('batch', 'length', 'heads', 'kv'))
     value = with_sharding_constraint(value, ('batch', 'length', 'heads', 'kv'))
 
+    rotary_index = None
+
     if decode:
       # Detect if we're initializing by absence of existing cache data.
       is_initialized = self.has_variable('cache', 'cached_key')
@@ -289,6 +296,7 @@ class MultiHeadDotProductAttention(nn.Module):
                                    swap_dims(value.shape), value.dtype)
       cache_index = self.variable('cache', 'cache_index',
                                   lambda: jnp.array(0, dtype=jnp.int32))
+      rotary_index = cache_index.value
       if is_initialized:
         batch, num_heads, head_dim, length = (cached_key.value.shape)
         # During fast autoregressive decoding, we feed one position at a time,
@@ -357,6 +365,17 @@ class MultiHeadDotProductAttention(nn.Module):
     # Add provided bias term (e.g. relative position embedding).
     if bias is not None:
       attention_bias = combine_biases(attention_bias, bias)
+
+    if self.use_rotary_embedding:
+      # Apply Rotary Embeddings here.
+      query, key = apply_rotary_embedding_to_subset(
+          query,
+          key,
+          max_timescale=self.rotary_embedding_max_timescale,
+          fraction_to_rotate=self.rotary_embedding_fraction_to_rotate,
+          decode=decode,
+          rotary_index=rotary_index,
+          query_position_offset=query_position_offset)
 
     dropout_rng = None
     if not deterministic and self.dropout_rate > 0.:
