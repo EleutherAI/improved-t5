@@ -1,7 +1,0 @@
-from __gin__ import dynamic_registration
-
-from t5x import utils
-
-utils.RestoreCheckpointConfig:
-    assignment_map = [(".*param_states.*", None)]
-    fallback_to_scratch = True
