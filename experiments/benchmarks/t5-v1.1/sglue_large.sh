@@ -11,8 +11,4 @@ python3 -m t5x.train \
     --gin.MODEL_DIR=\"${MODEL_DIR}'sglue_finetune'\" \
     --gin.INITIAL_CHECKPOINT_PATH=\"gs://t5-data/pretrained_models/t5x/t5_1_1_large/checkpoint_1000000\" \
     --seqio_additional_cache_dirs="${CACHED_DATA_DIR}" \
-    --alsologtostderr \
-    --multiprocess_gpu=${USE_GPU} \
-    --coordinator_address=${ADDR} \
-    --process_count=${SLURM_NTASKS} \
-    --process_index=${SLURM_PROCID}
+    --alsologtostderr
