@@ -4,7 +4,7 @@ USE_GPU=$3
 ADDR=$4
 
 python3 -m t5x.train \
-    --gin_file="~/t5x/t5x/examples/t5/t5_1_1/base.gin" \
+    --gin_file="/home/lintangsutawika/t5x/t5x/examples/t5/t5_1_1/base.gin" \
     --gin_file="configs/task/finetune/sglue.gin" \
     --gin.TRAIN_STEPS=1_128_000 \
     --gin.SAVING_PERIOD=4000 \
