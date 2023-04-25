@@ -16,6 +16,7 @@
 
 from typing import Any, Sequence
 
+from flaxformer.components import embedding
 from flax import linen as nn
 from flax import struct
 from flax.linen import partitioning as nn_partitioning
@@ -42,6 +43,7 @@ class T5Config:
     num_decoder_layers: int = 6
     head_dim: int = 64
     mlp_dim: int = 2048
+    max_length: int = 2048
     # Activation functions are retrieved from Flax.
     mlp_activations: Sequence[str] = ('relu',)
     dropout_rate: float = 0.1
@@ -55,6 +57,7 @@ class T5Config:
     use_alibi: bool = False
     use_rel_pos: bool = True
     use_rotary_embedding: bool = False
+    use_abs_pos_embedding: bool = False
     pre_layer_norm: bool = True
 
 
@@ -79,6 +82,7 @@ class EncoderLayer(nn.Module):
     else:
         encoder_bias = None
 
+    # https://github.com/ofirpress/attention_with_linear_biases/issues/5
     if cfg.use_alibi:
         alibi_bias = ALiBiPositionBiases(
             num_heads=cfg.num_heads,
@@ -246,7 +250,6 @@ class DecoderLayer(nn.Module):
     else:
         decoder_bias = None
 
-    # https://github.com/ofirpress/attention_with_linear_biases/issues/5
     if cfg.use_alibi:
         alibi_bias = ALiBiPositionBiases(
             num_heads=cfg.num_heads,
@@ -606,14 +609,34 @@ class Transformer(nn.Module):
 
   def setup(self):
     cfg = self.config
-    self.shared_embedding = layers.Embed(
-        num_embeddings=cfg.vocab_size,
-        features=cfg.emb_dim,
-        dtype=cfg.dtype,
-        attend_dtype=jnp.float32,  # for logit training stability
-        embedding_init=nn.initializers.normal(stddev=1.0),
-        one_hot=True,
-        name='token_embedder')
+
+    if cfg.use_abs_pos_embedding:
+        self.shared_embedding = embedding.MultiEmbed({
+            'token_ids':
+                layers.Embed(
+                    num_embeddings=cfg.vocab_size,
+                    features=cfg.emb_dim,
+                    dtype=cfg.dtype,
+                    attend_dtype=jnp.float32,  # for logit training stability
+                    embedding_init=nn.initializers.normal(stddev=1.0),
+                    one_hot=True,
+                    name='token_embedder'),
+            'position_ids':
+                layers.Embed(
+                    num_embeddings=cfg.max_length,
+                    features=cfg.emb_dim,
+                    embedding_init=nn.initializers.normal(stddev=1.0),
+                    name='position_embedder')
+            })
+    else:
+        self.shared_embedding = layers.Embed(
+            num_embeddings=cfg.vocab_size,
+            features=cfg.emb_dim,
+            dtype=cfg.dtype,
+            attend_dtype=jnp.float32,  # for logit training stability
+            embedding_init=nn.initializers.normal(stddev=1.0),
+            one_hot=True,
+            name='token_embedder')
 
     self.encoder = Encoder(config=cfg, shared_embedding=self.shared_embedding)
     self.decoder = Decoder(config=cfg, shared_embedding=self.shared_embedding)
