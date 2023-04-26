@@ -16,5 +16,4 @@ EVAL_STEPS = 100
 EVAL_PERIOD = %SAVING_PERIOD
 
 utils.SaveCheckpointConfig:
-  keep = 1
   period = %SAVING_PERIOD
