@@ -15,27 +15,38 @@ For more details, see: seqio/scripts/cache_tasks_main.py
 import seqio
 
 from data.c4 import c4_utils
-from data.utils import make_mlm_task, make_clm_task #, make_fcm_task
+from data.utils import make_mlm_task, make_clm_task, make_plm_task
 
 # ==================================== C4 ======================================
 # A version of c4 corresponding to one hosted on the-eye
 
 path="/fsx/c4/c4-en"
+
+def c4_helper(task, name, c4_files, **kwargs):
+    task(name, c4_files, jsonl=False, **kwargs)
+
 c4_files = c4_utils.get_c4_files(path)
+args = (c4_files)
 
-# Masked Language Model Format
-make_mlm_task('c4_eye_span_corruption', c4_files, jsonl=False)
-make_mlm_task('c4_mlm_0_10', c4_files, jsonl=False, noise_density=0.10)
-make_mlm_task('c4_mlm_0_15', c4_files, jsonl=False, noise_density=0.15)
-make_mlm_task('c4_mlm_0_25', c4_files, jsonl=False, noise_density=0.25)
-make_mlm_task('c4_mlm_0_50', c4_files, jsonl=False, noise_density=0.50)
-make_mlm_task('c4_mlm_0_75', c4_files, jsonl=False, noise_density=0.75)
-make_mlm_task('c4_mlm_1_00', c4_files, jsonl=False, noise_density=1.00)
+name = 'c4_r_denoiser'
+c4_helper(make_mlm_task, name, *args)
 
-# Causal Language Model Format
-make_clm_task('c4_eye_full_lm', c4_files, jsonl=False)
+name = 'c4_s_denoiser'
+c4_helper(make_plm_task, name, *args)
 
-# # Forgetful Causal Masking (https://arxiv.org/abs/2210.13432)
-# make_fcm_task('c4_eye_fcm_full_lm', c4_files, jsonl=False)
+name = 'c4_x_denoiser'
+c4_helper(make_mlm_task, name, *args, **{"noise_density": 0.5, "mean_noise_span_length": 32})
 
+name = 'c4_causal_lm'
+c4_helper(make_clm_task, name, *args)
 
+seqio.MixtureRegistry.add(
+    "c4_ul2",
+    ["c4_r_denoiser", "c4_s_denoiser", "c4_x_denoiser"],
+    default_rate=1
+    )
+
+seqio.MixtureRegistry.add(
+    "c4_ul2_causal_0_50",
+    [("c4_ul2", 0.50), ("c4_causal_lm", 0.50)],
+    )
