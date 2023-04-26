@@ -448,6 +448,7 @@ class Encoder(nn.Module):
   @nn.compact
   def __call__(self,
                encoder_input_tokens,
+               encoder_positions=None,
                encoder_mask=None,
                deterministic=False):
     cfg = self.config
@@ -455,6 +456,20 @@ class Encoder(nn.Module):
 
     # [batch, length] -> [batch, length, emb_dim]
     x = self.shared_embedding(encoder_input_tokens.astype('int32'))
+
+    if cfg.use_abs_pos_embedding:
+        if encoder_positions is None:
+            batch, length = encoder_input_tokens.shape
+            encoder_positions = jnp.expand_dims(jnp.arange(length),0).repeat(batch, 0).astype('int32')
+
+        x = x + layers.Embed(
+                    num_embeddings=cfg.max_length,
+                    features=cfg.emb_dim,
+                    dtype=cfg.dtype,
+                    attend_dtype=jnp.float32,  # for logit training stability
+                    embedding_init=nn.initializers.normal(stddev=1.0),
+                    name='position_embedder')(encoder_positions)
+
     x = nn.Dropout(
         rate=cfg.dropout_rate, broadcast_dims=(-2,))(
             x, deterministic=deterministic)
@@ -522,6 +537,20 @@ class Decoder(nn.Module):
 
     # [batch, length] -> [batch, length, emb_dim]
     y = self.shared_embedding(decoder_input_tokens.astype('int32'))
+
+    if cfg.use_abs_pos_embedding:
+        if decoder_positions is None:
+            batch, length = decoder_input_tokens.shape
+            decoder_positions = jnp.expand_dims(jnp.arange(length),0).repeat(batch, 0).astype('int32')
+
+        y = y + layers.Embed(
+                    num_embeddings=cfg.max_length,
+                    features=cfg.emb_dim,
+                    dtype=cfg.dtype,
+                    attend_dtype=jnp.float32,  # for logit training stability
+                    embedding_init=nn.initializers.normal(stddev=1.0),
+                    name='position_embedder')(decoder_positions)
+
     y = nn.Dropout(
         rate=cfg.dropout_rate, broadcast_dims=(-2,))(
             y, deterministic=deterministic)
@@ -610,33 +639,14 @@ class Transformer(nn.Module):
   def setup(self):
     cfg = self.config
 
-    if cfg.use_abs_pos_embedding:
-        self.shared_embedding = embedding.MultiEmbed({
-            'token_ids':
-                layers.Embed(
-                    num_embeddings=cfg.vocab_size,
-                    features=cfg.emb_dim,
-                    dtype=cfg.dtype,
-                    attend_dtype=jnp.float32,  # for logit training stability
-                    embedding_init=nn.initializers.normal(stddev=1.0),
-                    one_hot=True,
-                    name='token_embedder'),
-            'position_ids':
-                layers.Embed(
-                    num_embeddings=cfg.max_length,
-                    features=cfg.emb_dim,
-                    embedding_init=nn.initializers.normal(stddev=1.0),
-                    name='position_embedder')
-            })
-    else:
-        self.shared_embedding = layers.Embed(
-            num_embeddings=cfg.vocab_size,
-            features=cfg.emb_dim,
-            dtype=cfg.dtype,
-            attend_dtype=jnp.float32,  # for logit training stability
-            embedding_init=nn.initializers.normal(stddev=1.0),
-            one_hot=True,
-            name='token_embedder')
+    self.shared_embedding = layers.Embed(
+        num_embeddings=cfg.vocab_size,
+        features=cfg.emb_dim,
+        dtype=cfg.dtype,
+        attend_dtype=jnp.float32,  # for logit training stability
+        embedding_init=nn.initializers.normal(stddev=1.0),
+        one_hot=True,
+        name='token_embedder')
 
     self.encoder = Encoder(config=cfg, shared_embedding=self.shared_embedding)
     self.decoder = Decoder(config=cfg, shared_embedding=self.shared_embedding)
@@ -644,6 +654,7 @@ class Transformer(nn.Module):
   def encode(self,
              encoder_input_tokens,
              encoder_segment_ids=None,
+             encoder_positions=None,
              enable_dropout=True):
     """Applies Transformer encoder-branch on the inputs."""
     cfg = self.config
@@ -663,7 +674,11 @@ class Transformer(nn.Module):
               dtype=cfg.dtype))
 
     return self.encoder(
-        encoder_input_tokens, encoder_mask, deterministic=not enable_dropout)
+        encoder_input_tokens,
+        encoder_positions,
+        encoder_mask,
+        deterministic=not enable_dropout
+        )
 
   def decode(
       self,
@@ -758,6 +773,7 @@ class Transformer(nn.Module):
     encoded = self.encode(
         encoder_input_tokens,
         encoder_segment_ids=encoder_segment_ids,
+        encoder_positions=encoder_positions,
         enable_dropout=enable_dropout)
 
     return self.decode(
