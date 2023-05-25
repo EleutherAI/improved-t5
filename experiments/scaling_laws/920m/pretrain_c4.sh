@@ -7,7 +7,7 @@ python -m t5x.train \
     --gin_file="configs/exp/scaling.gin" \
     --gin.TRAIN_STEPS=256000 \
     --gin.SAVING_PERIOD=32000 \
-    --gin.MODEL_DIR=\"'/fsx/aran/jax/ckpts/scaling/920m/'\" \
+    --gin.MODEL_DIR=\"'/fsx/aran/jax/ckpts/scaling/920m_c4/'\" \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr \
     --multiprocess_gpu \

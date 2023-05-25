@@ -47,9 +47,9 @@ network.T5Config:
   dtype = 'bfloat16'
   emb_dim = 1280
   num_heads = 10
-  num_encoder_layers = 8
-  num_decoder_layers = 8
-  head_dim = 64
+  num_encoder_layers = 16
+  num_decoder_layers = 16
+  head_dim = 80
   mlp_dim = 3072
   mlp_activations = ('gelu', 'linear')
   dropout_rate = %DROPOUT_RATE

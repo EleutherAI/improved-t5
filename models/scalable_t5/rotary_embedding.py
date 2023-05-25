@@ -79,8 +79,6 @@ def apply_rotary_embedding(
       # broadcasting to batch size.
       qcos, qsin = cos, sin
 
-    print("NOT decode", type(qcos), qcos.shape)
-    print("NOT　q-shape", q.shape)
     # qcos, qsin: [qlen, d]
     qcos = jax.lax.broadcast_in_dim(qcos, (batch, qcos.shape[0], qheads, d),
                                     (1, 3))

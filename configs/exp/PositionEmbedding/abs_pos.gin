@@ -1,0 +1,1 @@
+network.T5Config.use_abs_pos_embedding = True

@@ -30,14 +30,13 @@ def get_dataset_name(prompt_name):
     else:
         return dataset
 
-model_dir_template = "/fsx/lintangsutawika/improved_t5/ckpts/METRO/"
+model_dir_template = "/fsx/lintangsutawika/improved_t5/ckpts/LayerNorm/with_abs_pos/"
 metric_extension = "-metrics.jsonl"
 model_checkpoints = [
-    # "alibi_relpos_pile_mlm",
-    # "benchmark_pile_mlm",
-    # "metro_inspired_pile_mlm",
-    "metro_inspired_learning_only_pile",
-    "metro_no_alibi_pile"
+    "pile_mlm_adamw_pre",
+    "pile_mlm_adamw_post",
+    "pile_mlm_adamw_post_rotary",
+    "_base_lm100k"
     ]
 
 inference_result_path = "finetune_t0_eval/inference_eval/"

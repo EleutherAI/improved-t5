@@ -1,6 +1,9 @@
 ADDR=$1
 MODEL_DIR=$2
 
+export CACHED_DATA_DIR="/fsx/lintangsutawika/data"
+export PREFIX="/fsx/lintangsutawika/improved_t5/ckpts/LayerNorm/with_abs_pos/"
+
 python -m t5x.train \
     --gin_file="models/scalable_t5/t5_1_1/base.gin" \
     --gin_file="configs/task/pretrain/pile_mlm.gin" \
@@ -8,7 +11,7 @@ python -m t5x.train \
     --gin_file="configs/exp/LayerNorm/pre_layernorm.gin" \
     --gin.TRAIN_STEPS=125000 \
     --gin.SAVING_PERIOD=25000 \
-    --gin.MODEL_DIR=\"'/fsx/lintangsutawika/improved_t5/ckpts/LayerNorm/pile_mlm_adamw_pre/'\" \
+    --gin.MODEL_DIR=\"${PREFIX}'pile_mlm_adamw_pre/'\" \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr \
     --multiprocess_gpu \

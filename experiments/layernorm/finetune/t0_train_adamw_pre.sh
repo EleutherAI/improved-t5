@@ -1,4 +1,5 @@
 export CACHED_DATA_DIR="/fsx/lintangsutawika/data"
+export PREFIX="/fsx/lintangsutawika/improved_t5/ckpts/LayerNorm/with_abs_pos/"
 
 ADDR=$1
 MODEL_DIR=$2
@@ -11,8 +12,8 @@ python -m t5x.train \
     --gin.TRAIN_STEPS=135000 \
     --gin.SAVING_PERIOD=2000 \
     --gin.EVAL_PERIOD=10000 \
-    --gin.MODEL_DIR=\"'/fsx/lintangsutawika/improved_t5/ckpts/LayerNorm/pile_mlm_adamw_pre/finetune_t0_train/'\" \
-    --gin.INITIAL_CHECKPOINT_PATH=\"'/fsx/lintangsutawika/improved_t5/ckpts/LayerNorm/pile_mlm_adamw_pre/checkpoint_125000/'\" \
+    --gin.MODEL_DIR=\"${PREFIX}'pile_mlm_adamw_pre/finetune_t0_train/'\" \
+    --gin.INITIAL_CHECKPOINT_PATH=\"${PREFIX}'pile_mlm_adamw_pre/checkpoint_125000/'\" \
     --seqio_additional_cache_dirs="${CACHED_DATA_DIR}" \
     --gin.USE_CACHED_TASKS=True \
     --alsologtostderr \

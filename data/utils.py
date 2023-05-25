@@ -56,8 +56,9 @@ def make_mlm_task(
                 t5.data.preprocessors.span_corruption,
                 **{
                     "noise_density": noise_density,
-                    "mean_noise_span_length": mean_noise_span_length,
-                }),
+                    "mean_noise_span_length": mean_noise_span_length
+                    }
+                ),
             seqio.preprocessors.append_eos_after_trim,
         ],
         output_features=DEFAULT_OUTPUT_FEATURES,
@@ -111,11 +112,11 @@ def make_plm_task(
                 }),
             seqio.preprocessors.tokenize,
             seqio.CacheDatasetPlaceholder(),
-            functools.partial(
-                t5.data.preprocessors.prefix_lm,
-                **{
-                    "noise_density": noise_density,
-                }),
+            t5.data.preprocessors.prefix_lm,
+            # functools.partial(
+            #     t5.data.preprocessors.prefix_lm,
+            #     noise_density=noise_density,
+            #     ),
             seqio.preprocessors.append_eos_after_trim,
         ],
         output_features=DEFAULT_OUTPUT_FEATURES,
