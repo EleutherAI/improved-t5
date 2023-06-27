@@ -15,6 +15,7 @@ DROPOUT_RATE = 0.1
 BATCH_SIZE = 128
 EVAL_STEPS = 1000
 EVAL_PERIOD = %SAVING_PERIOD
+LEARNING_RATE = 0.001
 
 utils.SaveCheckpointConfig:
   period = %SAVING_PERIOD
@@ -37,3 +38,5 @@ infer_eval/utils.DatasetConfig:
 seqio.Evaluator:
   logger_cls = [@seqio.PyLoggingLogger, @seqio.TensorBoardLogger, @seqio.JSONLogger]
   num_examples = 2048 # Use all examples in the infer_eval dataset.
+
+utils.create_learning_rate_scheduler.base_learning_rate = %LEARNING_RATE
