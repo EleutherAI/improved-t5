@@ -68,7 +68,7 @@ def code_to_text_preprocessor(x):
 
 for code_lang in CODE_LANG:
     TaskRegistry.add(
-        "code-to-text-{}".format(code_lang),
+        f"code_to_text_{code_lang}",
         source=seqio.FunctionDataSource(
             dataset_fn=partial(dataset_fn, code_lang=code_lang),
             splits=["train", "validation", "test"]
@@ -86,7 +86,7 @@ for code_lang in CODE_LANG:
 
 seqio.MixtureRegistry.add(
     "code_x_glue_code_to_text",
-    [f"code-to-text-{code_lang}" for code_lang in CODE_LANG],
+    [f"code_to_text_{code_lang}" for code_lang in CODE_LANG],
     default_rate=1
     )
 
