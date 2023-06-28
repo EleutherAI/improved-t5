@@ -48,47 +48,54 @@ def feature_to_spec(feature, length=False):
         raise ValueError(f"Unparseable feature type {type(feature)}")
 
 
-def dataset_fn(split, shuffle_files, seed=None, code_lang=None):
-
-    ds = datasets.load_dataset(f"CM/codexglue_code2text_{code_lang}")
-    ds = ds[split]
-    ds = datasets.Dataset.from_dict({
-        "code_tokens": ds["code_tokens"],
-        "docstring_tokens": ds["docstring_tokens"],
-        })
-    # ds = ds.with_format("tf")
-    return tf.data.Dataset.from_generator(
-            ds.__iter__, output_signature={k: feature_to_spec(v) for k, v in ds.features.items()}
-        )
-
-
-@seqio.map_over_dataset
+# @seqio.map_over_dataset
 def code_to_text_preprocessor(x):
 
-    inputs = tf.strings.regex_replace(
-        tf.strings.join(x['code_tokens'], separator=' '), '\n', ' '
-        )
-    inputs = tf.strings.join(
-        tf.strings.split(
-            tf.strings.strip(inputs)
-            ),
-        separator=' '
-        )
+    # inputs = tf.strings.regex_replace(
+    #     tf.strings.join(x['code_tokens'], separator=' '), '\n', ' '
+    #     )
+    # inputs = tf.strings.join(
+    #     tf.strings.split(
+    #         tf.strings.strip(inputs)
+    #         ),
+    #     separator=' '
+    #     )
 
-    targets = tf.strings.regex_replace(
-        tf.strings.join(x['docstring_tokens'], separator=' '), '\n', ''
-        )
-    targets = tf.strings.join(
-        tf.strings.split(
-            tf.strings.strip(targets)
-            ),
-        separator=' '
-        )
+    # targets = tf.strings.regex_replace(
+    #     tf.strings.join(x['docstring_tokens'], separator=' '), '\n', ''
+    #     )
+    # targets = tf.strings.join(
+    #     tf.strings.split(
+    #         tf.strings.strip(targets)
+    #         ),
+    #     separator=' '
+    #     )
+
+    inputs = ' '.join(x['code_tokens']).replace('\n',' ')
+    inputs = ' '.join(inputs.strip().split())
+    targets = ' '.join(x['docstring_tokens']).replace('\n','')
+    targets = ' '.join(targets.strip().split())     
 
     return {
         'inputs': inputs,
         'targets': targets
     }
+
+
+def dataset_fn(split, shuffle_files, seed=None, code_lang=None):
+
+    ds = datasets.load_dataset(f"CM/codexglue_code2text_{code_lang}")
+    ds = ds[split]
+    # ds = datasets.Dataset.from_dict({
+    #     "code_tokens": ds["code_tokens"],
+    #     "docstring_tokens": ds["docstring_tokens"],
+    #     })
+    ds = ds.map(code_to_text_preprocessor)
+    # ds = ds.with_format("tf")
+    return tf.data.Dataset.from_generator(
+            ds.__iter__, output_signature={k: feature_to_spec(v) for k, v in ds.features.items()}
+        )
+
 
 for code_lang in CODE_LANG:
     TaskRegistry.add(
@@ -98,7 +105,7 @@ for code_lang in CODE_LANG:
             splits=["train", "validation", "test"]
         ),
         preprocessors=[
-            code_to_text_preprocessor,
+            # code_to_text_preprocessor,
             seqio.preprocessors.tokenize,
             seqio.CacheDatasetPlaceholder(),
             seqio.preprocessors.append_eos_after_trim,
