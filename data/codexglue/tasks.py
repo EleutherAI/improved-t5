@@ -16,7 +16,7 @@ import seqio
 import json
 import datasets
 from functools import partial
-from data.vocab import DEFAULT_CLM_OUTPUT_FEATURES
+from data.vocab import DEFAULT_OUTPUT_FEATURES
 
 TaskRegistry = seqio.TaskRegistry
 MixtureRegistry = seqio.MixtureRegistry
