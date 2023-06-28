@@ -15,6 +15,9 @@ For more details, see: seqio/scripts/cache_tasks_main.py
 import seqio
 import json
 import datasets
+
+import tensorflow as tf
+
 from functools import partial
 from data.vocab import DEFAULT_OUTPUT_FEATURES
 
@@ -26,7 +29,26 @@ MixtureRegistry = seqio.MixtureRegistry
 # path="gs://improved-t5/code-x-glue/dedupe0.87/train/"
 CODE_LANG = ['go', 'java', 'javascript', 'php', 'python', 'ruby']
 
-def dataset_fn(split, shuffle_files, code_lang):
+def feature_to_spec(feature, length=False):
+    if isinstance(feature, datasets.ClassLabel):
+        return tf.TensorSpec(shape=() if not length else (None if length == -1 else length,), dtype=tf.int64)
+    elif isinstance(feature, datasets.Value):
+        return tf.TensorSpec(
+            shape=() if not length else (None if length == -1 else length,), dtype=getattr(tf.dtypes, feature.dtype)
+        )
+    elif hasattr(feature, "dtype") and hasattr(feature, "shape"):
+        return tf.TensorSpec(shape=feature.shape, dtype=feature.dtype)
+    elif isinstance(feature, datasets.Sequence):
+        return feature_to_spec(feature.feature, length=feature.length)
+    elif isinstance(feature, list):
+        return [feature_to_spec(f, length=length) for f in feature]
+    elif isinstance(feature, dict):
+        return {k: feature_to_spec(v, length=length) for k, v in feature.items()}
+    else:
+        raise ValueError(f"Unparseable feature type {type(feature)}")
+
+
+def dataset_fn(split, shuffle_files, seed=None, code_lang=None):
 
     ds = datasets.load_dataset(f"CM/codexglue_code2text_{code_lang}")
     ds = ds[split]
@@ -34,8 +56,10 @@ def dataset_fn(split, shuffle_files, code_lang):
         "code_tokens": ds["code_tokens"],
         "docstring_tokens": ds["docstring_tokens"],
         })
-    ds = ds.with_format("tf")
-    return ds
+    # ds = ds.with_format("tf")
+    return tf.data.Dataset.from_generator(
+            ds.__iter__, output_signature={k: feature_to_spec(v) for k, v in ds.features.items()}
+        )
 
 
 @seqio.map_over_dataset
