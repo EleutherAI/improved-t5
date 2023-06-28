@@ -18,6 +18,9 @@ import datasets
 from functools import partial
 from data.vocab import DEFAULT_CLM_OUTPUT_FEATURES
 
+TaskRegistry = seqio.TaskRegistry
+MixtureRegistry = seqio.MixtureRegistry
+
 # ==================================== CodeXGLUE Code to Text ======================================
 
 # path="gs://improved-t5/code-x-glue/dedupe0.87/train/"
