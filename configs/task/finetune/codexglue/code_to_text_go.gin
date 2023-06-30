@@ -4,7 +4,7 @@ import __main__ as train_script
 from t5x import utils
 
 import seqio
-import data.sglue.tasks
+import data.codexglue.tasks
 
 include 't5x/configs/runs/finetune.gin'
 
