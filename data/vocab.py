@@ -8,7 +8,10 @@ DEFAULT_SPM_PATH = "gs://improved-t5/vocabs/tokenizer.model"  # Final model toke
 # DEFAULT_SPM_PATH = "/fsx/lintangsutawika/improved_t5/tokenizer.model"
 
 def get_default_vocabulary():
-    return seqio.SentencePieceVocabulary(DEFAULT_SPM_PATH)
+    return seqio.SentencePieceVocabulary(
+        DEFAULT_SPM_PATH,
+        extra_ids=100,
+        )
 
 DEFAULT_OUTPUT_FEATURES = {
     "inputs": 
