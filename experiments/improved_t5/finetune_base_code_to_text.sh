@@ -31,7 +31,7 @@ python -m t5x.train \
     --gin_file="configs/task/finetune/codexglue/code_to_text_${CODE_LANG}.gin" \
     --gin.TRAIN_STEPS=${TRAIN_STEPS} \
     --gin.SAVING_PERIOD=${SAVING_PERIOD} \
-    --gin.MODEL_DIR=\"gs://improved-t5/ckpts/t5v2/vanilla_base/checkpoint_1000000/codexglue_${CODE_LANG}_finetune\" \
-    --gin.INITIAL_CHECKPOINT_PATH=\"gs://improved-t5/ckpts/t5v2/vanilla_base/checkpoint_1000000\" \
+    --gin.MODEL_DIR=\"gs://improved-t5/ckpts/t5v2/base/checkpoint_1000000/codexglue_${CODE_LANG}_finetune\" \
+    --gin.INITIAL_CHECKPOINT_PATH=\"gs://improved-t5/ckpts/t5v2/base/checkpoint_1000000\" \
     --seqio_additional_cache_dirs=\"gs://improved-t5/data\" \
     --alsologtostderr
