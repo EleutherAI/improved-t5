@@ -10,6 +10,6 @@ python -m t5x.train \
     --gin.BATCH_SIZE=512 \
     --gin.TRAIN_STEPS=1000000 \
     --gin.SAVING_PERIOD=10000 \
-    --gin.MODEL_DIR=\"'gs://improved-t5/ckpts/t5v2/vanilla_large/'\" \
+    --gin.MODEL_DIR=\"'gs://improved-t5/ckpts/t5v2/large/'\" \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr
