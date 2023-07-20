@@ -13,32 +13,104 @@ For more details, see: seqio/scripts/cache_tasks_main.py
 """
 
 import seqio
+import functools
 
-from data.c4 import c4_utils
-from data.utils import make_mlm_task, make_clm_task, make_plm_task
+import t5.data
+from data.metrics import perplexity
+from data.vocab import DEFAULT_OUTPUT_FEATURES, DEFAULT_CLM_OUTPUT_FEATURES
+
+TaskRegistry = seqio.TaskRegistry
 
 # ==================================== C4 ======================================
 # A version of c4 corresponding to one hosted on the-eye
 
-path="/fsx/c4/c4-en"
+# Masked Language Modeling
+def make_mlm_task(
+    name,
+    noise_density=0.15,
+    mean_noise_span_length=3.0
+    ):
+    TaskRegistry.add(
+        name,
+        source=seqio.TfdsDataSource(tfds_name="c4/en:2.2.0"),
+        preprocessors=[
+            functools.partial(
+                t5.data.preprocessors.rekey, key_map={
+                    "inputs": None,
+                    "targets": "text"
+                }),
+            seqio.preprocessors.tokenize,
+            seqio.CacheDatasetPlaceholder(),
+            functools.partial(
+                t5.data.preprocessors.span_corruption,
+                **{
+                    "noise_density": noise_density,
+                    "mean_noise_span_length": mean_noise_span_length
+                    }
+                ),
+            seqio.preprocessors.append_eos_after_trim,
+        ],
+        output_features=DEFAULT_OUTPUT_FEATURES,
+        metric_fns=[perplexity]
+    )
 
-def c4_helper(task, name, c4_files, **kwargs):
-    task(name, c4_files, jsonl=False, **kwargs)
 
-c4_files = c4_utils.get_c4_files(path)
-args = (c4_files)
+# Causal Language Modeling
+def make_clm_task(
+    name,
+    ):
+    TaskRegistry.add(
+        name,
+        source=source=seqio.TfdsDataSource(tfds_name="c4/en:2.2.0"),
+        preprocessors=[
+            t5.data.preprocessors.lm,
+            seqio.preprocessors.tokenize,
+            seqio.CacheDatasetPlaceholder(),
+            seqio.preprocessors.append_eos_after_trim,
+        ],
+        output_features=DEFAULT_OUTPUT_FEATURES,
+        metric_fns=[perplexity]
+    )
+
+
+# Prefix Language Modeling
+def make_plm_task(
+    name,
+    noise_density=0.5,
+    ):
+    TaskRegistry.add(
+        name,
+        source=source=seqio.TfdsDataSource(tfds_name="c4/en:2.2.0"),
+        preprocessors=[
+            functools.partial(
+                t5.data.preprocessors.rekey, key_map={
+                    "inputs": None,
+                    "targets": "text"
+                }),
+            seqio.preprocessors.tokenize,
+            seqio.CacheDatasetPlaceholder(),
+            t5.data.preprocessors.prefix_lm,
+            # functools.partial(
+            #     t5.data.preprocessors.prefix_lm,
+            #     noise_density=noise_density,
+            #     ),
+            seqio.preprocessors.append_eos_after_trim,
+        ],
+        output_features=DEFAULT_OUTPUT_FEATURES,
+        metric_fns=[perplexity]
+    )
 
 name = 'c4_r_denoiser'
-c4_helper(make_mlm_task, name, *args)
+make_mlm_task(name)
 
 name = 'c4_s_denoiser'
-c4_helper(make_plm_task, name, *args)
+make_plm_task(name)
 
 name = 'c4_x_denoiser'
-c4_helper(make_mlm_task, name, *args, **{"noise_density": 0.5, "mean_noise_span_length": 32})
+make_mlm_task(name, **{"noise_density": 0.5, "mean_noise_span_length": 32})
 
 name = 'c4_causal_lm'
-c4_helper(make_clm_task, name, *args)
+make_clm_task(name)
 
 seqio.MixtureRegistry.add(
     "c4_ul2",
