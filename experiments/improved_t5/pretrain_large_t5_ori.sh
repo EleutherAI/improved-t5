@@ -7,7 +7,7 @@ python -m t5x.train \
     --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""gs://improved-t5/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
     --gin.TRAIN_STEPS=1000000 \
-    --gin.SAVING_PERIOD=10000 \
+    --gin.SAVING_PERIOD=100 \
     --gin.MODEL_DIR=\"'gs://improved-t5/ckpts/t5v2/large_t5_ori/'\" \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr
