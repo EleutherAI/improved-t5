@@ -17,9 +17,35 @@ import functools
 
 import t5.data
 from data.metrics import perplexity
-from data.vocab import DEFAULT_OUTPUT_FEATURES, DEFAULT_CLM_OUTPUT_FEATURES
 
 TaskRegistry = seqio.TaskRegistry
+
+DEFAULT_SPM_PATH = "gs://t5-data/vocabs/cc_all.32000.100extra/sentencepiece.model"  # GCS
+
+def get_default_vocabulary():
+    return seqio.SentencePieceVocabulary(
+        DEFAULT_SPM_PATH,
+        )
+
+DEFAULT_OUTPUT_FEATURES = {
+    "inputs": 
+        seqio.Feature(
+            vocabulary=get_default_vocabulary(),
+            add_eos=True,
+            required=False),
+    "targets":
+        seqio.Feature(
+            vocabulary=get_default_vocabulary(),
+            add_eos=True)
+}
+
+DEFAULT_CLM_OUTPUT_FEATURES = {
+    "targets":
+        seqio.Feature(
+            vocabulary=get_default_vocabulary(),
+            add_eos=True,
+            required=False),
+}
 
 # ==================================== C4 ======================================
 # A version of c4 corresponding to one hosted on the-eye
