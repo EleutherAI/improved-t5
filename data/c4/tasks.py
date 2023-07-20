@@ -61,7 +61,7 @@ def make_clm_task(
     ):
     TaskRegistry.add(
         name,
-        source=source=seqio.TfdsDataSource(tfds_name="c4/en:2.2.0"),
+        source=seqio.TfdsDataSource(tfds_name="c4/en:2.2.0"),
         preprocessors=[
             t5.data.preprocessors.lm,
             seqio.preprocessors.tokenize,
@@ -80,7 +80,7 @@ def make_plm_task(
     ):
     TaskRegistry.add(
         name,
-        source=source=seqio.TfdsDataSource(tfds_name="c4/en:2.2.0"),
+        source=seqio.TfdsDataSource(tfds_name="c4/en:2.2.0"),
         preprocessors=[
             functools.partial(
                 t5.data.preprocessors.rekey, key_map={
