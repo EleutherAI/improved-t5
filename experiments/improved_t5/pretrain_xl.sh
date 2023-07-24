@@ -9,7 +9,7 @@ python -m t5x.train \
     --gin.MIXTURE_OR_TASK_NAME=\""pile_ul2_causal_0_50"\" \
     --gin.TRAIN_STEPS=1000000 \
     --gin.SAVING_PERIOD=10000 \
-    --gin.trainer.Trainer.num_microbatches=2 \
+    --gin.trainer.Trainer.num_microbatches=4 \
     --gin.MODEL_DIR=\"'gs://improved-t5/ckpts/v2_xl/'\" \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr
