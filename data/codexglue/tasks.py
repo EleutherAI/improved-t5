@@ -19,7 +19,7 @@ import datasets
 import tensorflow as tf
 
 from functools import partial
-from data.vocab import DEFAULT_OUTPUT_FEATURES
+from data.vocab import DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES
 
 TaskRegistry = seqio.TaskRegistry
 MixtureRegistry = seqio.MixtureRegistry
@@ -70,26 +70,38 @@ def dataset_fn(split, shuffle_files, seed=None, code_lang=None):
         )
 
 
-for code_lang in CODE_LANG:
-    TaskRegistry.add(
-        f"code_to_text_{code_lang}",
-        source=seqio.FunctionDataSource(
-            dataset_fn=partial(dataset_fn, code_lang=code_lang),
-            splits=["train", "validation", "test"]
-        ),
-        preprocessors=[
-            seqio.preprocessors.tokenize,
-            seqio.CacheDatasetPlaceholder(),
-            seqio.preprocessors.append_eos_after_trim,
-        ],
-        metric_fns=[],
-        output_features=DEFAULT_OUTPUT_FEATURES
-    )
+for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
+    if OUTPUT_FEATURES == T5_OUTPUT_FEATURES:
+        task_name = f"code_to_text_{code_lang}_t5"
+    else:
+        task_name = f"code_to_text_{code_lang}"
+
+    for code_lang in CODE_LANG:
+        TaskRegistry.add(
+            task_name,
+            source=seqio.FunctionDataSource(
+                dataset_fn=partial(dataset_fn, code_lang=code_lang),
+                splits=["train", "validation", "test"]
+            ),
+            preprocessors=[
+                seqio.preprocessors.tokenize,
+                seqio.CacheDatasetPlaceholder(),
+                seqio.preprocessors.append_eos_after_trim,
+            ],
+            metric_fns=[],
+            output_features=DEFAULT_OUTPUT_FEATURES
+        )
 
 
 seqio.MixtureRegistry.add(
     "code_x_glue_code_to_text",
     [f"code_to_text_{code_lang}" for code_lang in CODE_LANG],
+    default_rate=1
+    )
+
+seqio.MixtureRegistry.add(
+    "code_x_glue_code_to_text_t5",
+    [f"code_to_text_{code_lang}_t5" for code_lang in CODE_LANG],
     default_rate=1
     )
 
