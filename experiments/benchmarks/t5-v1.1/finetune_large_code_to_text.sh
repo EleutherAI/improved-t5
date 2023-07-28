@@ -28,6 +28,7 @@ TRAIN_STEPS=$(( ${STEPS} * 10 + 1000000 ))
 python -m t5x.train \
     --gin_file="../t5x/t5x/examples/t5/t5_1_1/large.gin" \
     --gin_file="configs/task/finetune/codexglue/code_to_text_${CODE_LANG}.gin" \
+    --gin.MIXTURE_OR_TASK_NAME=\""code_to_text_${CODE_LANG}_t5"\" \
     --gin.TRAIN_STEPS=${TRAIN_STEPS} \
     --gin.SAVING_PERIOD=${SAVING_PERIOD} \
     --gin.MODEL_DIR=\"gs://improved-t5/ckpts/t5_1_1_large/codexglue_${CODE_LANG}_finetune\" \
