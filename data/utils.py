@@ -12,7 +12,7 @@ from typing import Iterable, Mapping, Optional, Union
 
 import t5.data
 from data.metrics import perplexity
-from data.vocab import DEFAULT_OUTPUT_FEATURES, DEFAULT_CLM_OUTPUT_FEATURES
+from data.vocab import DEFAULT_OUTPUT_FEATURES
 
 TaskRegistry = seqio.TaskRegistry
 
