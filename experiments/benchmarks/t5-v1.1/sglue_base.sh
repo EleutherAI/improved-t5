@@ -6,5 +6,6 @@ python3 -m t5x.train \
     --gin.SAVING_PERIOD=5000 \
     --gin.MODEL_DIR=\"gs://improved-t5/ckpts/t5_1_1_base/sglue_finetune\" \
     --gin.INITIAL_CHECKPOINT_PATH=\"gs://t5-data/pretrained_models/t5x/t5_1_1_base/checkpoint_1000000\" \
-    --seqio_additional_cache_dirs=\"gs://improved-t5/data\" \
     --alsologtostderr
+
+    # --seqio_additional_cache_dirs=\"gs://improved-t5/data\" \
