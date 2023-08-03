@@ -71,12 +71,14 @@ def dataset_fn(split, shuffle_files, seed=None, code_lang=None):
 
 
 for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
-    if OUTPUT_FEATURES == T5_OUTPUT_FEATURES:
-        task_name = f"code_to_text_{code_lang}_t5"
-    else:
-        task_name = f"code_to_text_{code_lang}"
 
     for code_lang in CODE_LANG:
+
+        if OUTPUT_FEATURES == T5_OUTPUT_FEATURES:
+            task_name = f"code_to_text_{code_lang}_t5"
+        else:
+            task_name = f"code_to_text_{code_lang}"
+
         TaskRegistry.add(
             task_name,
             source=seqio.FunctionDataSource(
