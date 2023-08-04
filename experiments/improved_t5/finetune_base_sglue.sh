@@ -10,7 +10,7 @@ python -m t5x.train \
     --gin.SAVING_PERIOD=5000 \
     --gin.MODEL_DIR=\"gs://improved-t5/ckpts/v2_base/checkpoint_1000000/sglue_finetune\" \
     --gin.INITIAL_CHECKPOINT_PATH=\"gs://improved-t5/ckpts/v2_base/checkpoint_1000000\" \
-    --seqio_additional_cache_dirs=\"gs://improved-t5/data\" \
+    --gin.USE_CACHED_TASKS=False \
     --alsologtostderr
     # --multiprocess_gpu \
     # --coordinator_address=${ADDR} \
