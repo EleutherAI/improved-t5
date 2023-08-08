@@ -72,20 +72,20 @@ def record(dataset):
         num_answers = tf.size(ex['answers'])
 
         def duplicate_along_first_dim(t):
-        n_duplicates = tf.math.maximum(num_answers, 1)
-        return tf.broadcast_to(
-            t, shape=tf.concat([[n_duplicates], tf.shape(t)], axis=0))
+            n_duplicates = tf.math.maximum(num_answers, 1)
+            return tf.broadcast_to(
+                t, shape=tf.concat([[n_duplicates], tf.shape(t)], axis=0))
 
-        for k, v in x.items():
-        if k != 'idx':
-            ex[k] = duplicate_along_first_dim(v)
-        ex['targets'] = tf.cond(
-            tf.greater(num_answers, 0), lambda: x['answers'],
-            lambda: tf.constant(['<unk>']))
-        ex['idx'] = {
-            'passage': duplicate_along_first_dim(x['idx']['passage']),
-            'query': duplicate_along_first_dim(x['idx']['query']),
-        }
+            for k, v in x.items():
+                if k != 'idx':
+                    ex[k] = duplicate_along_first_dim(v)
+                    ex['targets'] = tf.cond(
+                        tf.greater(num_answers, 0), lambda: x['answers'],
+                        lambda: tf.constant(['<unk>']))
+                    ex['idx'] = {
+                        'passage': duplicate_along_first_dim(x['idx']['passage']),
+                        'query': duplicate_along_first_dim(x['idx']['query']),
+                    }
 
         return ex
 
