@@ -1,9 +1,11 @@
 import collections
 import functools
 
-from t5.data import preprocessors
+import gin
+import seqio
 import tensorflow.compat.v2 as tf
 
+from t5.data import preprocessors
 
 def natural_wsc_simple(dataset,
                label='wsc:',
@@ -79,13 +81,13 @@ def record(dataset):
             for k, v in x.items():
                 if k != 'idx':
                     ex[k] = duplicate_along_first_dim(v)
-                    ex['targets'] = tf.cond(
-                        tf.greater(num_answers, 0), lambda: x['answers'],
-                        lambda: tf.constant(['<unk>']))
-                    ex['idx'] = {
-                        'passage': duplicate_along_first_dim(x['idx']['passage']),
-                        'query': duplicate_along_first_dim(x['idx']['query']),
-                    }
+            ex['targets'] = tf.cond(
+                tf.greater(num_answers, 0), lambda: x['answers'],
+                lambda: tf.constant(['<unk>']))
+            ex['idx'] = {
+                'passage': duplicate_along_first_dim(x['idx']['passage']),
+                'query': duplicate_along_first_dim(x['idx']['query']),
+            }
 
         return ex
 
