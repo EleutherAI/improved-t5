@@ -44,21 +44,17 @@ def get_natural_text_preprocessor(builder_config):
     if builder_config.name == "record":
         return record
     else:
+        feature_names = None
+        label_names = ["No", "Yes"]
         benchmark_name = builder_config.name
-        if benchmark_name == "boolq":
-            label_names = ["No", "Yes"]
-        elif benchmark_name == "cb":
+        if benchmark_name == "cb":
             label_names = ["No", "Yes", "Maybe"]
         elif benchmark_name == "copa":
             label_names = builder_config.label_classes
         elif benchmark_name == "multirc":
             feature_names = ("question", "answer", "paragraph")
-            label_names = ["No", "Yes"]
         elif benchmark_name == "wic":
             feature_names = ("sentence1", "sentence2", "word")
-            label_names = ["No", "Yes"]
-        else:
-            feature_names = None
         return functools.partial(
             natural_super_glue,
             benchmark_name=benchmark_name,
