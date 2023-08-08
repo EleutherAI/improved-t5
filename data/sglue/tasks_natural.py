@@ -27,7 +27,7 @@ from t5.data.glue_utils import (
     get_super_glue_weight_mapping_sentinel
 )
 
-from preprocessors import natural_wsc_simple, get_natural_text_preprocessor
+from data.sglue.preprocessors import natural_wsc_simple, get_natural_text_preprocessor
 
 from data.vocab import DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES
 
