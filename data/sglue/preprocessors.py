@@ -88,7 +88,7 @@ def record(dataset):
                 'query': duplicate_along_first_dim(x['idx']['query']),
             }
 
-        return ex
+            return ex
 
     def my_fn(x):
         """Converts the processed example to text2text strings."""
@@ -97,19 +97,14 @@ def record(dataset):
                                         r'(\.|\?|\!|\"|\')\n@highlight\n',
                                         r'\1 ')
         passage = tf.strings.regex_replace(passage, r'\n@highlight\n', '. ')
-        # entities = tf.strings.reduce_join(x['entities'], separator=', ')
-        # query = x['query']
-        # strs_to_join = [
-        #     tf.strings.join(["Passage:", passage], separator=' '),
-        #     tf.strings.join(["Entities:", entities], separator=' '),
-        #     tf.strings.join(["Query:", query], separator=' '),
-        #     f'Question: What is the most likely entity to fill in @placeholder in previous query?'
-        #     'Answer: '
-        # ]
+        entities = tf.strings.reduce_join(x['entities'], separator=', ')
+        query = x['query']
         strs_to_join = [
-            'record query:', x['query'], 'entities:',
-            tf.strings.reduce_join(x['entities'], separator=', '), 'passage:',
-            passage
+            tf.strings.join(["Passage:", passage], separator=' '),
+            tf.strings.join(["Entities:", entities], separator=' '),
+            tf.strings.join(["Query:", query], separator=' '),
+            f'Question: What is the most likely entity to fill in @placeholder in previous query?'
+            'Answer: '
         ]
         joined = tf.strings.join(strs_to_join, separator='\n')
 
