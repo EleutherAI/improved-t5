@@ -7,7 +7,6 @@ import tensorflow.compat.v2 as tf
 
 from t5.data import preprocessors
 
-# pylint:disable=no-value-for-parameter
 AUTOTUNE = tf.data.experimental.AUTOTUNE
 
 def natural_wsc_simple(dataset,
