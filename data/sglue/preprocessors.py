@@ -7,6 +7,7 @@ import tensorflow.compat.v2 as tf
 
 from t5.data import preprocessors
 
+# pylint:disable=no-value-for-parameter
 AUTOTUNE = tf.data.experimental.AUTOTUNE
 
 def natural_wsc_simple(dataset,
@@ -76,18 +77,18 @@ def record(dataset):
             return tf.broadcast_to(
                 t, shape=tf.concat([[n_duplicates], tf.shape(t)], axis=0))
 
-            for k, v in x.items():
-                if k != 'idx':
-                    ex[k] = duplicate_along_first_dim(v)
-            ex['targets'] = tf.cond(
-                tf.greater(num_answers, 0), lambda: x['answers'],
-                lambda: tf.constant(['<unk>']))
-            ex['idx'] = {
-                'passage': duplicate_along_first_dim(x['idx']['passage']),
-                'query': duplicate_along_first_dim(x['idx']['query']),
-            }
+        for k, v in x.items():
+            if k != 'idx':
+                ex[k] = duplicate_along_first_dim(v)
+        ex['targets'] = tf.cond(
+            tf.greater(num_answers, 0), lambda: x['answers'],
+            lambda: tf.constant(['<unk>']))
+        ex['idx'] = {
+            'passage': duplicate_along_first_dim(x['idx']['passage']),
+            'query': duplicate_along_first_dim(x['idx']['query']),
+        }
 
-            return ex
+        return ex
 
     def my_fn(x):
         """Converts the processed example to text2text strings."""
