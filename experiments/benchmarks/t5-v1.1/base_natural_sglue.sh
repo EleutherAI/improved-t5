@@ -1,7 +1,7 @@
 
 python3 -m t5x.train \
     --gin_file="../t5x/t5x/examples/t5/t5_1_1/base.gin" \
-    --gin_file="configs/task/finetune/natural_sglue.gin" \
+    --gin_file="configs/task/finetune/natural_sglue_t5.gin" \
     --gin.TRAIN_STEPS=1_262_144 \
     --gin.SAVING_PERIOD=5000 \
     --gin.MODEL_DIR=\"gs://improved-t5/ckpts/t5_1_1_base/natural_sglue_finetune\" \
