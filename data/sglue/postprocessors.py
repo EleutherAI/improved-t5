@@ -23,7 +23,7 @@ def get_natural_postprocess_fn(builder_config):
         )
 
 def multirc(string_label, example=None, is_target=False):
-  """Returns dict containing the class with the question index for grouping."""
+    """Returns dict containing the class with the question index for grouping."""
     res = {
         "value":
             string_label_to_class_id(
