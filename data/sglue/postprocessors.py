@@ -18,7 +18,7 @@ def get_natural_postprocess_fn(builder_config):
         elif benchmark_name == "copa":
             label_names = builder_config.label_classes
         return functools.partial(
-            postprocessors.string_label_to_class_id,
+            string_label_to_class_id,
             label_classes=label_names,
         )
 
