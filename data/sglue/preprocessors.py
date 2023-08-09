@@ -61,7 +61,7 @@ def get_natural_text_preprocessor(builder_config):
         return functools.partial(
             natural_super_glue,
             benchmark_name=benchmark_name,
-            label_names=builder_config.label_classes,
+            label_names=label_names,
             feature_names=feature_names)
 
 @gin.configurable
