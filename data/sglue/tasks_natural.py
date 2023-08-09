@@ -27,9 +27,9 @@ from t5.data.glue_utils import (
     get_super_glue_weight_mapping_sentinel
 )
 
-from data.sglue.preprocessors import natural_wsc_simple, get_natural_text_preprocessor
-
 from data.vocab import DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES
+from data.sglue.preprocessors import natural_wsc_simple, get_natural_text_preprocessor
+from data.sglue.postprocessors import get_natural_postprocess_fn
 
 TaskRegistry = seqio.TaskRegistry
 MixtureRegistry = seqio.MixtureRegistry
@@ -63,7 +63,7 @@ for b in tfds.text.super_glue.SuperGlue.builder_configs.values():
             preprocessors=glue_preprocessors,
             metric_fns=get_super_glue_metric(b.name),
             output_features=OUTPUT_FEATURES,
-            postprocess_fn=get_glue_postprocess_fn(b))
+            postprocess_fn=get_natural_postprocess_fn(b))
 
 
 # ======================== Definite Pronoun Resolution =========================
