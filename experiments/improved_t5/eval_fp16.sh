@@ -3,7 +3,7 @@ MODEL_DIR=$2
 
 python -m t5x.train \
     --gin_file="models/scalable_t5/t5_1_1/base.gin" \
-    --gin_file="configs/task/pretrain/pile_mlm.gin" \
+    --gin_file="configs/task/finetune/pile_mlm.gin" \
     --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""gs://improved-t5/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
     --gin.TRAIN_STEPS=1000000 \
