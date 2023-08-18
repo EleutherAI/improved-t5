@@ -1,5 +1,6 @@
 # T5.1.1 XL model.
 
+from t5x import partitioning
 include 'models/scalable_t5/t5_1_1/base.gin'  # imports vocab, optimizer and model.
 
 # ------------------- Network specification overrides --------------------------
