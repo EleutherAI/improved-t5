@@ -11,3 +11,7 @@ network.T5Config:
   num_decoder_layers = 24
   head_dim = 64
   mlp_dim = 5120
+
+# Partitioning
+partitioning.PjitPartitioner:
+  model_parallel_submesh = (1, 1, 2, 1)
