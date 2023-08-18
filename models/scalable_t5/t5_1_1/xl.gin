@@ -1,5 +1,7 @@
 # T5.1.1 XL model.
 
+import __main__ as train_script
+
 from t5x import partitioning
 include 'models/scalable_t5/t5_1_1/base.gin'  # imports vocab, optimizer and model.
 
@@ -12,6 +14,9 @@ network.T5Config:
   num_decoder_layers = 24
   head_dim = 64
   mlp_dim = 5120
+
+train_script.train:
+  partitioner = @partitioning.PjitPartitioner()
 
 # Partitioning
 partitioning.PjitPartitioner:
