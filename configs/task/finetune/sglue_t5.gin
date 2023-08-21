@@ -37,6 +37,5 @@ infer_eval/utils.DatasetConfig:
 
 seqio.Evaluator:
   logger_cls = [@seqio.PyLoggingLogger, @seqio.TensorBoardLogger, @seqio.JSONLogger]
-  num_examples = 2048 # Use all examples in the infer_eval dataset.
 
 utils.create_learning_rate_scheduler.base_learning_rate = %LEARNING_RATE
