@@ -76,9 +76,9 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
     for flan_split in FLAN_SPLIT:
 
         if OUTPUT_FEATURES == T5_OUTPUT_FEATURES:
-            task_name = f"{flan_split}_t5"
+            task_name = f"{flan_split.split("/")[-1]}_t5"
         else:
-            task_name = f"{flan_split}"
+            task_name = f"{flan_split.split("/")[-1]}"
 
         TaskRegistry.add(
             task_name,
