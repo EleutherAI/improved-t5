@@ -85,7 +85,7 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
             task_name,
             source=seqio.FunctionDataSource(
                 dataset_fn=partial(dataset_fn, dataset=flan_split),
-                splits=["train", "validation", "test"]
+                splits=["train"]
             ),
             preprocessors=[
                 seqio.preprocessors.tokenize,
