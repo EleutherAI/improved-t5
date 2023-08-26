@@ -65,7 +65,7 @@ def dataset_fn(split, shuffle_files, seed=None, dataset=None):
 
     ds = datasets.load_dataset(dataset)
     if split == "validation":
-        ds = ds[split][:1000]
+        ds = ds["train"][:1000]
     else:
         ds = ds[split]
 
