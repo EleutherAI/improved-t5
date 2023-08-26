@@ -64,10 +64,7 @@ def flan_preprocessor(x):
 def dataset_fn(split, shuffle_files, seed=None, dataset=None):
 
     ds = datasets.load_dataset(dataset)
-    if split == "validation":
-        ds = ds["train"][:1000]
-    else:
-        ds = ds[split]
+    ds = ds[split]
 
     ds = ds.map(flan_preprocessor)
     return tf.data.Dataset.from_generator(
@@ -89,7 +86,7 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
             task_name,
             source=seqio.FunctionDataSource(
                 dataset_fn=partial(dataset_fn, dataset=flan_split),
-                splits=["train", "validation"]
+                splits=["train"]
             ),
             preprocessors=[
                 seqio.preprocessors.tokenize,
