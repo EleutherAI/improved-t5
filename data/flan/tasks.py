@@ -66,7 +66,6 @@ def dataset_fn(split, shuffle_files, seed=None, dataset=None):
     ds = datasets.load_dataset(dataset)
     ds = ds[split]
 
-
     ds = ds.map(flan_preprocessor)
     return tf.data.Dataset.from_generator(
             ds.__iter__, output_signature={k: feature_to_spec(v) for k, v in ds.features.items()}
