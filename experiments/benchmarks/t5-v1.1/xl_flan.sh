@@ -4,6 +4,7 @@ MODEL_DIR=$2
 python -m t5x.train \
     --gin_file="../t5x/t5x/examples/t5/t5_1_1/xl.gin" \
     --gin_file="configs/task/finetune/flan_t5.gin" \
+    --gin.partitioning.PjitPartitioner.model_parallel_submesh="(1, 1, 2, 1)" \
     --gin.TRAIN_STEPS=1_038_000 \
     --gin.SAVING_PERIOD=10_000 \
     --gin.MODEL_DIR=\"gs://improved-t5/ckpts/t5_1_1_xl/flan_finetune\" \
