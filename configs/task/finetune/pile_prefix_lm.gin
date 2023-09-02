@@ -8,7 +8,7 @@ from t5x import partitioning
 
 import data.pile.tasks
 
-include 't5x/configs/runs/pretrain.gin'
+include 't5x/configs/runs/finetune.gin'
 
 MIXTURE_OR_TASK_NAME = "pile_s_denoiser"
 TASK_FEATURE_LENGTHS = {"inputs": 512, "targets": 512}
