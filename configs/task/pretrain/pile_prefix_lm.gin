@@ -13,8 +13,7 @@ include 't5x/configs/runs/finetune.gin'
 MIXTURE_OR_TASK_NAME = "pile_s_denoiser"
 TASK_FEATURE_LENGTHS = {"inputs": 512, "targets": 512}
 BATCH_SIZE = 2048
-EVAL_STEPS = 1000
-EVAL_PERIOD = %SAVING_PERIOD
+EVAL_BATCH_SIZE = 256
 DROPOUT_RATE = 0.0
 
 utils.SaveCheckpointConfig:
@@ -22,7 +21,7 @@ utils.SaveCheckpointConfig:
 
 train_script.train:
   run_eval_before_training = True
-  eval_steps = %EVAL_STEPS
+  eval_steps = 100
   eval_period = %SAVING_PERIOD
   infer_eval_dataset_cfg = @infer_eval/utils.DatasetConfig()
   inference_evaluator_cls = @seqio.Evaluator
@@ -39,4 +38,6 @@ seqio.Evaluator:
   logger_cls = [@seqio.PyLoggingLogger, @seqio.TensorBoardLogger, @seqio.JSONLogger]
   num_examples = 2048 # None  # Use all examples in the infer_eval dataset.
 
-utils.create_learning_rate_scheduler.base_learning_rate = %LEARNING_RATE
+utils.SaveCheckpointConfig:
+  keep = None
+  period = %SAVING_PERIOD
