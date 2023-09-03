@@ -7,7 +7,7 @@ python -m t5x.train \
     --gin.TRAIN_STEPS=1_184_000 \
     --gin.SAVING_PERIOD=10_000 \
     --gin.MODEL_DIR=\"gs://improved-t5/ckpts/t5_1_1_lm100k_base/flan_finetune\" \
-    --gin.INITIAL_CHECKPOINT_PATH=\"gs://t5-data/pretrained_models/t5x/t5_1_1_lm100k_base/checkpoint_1000000\" \
+    --gin.INITIAL_CHECKPOINT_PATH=\"gs://t5-data/pretrained_models/t5x/t5_1_1_lm100k_base/checkpoint_1100000\" \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr
     # --multiprocess_gpu \
