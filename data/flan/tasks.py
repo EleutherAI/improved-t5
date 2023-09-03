@@ -18,6 +18,8 @@ import datasets
 
 import tensorflow as tf
 
+from t5.evaluation import metrics
+
 from functools import partial
 from data.vocab import DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES
 
@@ -93,7 +95,7 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
                 seqio.CacheDatasetPlaceholder(),
                 seqio.preprocessors.append_eos_after_trim,
             ],
-            metric_fns=[],
+            metric_fns=[metrics.accuracy],
             output_features=OUTPUT_FEATURES
         )
 
