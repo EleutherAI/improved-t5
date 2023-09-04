@@ -95,7 +95,8 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
                 seqio.CacheDatasetPlaceholder(),
                 seqio.preprocessors.append_eos_after_trim,
             ],
-            metric_fns=[metrics.accuracy],
+            # metric_fns=[metrics.accuracy],
+            metric_fns=[],
             output_features=OUTPUT_FEATURES
         )
 
