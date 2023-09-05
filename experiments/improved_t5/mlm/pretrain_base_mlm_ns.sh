@@ -8,6 +8,6 @@ python -m t5x.train \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
     --gin.TRAIN_STEPS=1000000 \
     --gin.SAVING_PERIOD=10000 \
-    --gin.MODEL_DIR=\"'gs://improved-t5/ckpts/v2_base_mlm/'\" \
+    --gin.MODEL_DIR=\"'gs://improved-t5/ckpts/v2_base_mlm_ns/'\" \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr
