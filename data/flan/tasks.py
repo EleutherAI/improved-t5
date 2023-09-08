@@ -120,3 +120,21 @@ seqio.MixtureRegistry.add(
         ('cot_submix_original_t5', 0.05),      # mixing weight = 5%
         ('dialog_submix_original_t5', 0.03),   # mixing weight = 3%
     ])
+
+seqio.MixtureRegistry.add(
+    'flan2021_submix',
+    tasks=[
+        ('flan2021_submix_original', 0.46),
+        ('t0_submix_original', 0.28),
+        ('niv2_submix_original', 0.242),
+        ('cot_submix_original', 0.018),
+    ])
+
+seqio.MixtureRegistry.add(
+    'flan2021_submix_t5',
+    tasks=[
+        ('flan2021_submix_original_t5', 0.46),
+        ('t0_submix_original_t5', 0.28),
+        ('niv2_submix_original_t5', 0.242),
+        ('cot_submix_original_t5', 0.018),
+    ])

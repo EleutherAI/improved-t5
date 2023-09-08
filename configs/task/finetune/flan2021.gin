@@ -8,7 +8,7 @@ import data.flan.tasks
 
 include 't5x/configs/runs/finetune.gin'
 
-MIXTURE_OR_TASK_NAME = "flan2021_submix_original"
+MIXTURE_OR_TASK_NAME = "flan2021_submix"
 TASK_FEATURE_LENGTHS = {'inputs': 2048, 'targets': 512}
 
 DROPOUT_RATE = 0.05
