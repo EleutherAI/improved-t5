@@ -1,7 +1,7 @@
 ADDR=$1
 MODEL_DIR=$2
 
-python -m t5x.train \
+python ../t5x/train.py \
     --gin_file="models/scalable_t5/t5_1_1/base.gin" \
     --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""gs://improved-t5/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
