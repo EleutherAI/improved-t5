@@ -6,7 +6,7 @@ python -m t5x.train \
     --gin_file="configs/task/finetune/flan2021_t5.gin" \
     --gin.TRAIN_STEPS=1_084_000 \
     --gin.SAVING_PERIOD=10_000 \
-    --gin.MODEL_DIR=\"gs://improved-t5/ckpts/t5_1_1_base/flan2021_finetune\" \
+    --gin.MODEL_DIR=\"gs://improved-t5/ckpts/t5_1_1_base/finetune_flan2021\" \
     --gin.INITIAL_CHECKPOINT_PATH=\"gs://t5-data/pretrained_models/t5x/t5_1_1_base/checkpoint_1000000\" \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr

@@ -8,8 +8,8 @@ python -m t5x.train \
     --gin_file="configs/task/finetune/flan2021.gin" \
     --gin.TRAIN_STEPS=1_064_000 \
     --gin.SAVING_PERIOD=10_000 \
-    --gin.MODEL_DIR=\"gs://improved-t5/ckpts/v2_large_mlm_new/checkpoint_1000000/flan2021_finetune\" \
-    --gin.INITIAL_CHECKPOINT_PATH=\"gs://improved-t5/ckpts/v2_large_mlm_new/checkpoint_1000000\" \
+    --gin.MODEL_DIR=\"gs://improved-t5/ckpts/v2_large_mlm/checkpoint_1000000/finetune_flan2021\" \
+    --gin.INITIAL_CHECKPOINT_PATH=\"gs://improved-t5/ckpts/v2_large_mlm/checkpoint_1000000\" \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr
     # --multiprocess_gpu \
