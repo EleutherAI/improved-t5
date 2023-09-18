@@ -1,7 +1,7 @@
 ADDR=$1
 MODEL_DIR=$2
 
-python ../t5x/t5x/train.py \
+python -m t5x.train \
     --gin_file="../t5x/t5x/examples/t5/t5_1_1/base.gin" \
     --gin_file="configs/task/finetune/flan2021_t5.gin" \
     --gin.TRAIN_STEPS=1_084_000 \
