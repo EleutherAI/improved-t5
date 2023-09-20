@@ -7,7 +7,7 @@ python -m t5x.train \
     --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""gs://improved-t5/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
     --gin.MIXTURE_OR_TASK_NAME=\""pile_ul2_causal_0_50"\" \
-    --gin.TRAIN_STEPS=1000000 \
+    --gin.TRAIN_STEPS=2000000 \
     --gin.SAVING_PERIOD=10000 \
     --gin.MODEL_DIR=\"'gs://improved-t5/ckpts/v2_large/'\" \
     --gin.USE_CACHED_TASKS=False \
