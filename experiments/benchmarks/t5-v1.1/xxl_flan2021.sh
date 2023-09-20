@@ -4,7 +4,7 @@ MODEL_DIR=$2
 python -m t5x.train \
     --gin_file="../t5x/t5x/examples/t5/t5_1_1/xxl.gin" \
     --gin_file="configs/task/finetune/flan2021_t5.gin" \
-    --gin.partitioning.standard_logical_axis_rules.activation_partitioning_dims=1 \
+    --gin.partitioning.standard_logical_axis_rules.activation_partitioning_dims=2 \
     --gin.partitioning.standard_logical_axis_rules.parameter_partitioning_dims=2 \
     --gin.TRAIN_STEPS=1_014_000 \
     --gin.SAVING_PERIOD=10_000 \
