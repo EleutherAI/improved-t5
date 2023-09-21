@@ -27,7 +27,7 @@ TRAIN_STEPS=$(( ${STEPS} * 10 + 1000000 ))
 
 python -m t5x.train \
     --gin_file="models/scalable_t5/t5_1_1/xl.gin" \
-    --gin.partitioning.PjitPartitioner.num_partitions=2 \
+    --gin.partitioning.PjitPartitioner.model_parallel_submesh="(1, 1, 2, 1)" \
     --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""gs://improved-t5/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
     --gin_file="configs/task/finetune/codexglue/code_to_text_${CODE_LANG}.gin" \
