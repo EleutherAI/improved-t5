@@ -7,7 +7,7 @@ python -m t5x.train \
     --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""gs://improved-t5/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
     --gin_file="configs/task/finetune/flan2021.gin" \
-    --gin.MIXTURE_OR_TASK_NAME="flan2021_submix_original" \
+    --gin.MIXTURE_OR_TASK_NAME=\"flan2021_submix_original\" \
     --gin.TRAIN_STEPS=1_038_000 \
     --gin.SAVING_PERIOD=2_000 \
     --gin.INITIAL_CHECKPOINT_PATH=\"gs://improved-t5/ckpts/v2_xl_mlm/checkpoint_1000000\" \
