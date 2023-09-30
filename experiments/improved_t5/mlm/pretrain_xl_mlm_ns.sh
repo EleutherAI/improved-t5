@@ -7,7 +7,7 @@ python -m t5x.train \
     --gin.partitioning.PjitPartitioner.model_parallel_submesh="(1, 1, 2, 1)" \
     --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""gs://improved-t5/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
-    --gin.TRAIN_STEPS=1000000 \
+    --gin.TRAIN_STEPS=2000000 \
     --gin.SAVING_PERIOD=10000 \
     --gin.MODEL_DIR=\"'gs://improved-t5/ckpts/v2_xl_mlm_ns/'\" \
     --gin.USE_CACHED_TASKS=False \
