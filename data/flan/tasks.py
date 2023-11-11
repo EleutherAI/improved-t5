@@ -29,11 +29,11 @@ MixtureRegistry = seqio.MixtureRegistry
 # ==================================== FLAN ======================================
 
 FLAN_SPLIT = [
-    "conceptofmind/flan2021_submix_original",
-    "conceptofmind/t0_submix_original",
-    "conceptofmind/niv2_submix_original",
-    "conceptofmind/cot_submix_original",
-    "conceptofmind/dialog_submix_original",
+    "DataProvenanceInitiative/flan2021_submix_original",
+    "DataProvenanceInitiative/t0_submix_original",
+    "DataProvenanceInitiative/niv2_submix_original",
+    "DataProvenanceInitiative/cot_submix_original",
+    "DataProvenanceInitiative/dialog_submix_original",
     ]
 
 def feature_to_spec(feature, length=False):
