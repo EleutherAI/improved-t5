@@ -23,7 +23,7 @@ elif [[ $CODE_LANG == "ruby" ]]; then
 fi
 
 SAVING_PERIOD=$STEPS
-TRAIN_STEPS=$(( ${STEPS} * 10 + 1000000 ))
+TRAIN_STEPS=$(( ${STEPS} * 10 + 2000000 ))
 
 python -m t5x.train \
     --gin_file="models/scalable_t5/t5_1_1/base.gin" \
@@ -32,7 +32,7 @@ python -m t5x.train \
     --gin_file="configs/task/finetune/codexglue/code_to_text_${CODE_LANG}.gin" \
     --gin.TRAIN_STEPS=${TRAIN_STEPS} \
     --gin.SAVING_PERIOD=${SAVING_PERIOD} \
-    --gin.MODEL_DIR=\"gs://improved-t5/ckpts/v2_base_mlm/checkpoint_1000000/codexglue_${CODE_LANG}_finetune\" \
-    --gin.INITIAL_CHECKPOINT_PATH=\"gs://improved-t5/ckpts/v2_base_mlm/checkpoint_1000000\" \
+    --gin.MODEL_DIR=\"gs://improved-t5/ckpts/v2_base_mlm/checkpoint_2000000/codexglue_${CODE_LANG}_finetune\" \
+    --gin.INITIAL_CHECKPOINT_PATH=\"gs://improved-t5/ckpts/v2_base_mlm/checkpoint_2000000\" \
     --seqio_additional_cache_dirs=\"gs://improved-t5/data\" \
     --alsologtostderr
