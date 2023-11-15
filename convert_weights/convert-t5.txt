@@ -1,0 +1,57 @@
+export T5X_DIR="/mnt/ssd-2/lintangsutawika/00-improved-t5/checkpoints/t5x/"
+export HF_DIR="/mnt/ssd-2/lintangsutawika/00-improved-t5/checkpoints/hf/"
+
+export MODEL_DIR="t5-v2-base-ns-flan2021/"
+python scripts/convert_t5v1_checkpoint_to_pytorch.py \
+    --config_file scripts/configs/base_v1/config.json \
+    --t5x_checkpoint_path ${T5X_DIR}${MODEL_DIR} \
+    --pytorch_dump_path ${HF_DIR}${MODEL_DIR}
+
+cp scripts/configs/base_v1/* ${HF_DIR}${MODEL_DIR}
+
+export T5X_DIR="/mnt/ssd-2/lintangsutawika/00-improved-t5/checkpoints/t5x/"
+export HF_DIR="/mnt/ssd-2/lintangsutawika/00-improved-t5/checkpoints/hf/"
+
+export SIZE=large
+export MODEL_DIR="t5-v2-${SIZE}-flan2021/"
+python scripts/convert_t5v2_checkpoint_to_pytorch.py \
+    --config_file scripts/configs/${SIZE}_v2/config.json \
+    --t5x_checkpoint_path "${T5X_DIR}${MODEL_DIR}" \
+    --pytorch_dump_path "${HF_DIR}${MODEL_DIR}" \
+    --scalable_attention
+
+mkdir -p ${HF_DIR}${MODEL_DIR}
+cp scripts/configs/${SIZE}_v2/* ${HF_DIR}${MODEL_DIR}
+
+
+export T5X_DIR="/mnt/ssd-2/lintangsutawika/00-improved-t5/checkpoints/t5x/"
+export HF_DIR="/mnt/ssd-2/lintangsutawika/00-improved-t5/checkpoints/hf/"
+
+export SIZE=xl
+export MODEL_DIR="t5-v2-${SIZE}-flan2022-78k/"
+mkdir -p ${HF_DIR}${MODEL_DIR}
+python scripts/convert_t5v2_checkpoint_to_pytorch.py \
+    --config_file scripts/configs/${SIZE}_v2/config.json \
+    --t5x_checkpoint_path "${T5X_DIR}${MODEL_DIR}" \
+    --pytorch_dump_path "${HF_DIR}${MODEL_DIR}" \
+    --scalable_attention
+
+mkdir -p ${HF_DIR}${MODEL_DIR}
+cp scripts/configs/${SIZE}_v2/* ${HF_DIR}${MODEL_DIR}
+
+
+export T5X_DIR="/mnt/ssd-2/lintangsutawika/00-improved-t5/checkpoints/t5x/"
+export HF_DIR="/mnt/ssd-2/lintangsutawika/00-improved-t5/checkpoints/hf/"
+
+export SIZE=xl
+for VERSION in v1
+do
+    export MODEL_DIR="t5-${VERSION}_1-${SIZE}-flan2021_submix/"
+    python scripts/convert_t5${VERSION}_checkpoint_to_pytorch.py \
+        --config_file scripts/configs/${SIZE}_${VERSION}/config.json \
+        --t5x_checkpoint_path "${T5X_DIR}${MODEL_DIR}" \
+        --pytorch_dump_path "${HF_DIR}${MODEL_DIR}"
+
+    mkdir -p ${HF_DIR}${MODEL_DIR}
+    cp scripts/configs/${SIZE}_${VERSION}/* ${HF_DIR}${MODEL_DIR}
+done
