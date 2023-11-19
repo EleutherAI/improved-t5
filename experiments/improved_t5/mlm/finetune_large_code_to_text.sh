@@ -23,7 +23,7 @@ elif [[ $CODE_LANG == "ruby" ]]; then
 fi
 
 SAVING_PERIOD=$STEPS
-TRAIN_STEPS=$(( ${STEPS} * 10 + 1000000 ))
+TRAIN_STEPS=$(( ${STEPS} * 10 + 2000000 ))
 
 python -m t5x.train \
     --gin_file="models/scalable_t5/t5_1_1/large.gin" \
