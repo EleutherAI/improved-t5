@@ -1,0 +1,794 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "Scientific management involved:",
+      "subject": "sociology",
+      "choices": [
+        "the subdivision of labour into small tasks",
+        "the measurement and specification of work tasks",
+        "motivation and rewards for productivity",
+        "all of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Scientific management involved:\n(A) the subdivision of labour into small tasks (B) the measurement and specification of work tasks (C) motivation and rewards for productivity (D) all of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The scientific management of work involves the measurement and specification of work tasks. The measurement and specification of work tasks is a scientific management. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "Foucault's term 'biopolitics' refers to:",
+      "subject": "sociology",
+      "choices": [
+        "forms of power over the body, such as physical training, as a means of disciplining the mind",
+        "forms of knowledge such as demographic statistics, which allow us to map and measure populations",
+        "public health measures, such as improved sanitation and freshwater schemes",
+        "intervention by the state to regulate sexual behaviour"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Foucault's term 'biopolitics' refers to:\n(A) forms of power over the body, such as physical training, as a means of disciplining the mind (B) forms of knowledge such as demographic statistics, which allow us to map and measure populations (C) public health measures, such as improved sanitation and freshwater schemes (D) intervention by the state to regulate sexual behaviour\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Foucault's term 'biopolitics' refers to the ways in which the state regulates sexual behaviour. The state is the body's organs. The state is the body's organs. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "question": "In Esping-Andersen's (1990) outline of three types of state welfare, the social democratic model involved:",
+      "subject": "sociology",
+      "choices": [
+        "loyalty to the state and traditional values",
+        "individualistic self-reliance but high unemployment",
+        "universalistic benefits and public sector employment",
+        "deregulation of wages and prices by the introduction of the free market"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: In Esping-Andersen's (1990) outline of three types of state welfare, the social democratic model involved:\n(A) loyalty to the state and traditional values (B) individualistic self-reliance but high unemployment (C) universalistic benefits and public sector employment (D) deregulation of wages and prices by the introduction of the free market\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The social democratic model involved universalistic benefits and public sector employment. The social democratic model was a model of social democracy. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "In Patterson's study of Brixton, it was found that:",
+      "subject": "sociology",
+      "choices": [
+        "black and white residents competed for economic resources",
+        "African-Caribbean migrants were concentrated in the poorest and most expensive housing",
+        "white working class communities resented the arrival of black families",
+        "all of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: In Patterson's study of Brixton, it was found that:\n(A) black and white residents competed for economic resources (B) African-Caribbean migrants were concentrated in the poorest and most expensive housing (C) white working class communities resented the arrival of black families (D) all of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The study of Brixton found that _."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "Weber said that all knowledge is 'value-relevant' because:",
+      "subject": "sociology",
+      "choices": [
+        "sociologists like to put a value on different theories",
+        "knowledge refers to people and their values",
+        "theorists interpret the world in terms of their own values",
+        "attempts to provide knowledge about the world are always valuable"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Weber said that all knowledge is 'value-relevant' because:\n(A) sociologists like to put a value on different theories (B) knowledge refers to people and their values (C) theorists interpret the world in terms of their own values (D) attempts to provide knowledge about the world are always valuable\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Weber said that all knowledge refers to people and their values. Theorists interpret the world in terms of their own values. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "question": "Parsons argued that the two main functions of the modern family were:",
+      "subject": "sociology",
+      "choices": [
+        "secondary socialization and strict discipline",
+        "emotional support and sexual gratification",
+        "primary socialization and personality stabilization",
+        "oppressing women and reproducing the labour force"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Parsons argued that the two main functions of the modern family were:\n(A) secondary socialization and strict discipline (B) emotional support and sexual gratification (C) primary socialization and personality stabilization (D) oppressing women and reproducing the labour force\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Parsons argued that the modern family functioned as a social system. The modern family functioned as a social system. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "The 1944 Education Act provided:",
+      "subject": "sociology",
+      "choices": [
+        "state elementary education for all",
+        "free secondary education for all",
+        "public schooling for those who could afford it",
+        "assisted places in public schools for those on low incomes"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: The 1944 Education Act provided:\n(A) state elementary education for all (B) free secondary education for all (C) public schooling for those who could afford it (D) assisted places in public schools for those on low incomes\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The 1944 Education Act provided for the following: (A) state elementary education for all (B) free secondary education for all (C) public schooling for those who could afford it (D) assisted places in public schools for those on low incomes (A) state elementary education for all (B) free secondary education for all (C) public schooling for those who could afford it (D) assisted places in public schools for those on low incomes (A) state elementary education for all (B) free secondary education for all (C) free secondary education for all (D) assisted places in public schools for those on low incomes (A) state elementary education for all (B) free secondary education for all (C) free secondary education for all (D) assisted places in public schools for those on low incomes (A) state elementary education for all (B) free secondary education for all (C) free secondary education for all (D) assisted places in public schools for those on low incomes (A) state elementary education for all (B) free secondary education for all (C) free secondary education for all (D) assisted places in public schools for those on low incomes (A) state elementary education for all (B) free secondary education for all (C) free secondary education for all (D) assisted places in public schools for those on low incomes (A) state elementary education for all (B) free secondary education for all (C) free secondary education for all (D) assisted places in public schools for those on low incomes (A) state elementary education for all ("
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "Urbanization occurred in the nineteenth century because:",
+      "subject": "sociology",
+      "choices": [
+        "commuters started moving out of villages and into cities",
+        "towns and cities were becoming increasingly planned and managed",
+        "industrial capitalism led to a shift of population from rural to urban areas",
+        "transport systems were not provided, so it was easier to live in the city"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Urbanization occurred in the nineteenth century because:\n(A) commuters started moving out of villages and into cities (B) towns and cities were becoming increasingly planned and managed (C) industrial capitalism led to a shift of population from rural to urban areas (D) transport systems were not provided, so it was easier to live in the city\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Urbanization occurred in the 18th century because _."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 18,
+    "doc": {
+      "question": "Which of these changes did not occur during the 'sexual revolution' of the 1960s?",
+      "subject": "sociology",
+      "choices": [
+        "a growing fear of HIV and AIDS, fuelled by the New Right",
+        "divorce law reforms",
+        "the availability of oral contraception",
+        "the recognition of women's sexual pleasure"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Which of these changes did not occur during the 'sexual revolution' of the 1960s?\n(A) a growing fear of HIV and AIDS, fuelled by the New Right (B) divorce law reforms (C) the availability of oral contraception (D) the recognition of women's sexual pleasure\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The 1960s saw the development of the concept of sexual pleasure. The 1960s saw the development of the concept of sexual pleasure. The 1960s saw the development of the concept of sexual pleasure. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "The functionalist theory of inequality suggests that:",
+      "subject": "sociology",
+      "choices": [
+        "high rewards and incentives ensure that the most skilled individuals will take the most important social positions",
+        "inequality is inevitable and we are born into poverty or wealth",
+        "there are no social functions of inequality, so it should be eradicated",
+        "the idea of a meritocracy is a dangerous ideology"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: The functionalist theory of inequality suggests that:\n(A) high rewards and incentives ensure that the most skilled individuals will take the most important social positions (B) inequality is inevitable and we are born into poverty or wealth (C) there are no social functions of inequality, so it should be eradicated (D) the idea of a meritocracy is a dangerous ideology\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Inequality is the result of a lack of social functions. Inequality is the result of high rewards and incentives. The functionalist theory of inequality suggests that. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "The view of anti-psychiatrists like Scheff was that mental illness was:",
+      "subject": "sociology",
+      "choices": [
+        "a form of deviance, occurring when people challenged taken for granted expectations about interaction",
+        "a socially negotiated 'insanity role' into which anyone could drift",
+        "shaped by the processes of interaction taking place within the family and community",
+        "all of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: The view of anti-psychiatrists like Scheff was that mental illness was:\n(A) a form of deviance, occurring when people challenged taken for granted expectations about interaction (B) a socially negotiated 'insanity role' into which anyone could drift (C) shaped by the processes of interaction taking place within the family and community (D) all of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The view of anti-psychiatrists was that mental illness was a form of deviance. The view of anti-psychiatrists was that mental illness was a form of deviance. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 19,
+    "doc": {
+      "question": "In Parsons' view, the function of the sick role was to:",
+      "subject": "sociology",
+      "choices": [
+        "provide a set of guidelines for medical staff to treat patients in hospital",
+        "create a sense of meaning and order out of the illness experience",
+        "create a scapegoat for people to blame, in the context of family life",
+        "provide normative expectations to minimise the disruptive effects of illness on social life"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: In Parsons' view, the function of the sick role was to:\n(A) provide a set of guidelines for medical staff to treat patients in hospital (B) create a sense of meaning and order out of the illness experience (C) create a scapegoat for people to blame, in the context of family life (D) provide normative expectations to minimise the disruptive effects of illness on social life\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The sick role was to provide a set of guidelines for medical staff to treat patients in hospital. The function of the sick role was to provide normative expectations to minimise the disruptive effects of illness on social life. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "It is difficult to ascertain the true extent of domestic violence because:",
+      "subject": "sociology",
+      "choices": [
+        "there is a large 'dark figure' of unreported incidents",
+        "the changing definitions of legal categories have made it harder to convict offenders",
+        "researchers are not allowed access to official statistics",
+        "there is no valid or reliable way of researching such a sensitive topic"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: It is difficult to ascertain the true extent of domestic violence because:\n(A) there is a large 'dark figure' of unreported incidents (B) the changing definitions of legal categories have made it harder to convict offenders (C) researchers are not allowed access to official statistics (D) there is no valid or reliable way of researching such a sensitive topic\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Domestic violence is a problem that has been largely ignored by sociologists. The truth of the matter is that there is a large 'dark figure' of unreported incidents. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "The 'two-sex' model that Laqueur (1990) identified:",
+      "subject": "sociology",
+      "choices": [
+        "contrasted homosexuality with heterosexuality",
+        "distinguished between male and females as separate sexes",
+        "represented women's genitalia as underdeveloped versions of men's",
+        "argued for male superiority over women"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: The 'two-sex' model that Laqueur (1990) identified:\n(A) contrasted homosexuality with heterosexuality (B) distinguished between male and females as separate sexes (C) represented women's genitalia as underdeveloped versions of men's (D) argued for male superiority over women\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Laqueur (1990) argued for male superiority over females. Laqueur (1990) identified the 'two-sex' model. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 20,
+    "doc": {
+      "question": "Disciplinary power was exercised in the 19th century factories by:",
+      "subject": "sociology",
+      "choices": [
+        "the use of corporal punishment by employers",
+        "excluding women from participating in waged labour",
+        "punctuality, uninterrupted work and the threat of dismissal",
+        "making routine tasks less monotonous"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Disciplinary power was exercised in the 19th century factories by:\n(A) the use of corporal punishment by employers (B) excluding women from participating in waged labour (C) punctuality, uninterrupted work and the threat of dismissal (D) making routine tasks less monotonous\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The 19th century factories were governed by a system of disciplinary power. The 19th century factories were governed by a system of disciplinary power. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "Wirth (1938) said that social relationships in the urban way of life were 'segmental' because:",
+      "subject": "sociology",
+      "choices": [
+        "they were confined to particular areas of the city",
+        "people knew each other only through specific, situational roles, and not as whole, rounded individuals",
+        "there were distinctive patterns of activity for each social class",
+        "they were based on face to face interaction with close friends and family"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Wirth (1938) said that social relationships in the urban way of life were 'segmental' because:\n(A) they were confined to particular areas of the city (B) people knew each other only through specific, situational roles, and not as whole, rounded individuals (C) there were distinctive patterns of activity for each social class (D) they were based on face to face interaction with close friends and family\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The urban way of life was'segmental' because _."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "Despite the introduction of a national curriculum in 1988, girls continued to face disadvantages in education because:",
+      "subject": "sociology",
+      "choices": [
+        "subject choice remained gendered at A level and in higher education",
+        "boys received more attention from teachers in the classroom",
+        "the hidden curriculum ensures that subjects like science are taught in gendered styles",
+        "all of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Despite the introduction of a national curriculum in 1988, girls continued to face disadvantages in education because:\n(A) subject choice remained gendered at A level and in higher education (B) boys received more attention from teachers in the classroom (C) the hidden curriculum ensures that subjects like science are taught in gendered styles (D) all of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The hidden curriculum ensures that subjects like science are taught in gendered styles. The hidden curriculum was introduced in 1988. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 21,
+    "doc": {
+      "question": "Which of the following statements most closely corresponds with differential association theory?",
+      "subject": "sociology",
+      "choices": [
+        "If all of your friends jumped off a bridge, I suppose you would too.",
+        "You should be proud to be a part of this organization.",
+        "If the door is closed, try the window.",
+        "Once a thief, always a thief."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Which of the following statements most closely corresponds with differential association theory?\n(A) If all of your friends jumped off a bridge, I suppose you would too. (B) You should be proud to be a part of this organization. (C) If the door is closed, try the window. (D) Once a thief, always a thief.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Differential association theory is a theory of how people interact with each other. If all of your friends jumped off a bridge, I suppose you would too. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "Society cannot be studied in the same way as the natural world because:",
+      "subject": "sociology",
+      "choices": [
+        "human behaviour is meaningful, and varies between individuals and cultures",
+        "it is difficult for sociologists to gain access to a research laboratory",
+        "sociologists are not rational or critical enough in their approach",
+        "we cannot collect empirical data about social life"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Society cannot be studied in the same way as the natural world because:\n(A) human behaviour is meaningful, and varies between individuals and cultures (B) it is difficult for sociologists to gain access to a research laboratory (C) sociologists are not rational or critical enough in their approach (D) we cannot collect empirical data about social life\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Sociology is a discipline that studies the natural world. Sociology is a discipline that studies the natural world. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "Which of these trends did the New Right not suggest as evidence of declining family values?",
+      "subject": "sociology",
+      "choices": [
+        "the tendency for cohabitation before marriage",
+        "the rising divorce rate",
+        "the absence of fathers in many households",
+        "the increasing number of single parent families"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Which of these trends did the New Right not suggest as evidence of declining family values?\n(A) the tendency for cohabitation before marriage (B) the rising divorce rate (C) the absence of fathers in many households (D) the increasing number of single parent families\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The New Right did not suggest that the rising divorce rate was evidence of declining family values. The New Right did not suggest that the rising divorce rate was evidence of declining family values. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "A social stratum is:",
+      "subject": "sociology",
+      "choices": [
+        "a level in the social hierarchy, comprising people with shared life chances",
+        "a methodological tool used to identify a person's social class",
+        "the boundary between two levels of the social hierarchy",
+        "a symbol of status, used to differentiate between social classes"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: A social stratum is:\n(A) a level in the social hierarchy, comprising people with shared life chances (B) a methodological tool used to identify a person's social class (C) the boundary between two levels of the social hierarchy (D) a symbol of status, used to differentiate between social classes\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A social stratum is a level in the social hierarchy, comprising people with shared life chances. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": "Sociology can be considered a social science because:",
+      "subject": "sociology",
+      "choices": [
+        "its theories are logical, explicit and supported by empirical evidence",
+        "sociologists collect data in a relatively objective and systematic way",
+        "ideas and research findings are scrutinized by other sociologists",
+        "all of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about sociology.\n\nQ: Sociology can be considered a social science because:\n(A) its theories are logical, explicit and supported by empirical evidence (B) sociologists collect data in a relatively objective and systematic way (C) ideas and research findings are scrutinized by other sociologists (D) all of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Sociology is a scientific discipline that is based on the theory of social systems. Sociology is a scientific discipline that is based on the theory of social systems. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  }
+]

@@ -1,0 +1,3030 @@
+{
+  "results": {
+    "mmlu_flan_cot_zeroshot": {
+      "exact_match,get-answer": 0.13847158719790986,
+      "exact_match_stderr,get-answer": 0.09324138540909195
+    },
+    " - mmlu_flan_cot_zeroshot_humanities": {
+      "exact_match,get-answer": 0.13320463320463322,
+      "exact_match_stderr,get-answer": 0.07197313377994058
+    },
+    "  - mmlu_flan_cot_zeroshot_formal_logic": {
+      "exact_match,get-answer": 0.07142857142857142,
+      "exact_match_stderr,get-answer": 0.0714285714285714
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_european_history": {
+      "exact_match,get-answer": 0.0,
+      "exact_match_stderr,get-answer": 0.0
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_us_history": {
+      "exact_match,get-answer": 0.045454545454545456,
+      "exact_match_stderr,get-answer": 0.04545454545454546
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_world_history": {
+      "exact_match,get-answer": 0.15384615384615385,
+      "exact_match_stderr,get-answer": 0.07216024245882201
+    },
+    "  - mmlu_flan_cot_zeroshot_international_law": {
+      "exact_match,get-answer": 0.23076923076923078,
+      "exact_match_stderr,get-answer": 0.12162606385262997
+    },
+    "  - mmlu_flan_cot_zeroshot_jurisprudence": {
+      "exact_match,get-answer": 0.18181818181818182,
+      "exact_match_stderr,get-answer": 0.12196734422726123
+    },
+    "  - mmlu_flan_cot_zeroshot_logical_fallacies": {
+      "exact_match,get-answer": 0.16666666666666666,
+      "exact_match_stderr,get-answer": 0.09038769075777339
+    },
+    "  - mmlu_flan_cot_zeroshot_moral_disputes": {
+      "exact_match,get-answer": 0.05263157894736842,
+      "exact_match_stderr,get-answer": 0.036709780655942936
+    },
+    "  - mmlu_flan_cot_zeroshot_moral_scenarios": {
+      "exact_match,get-answer": 0.22,
+      "exact_match_stderr,get-answer": 0.041633319989322695
+    },
+    "  - mmlu_flan_cot_zeroshot_philosophy": {
+      "exact_match,get-answer": 0.20588235294117646,
+      "exact_match_stderr,get-answer": 0.07038741487212935
+    },
+    "  - mmlu_flan_cot_zeroshot_prehistory": {
+      "exact_match,get-answer": 0.05714285714285714,
+      "exact_match_stderr,get-answer": 0.039807459772527774
+    },
+    "  - mmlu_flan_cot_zeroshot_professional_law": {
+      "exact_match,get-answer": 0.11176470588235295,
+      "exact_match_stderr,get-answer": 0.024236672834103287
+    },
+    "  - mmlu_flan_cot_zeroshot_world_religions": {
+      "exact_match,get-answer": 0.15789473684210525,
+      "exact_match_stderr,get-answer": 0.08594700851870798
+    },
+    " - mmlu_flan_cot_zeroshot_other": {
+      "exact_match,get-answer": 0.1348973607038123,
+      "exact_match_stderr,get-answer": 0.09501393481105402
+    },
+    "  - mmlu_flan_cot_zeroshot_business_ethics": {
+      "exact_match,get-answer": 0.18181818181818182,
+      "exact_match_stderr,get-answer": 0.12196734422726126
+    },
+    "  - mmlu_flan_cot_zeroshot_clinical_knowledge": {
+      "exact_match,get-answer": 0.10344827586206896,
+      "exact_match_stderr,get-answer": 0.05755330761353657
+    },
+    "  - mmlu_flan_cot_zeroshot_college_medicine": {
+      "exact_match,get-answer": 0.09090909090909091,
+      "exact_match_stderr,get-answer": 0.06273323266748675
+    },
+    "  - mmlu_flan_cot_zeroshot_global_facts": {
+      "exact_match,get-answer": 0.3,
+      "exact_match_stderr,get-answer": 0.15275252316519466
+    },
+    "  - mmlu_flan_cot_zeroshot_human_aging": {
+      "exact_match,get-answer": 0.043478260869565216,
+      "exact_match_stderr,get-answer": 0.04347826086956523
+    },
+    "  - mmlu_flan_cot_zeroshot_management": {
+      "exact_match,get-answer": 0.0,
+      "exact_match_stderr,get-answer": 0.0
+    },
+    "  - mmlu_flan_cot_zeroshot_marketing": {
+      "exact_match,get-answer": 0.28,
+      "exact_match_stderr,get-answer": 0.09165151389911678
+    },
+    "  - mmlu_flan_cot_zeroshot_medical_genetics": {
+      "exact_match,get-answer": 0.36363636363636365,
+      "exact_match_stderr,get-answer": 0.15212000482437738
+    },
+    "  - mmlu_flan_cot_zeroshot_miscellaneous": {
+      "exact_match,get-answer": 0.19767441860465115,
+      "exact_match_stderr,get-answer": 0.04319575725815515
+    },
+    "  - mmlu_flan_cot_zeroshot_nutrition": {
+      "exact_match,get-answer": 0.12121212121212122,
+      "exact_match_stderr,get-answer": 0.057695250801999304
+    },
+    "  - mmlu_flan_cot_zeroshot_professional_accounting": {
+      "exact_match,get-answer": 0.03225806451612903,
+      "exact_match_stderr,get-answer": 0.03225806451612906
+    },
+    "  - mmlu_flan_cot_zeroshot_professional_medicine": {
+      "exact_match,get-answer": 0.0,
+      "exact_match_stderr,get-answer": 0.0
+    },
+    "  - mmlu_flan_cot_zeroshot_virology": {
+      "exact_match,get-answer": 0.1111111111111111,
+      "exact_match_stderr,get-answer": 0.0762215933966706
+    },
+    " - mmlu_flan_cot_zeroshot_social_sciences": {
+      "exact_match,get-answer": 0.11275964391691394,
+      "exact_match_stderr,get-answer": 0.08657704269055873
+    },
+    "  - mmlu_flan_cot_zeroshot_econometrics": {
+      "exact_match,get-answer": 0.0,
+      "exact_match_stderr,get-answer": 0.0
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_geography": {
+      "exact_match,get-answer": 0.09090909090909091,
+      "exact_match_stderr,get-answer": 0.06273323266748675
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_government_and_politics": {
+      "exact_match,get-answer": 0.19047619047619047,
+      "exact_match_stderr,get-answer": 0.08780518530755134
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_macroeconomics": {
+      "exact_match,get-answer": 0.06976744186046512,
+      "exact_match_stderr,get-answer": 0.039309500219931015
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_microeconomics": {
+      "exact_match,get-answer": 0.11538461538461539,
+      "exact_match_stderr,get-answer": 0.06389710663783135
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_psychology": {
+      "exact_match,get-answer": 0.08333333333333333,
+      "exact_match_stderr,get-answer": 0.035982314132364426
+    },
+    "  - mmlu_flan_cot_zeroshot_human_sexuality": {
+      "exact_match,get-answer": 0.3333333333333333,
+      "exact_match_stderr,get-answer": 0.14213381090374033
+    },
+    "  - mmlu_flan_cot_zeroshot_professional_psychology": {
+      "exact_match,get-answer": 0.10144927536231885,
+      "exact_match_stderr,get-answer": 0.036613506004249646
+    },
+    "  - mmlu_flan_cot_zeroshot_public_relations": {
+      "exact_match,get-answer": 0.08333333333333333,
+      "exact_match_stderr,get-answer": 0.08333333333333333
+    },
+    "  - mmlu_flan_cot_zeroshot_security_studies": {
+      "exact_match,get-answer": 0.2222222222222222,
+      "exact_match_stderr,get-answer": 0.08153326507837146
+    },
+    "  - mmlu_flan_cot_zeroshot_sociology": {
+      "exact_match,get-answer": 0.045454545454545456,
+      "exact_match_stderr,get-answer": 0.045454545454545456
+    },
+    "  - mmlu_flan_cot_zeroshot_us_foreign_policy": {
+      "exact_match,get-answer": 0.18181818181818182,
+      "exact_match_stderr,get-answer": 0.12196734422726124
+    },
+    " - mmlu_flan_cot_zeroshot_stem": {
+      "exact_match,get-answer": 0.1761194029850746,
+      "exact_match_stderr,get-answer": 0.11746952826259316
+    },
+    "  - mmlu_flan_cot_zeroshot_abstract_algebra": {
+      "exact_match,get-answer": 0.2727272727272727,
+      "exact_match_stderr,get-answer": 0.14083575804390605
+    },
+    "  - mmlu_flan_cot_zeroshot_anatomy": {
+      "exact_match,get-answer": 0.14285714285714285,
+      "exact_match_stderr,get-answer": 0.09705231721239393
+    },
+    "  - mmlu_flan_cot_zeroshot_astronomy": {
+      "exact_match,get-answer": 0.0625,
+      "exact_match_stderr,get-answer": 0.0625
+    },
+    "  - mmlu_flan_cot_zeroshot_college_biology": {
+      "exact_match,get-answer": 0.25,
+      "exact_match_stderr,get-answer": 0.11180339887498948
+    },
+    "  - mmlu_flan_cot_zeroshot_college_chemistry": {
+      "exact_match,get-answer": 0.125,
+      "exact_match_stderr,get-answer": 0.125
+    },
+    "  - mmlu_flan_cot_zeroshot_college_computer_science": {
+      "exact_match,get-answer": 0.09090909090909091,
+      "exact_match_stderr,get-answer": 0.0909090909090909
+    },
+    "  - mmlu_flan_cot_zeroshot_college_mathematics": {
+      "exact_match,get-answer": 0.09090909090909091,
+      "exact_match_stderr,get-answer": 0.0909090909090909
+    },
+    "  - mmlu_flan_cot_zeroshot_college_physics": {
+      "exact_match,get-answer": 0.09090909090909091,
+      "exact_match_stderr,get-answer": 0.09090909090909091
+    },
+    "  - mmlu_flan_cot_zeroshot_computer_security": {
+      "exact_match,get-answer": 0.09090909090909091,
+      "exact_match_stderr,get-answer": 0.09090909090909091
+    },
+    "  - mmlu_flan_cot_zeroshot_conceptual_physics": {
+      "exact_match,get-answer": 0.038461538461538464,
+      "exact_match_stderr,get-answer": 0.038461538461538436
+    },
+    "  - mmlu_flan_cot_zeroshot_electrical_engineering": {
+      "exact_match,get-answer": 0.3125,
+      "exact_match_stderr,get-answer": 0.11967838846954226
+    },
+    "  - mmlu_flan_cot_zeroshot_elementary_mathematics": {
+      "exact_match,get-answer": 0.2926829268292683,
+      "exact_match_stderr,get-answer": 0.07194088392074452
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_biology": {
+      "exact_match,get-answer": 0.15625,
+      "exact_match_stderr,get-answer": 0.06521328221627366
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_chemistry": {
+      "exact_match,get-answer": 0.13636363636363635,
+      "exact_match_stderr,get-answer": 0.07488677009526491
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_computer_science": {
+      "exact_match,get-answer": 0.3333333333333333,
+      "exact_match_stderr,get-answer": 0.16666666666666666
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_mathematics": {
+      "exact_match,get-answer": 0.13793103448275862,
+      "exact_match_stderr,get-answer": 0.06516628844986679
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_physics": {
+      "exact_match,get-answer": 0.35294117647058826,
+      "exact_match_stderr,get-answer": 0.11947115300935238
+    },
+    "  - mmlu_flan_cot_zeroshot_high_school_statistics": {
+      "exact_match,get-answer": 0.13043478260869565,
+      "exact_match_stderr,get-answer": 0.07180198468215396
+    },
+    "  - mmlu_flan_cot_zeroshot_machine_learning": {
+      "exact_match,get-answer": 0.18181818181818182,
+      "exact_match_stderr,get-answer": 0.12196734422726123
+    }
+  },
+  "groups": {
+    "mmlu_flan_cot_zeroshot": {
+      "exact_match,get-answer": 0.13847158719790986,
+      "exact_match_stderr,get-answer": 0.09324138540909195
+    },
+    " - mmlu_flan_cot_zeroshot_humanities": {
+      "exact_match,get-answer": 0.13320463320463322,
+      "exact_match_stderr,get-answer": 0.07197313377994058
+    },
+    " - mmlu_flan_cot_zeroshot_other": {
+      "exact_match,get-answer": 0.1348973607038123,
+      "exact_match_stderr,get-answer": 0.09501393481105402
+    },
+    " - mmlu_flan_cot_zeroshot_social_sciences": {
+      "exact_match,get-answer": 0.11275964391691394,
+      "exact_match_stderr,get-answer": 0.08657704269055873
+    },
+    " - mmlu_flan_cot_zeroshot_stem": {
+      "exact_match,get-answer": 0.1761194029850746,
+      "exact_match_stderr,get-answer": 0.11746952826259316
+    }
+  },
+  "configs": {
+    "mmlu_flan_cot_zeroshot_abstract_algebra": {
+      "task": "mmlu_flan_cot_zeroshot_abstract_algebra",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "abstract_algebra",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about abstract algebra.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_anatomy": {
+      "task": "mmlu_flan_cot_zeroshot_anatomy",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "anatomy",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about anatomy.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_astronomy": {
+      "task": "mmlu_flan_cot_zeroshot_astronomy",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "astronomy",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about astronomy.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_business_ethics": {
+      "task": "mmlu_flan_cot_zeroshot_business_ethics",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "business_ethics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about business ethics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_clinical_knowledge": {
+      "task": "mmlu_flan_cot_zeroshot_clinical_knowledge",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "clinical_knowledge",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about clinical knowledge.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_college_biology": {
+      "task": "mmlu_flan_cot_zeroshot_college_biology",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "college_biology",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about college biology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_college_chemistry": {
+      "task": "mmlu_flan_cot_zeroshot_college_chemistry",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "college_chemistry",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about college chemistry.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_college_computer_science": {
+      "task": "mmlu_flan_cot_zeroshot_college_computer_science",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "college_computer_science",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about college computer science.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_college_mathematics": {
+      "task": "mmlu_flan_cot_zeroshot_college_mathematics",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "college_mathematics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about college mathematics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_college_medicine": {
+      "task": "mmlu_flan_cot_zeroshot_college_medicine",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "college_medicine",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about college medicine.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_college_physics": {
+      "task": "mmlu_flan_cot_zeroshot_college_physics",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "college_physics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about college physics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_computer_security": {
+      "task": "mmlu_flan_cot_zeroshot_computer_security",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "computer_security",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about computer security.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_conceptual_physics": {
+      "task": "mmlu_flan_cot_zeroshot_conceptual_physics",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "conceptual_physics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about conceptual physics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_econometrics": {
+      "task": "mmlu_flan_cot_zeroshot_econometrics",
+      "group": "mmlu_flan_cot_zeroshot_social_sciences",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "econometrics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about econometrics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_electrical_engineering": {
+      "task": "mmlu_flan_cot_zeroshot_electrical_engineering",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "electrical_engineering",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about electrical engineering.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_elementary_mathematics": {
+      "task": "mmlu_flan_cot_zeroshot_elementary_mathematics",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "elementary_mathematics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about elementary mathematics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_formal_logic": {
+      "task": "mmlu_flan_cot_zeroshot_formal_logic",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "formal_logic",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about formal logic.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_global_facts": {
+      "task": "mmlu_flan_cot_zeroshot_global_facts",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "global_facts",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about global facts.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_biology": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_biology",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_biology",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school biology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_chemistry": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_chemistry",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_chemistry",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school chemistry.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_computer_science": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_computer_science",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_computer_science",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school computer science.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_european_history": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_european_history",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_european_history",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school european history.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_geography": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_geography",
+      "group": "mmlu_flan_cot_zeroshot_social_sciences",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_geography",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school geography.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_government_and_politics": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_government_and_politics",
+      "group": "mmlu_flan_cot_zeroshot_social_sciences",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_government_and_politics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school government and politics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_macroeconomics": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_macroeconomics",
+      "group": "mmlu_flan_cot_zeroshot_social_sciences",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_macroeconomics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school macroeconomics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_mathematics": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_mathematics",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_mathematics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school mathematics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_microeconomics": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_microeconomics",
+      "group": "mmlu_flan_cot_zeroshot_social_sciences",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_microeconomics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school microeconomics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_physics": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_physics",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_physics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school physics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_psychology": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_psychology",
+      "group": "mmlu_flan_cot_zeroshot_social_sciences",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_psychology",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school psychology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_statistics": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_statistics",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_statistics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school statistics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_us_history": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_us_history",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_us_history",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school us history.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_high_school_world_history": {
+      "task": "mmlu_flan_cot_zeroshot_high_school_world_history",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "high_school_world_history",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about high school world history.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_human_aging": {
+      "task": "mmlu_flan_cot_zeroshot_human_aging",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "human_aging",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about human aging.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_human_sexuality": {
+      "task": "mmlu_flan_cot_zeroshot_human_sexuality",
+      "group": "mmlu_flan_cot_zeroshot_social_sciences",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "human_sexuality",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about human sexuality.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_international_law": {
+      "task": "mmlu_flan_cot_zeroshot_international_law",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "international_law",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about international law.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_jurisprudence": {
+      "task": "mmlu_flan_cot_zeroshot_jurisprudence",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "jurisprudence",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about jurisprudence.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_logical_fallacies": {
+      "task": "mmlu_flan_cot_zeroshot_logical_fallacies",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "logical_fallacies",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about logical fallacies.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_machine_learning": {
+      "task": "mmlu_flan_cot_zeroshot_machine_learning",
+      "group": "mmlu_flan_cot_zeroshot_stem",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "machine_learning",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about machine learning.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_management": {
+      "task": "mmlu_flan_cot_zeroshot_management",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "management",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about management.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_marketing": {
+      "task": "mmlu_flan_cot_zeroshot_marketing",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "marketing",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about marketing.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_medical_genetics": {
+      "task": "mmlu_flan_cot_zeroshot_medical_genetics",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "medical_genetics",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about medical genetics.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_miscellaneous": {
+      "task": "mmlu_flan_cot_zeroshot_miscellaneous",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "miscellaneous",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about miscellaneous.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_moral_disputes": {
+      "task": "mmlu_flan_cot_zeroshot_moral_disputes",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "moral_disputes",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about moral disputes.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_moral_scenarios": {
+      "task": "mmlu_flan_cot_zeroshot_moral_scenarios",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "moral_scenarios",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about moral scenarios.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_nutrition": {
+      "task": "mmlu_flan_cot_zeroshot_nutrition",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "nutrition",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about nutrition.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_philosophy": {
+      "task": "mmlu_flan_cot_zeroshot_philosophy",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "philosophy",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about philosophy.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_prehistory": {
+      "task": "mmlu_flan_cot_zeroshot_prehistory",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "prehistory",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about prehistory.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_professional_accounting": {
+      "task": "mmlu_flan_cot_zeroshot_professional_accounting",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "professional_accounting",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about professional accounting.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_professional_law": {
+      "task": "mmlu_flan_cot_zeroshot_professional_law",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "professional_law",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about professional law.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_professional_medicine": {
+      "task": "mmlu_flan_cot_zeroshot_professional_medicine",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "professional_medicine",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about professional medicine.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_professional_psychology": {
+      "task": "mmlu_flan_cot_zeroshot_professional_psychology",
+      "group": "mmlu_flan_cot_zeroshot_social_sciences",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "professional_psychology",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about professional psychology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_public_relations": {
+      "task": "mmlu_flan_cot_zeroshot_public_relations",
+      "group": "mmlu_flan_cot_zeroshot_social_sciences",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "public_relations",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about public relations.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_security_studies": {
+      "task": "mmlu_flan_cot_zeroshot_security_studies",
+      "group": "mmlu_flan_cot_zeroshot_social_sciences",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "security_studies",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about security studies.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_sociology": {
+      "task": "mmlu_flan_cot_zeroshot_sociology",
+      "group": "mmlu_flan_cot_zeroshot_social_sciences",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "sociology",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about sociology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_us_foreign_policy": {
+      "task": "mmlu_flan_cot_zeroshot_us_foreign_policy",
+      "group": "mmlu_flan_cot_zeroshot_social_sciences",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "us_foreign_policy",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about us foreign policy.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_virology": {
+      "task": "mmlu_flan_cot_zeroshot_virology",
+      "group": "mmlu_flan_cot_zeroshot_other",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "virology",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about virology.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    },
+    "mmlu_flan_cot_zeroshot_world_religions": {
+      "task": "mmlu_flan_cot_zeroshot_world_religions",
+      "group": "mmlu_flan_cot_zeroshot_humanities",
+      "dataset_path": "hails/mmlu_no_train",
+      "dataset_name": "world_religions",
+      "validation_split": "validation",
+      "fewshot_split": "dev",
+      "doc_to_text": "Q: {{question.strip()}}\n(A) {{choices[0]}} (B) {{choices[1]}} (C) {{choices[2]}} (D) {{choices[3]}}\nA: Let's think step by step.",
+      "doc_to_target": "{{['(A)', '(B)', '(C)', '(D)'][answer]}}",
+      "description": "The following are multiple choice questions (with answers) about world religions.\n\n",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true,
+          "ignore_case": true,
+          "ignore_punctuation": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "filter_list": [
+        {
+          "name": "get-answer",
+          "filter": [
+            {
+              "function": "regex",
+              "regex_pattern": "((?<=The answer is )(.*)(?=.)|(?<=the answer is )(.*)(?=.)|(?<=The answer: )(.*)(?=.)|(?<=The final answer: )(.*)(?=.))"
+            },
+            {
+              "function": "take_first"
+            }
+          ]
+        }
+      ],
+      "should_decontaminate": false
+    }
+  },
+  "versions": {
+    "  - mmlu_flan_cot_zeroshot_abstract_algebra": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_anatomy": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_astronomy": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_business_ethics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_clinical_knowledge": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_college_biology": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_college_chemistry": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_college_computer_science": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_college_mathematics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_college_medicine": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_college_physics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_computer_security": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_conceptual_physics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_econometrics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_electrical_engineering": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_elementary_mathematics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_formal_logic": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_global_facts": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_biology": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_chemistry": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_computer_science": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_european_history": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_geography": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_government_and_politics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_macroeconomics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_mathematics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_microeconomics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_physics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_psychology": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_statistics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_us_history": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_high_school_world_history": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_human_aging": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_human_sexuality": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_international_law": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_jurisprudence": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_logical_fallacies": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_machine_learning": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_management": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_marketing": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_medical_genetics": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_miscellaneous": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_moral_disputes": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_moral_scenarios": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_nutrition": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_philosophy": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_prehistory": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_professional_accounting": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_professional_law": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_professional_medicine": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_professional_psychology": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_public_relations": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_security_studies": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_sociology": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_us_foreign_policy": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_virology": "Yaml",
+    "  - mmlu_flan_cot_zeroshot_world_religions": "Yaml",
+    " - mmlu_flan_cot_zeroshot_humanities": "N/A",
+    " - mmlu_flan_cot_zeroshot_other": "N/A",
+    " - mmlu_flan_cot_zeroshot_social_sciences": "N/A",
+    " - mmlu_flan_cot_zeroshot_stem": "N/A",
+    "mmlu_flan_cot_zeroshot": "N/A"
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=/fsx/lintangsutawika/00-improved-t5/checkpoints/hf/t5-v2-base-2M-flan",
+    "batch_size": "4",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000
+  },
+  "git_hash": "b439c98"
+}

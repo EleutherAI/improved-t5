@@ -1,0 +1,578 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "You cool a blackbody to half its original temperature. How does its spectrum change?",
+      "subject": "astronomy",
+      "choices": [
+        "Power emitted is 1/16 times as high; peak emission wavelength is 1/2 as long.",
+        "Power emitted is 1/4 times as high; peak emission wavelength is 2 times longer.",
+        "Power emitted is 1/4 times as high; peak emission wavelength is 1/2 as long.",
+        "Power emitted is 1/16 times as high; peak emission wavelength is 2 times longer."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: You cool a blackbody to half its original temperature. How does its spectrum change?\n(A) Power emitted is 1/16 times as high; peak emission wavelength is 1/2 as long. (B) Power emitted is 1/4 times as high; peak emission wavelength is 2 times longer. (C) Power emitted is 1/4 times as high; peak emission wavelength is 1/2 as long. (D) Power emitted is 1/16 times as high; peak emission wavelength is 2 times longer.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Power emitted is 1/16 times as high; peak emission wavelength is 1/2 as long. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "The reason that small planets tend to lose interior heat faster than larger planets is essentially the same as the reason that ________.",
+      "subject": "astronomy",
+      "choices": [
+        "a large baked potato takes longer to cool than a small baked potato",
+        "Earth contains more metal than the Moon",
+        "thunderstorms tend to form on hot summer days",
+        "gas bubbles form and rise upward in boiling water"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: The reason that small planets tend to lose interior heat faster than larger planets is essentially the same as the reason that ________.\n(A) a large baked potato takes longer to cool than a small baked potato (B) Earth contains more metal than the Moon (C) thunderstorms tend to form on hot summer days (D) gas bubbles form and rise upward in boiling water\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The reason that small planets tend to lose interior heat faster than larger planets is essentially the same as the reason that Earth contains more metal than the Moon. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "What drives differentiation?",
+      "subject": "astronomy",
+      "choices": [
+        "Spontaneous emission from radioactive atoms.",
+        "The minimization of gravitational potential energy.",
+        "Thermally induced collisions.",
+        "Plate tectonics."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: What drives differentiation?\n(A) Spontaneous emission from radioactive atoms. (B) The minimization of gravitational potential energy. (C) Thermally induced collisions. (D) Plate tectonics.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Spontaneous emission from radioactive atoms drives differentiation. Spontaneous emission from radioactive atoms drives differentiation. The minimization of gravitational potential energy drives differentiation. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "If the Moon is setting at noon the phase of the Moon must be",
+      "subject": "astronomy",
+      "choices": [
+        "third quarter.",
+        "waning crescent.",
+        "waxing crescent.",
+        "full."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: If the Moon is setting at noon the phase of the Moon must be\n(A) third quarter. (B) waning crescent. (C) waxing crescent. (D) full.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The phase of the Moon is waning crescent. The moon is full when it sets at noon. The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "How did the lunar maria form?",
+      "subject": "astronomy",
+      "choices": [
+        "The giant impact that created the Moon left smooth areas that we call the maria.",
+        "Volatiles escaping from the Moon's interior heated and eroded the surface in the regions of the maria.",
+        "The early bombardment created heat that melted the lunar surface in the regions of the maria.",
+        "Large impacts fractured the Moon's lithosphere allowing lava to fill the impact basins."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: How did the lunar maria form?\n(A) The giant impact that created the Moon left smooth areas that we call the maria. (B) Volatiles escaping from the Moon's interior heated and eroded the surface in the regions of the maria. (C) The early bombardment created heat that melted the lunar surface in the regions of the maria. (D) Large impacts fractured the Moon's lithosphere allowing lava to fill the impact basins.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The giant impact that created the Moon left smooth areas that we call the maria. Volatiles escaping from the Moon's interior heated and eroded the surface in the regions of the maria. (B) Volatiles escaping from the Moon's interior heated and eroded the surface in the regions of the maria. (C) The early bombardment created heat that melted the lunar surface in the regions of the maria. (D) Large impacts fractured the Moon's lithosphere allowing lava to fill the impact basins. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "In astronomy the concept of black bodies is very important to better calculate the radiation of stars. Which one is the correct definition of a black body?",
+      "subject": "astronomy",
+      "choices": [
+        "An idealized physical object that reflects all electromagnetic radiation.",
+        "An idealized physical object that absorbs all electromagnetic radiation.",
+        "An idealized physical object that reflects all polarized radiation.",
+        "An idealized physical object that absorbs all polarized radiation."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: In astronomy the concept of black bodies is very important to better calculate the radiation of stars. Which one is the correct definition of a black body?\n(A) An idealized physical object that reflects all electromagnetic radiation. (B) An idealized physical object that absorbs all electromagnetic radiation. (C) An idealized physical object that reflects all polarized radiation. (D) An idealized physical object that absorbs all polarized radiation.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "An idealized physical object that reflects all electromagnetic radiation."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "Why doesn't Venus have seasons like Mars and Earth do?",
+      "subject": "astronomy",
+      "choices": [
+        "Its rotation axis is nearly perpendicular to the plane of the Solar System.",
+        "It does not have an ozone layer.",
+        "It does not rotate fast enough.",
+        "It is too close to the Sun."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: Why doesn't Venus have seasons like Mars and Earth do?\n(A) Its rotation axis is nearly perpendicular to the plane of the Solar System. (B) It does not have an ozone layer. (C) It does not rotate fast enough. (D) It is too close to the Sun.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Venus has a rotation axis that is nearly perpendicular to the plane of the Solar System. Venus has a rotation axis that is nearly perpendicular to the plane of the Solar System. Venus has seasons like Mars and Earth. The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "The Coriolis effect is observed on planets because",
+      "subject": "astronomy",
+      "choices": [
+        "they are rotating and spherical so different latitudes rotate at different speeds (meters/second)",
+        "their surfaces rotate at the same speed (meters/second) at all latitudes",
+        "they rotate and have magnetic fields",
+        "the solar wind interacts with their magnetospheres"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: The Coriolis effect is observed on planets because\n(A) they are rotating and spherical so different latitudes rotate at different speeds (meters/second) (B) their surfaces rotate at the same speed (meters/second) at all latitudes (C) they rotate and have magnetic fields (D) the solar wind interacts with their magnetospheres\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Coriolis effect is observed on planets because: (A) they are rotating and spherical so different latitudes rotate at different speeds (meters/second) (B) their surfaces rotate at the same speed (meters/second) at all latitudes (C) they rotate and have magnetic fields (D) the solar wind interacts with their magnetospheres The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "The mass of Saturn's rings is 2x1019 kg. What is the ratio of this mass to that of a 200 km diameter spherical moon made entirely of water-ice (density ~ 1 g/cm3)? That is what is Mrings : Micy moon?",
+      "subject": "astronomy",
+      "choices": [
+        "1 : 1",
+        "50 : 1",
+        "5 : 1",
+        "0.5 : 1"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: The mass of Saturn's rings is 2x1019 kg. What is the ratio of this mass to that of a 200 km diameter spherical moon made entirely of water-ice (density ~ 1 g/cm3)? That is what is Mrings : Micy moon?\n(A) 1 : 1 (B) 50 : 1 (C) 5 : 1 (D) 0.5 : 1\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The mass of Saturn's rings is 2x1019 kg. The mass of a 200 km diameter spherical moon made entirely of water-ice is 200 * 1019 = 20000 kg. The ratio of this mass to that of a 200 km diameter spherical moon is 20000 / 200 = 50: 1. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "The International Space Station (ISS) circles the Earth approximately 410 km above the ground. Find the best estimate for the orbital speed of the ISS:",
+      "subject": "astronomy",
+      "choices": [
+        "19000 km/h",
+        "21000 km/h",
+        "28000 km/h",
+        "32000 km/h"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: The International Space Station (ISS) circles the Earth approximately 410 km above the ground. Find the best estimate for the orbital speed of the ISS:\n(A) 19000 km/h (B) 21000 km/h (C) 28000 km/h (D) 32000 km/h\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The ISS orbits the Earth approximately 410 km above the ground. The orbital speed of the ISS is 19000 km/h. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "Which mechanism can NOT explain Mercury's lack of a permanent atmosphere?",
+      "subject": "astronomy",
+      "choices": [
+        "Impact Heating",
+        "Volcanic Heating",
+        "Ablation by the solar wind",
+        "Thermal Escape"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: Which mechanism can NOT explain Mercury's lack of a permanent atmosphere?\n(A) Impact Heating (B) Volcanic Heating (C) Ablation by the solar wind (D) Thermal Escape\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The lack of a permanent atmosphere is caused by the lack of a permanent atmosphere. The mechanism that explains Mercury's lack of a permanent atmosphere is the volcanic heating. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "Which is the least likely cause of death?",
+      "subject": "astronomy",
+      "choices": [
+        "Being hit in the head by a bullet.",
+        "Being hit by a small meteorite.",
+        "Starvation during global winter caused by a major impact.",
+        "Driving while intoxicated without wearing seatbelts."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: Which is the least likely cause of death?\n(A) Being hit in the head by a bullet. (B) Being hit by a small meteorite. (C) Starvation during global winter caused by a major impact. (D) Driving while intoxicated without wearing seatbelts.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Driving while intoxicated without wearing seatbelts is the least likely cause of death. The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "Which property of our solar system does a formation theory NOT need to explain?",
+      "subject": "astronomy",
+      "choices": [
+        "patterns of motion",
+        "the presence of asteroids and comets",
+        "the measured ages of meteorites",
+        "the presence of life on Earth"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: Which property of our solar system does a formation theory NOT need to explain?\n(A) patterns of motion (B) the presence of asteroids and comets (C) the measured ages of meteorites (D) the presence of life on Earth\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The formation theory of our solar system does not need to explain patterns of motion. The formation theory of our solar system does not need to explain patterns of motion. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "How have we been able to construct detailed maps of surface features on Venus?",
+      "subject": "astronomy",
+      "choices": [
+        "by studying Venus from Earth with powerful optical telescopes",
+        "by landing spacecraft on the surface for close-up study",
+        "by studying Venus with powerful optical telescopes on spacecraft that were sent to orbit Venus",
+        "by using radar from spacecraft that were sent to orbit Venus"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: How have we been able to construct detailed maps of surface features on Venus?\n(A) by studying Venus from Earth with powerful optical telescopes (B) by landing spacecraft on the surface for close-up study (C) by studying Venus with powerful optical telescopes on spacecraft that were sent to orbit Venus (D) by using radar from spacecraft that were sent to orbit Venus\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "By studying Venus from Earth with powerful optical telescopes. We have been able to construct detailed maps of surface features on Venus by studying Venus from Earth with powerful optical telescopes. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "What dangers are currently faced by each Mars Exploration Rover?",
+      "subject": "astronomy",
+      "choices": [
+        "Opportunity may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit's instruments are being corroded by the acidic hot spring environment it is exploring.",
+        "Opportunity may not be able to move its arm again; Spirit may not be able to drive out of Victoria Crater due to its broken sixth wheel.",
+        "Opportunity may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit may not get enough solar power during the winter months immediately ahead.",
+        "Opportunity may not be able to move its arm again; Spirit may not get enough solar power during the winter months immediately ahead."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: What dangers are currently faced by each Mars Exploration Rover?\n(A) Opportunity may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit's instruments are being corroded by the acidic hot spring environment it is exploring. (B) Opportunity may not be able to move its arm again; Spirit may not be able to drive out of Victoria Crater due to its broken sixth wheel. (C) Opportunity may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit may not get enough solar power during the winter months immediately ahead. (D) Opportunity may not be able to move its arm again; Spirit may not get enough solar power during the winter months immediately ahead.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Opportunity may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit may not get enough solar power during the winter months immediately ahead. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": "A comet\u2019s tail points in the following direction:",
+      "subject": "astronomy",
+      "choices": [
+        "away from the Sun",
+        "towards the Sun",
+        "in the direction of movement",
+        "against the direction of movement"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Where do most short-period comets come from and how do we know?\n(A) The Kuiper belt; short period comets tend to be in the plane of the solar system just like the Kuiper belt. (B) The Kuiper belt; short period comets tend to come from random directions indicating a spherical distribution of comets called the Kuiper belt. (C) The asteroid belt; short period comets have orbital periods similar to asteroids like Vesta and are found in the plane of the solar system just like the asteroid belt. (D) The Oort cloud; short period comets tend to be in the plane of the solar system just like the Oort cloud.\nA: Let's think step by step. Most short-period comets come from the Kuiper belt, and we know because short period coments tend to be in the plane of the solar system, just like the Kuiper belt is. The answer is (A).\n\nQ: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction)\n(A) It would be harder since the truck is heavier on Mars. (B) It would be easier since the truck is lighter on Mars. (C) It would be harder since the truck is lighter on Mars. (D) It would be the same no matter where you are.\nA: Let's think step by step. If we assume that there is no friction, the force needed to accelerate the truck is by Newton\u2019s second law only dependent on the mass of the truck. Hence (A), (B) and (C) are incorrect since it doesn\u2019t matter that it\u2019s on Mars, and (D) is the correct answer. The answer is (D).\n\nQ: Say the pupil of your eye has a diameter of 5 mm and you have a telescope with an aperture of 50 cm. How much more light can the telescope gather than your eye?\n(A) 10000 times more (B) 100 times more (C) 1000 times more (D) 10 times more\nA: Let's think step by step. The amount of light is proportional to the aperture area $A = \\pi D^2/4$ for a lens with diameter $D$, so the relative amounts of light between the eye with diameter 5mm and the telescope with diameter 50mm is $(50 cm)^2/(5mm)^2 = 10000$. The answer is (A).\n\nQ: Why isn't there a planet where the asteroid belt is located?\n(A) A planet once formed here but it was broken apart by a catastrophic collision. (B) There was not enough material in this part of the solar nebula to form a planet. (C) There was too much rocky material to form a terrestrial planet but not enough gaseous material to form a jovian planet. (D) Resonance with Jupiter prevented material from collecting together to form a planet.\nA: Let's think step by step. The asteroid belt is a stellar disc consisting of a large number of asteroids between Mars and Jupiter's orbits. The asteroids in this belt are affected by the gravitational pull from both other asteroids and nearby planets. Due to the strong gravitational force of Jupiter there are resonances that give rise to low density regions of asteroids known as the Kirkwood gap. So (B) and (C) are not correct since it\u2019s not a lack of material that prevents a planet from being formed, and (A) is incorrect because the Kirkwood gap would have prevented a planet from forming in the first place, and (D) is the correct option. The answer is (D).\n\nQ: Why is Mars red?\n(A) Because the surface is covered with heavily oxidized (\"rusted\") minerals. (B) Because the atmosphere scatters more light at bluer wavelengths transmitting mostly red light. (C) Because Mars is covered with ancient lava flows which are red in color. (D) Because flowing water on Mars's surface altered the surface minerals several billion years ago.\nA: Let's think step by step. Option (B) is not correct because if the red color was caused by the scattering off the atmosphere, then the earth with a much thicker atmosphere would also look red. Options (C) and (D) are not specific enough about why the color of the surface would be red, while (A) is correct because it explains that the surface is red due to the rusted materials on the surface and the red color comes from the rust. So the correct option is (A). The answer is (A).Q: A comet\u2019s tail points in the following direction:\n(A) away from the Sun (B) towards the Sun (C) in the direction of movement (D) against the direction of movement\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A comet\u2019s tail points in the direction of movement. A comet\u2019s tail points in the direction of movement. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  }
+]

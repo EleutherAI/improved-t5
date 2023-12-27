@@ -1,0 +1,434 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "Axl Tulip has a thin clear discharge coming from his penis and mild discomfort when he urinates. He is most likely suffering from _______ and should be treated with ________.",
+      "subject": "human_sexuality",
+      "choices": [
+        "gonorrhea penicillin",
+        "gonorrhea tetracycline",
+        "chlamydia penicillin",
+        "chlamydia tetracycline"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The most common disorder among men who seek sexual therapy is:\n(A) premature ejaculation (B) inhibited ejaculation (C) erectile disorder (D) ejaculatory disorder\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The most common type of arousal disorder for men is erectile dysfunction, meaning that a person is not able to get any physical satisfaction from sexual activity although he may be interested in it. The answer is (C).\n\nQ: A woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\n(A) a strong ego (B) a weak superego (C) a weak id (D) a strong superego\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. A person with weak superego tends to be delinquent, criminal or have antisocial personality. The action of the woman who knows she has active venereal disease but still have sex with her partners indicate she may has antisocial personality. The answer is (B).\n\nQ: The nature of homosexual activities that occur during preadolescence include all but which of the following?\n(A) sexual intercourse (B) circle jerks (C) exhibitionism (D) touching each other's genitals\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Sexual intercourse is prohibited during preadolescence. The answer is (A).\n\nQ: Women's ability to have multiple orgasms is primarily due to:\n(A) the fact that they do not have a refractory period. (B) the response of the inner layers of the vagina. (C) having alternating orgasms in different locations. (D) the G-Spot.\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The refractory period is the time when a person is not able to be erect or is not interested in sex. The answer is (A).\n\nQ: Morning sickness is typically a problem:\n(A) during the first trimester (B) during the second trimester (C) during the third trimester (D) all through the pregnancy\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Morning sickness usually begins by nine weeks after conception, corresponding to the first trimester. The answer is (A).Q: Axl Tulip has a thin clear discharge coming from his penis and mild discomfort when he urinates. He is most likely suffering from _______ and should be treated with ________.\n(A) gonorrhea penicillin (B) gonorrhea tetracycline (C) chlamydia penicillin (D) chlamydia tetracycline\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Let's think step by step. Axl Tulip has a thin clear discharge coming from his penis and mild discomfort when he urinates. He is most likely suffering from chlamydia penicillin and should be treated with _. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "The people of Inis Beag believe that:",
+      "subject": "human_sexuality",
+      "choices": [
+        "menopause can produce insanity",
+        "masturbation produces facial deformities",
+        "incest is acceptable with daughters but not with sons",
+        "masturbation produces genital deformities"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The most common disorder among men who seek sexual therapy is:\n(A) premature ejaculation (B) inhibited ejaculation (C) erectile disorder (D) ejaculatory disorder\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The most common type of arousal disorder for men is erectile dysfunction, meaning that a person is not able to get any physical satisfaction from sexual activity although he may be interested in it. The answer is (C).\n\nQ: A woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\n(A) a strong ego (B) a weak superego (C) a weak id (D) a strong superego\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. A person with weak superego tends to be delinquent, criminal or have antisocial personality. The action of the woman who knows she has active venereal disease but still have sex with her partners indicate she may has antisocial personality. The answer is (B).\n\nQ: The nature of homosexual activities that occur during preadolescence include all but which of the following?\n(A) sexual intercourse (B) circle jerks (C) exhibitionism (D) touching each other's genitals\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Sexual intercourse is prohibited during preadolescence. The answer is (A).\n\nQ: Women's ability to have multiple orgasms is primarily due to:\n(A) the fact that they do not have a refractory period. (B) the response of the inner layers of the vagina. (C) having alternating orgasms in different locations. (D) the G-Spot.\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The refractory period is the time when a person is not able to be erect or is not interested in sex. The answer is (A).\n\nQ: Morning sickness is typically a problem:\n(A) during the first trimester (B) during the second trimester (C) during the third trimester (D) all through the pregnancy\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Morning sickness usually begins by nine weeks after conception, corresponding to the first trimester. The answer is (A).Q: The people of Inis Beag believe that:\n(A) menopause can produce insanity (B) masturbation produces facial deformities (C) incest is acceptable with daughters but not with sons (D) masturbation produces genital deformities\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Let's think step by step. The people of Inis Beag believe that masturbation produces genital deformities. Masturbation is a form of sexual activity. The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "In adulthood, exhibitionists",
+      "subject": "human_sexuality",
+      "choices": [
+        "are typically psychiatrically disturbed",
+        "are unassertive",
+        "have excellent social skills",
+        "have fulfilling sex lives"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The most common disorder among men who seek sexual therapy is:\n(A) premature ejaculation (B) inhibited ejaculation (C) erectile disorder (D) ejaculatory disorder\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The most common type of arousal disorder for men is erectile dysfunction, meaning that a person is not able to get any physical satisfaction from sexual activity although he may be interested in it. The answer is (C).\n\nQ: A woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\n(A) a strong ego (B) a weak superego (C) a weak id (D) a strong superego\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. A person with weak superego tends to be delinquent, criminal or have antisocial personality. The action of the woman who knows she has active venereal disease but still have sex with her partners indicate she may has antisocial personality. The answer is (B).\n\nQ: The nature of homosexual activities that occur during preadolescence include all but which of the following?\n(A) sexual intercourse (B) circle jerks (C) exhibitionism (D) touching each other's genitals\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Sexual intercourse is prohibited during preadolescence. The answer is (A).\n\nQ: Women's ability to have multiple orgasms is primarily due to:\n(A) the fact that they do not have a refractory period. (B) the response of the inner layers of the vagina. (C) having alternating orgasms in different locations. (D) the G-Spot.\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The refractory period is the time when a person is not able to be erect or is not interested in sex. The answer is (A).\n\nQ: Morning sickness is typically a problem:\n(A) during the first trimester (B) during the second trimester (C) during the third trimester (D) all through the pregnancy\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Morning sickness usually begins by nine weeks after conception, corresponding to the first trimester. The answer is (A).Q: In adulthood, exhibitionists\n(A) are typically psychiatrically disturbed (B) are unassertive (C) have excellent social skills (D) have fulfilling sex lives\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on human sexuality. Exhibitionists are typically psychiatrically disturbed. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "The bulk of the research evidence suggests that:",
+      "subject": "human_sexuality",
+      "choices": [
+        "all women have a G-spot",
+        "all women with a G-spot ejaculate",
+        "all women with a G-spot also have a prostate gland",
+        "none of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The most common disorder among men who seek sexual therapy is:\n(A) premature ejaculation (B) inhibited ejaculation (C) erectile disorder (D) ejaculatory disorder\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The most common type of arousal disorder for men is erectile dysfunction, meaning that a person is not able to get any physical satisfaction from sexual activity although he may be interested in it. The answer is (C).\n\nQ: A woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\n(A) a strong ego (B) a weak superego (C) a weak id (D) a strong superego\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. A person with weak superego tends to be delinquent, criminal or have antisocial personality. The action of the woman who knows she has active venereal disease but still have sex with her partners indicate she may has antisocial personality. The answer is (B).\n\nQ: The nature of homosexual activities that occur during preadolescence include all but which of the following?\n(A) sexual intercourse (B) circle jerks (C) exhibitionism (D) touching each other's genitals\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Sexual intercourse is prohibited during preadolescence. The answer is (A).\n\nQ: Women's ability to have multiple orgasms is primarily due to:\n(A) the fact that they do not have a refractory period. (B) the response of the inner layers of the vagina. (C) having alternating orgasms in different locations. (D) the G-Spot.\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The refractory period is the time when a person is not able to be erect or is not interested in sex. The answer is (A).\n\nQ: Morning sickness is typically a problem:\n(A) during the first trimester (B) during the second trimester (C) during the third trimester (D) all through the pregnancy\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Morning sickness usually begins by nine weeks after conception, corresponding to the first trimester. The answer is (A).Q: The bulk of the research evidence suggests that:\n(A) all women have a G-spot (B) all women with a G-spot ejaculate (C) all women with a G-spot also have a prostate gland (D) none of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on human sexuality for help. The bulk of the research evidence suggests that all women have a G-spot. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "Before contact with Europeans, many First Nations populations viewed gay men, lesbians, and people who assumed cross-gender roles with",
+      "subject": "human_sexuality",
+      "choices": [
+        "disgust and revulsion.",
+        "pity and indulgence.",
+        "fear and awe.",
+        "respect and admiration."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The most common disorder among men who seek sexual therapy is:\n(A) premature ejaculation (B) inhibited ejaculation (C) erectile disorder (D) ejaculatory disorder\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The most common type of arousal disorder for men is erectile dysfunction, meaning that a person is not able to get any physical satisfaction from sexual activity although he may be interested in it. The answer is (C).\n\nQ: A woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\n(A) a strong ego (B) a weak superego (C) a weak id (D) a strong superego\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. A person with weak superego tends to be delinquent, criminal or have antisocial personality. The action of the woman who knows she has active venereal disease but still have sex with her partners indicate she may has antisocial personality. The answer is (B).\n\nQ: The nature of homosexual activities that occur during preadolescence include all but which of the following?\n(A) sexual intercourse (B) circle jerks (C) exhibitionism (D) touching each other's genitals\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Sexual intercourse is prohibited during preadolescence. The answer is (A).\n\nQ: Women's ability to have multiple orgasms is primarily due to:\n(A) the fact that they do not have a refractory period. (B) the response of the inner layers of the vagina. (C) having alternating orgasms in different locations. (D) the G-Spot.\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The refractory period is the time when a person is not able to be erect or is not interested in sex. The answer is (A).\n\nQ: Morning sickness is typically a problem:\n(A) during the first trimester (B) during the second trimester (C) during the third trimester (D) all through the pregnancy\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Morning sickness usually begins by nine weeks after conception, corresponding to the first trimester. The answer is (A).Q: Before contact with Europeans, many First Nations populations viewed gay men, lesbians, and people who assumed cross-gender roles with\n(A) disgust and revulsion. (B) pity and indulgence. (C) fear and awe. (D) respect and admiration.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on human sexuality for help. Many First Nations populations viewed gay men, lesbians, and people who assumed cross-gender roles with (A) disgust and revulsion. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "The feedback loop in women which regulates the production of sex hormones includes all but which of the following?",
+      "subject": "human_sexuality",
+      "choices": [
+        "introitus",
+        "progesterone",
+        "follicle-stimulating hormone",
+        "pituitary gland"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The most common disorder among men who seek sexual therapy is:\n(A) premature ejaculation (B) inhibited ejaculation (C) erectile disorder (D) ejaculatory disorder\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The most common type of arousal disorder for men is erectile dysfunction, meaning that a person is not able to get any physical satisfaction from sexual activity although he may be interested in it. The answer is (C).\n\nQ: A woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\n(A) a strong ego (B) a weak superego (C) a weak id (D) a strong superego\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. A person with weak superego tends to be delinquent, criminal or have antisocial personality. The action of the woman who knows she has active venereal disease but still have sex with her partners indicate she may has antisocial personality. The answer is (B).\n\nQ: The nature of homosexual activities that occur during preadolescence include all but which of the following?\n(A) sexual intercourse (B) circle jerks (C) exhibitionism (D) touching each other's genitals\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Sexual intercourse is prohibited during preadolescence. The answer is (A).\n\nQ: Women's ability to have multiple orgasms is primarily due to:\n(A) the fact that they do not have a refractory period. (B) the response of the inner layers of the vagina. (C) having alternating orgasms in different locations. (D) the G-Spot.\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The refractory period is the time when a person is not able to be erect or is not interested in sex. The answer is (A).\n\nQ: Morning sickness is typically a problem:\n(A) during the first trimester (B) during the second trimester (C) during the third trimester (D) all through the pregnancy\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Morning sickness usually begins by nine weeks after conception, corresponding to the first trimester. The answer is (A).Q: The feedback loop in women which regulates the production of sex hormones includes all but which of the following?\n(A) introitus (B) progesterone (C) follicle-stimulating hormone (D) pituitary gland\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on human sexuality for help. The feedback loop in women which regulates the production of sex hormones includes all but the pituitary gland. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "Vaginal lubrication begins __________ after the onset of arousing stimuli",
+      "subject": "human_sexuality",
+      "choices": [
+        "10 to 30 seconds",
+        "30 to 60 seconds",
+        "1 to 2 minutes",
+        "2 to 4 minutes"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The most common disorder among men who seek sexual therapy is:\n(A) premature ejaculation (B) inhibited ejaculation (C) erectile disorder (D) ejaculatory disorder\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The most common type of arousal disorder for men is erectile dysfunction, meaning that a person is not able to get any physical satisfaction from sexual activity although he may be interested in it. The answer is (C).\n\nQ: A woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\n(A) a strong ego (B) a weak superego (C) a weak id (D) a strong superego\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. A person with weak superego tends to be delinquent, criminal or have antisocial personality. The action of the woman who knows she has active venereal disease but still have sex with her partners indicate she may has antisocial personality. The answer is (B).\n\nQ: The nature of homosexual activities that occur during preadolescence include all but which of the following?\n(A) sexual intercourse (B) circle jerks (C) exhibitionism (D) touching each other's genitals\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Sexual intercourse is prohibited during preadolescence. The answer is (A).\n\nQ: Women's ability to have multiple orgasms is primarily due to:\n(A) the fact that they do not have a refractory period. (B) the response of the inner layers of the vagina. (C) having alternating orgasms in different locations. (D) the G-Spot.\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The refractory period is the time when a person is not able to be erect or is not interested in sex. The answer is (A).\n\nQ: Morning sickness is typically a problem:\n(A) during the first trimester (B) during the second trimester (C) during the third trimester (D) all through the pregnancy\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Morning sickness usually begins by nine weeks after conception, corresponding to the first trimester. The answer is (A).Q: Vaginal lubrication begins __________ after the onset of arousing stimuli\n(A) 10 to 30 seconds (B) 30 to 60 seconds (C) 1 to 2 minutes (D) 2 to 4 minutes\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Let's think step by step. Vaginal lubrication begins 10 to 30 seconds after the onset of arousing stimuli. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "IUD use has been linked with which of the following",
+      "subject": "human_sexuality",
+      "choices": [
+        "pelvic inflammatory disease",
+        "tubal infections",
+        "uterine infections",
+        "all of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The most common disorder among men who seek sexual therapy is:\n(A) premature ejaculation (B) inhibited ejaculation (C) erectile disorder (D) ejaculatory disorder\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The most common type of arousal disorder for men is erectile dysfunction, meaning that a person is not able to get any physical satisfaction from sexual activity although he may be interested in it. The answer is (C).\n\nQ: A woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\n(A) a strong ego (B) a weak superego (C) a weak id (D) a strong superego\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. A person with weak superego tends to be delinquent, criminal or have antisocial personality. The action of the woman who knows she has active venereal disease but still have sex with her partners indicate she may has antisocial personality. The answer is (B).\n\nQ: The nature of homosexual activities that occur during preadolescence include all but which of the following?\n(A) sexual intercourse (B) circle jerks (C) exhibitionism (D) touching each other's genitals\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Sexual intercourse is prohibited during preadolescence. The answer is (A).\n\nQ: Women's ability to have multiple orgasms is primarily due to:\n(A) the fact that they do not have a refractory period. (B) the response of the inner layers of the vagina. (C) having alternating orgasms in different locations. (D) the G-Spot.\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The refractory period is the time when a person is not able to be erect or is not interested in sex. The answer is (A).\n\nQ: Morning sickness is typically a problem:\n(A) during the first trimester (B) during the second trimester (C) during the third trimester (D) all through the pregnancy\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Morning sickness usually begins by nine weeks after conception, corresponding to the first trimester. The answer is (A).Q: IUD use has been linked with which of the following\n(A) pelvic inflammatory disease (B) tubal infections (C) uterine infections (D) all of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on human sexuality. IUD use has been linked to uterine infections. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "__________, an odorous steroid that is well documented as a pheremone in pigs, has been isolated in the underarm sweat of humans.",
+      "subject": "human_sexuality",
+      "choices": [
+        "Ephderine",
+        "Human Chorionic Gonadotropin (hCG)",
+        "Hyalunronidase",
+        "Androstenol"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The most common disorder among men who seek sexual therapy is:\n(A) premature ejaculation (B) inhibited ejaculation (C) erectile disorder (D) ejaculatory disorder\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The most common type of arousal disorder for men is erectile dysfunction, meaning that a person is not able to get any physical satisfaction from sexual activity although he may be interested in it. The answer is (C).\n\nQ: A woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\n(A) a strong ego (B) a weak superego (C) a weak id (D) a strong superego\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. A person with weak superego tends to be delinquent, criminal or have antisocial personality. The action of the woman who knows she has active venereal disease but still have sex with her partners indicate she may has antisocial personality. The answer is (B).\n\nQ: The nature of homosexual activities that occur during preadolescence include all but which of the following?\n(A) sexual intercourse (B) circle jerks (C) exhibitionism (D) touching each other's genitals\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Sexual intercourse is prohibited during preadolescence. The answer is (A).\n\nQ: Women's ability to have multiple orgasms is primarily due to:\n(A) the fact that they do not have a refractory period. (B) the response of the inner layers of the vagina. (C) having alternating orgasms in different locations. (D) the G-Spot.\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The refractory period is the time when a person is not able to be erect or is not interested in sex. The answer is (A).\n\nQ: Morning sickness is typically a problem:\n(A) during the first trimester (B) during the second trimester (C) during the third trimester (D) all through the pregnancy\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Morning sickness usually begins by nine weeks after conception, corresponding to the first trimester. The answer is (A).Q: __________, an odorous steroid that is well documented as a pheremone in pigs, has been isolated in the underarm sweat of humans.\n(A) Ephderine (B) Human Chorionic Gonadotropin (hCG) (C) Hyalunronidase (D) Androstenol\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Let's think step by step. Ephderine is a pheremone. Ephderine is a pheremone. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "Which of the following drugs inhibits sexual performance by activating the sympathetic system?",
+      "subject": "human_sexuality",
+      "choices": [
+        "alcohol",
+        "cocaine",
+        "marijuana",
+        "opium"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The most common disorder among men who seek sexual therapy is:\n(A) premature ejaculation (B) inhibited ejaculation (C) erectile disorder (D) ejaculatory disorder\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The most common type of arousal disorder for men is erectile dysfunction, meaning that a person is not able to get any physical satisfaction from sexual activity although he may be interested in it. The answer is (C).\n\nQ: A woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\n(A) a strong ego (B) a weak superego (C) a weak id (D) a strong superego\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. A person with weak superego tends to be delinquent, criminal or have antisocial personality. The action of the woman who knows she has active venereal disease but still have sex with her partners indicate she may has antisocial personality. The answer is (B).\n\nQ: The nature of homosexual activities that occur during preadolescence include all but which of the following?\n(A) sexual intercourse (B) circle jerks (C) exhibitionism (D) touching each other's genitals\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Sexual intercourse is prohibited during preadolescence. The answer is (A).\n\nQ: Women's ability to have multiple orgasms is primarily due to:\n(A) the fact that they do not have a refractory period. (B) the response of the inner layers of the vagina. (C) having alternating orgasms in different locations. (D) the G-Spot.\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The refractory period is the time when a person is not able to be erect or is not interested in sex. The answer is (A).\n\nQ: Morning sickness is typically a problem:\n(A) during the first trimester (B) during the second trimester (C) during the third trimester (D) all through the pregnancy\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Morning sickness usually begins by nine weeks after conception, corresponding to the first trimester. The answer is (A).Q: Which of the following drugs inhibits sexual performance by activating the sympathetic system?\n(A) alcohol (B) cocaine (C) marijuana (D) opium\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Let's think step by step. Opioid is a drug that inhibits sexual performance by activating the sympathetic system. Opioid is a drug that inhibits sexual performance by activating the sympathetic system. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "Which of the following changes is NOT associated with menopause?",
+      "subject": "human_sexuality",
+      "choices": [
+        "the walls of the vagina become thick",
+        "the vagina shrinks in length",
+        "the labia minora shrink",
+        "production of estrogen declines"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The most common disorder among men who seek sexual therapy is:\n(A) premature ejaculation (B) inhibited ejaculation (C) erectile disorder (D) ejaculatory disorder\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The most common type of arousal disorder for men is erectile dysfunction, meaning that a person is not able to get any physical satisfaction from sexual activity although he may be interested in it. The answer is (C).\n\nQ: A woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\n(A) a strong ego (B) a weak superego (C) a weak id (D) a strong superego\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. A person with weak superego tends to be delinquent, criminal or have antisocial personality. The action of the woman who knows she has active venereal disease but still have sex with her partners indicate she may has antisocial personality. The answer is (B).\n\nQ: The nature of homosexual activities that occur during preadolescence include all but which of the following?\n(A) sexual intercourse (B) circle jerks (C) exhibitionism (D) touching each other's genitals\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Sexual intercourse is prohibited during preadolescence. The answer is (A).\n\nQ: Women's ability to have multiple orgasms is primarily due to:\n(A) the fact that they do not have a refractory period. (B) the response of the inner layers of the vagina. (C) having alternating orgasms in different locations. (D) the G-Spot.\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The refractory period is the time when a person is not able to be erect or is not interested in sex. The answer is (A).\n\nQ: Morning sickness is typically a problem:\n(A) during the first trimester (B) during the second trimester (C) during the third trimester (D) all through the pregnancy\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Morning sickness usually begins by nine weeks after conception, corresponding to the first trimester. The answer is (A).Q: Which of the following changes is NOT associated with menopause?\n(A) the walls of the vagina become thick (B) the vagina shrinks in length (C) the labia minora shrink (D) production of estrogen declines\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Let's think step by step. Menopause is a period of time when the vagina becomes thicker. The vagina shrinks in length. The vagina shrinks in length. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "What is the last stage in the \"coming out\" process?",
+      "subject": "human_sexuality",
+      "choices": [
+        "Integration",
+        "Relationship Development",
+        "Segregation",
+        "Exploration"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The most common disorder among men who seek sexual therapy is:\n(A) premature ejaculation (B) inhibited ejaculation (C) erectile disorder (D) ejaculatory disorder\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The most common type of arousal disorder for men is erectile dysfunction, meaning that a person is not able to get any physical satisfaction from sexual activity although he may be interested in it. The answer is (C).\n\nQ: A woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\n(A) a strong ego (B) a weak superego (C) a weak id (D) a strong superego\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. A person with weak superego tends to be delinquent, criminal or have antisocial personality. The action of the woman who knows she has active venereal disease but still have sex with her partners indicate she may has antisocial personality. The answer is (B).\n\nQ: The nature of homosexual activities that occur during preadolescence include all but which of the following?\n(A) sexual intercourse (B) circle jerks (C) exhibitionism (D) touching each other's genitals\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Sexual intercourse is prohibited during preadolescence. The answer is (A).\n\nQ: Women's ability to have multiple orgasms is primarily due to:\n(A) the fact that they do not have a refractory period. (B) the response of the inner layers of the vagina. (C) having alternating orgasms in different locations. (D) the G-Spot.\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. The refractory period is the time when a person is not able to be erect or is not interested in sex. The answer is (A).\n\nQ: Morning sickness is typically a problem:\n(A) during the first trimester (B) during the second trimester (C) during the third trimester (D) all through the pregnancy\nA: Let's think step by step. We refer to Wikipedia articles on human sexuality for help. Morning sickness usually begins by nine weeks after conception, corresponding to the first trimester. The answer is (A).Q: What is the last stage in the \"coming out\" process?\n(A) Integration (B) Relationship Development (C) Segregation (D) Exploration\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on human sexuality for help. Integration is the process of separating from a partner. Integration is the process of separating from a partner. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  }
+]

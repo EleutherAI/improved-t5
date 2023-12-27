@@ -1,0 +1,1478 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "Colton and his dad bought a gallon of paint that cost $13. They also bought 2 brushes that cost $9 each. What was the total cost, not including tax, of the brushes and the paint they bought?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "$22 ",
+        "$24 ",
+        "$31 ",
+        "$35 "
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Colton and his dad bought a gallon of paint that cost $13. They also bought 2 brushes that cost $9 each. What was the total cost, not including tax, of the brushes and the paint they bought?\n(A) $22  (B) $24  (C) $31  (D) $35 \nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The total cost of the paint and the brushes is $13 + $9 = $24. The total cost of the brushes and the paint is $24 - $31 = $24. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "In which situation can the expression 64 + 8 be used?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "There are 8 buses with 64 students on each bus.",
+        "Ms. Vance has 8 pens and 64 pencils in a container.",
+        "There are 64 books in a bookcase and 8 booksare removed.",
+        "Mr. Juarez has 64 cups and puts an equal numberon each of 8 tables."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: In which situation can the expression 64 + 8 be used?\n(A) There are 8 buses with 64 students on each bus. (B) Ms. Vance has 8 pens and 64 pencils in a container. (C) There are 64 books in a bookcase and 8 booksare removed. (D) Mr. Juarez has 64 cups and puts an equal numberon each of 8 tables.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The expression 64 + 8 can be used in a situation where the number of pens is equal to the number of pencils. The number of pens is equal to the number of pencils. The number of pencils is equal to the number of pens. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups is equal to the number of tables. The number of cups"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "question": "Debnil has 6 teaspoons of salt. The ratio of teaspoons to tablespoons is 3 : 1. How many tablespoons of salt does Debnil have?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "18-Jan",
+        "2-Jan",
+        "2",
+        "18"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Debnil has 6 teaspoons of salt. The ratio of teaspoons to tablespoons is 3 : 1. How many tablespoons of salt does Debnil have?\n(A) 18-Jan (B) 2-Jan (C) 2 (D) 18\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The ratio of teaspoons to tablespoons is 3 : 1, so 6 teaspoons / 3 = 2 tablespoons. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 24,
+    "doc": {
+      "question": "What is the square of 15?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "15",
+        "15-Jan",
+        "225",
+        "256"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: What is the square of 15?\n(A) 15 (B) 15-Jan (C) 225 (D) 256\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The square of 15 is 15 / 15. The square of 15 is 15 / 15. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 32,
+    "doc": {
+      "question": "Use rounding to estimate the product of 8.2 \u2022 6.43 to the nearest whole number.",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "48",
+        "56",
+        "62",
+        "24"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Use rounding to estimate the product of 8.2 \u2022 6.43 to the nearest whole number.\n(A) 48 (B) 56 (C) 62 (D) 24\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "8.2 \u2022 6.43 = 8.2 + 6.43 = 56. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 40,
+    "doc": {
+      "question": "What is x if 3 x = 84 ?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "20",
+        "21",
+        "26",
+        "28"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: What is x if 3 x = 84 ?\n(A) 20 (B) 21 (C) 26 (D) 28\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "x = 3 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x = 84 x ="
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "Solve for y. y \u2013 2 + 3y = 10",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Solve for y. y \u2013 2 + 3y = 10\n(A) 2 (B) 3 (C) 4 (D) 5\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Y = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 - 3 = 2 "
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "Which expression is equivalent to (5 + 2) x 8?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "(8 x 5) + (8 x 2)",
+        "(5 x 8) + (5x 2)",
+        "8 x (5x2)",
+        "(5x8)x2"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Which expression is equivalent to (5 + 2) x 8?\n(A) (8 x 5) + (8 x 2) (B) (5 x 8) + (5x 2) (C) 8 x (5x2) (D) (5x8)x2\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The expression (A) is the same as the expression (B): 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 = 8 x 5x2 ="
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "question": "A scientist measured the diameters of four human hairs. The diameters, in millimeters, were 0.091, 0.169, 0.17, and 0.023. Which inequality correctly compares the diameters of two of the human hairs?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "0.17 > 0.023",
+        "0.091 < 0.023",
+        "0.169 > 0.17",
+        "0.17 < 0.091"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: A scientist measured the diameters of four human hairs. The diameters, in millimeters, were 0.091, 0.169, 0.17, and 0.023. Which inequality correctly compares the diameters of two of the human hairs?\n(A) 0.17 > 0.023 (B) 0.091 < 0.023 (C) 0.169 > 0.17 (D) 0.17 < 0.091\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The diameters of four human hairs are 0.091, 0.169, and 0.023. The diameters of two of the human hairs are 0.091, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hairs are 0.019, 0.169, and 0.023. The diameters of two of the human hair"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 25,
+    "doc": {
+      "question": "Which expression is equivalent to 4 x 9?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "(4x 4) + (4x5)",
+        "(4+4) x (4+5)",
+        "(4+4)+(4+5)",
+        "(4x 4) x (4x5)"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Which expression is equivalent to 4 x 9?\n(A) (4x 4) + (4x5) (B) (4+4) x (4+5) (C) (4+4)+(4+5) (D) (4x 4) x (4x5)\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "4 x 9 = 4 x 9 + 4x 9. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 33,
+    "doc": {
+      "question": "Residents of a small city voted on whether to allow a developer to build a shopping center. The number of votes in favor of the shopping center was 4,400. The number of votes against the shopping center was 17,600. What percent of the voters were in favor of building the shopping center?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "20%",
+        "25%",
+        "40%",
+        "44%"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Residents of a small city voted on whether to allow a developer to build a shopping center. The number of votes in favor of the shopping center was 4,400. The number of votes against the shopping center was 17,600. What percent of the voters were in favor of building the shopping center?\n(A) 20% (B) 25% (C) 40% (D) 44%\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The number of votes in favor of the shopping center is 4,400 - 17,600 = 8,000 votes. The number of votes against the shopping center is 17,600 - 8,000 = 8,000 votes. The percentage of voters in favor of building the shopping center is 8,000 / 8,000 = 4%. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "Solve 3 over 2 * w = 66.",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "33",
+        "44",
+        "88",
+        "99"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Solve 3 over 2 * w = 66.\n(A) 33 (B) 44 (C) 88 (D) 99\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "0 - 3 + 2 - 3 = 0"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "The number of points Jaden scored in a game is less than 45, and is also a multiple of 7. How many points could Jaden have scored?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "17",
+        "35",
+        "52",
+        "70"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: The number of points Jaden scored in a game is less than 45, and is also a multiple of 7. How many points could Jaden have scored?\n(A) 17 (B) 35 (C) 52 (D) 70\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The number of points Jaden scored in a game is less than 45, so he could have scored less than 45 - 7 = 35 points. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 18,
+    "doc": {
+      "question": "There are 7 days in a week. In the month of February, there are 28 days this year. How many times as many days are there in February than are in one week?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "4 times",
+        "7 times",
+        "21 times",
+        "35 times"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: There are 7 days in a week. In the month of February, there are 28 days this year. How many times as many days are there in February than are in one week?\n(A) 4 times (B) 7 times (C) 21 times (D) 35 times\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "There are 28 - 7 = 28 days in February. There are 28 - 7 = 28 days in February. Thus, there are 28 - 28 = 28 days in February than are in one week. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 26,
+    "doc": {
+      "question": "Carmen saved 592 pennies. Her sister saved 128 pennies. Together, they put 250 pennies in wrappers and took them to the bank. Whatis the total number of pennies, rounded to the nearest hundred, Carmen and her sister have left?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "300",
+        "500",
+        "700",
+        "1,000"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Carmen saved 592 pennies. Her sister saved 128 pennies. Together, they put 250 pennies in wrappers and took them to the bank. Whatis the total number of pennies, rounded to the nearest hundred, Carmen and her sister have left?\n(A) 300 (B) 500 (C) 700 (D) 1,000\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Carmen and her sister saved 592 pennies \u2013 128 pennies = 280 pennies. Together, they saved 280 pennies \u2013 250 pennies = 700 pennies. The total number of pennies left after Carmen and her sister put 250 pennies in wrappers is 700 pennies \u2013 700 pennies = 700. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 34,
+    "doc": {
+      "question": "Which situation can be solved using the expression 21 / 3?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "finding the number of shirts when there are 3 groups of 21 shirts",
+        "finding the number of dresses when 21 more dresses are placed on a rack with 3 dresses",
+        "finding the number of jackets left over when 3 out of 21 jackets are sold",
+        "finding the number of skirts on each rack when a total of 21 skirts are placed equally on 3 racks"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Which situation can be solved using the expression 21 / 3?\n(A) finding the number of shirts when there are 3 groups of 21 shirts (B) finding the number of dresses when 21 more dresses are placed on a rack with 3 dresses (C) finding the number of jackets left over when 3 out of 21 jackets are sold (D) finding the number of skirts on each rack when a total of 21 skirts are placed equally on 3 racks\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "21 / 3 is the number of shirts that are placed on a rack with 3 dresses. 21 more dresses are placed on a rack with 3 dresses. 21 more dresses are placed on a rack with 3 dresses. 21 more dresses are placed on a rack with 3 dresses. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "Wendy wants to take a survey to determine which flavor of ice cream is the most popular at her school. Which of the following methods is the best way for her to choose a random sample of the students at her school?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "selecting ten students from each homeroom",
+        "selecting members of the girls\u2019 softball team",
+        "selecting members of the boys\u2019 basketball team",
+        "selecting students who like her favorite flavor of ice cream"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Wendy wants to take a survey to determine which flavor of ice cream is the most popular at her school. Which of the following methods is the best way for her to choose a random sample of the students at her school?\n(A) selecting ten students from each homeroom (B) selecting members of the girls\u2019 softball team (C) selecting members of the boys\u2019 basketball team (D) selecting students who like her favorite flavor of ice cream\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The students at Wendy's school are all students. The students at Wendy's school are all students. The students at Wendy's school are all students. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "Which method can be used to solve 11 x 13?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "Multiply 11 x 10 and 10 x 3, then add the two products.",
+        "Multiply 11 x 10 and 11 x 3, then add the two products.",
+        "Multiply 11 x 100 and 10 x 3, then add the two products.",
+        "Multiply 11 x 100 and 11 x 3, then add the two products."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Which method can be used to solve 11 x 13?\n(A) Multiply 11 x 10 and 10 x 3, then add the two products. (B) Multiply 11 x 10 and 11 x 3, then add the two products. (C) Multiply 11 x 100 and 10 x 3, then add the two products. (D) Multiply 11 x 100 and 11 x 3, then add the two products.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "11 x 13 is a simple geometry problem. Multiplying 11 x 10 and 10 x 3 will solve 11 x 13. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 19,
+    "doc": {
+      "question": "Solve \u22122k = \u221234.8.",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "\u221269.6",
+        "\u221217.4",
+        "17.4",
+        "69.6"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Solve \u22122k = \u221234.8.\n(A) \u221269.6 (B) \u221217.4 (C) 17.4 (D) 69.6\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "2k = 22222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 27,
+    "doc": {
+      "question": "The expression \u2013105 + (\u201314) + 34 simplifies to which of the following?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "\u201357",
+        "\u201375",
+        "\u201385",
+        "143"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: The expression \u2013105 + (\u201314) + 34 simplifies to which of the following?\n(A) \u201357 (B) \u201375 (C) \u201385 (D) 143\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The expression \u201355 + (-34) + 34 simplifies to \u201357. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 35,
+    "doc": {
+      "question": "Dr. Sperline is ordering a chemical for his students to use in an experiment. He knows that each student will need to use 0.797 grams of magnesium in the first step of the experiment and 0.892 grams in a later step. He uses front-end estimation with an adjustment to figure out the approximate amount of magnesium needed by each student. What is his estimate?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "1.4 g",
+        "1.7 g",
+        "1.6 g",
+        "1.5 g"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Dr. Sperline is ordering a chemical for his students to use in an experiment. He knows that each student will need to use 0.797 grams of magnesium in the first step of the experiment and 0.892 grams in a later step. He uses front-end estimation with an adjustment to figure out the approximate amount of magnesium needed by each student. What is his estimate?\n(A) 1.4 g (B) 1.7 g (C) 1.6 g (D) 1.5 g\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The front-end estimate is 0.797 grams - 0.892 grams = 1.4 g. The adjustment is 0.892 grams - 0.797 grams = 1.4 g. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "Write 5.875 as a mixed number or fraction in simplest form.",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "5 and 8 over 9",
+        "5 and 7 over 8",
+        "7 over 8",
+        "5 and 87 over 105"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Write 5.875 as a mixed number or fraction in simplest form.\n(A) 5 and 8 over 9 (B) 5 and 7 over 8 (C) 7 over 8 (D) 5 and 87 over 105\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The simplest number is 5.875 because 5 and 8 over 9. The simplest number is 5.875 because 5 and 8 over 9 is a multiple of 5.875 because 5.875 is a multiple of 5.875. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "Wendy bought 30 packs of gum. Each pack had 5 pieces. She multiplied 30 \u00d7 5 to find the number of pieces of gum she bought. How many pieces of gum did Wendy buy?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "15",
+        "35",
+        "150",
+        "305"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Wendy bought 30 packs of gum. Each pack had 5 pieces. She multiplied 30 \u00d7 5 to find the number of pieces of gum she bought. How many pieces of gum did Wendy buy?\n(A) 15 (B) 35 (C) 150 (D) 305\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "First find the total number of pieces of gum: 30 packs * 5 pieces / pack = 150 pieces. Then multiply that number by 30  5 to find the total number of pieces: 150 pieces - 150 pieces = 150 pieces. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 20,
+    "doc": {
+      "question": "Frankie\u2019s baseball team scored 16 runs in a game. Max\u2019s baseball team scored 8 runs in a game. Which statement about the number of runs scored by Frankie\u2019s and Max\u2019s baseball teams is true?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "Frankie\u2019s team scored 2 times as many runs as Max\u2019s team because 16 = 2 \u00d7 8.",
+        "Frankie\u2019s team scored 2 times as many runs as Max\u2019s team because 8 = 2 \u00d7 16.",
+        "Max\u2019s team scored 2 times as many runs as Frankie\u2019s team because 16 = 2 \u00d7 8.",
+        "Max\u2019s team scored 2 times as many runs as Frankie\u2019s team because 8 = 2 \u00d7 16."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Frankie\u2019s baseball team scored 16 runs in a game. Max\u2019s baseball team scored 8 runs in a game. Which statement about the number of runs scored by Frankie\u2019s and Max\u2019s baseball teams is true?\n(A) Frankie\u2019s team scored 2 times as many runs as Max\u2019s team because 16 = 2 \u00d7 8. (B) Frankie\u2019s team scored 2 times as many runs as Max\u2019s team because 8 = 2 \u00d7 16. (C) Max\u2019s team scored 2 times as many runs as Frankie\u2019s team because 16 = 2 \u00d7 8. (D) Max\u2019s team scored 2 times as many runs as Frankie\u2019s team because 8 = 2 \u00d7 16.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Frankie\u2019s team scored 2 times as many runs as Max\u2019s team because 16 = 2  8. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 28,
+    "doc": {
+      "question": "Solve the equation 29 = x \u2212 17.",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "12",
+        "\u221212",
+        "\u221246",
+        "46"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Solve the equation 29 = x \u2212 17.\n(A) 12 (B) \u221212 (C) \u221246 (D) 46\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "29 = x  17 29 - x = x  17 So the final answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 36,
+    "doc": {
+      "question": "What is the value of |3 + 5| \u2013 |-4|?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "12",
+        "-4",
+        "4",
+        "12"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: What is the value of |3 + 5| \u2013 |-4|?\n(A) 12 (B) -4 (C) 4 (D) 12\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The value of 3 + 5| is 12 \u2013 12 = 12. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "Solve the equation 124 = m + 34.",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "158",
+        "90",
+        "88",
+        "4,216"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Solve the equation 124 = m + 34.\n(A) 158 (B) 90 (C) 88 (D) 4,216\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "m = m + 34. The final answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "Jan scored 3 more points in the basketball game than Salah. Cindy scored 22 points, which was twice as many points as Jan. How many points did Salah score?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "8",
+        "11",
+        "14",
+        "19"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Jan scored 3 more points in the basketball game than Salah. Cindy scored 22 points, which was twice as many points as Jan. How many points did Salah score?\n(A) 8 (B) 11 (C) 14 (D) 19\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Jan scored 22 - 3 = 14 points. Salah scored 14 - 11 = 8 points. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 21,
+    "doc": {
+      "question": "Mr. Carson drove 1,027 miles in April. He drove 988 miles in May. Mr. Carson used the expression below to find how many more miles he drove in April than in May. 1,027 \u2013 988 How many more miles did Mr. Carson drive in April than in May?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "39 miles",
+        "139 miles",
+        "161 miles",
+        "1,961 miles"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Mr. Carson drove 1,027 miles in April. He drove 988 miles in May. Mr. Carson used the expression below to find how many more miles he drove in April than in May. 1,027 \u2013 988 How many more miles did Mr. Carson drive in April than in May?\n(A) 39 miles (B) 139 miles (C) 161 miles (D) 1,961 miles\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The sum of the miles he drove in April and May is 1,027 + 988 = 990. The sum of the miles he drove in April and May is 990 \u2013 990 = 39 miles. Mr. Carson drove 39 miles more in April than in May. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 29,
+    "doc": {
+      "question": "What is the greatest common divisor of 54, 36, and 24?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "2",
+        "3",
+        "6",
+        "9"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: What is the greatest common divisor of 54, 36, and 24?\n(A) 2 (B) 3 (C) 6 (D) 9\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The greatest common divisor of 54, 36, and 24 is 3. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 37,
+    "doc": {
+      "question": "Dawn needs to fix windows in her house. She must buy 3 feet of wood, which costs $7 per foot. She also needs to buy 4 pieces of glass. Each piece of glass costs $23. What will be the total cost for fixing the windows?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "$30 ",
+        "$90 ",
+        "$113 ",
+        "$176 "
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Dawn needs to fix windows in her house. She must buy 3 feet of wood, which costs $7 per foot. She also needs to buy 4 pieces of glass. Each piece of glass costs $23. What will be the total cost for fixing the windows?\n(A) $30  (B) $90  (C) $113  (D) $176 \nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The total cost of the wood and glass is 3 * $7 = $120. The total cost of the wood and glass is $120 + $23 = $135. The total cost for fixing the windows is $113 - $135 = $176. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "Zelma buys p pounds of bananas for 40 cents per pound. She pays the clerk with a twenty-dollar bill. The clerk subtracts the total cost of the bananas from the twenty-dollar bill to determine the amount of change to give Zelma. Which expression represents the amount of change Zelma should receive?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "p - 20",
+        "20 - 40p",
+        "20 - 0.40p",
+        "0.40p - 20"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Zelma buys p pounds of bananas for 40 cents per pound. She pays the clerk with a twenty-dollar bill. The clerk subtracts the total cost of the bananas from the twenty-dollar bill to determine the amount of change to give Zelma. Which expression represents the amount of change Zelma should receive?\n(A) p - 20 (B) 20 - 40p (C) 20 - 0.40p (D) 0.40p - 20\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The total cost of the bananas is 40 * 40 = 1200 cents. The amount of change Zelma should receive is 20 - 40p. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "The ticket prices to a play are $5.00 for teachers and $3.00 for students. How much will it cost for a group of 71 students and 5 teachers to see the play?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "$228.00 ",
+        "$238.00 ",
+        "$370.00 ",
+        "$380.00 "
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: The ticket prices to a play are $5.00 for teachers and $3.00 for students. How much will it cost for a group of 71 students and 5 teachers to see the play?\n(A) $228.00  (B) $238.00  (C) $370.00  (D) $380.00 \nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The total cost of the tickets is $5.00 for teachers and $3.00 for students = $10. The total cost of the tickets is $10 + $5 = $18.00. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 22,
+    "doc": {
+      "question": "Collin spent 7 hours volunteering last month. Vanessa spent 21 hours volunteering last month. Which equation correctly shows how many times more hours Vanessa spent volunteering last month than Collin?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "7 \u00d7 3 = 21",
+        "7 \u00d7 14 = 21",
+        "21 \u00d7 3 = 63",
+        "21 \u00d7 7 = 147"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Collin spent 7 hours volunteering last month. Vanessa spent 21 hours volunteering last month. Which equation correctly shows how many times more hours Vanessa spent volunteering last month than Collin?\n(A) 7 \u00d7 3 = 21 (B) 7 \u00d7 14 = 21 (C) 21 \u00d7 3 = 63 (D) 21 \u00d7 7 = 147\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Vanessa spent 21  3 = 21 hours volunteering last month. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 30,
+    "doc": {
+      "question": "If 50% of a number is 20, what is 75% of the number?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "8",
+        "15",
+        "30",
+        "45"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: If 50% of a number is 20, what is 75% of the number?\n(A) 8 (B) 15 (C) 30 (D) 45\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "If 50% of a number is 20, then 25% of the number is 20 - 50% = 15%. If 75% of the number is 15, then 75% of the number is 15 - 15% = 15%. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 38,
+    "doc": {
+      "question": "All the students in the sixth grade either purchased their lunch or brought their lunch from home on Monday. 24% of the students purchased their lunch. 190 students brought their lunch from home. How many students are in the sixth grade?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "76",
+        "166",
+        "214",
+        "250"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: All the students in the sixth grade either purchased their lunch or brought their lunch from home on Monday. 24% of the students purchased their lunch. 190 students brought their lunch from home. How many students are in the sixth grade?\n(A) 76 (B) 166 (C) 214 (D) 250\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The number of students who purchased their lunch is 24% so.24 *.24 =.24 The number of students who brought their lunch from home is 190 so.190 *.24 =.2 The number of students in the sixth grade is 76 so 76 - 76 = 76. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "Celia has a large container in which four different kinds of coins are thoroughly mixed. She wants to take a sample of her coins to estimate which kind of coin she has the most. Which of the following methods is the best way for her to select a sample?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "taking one coin from the container",
+        "taking coins until she has one of every kind",
+        "taking ten coins of each type from the container",
+        "taking thirty coins out of the container without looking"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Celia has a large container in which four different kinds of coins are thoroughly mixed. She wants to take a sample of her coins to estimate which kind of coin she has the most. Which of the following methods is the best way for her to select a sample?\n(A) taking one coin from the container (B) taking coins until she has one of every kind (C) taking ten coins of each type from the container (D) taking thirty coins out of the container without looking\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Celia wants to take a sample of her coins to estimate which kind of coin she has the most. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": "Use the equation below to answer the question. 0.75 \u00d7 6.5 = m Which expression shows one way to solve the equation?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "75 \u00d7 65 \u00f7 1,000",
+        "75 \u00d7 650 \u00f7 1,000",
+        "0.7 \u00d7 6 + 0.7 \u00d7 5 + 0.5 \u00d7 6 + 0.5 \u00d7 5",
+        "0.7 \u00d7 6 + 0.7 \u00d7 0.5 + 0.5 \u00d7 6 + 0.5 \u00d7 0.5"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: Use the equation below to answer the question. 0.75 \u00d7 6.5 = m Which expression shows one way to solve the equation?\n(A) 75 \u00d7 65 \u00f7 1,000 (B) 75 \u00d7 650 \u00f7 1,000 (C) 0.7 \u00d7 6 + 0.7 \u00d7 5 + 0.5 \u00d7 6 + 0.5 \u00d7 5 (D) 0.7 \u00d7 6 + 0.7 \u00d7 0.5 + 0.5 \u00d7 6 + 0.5 \u00d7 0.5\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The number of m = m/(0.575  6.5) = 75  65  1,000 The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 23,
+    "doc": {
+      "question": "George has $23 to spend on art supplies. He wants to buy markers, paper, and glue. If the total cost of the markers and paper is more than $14, which inequality represents the dollar amount, p, George can spend on glue?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "p<9",
+        "p>9",
+        "p<37",
+        "p>37"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: George has $23 to spend on art supplies. He wants to buy markers, paper, and glue. If the total cost of the markers and paper is more than $14, which inequality represents the dollar amount, p, George can spend on glue?\n(A) p<9 (B) p>9 (C) p<37 (D) p>37\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The total cost of the markers and paper is $14 + $16 = $26. The total cost of the glue is $26 - $26 = $18. The inequality representing the dollar amount is $18 / $18 = $1. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 31,
+    "doc": {
+      "question": "A librarian receives two boxes of booksfor the library. The first box has 136 books. The second box has 58 fewer books than the first box. What is the total number of books the librarian receives?",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "58",
+        "78",
+        "194",
+        "214"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: A librarian receives two boxes of booksfor the library. The first box has 136 books. The second box has 58 fewer books than the first box. What is the total number of books the librarian receives?\n(A) 58 (B) 78 (C) 194 (D) 214\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The second box has 136 - 58 = 58 books. The total number of books in the first box is 136 + 58 = 158. The total number of books in the second box is 158 - 58 = 78. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 39,
+    "doc": {
+      "question": "What is the rule for the pattern? 41, 38, 35, 32, 29,...",
+      "subject": "elementary_mathematics",
+      "choices": [
+        "divide by 3",
+        "divide by 4",
+        "subtract 3",
+        "subtract 4"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about elementary mathematics.\n\nQ: What is the rule for the pattern? 41, 38, 35, 32, 29,...\n(A) divide by 3 (B) divide by 4 (C) subtract 3 (D) subtract 4\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The pattern is a rectangle. The number of sides is 3!. The number of sides is 4!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of sides is 3!. The number of"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  }
+]

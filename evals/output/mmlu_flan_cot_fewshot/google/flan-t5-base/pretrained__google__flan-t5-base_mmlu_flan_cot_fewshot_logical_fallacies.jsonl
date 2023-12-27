@@ -1,0 +1,650 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "Which of the following fallacies happens when someone argues that a claim should be accepted based on evidence that is not presented, but is asserted to be well known or obvious.",
+      "subject": "logical_fallacies",
+      "choices": [
+        "self evident truths",
+        "suppressed evidence",
+        "appeal to pride",
+        "ad populum"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: Which of the following fallacies happens when someone argues that a claim should be accepted based on evidence that is not presented, but is asserted to be well known or obvious.\n(A) self evident truths (B) suppressed evidence (C) appeal to pride (D) ad populum\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Self evident truths are not presented, but are often argued to be well known or obvious. Self evident truths are not presented, but are often argued to be well known or obvious. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "When people argue that an idea must be true because a lot of people believe it they commit which of the following fallacies?",
+      "subject": "logical_fallacies",
+      "choices": [
+        "ad populum",
+        "ad vericundiam",
+        "appeal to pride",
+        "slippery slope"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: When people argue that an idea must be true because a lot of people believe it they commit which of the following fallacies?\n(A) ad populum (B) ad vericundiam (C) appeal to pride (D) slippery slope\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Ad populum is the belief that an idea must be true because a lot of people believe it. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "question": "Another name for the fallacy of appeal to force is",
+      "subject": "logical_fallacies",
+      "choices": [
+        "ignoratio elenchi",
+        "ad misericordiam",
+        "ad baculum",
+        "ad hominem"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: Another name for the fallacy of appeal to force is\n(A) ignoratio elenchi (B) ad misericordiam (C) ad baculum (D) ad hominem\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The fallacy of appeal to force is the fallacy of a savage being beaten by a savage. The savage is a savage who is beaten by a savage. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "The use of a word in two different senses in an argument is the fallacy of...",
+      "subject": "logical_fallacies",
+      "choices": [
+        "Appeal to the person",
+        "Equivocation",
+        "Appeal to tradition",
+        "Appeal to emotion"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: The use of a word in two different senses in an argument is the fallacy of...\n(A) Appeal to the person (B) Equivocation (C) Appeal to tradition (D) Appeal to emotion\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The use of a word in two different senses in an argument is the fallacy of. The use of a word in two different senses in an argument is the fallacy of. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "In a deductively valid argument",
+      "subject": "logical_fallacies",
+      "choices": [
+        "If all the premises are true, the conclusion must be true",
+        "The conclusion has already been stated in its premises",
+        "If all the premises are true, the conclusion may still be false",
+        "Both A and B"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: In a deductively valid argument\n(A) If all the premises are true, the conclusion must be true (B) The conclusion has already been stated in its premises (C) If all the premises are true, the conclusion may still be false (D) Both A and B\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The conclusion must be true if the main idea is to be deductively valid. The main idea is the main argument. The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "question": "Which of the following best describes the fallacy of hypostatization?",
+      "subject": "logical_fallacies",
+      "choices": [
+        "Treating something that exists in the mind as if it was a real object.",
+        "Changing the meaning of a word or phrase from one part of the argument to another.",
+        "Using language and punctuation in a way that a statement can have multiple interpretations, so it's not really clear what is meant.",
+        "A form of loaded language that uses an emotionally charged restatement of the claim in place of support for the claim."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: Which of the following best describes the fallacy of hypostatization?\n(A) Treating something that exists in the mind as if it was a real object. (B) Changing the meaning of a word or phrase from one part of the argument to another. (C) Using language and punctuation in a way that a statement can have multiple interpretations, so it's not really clear what is meant. (D) A form of loaded language that uses an emotionally charged restatement of the claim in place of support for the claim.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Hypostatization is the practice of treating something that exists in the mind as if it was a real object. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "Attempts to gain agreement only by trying to arouse particular feelings about the subject of the argument is the fallacy of",
+      "subject": "logical_fallacies",
+      "choices": [
+        "ignorance of refutation",
+        "appeal to emotion",
+        "straw person",
+        "tu quoque"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: Attempts to gain agreement only by trying to arouse particular feelings about the subject of the argument is the fallacy of\n(A) ignorance of refutation (B) appeal to emotion (C) straw person (D) tu quoque\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Arguments are generally argued in a way that only arouses particular emotions. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "When someone is aware of evidence that contradicts her claim, but doesn't consider that evidence when making her argument, she may have committed which of the following fallacies?",
+      "subject": "logical_fallacies",
+      "choices": [
+        "slippery slope",
+        "appeal to authority",
+        "appeal to pride",
+        "suppressed evidence"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: When someone is aware of evidence that contradicts her claim, but doesn't consider that evidence when making her argument, she may have committed which of the following fallacies?\n(A) slippery slope (B) appeal to authority (C) appeal to pride (D) suppressed evidence\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A slippery slope is a slippery slope. If someone is aware of evidence that contradicts her claim, but doesn't consider that evidence when making her argument, she may have committed a slippery slope. The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "Which of the following is true of a valid disjunctive syllogism?",
+      "subject": "logical_fallacies",
+      "choices": [
+        "The minor premise must affirm the antecedent or deny the consequent",
+        "Every term must be used twice",
+        "The middle term must be used in at least one premise in a universal or unqualified sense",
+        "None of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: Which of the following is true of a valid disjunctive syllogism?\n(A) The minor premise must affirm the antecedent or deny the consequent (B) Every term must be used twice (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) None of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on logical fallacies for help. A disjunctive syllogism must have at least three terms. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "Any application is invalid if the fee hasn't been paid. Your application is invalid, so your fee must not have been paid.",
+      "subject": "logical_fallacies",
+      "choices": [
+        "Equivocation",
+        "False Dilemma",
+        "Denying the Antecedent",
+        "Affirming the Consequent"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: Any application is invalid if the fee hasn't been paid. Your application is invalid, so your fee must not have been paid.\n(A) Equivocation (B) False Dilemma (C) Denying the Antecedent (D) Affirming the Consequent\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The fee must have been paid. If the fee hasn't been paid, the application is invalid. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "Appeal to authority involves",
+      "subject": "logical_fallacies",
+      "choices": [
+        "arguing that a claim should be accepted based only on the evidence that prestigious people accept it",
+        "arguing that small changes will lead to significant effects, when there is no evidence the effects will be that significant",
+        "arguing that a claim should be accepted based only on the evidence that an authority figure agrees with it",
+        "reasoning that a claim must be true based only on the evidence that it has been claimed quite often"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: Appeal to authority involves\n(A) arguing that a claim should be accepted based only on the evidence that prestigious people accept it (B) arguing that small changes will lead to significant effects, when there is no evidence the effects will be that significant (C) arguing that a claim should be accepted based only on the evidence that an authority figure agrees with it (D) reasoning that a claim must be true based only on the evidence that it has been claimed quite often\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The appeal to authority involves arguing that a claim should be accepted based only on the evidence that prestigious people accept it. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "Which type of syllogism has a major premise that takes the form of \"Either A or B\"?",
+      "subject": "logical_fallacies",
+      "choices": [
+        "Categorical",
+        "Disjunctive",
+        "Conditional",
+        "Hypothetical"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: Which type of syllogism has a major premise that takes the form of \"Either A or B\"?\n(A) Categorical (B) Disjunctive (C) Conditional (D) Hypothetical\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A major premise that takes the form of \"A either B\" is a syllogism. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "The fallacy of reducing to an absurdity consists of",
+      "subject": "logical_fallacies",
+      "choices": [
+        "characterizing an opponent's position in such a way to make it or its consequences appear to be ridiculous",
+        "responding to charges of wrongdoing by saying the accuser or others do something equally bad",
+        "arguing someone should do something only because it will make that person better liked by others",
+        "arguing that an idea should be accepted or disregarded only because of it source"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: The fallacy of reducing to an absurdity consists of\n(A) characterizing an opponent's position in such a way to make it or its consequences appear to be ridiculous (B) responding to charges of wrongdoing by saying the accuser or others do something equally bad (C) arguing someone should do something only because it will make that person better liked by others (D) arguing that an idea should be accepted or disregarded only because of it source\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on logical fallacies for help. The fallacy of reducing to an absurdity is the behavior of comparing something to something absurd. The fallacy of reducing to an absurdity is the behavior of arguing someone should do something only because it will make that person better liked by others. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "\"Anecdotal evidence\" is a fallacy that happens when an arguer",
+      "subject": "logical_fallacies",
+      "choices": [
+        "substitutes individual stories for a larger sample as support for a generalization.",
+        "argues that something is necessarily better because it is old",
+        "argues that since one event preceded a second event, the first event must have caused the second event",
+        "argues that something is necessarily better because it is new"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: \"Anecdotal evidence\" is a fallacy that happens when an arguer\n(A) substitutes individual stories for a larger sample as support for a generalization. (B) argues that something is necessarily better because it is old (C) argues that since one event preceded a second event, the first event must have caused the second event (D) argues that something is necessarily better because it is new\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "An argumenter uses evidence to support a generalization. An argumenter uses evidence to support a generalization. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "The fallacy of appeal to force consists of",
+      "subject": "logical_fallacies",
+      "choices": [
+        "arguing that an idea or argument should be rejected only because of who came up with the idea",
+        "using threats to get someone to agree with an idea or to do something",
+        "characterizing an opponent's position in such a way to make it seem ridiculous",
+        "attacking the character of the opposing arguer instead of that person's argument"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: The fallacy of appeal to force consists of\n(A) arguing that an idea or argument should be rejected only because of who came up with the idea (B) using threats to get someone to agree with an idea or to do something (C) characterizing an opponent's position in such a way to make it seem ridiculous (D) attacking the character of the opposing arguer instead of that person's argument\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The fallacy of appeal to force is the use of threats to get someone to agree with an idea or argument. The fallacy of appeal to force is the use of threats to get someone to agree with an idea or argument. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "_Cum hoc ergo prompter hoc_ is another name for which fallacy?",
+      "subject": "logical_fallacies",
+      "choices": [
+        "Division",
+        "Hasty Generalization",
+        "Concomitant variation",
+        "False sign"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: _Cum hoc ergo prompter hoc_ is another name for which fallacy?\n(A) Division (B) Hasty Generalization (C) Concomitant variation (D) False sign\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Concomitant variation is the opposite of a comma. Concomitant variation is the opposite of a comma. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "When someone confuses figurative language with literal language that person might commit which of the following fallacies?",
+      "subject": "logical_fallacies",
+      "choices": [
+        "Equivocation",
+        "Style over substance",
+        "Figure of speech",
+        "Amphiboly"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: When someone confuses figurative language with literal language that person might commit which of the following fallacies?\n(A) Equivocation (B) Style over substance (C) Figure of speech (D) Amphiboly\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Equivocation is the act of comparing a person's actions to a person's actions. Equivocation is the act of comparing a person's actions to a person's actions. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": "If you summarized an opposing argument in a way that intentionally mischaracterizes it to make it seem ridiculous, you've committed the fallacy of",
+      "subject": "logical_fallacies",
+      "choices": [
+        "ignorance of refutation",
+        "appeal to compassion",
+        "two wrongs make a right",
+        "reducing to an absurdity"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about logical fallacies.\n\nQ: When an arguer causes confusion during refutation because of real or feigned lack of an ability to engage in refutation, that arguer may have committed the fallacy of\n(A) poor sportsmanship (B) appeal to compassion (C) argument against the person (D) ignorance of refutation\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Ignorance of refutation, one of Aristotle's original list of logical fallacies in his Organon, is when someone causes confusion in an argument through real or feigned inability to engage in refutation, in order to win the argument. The answer is (D).\n\nQ: The complex question fallacy consists of\n(A) arguing something is inferior just because it doesn't do something it was never intended to do. (B) including more than one claim in the proposition and treating proof for one claim as proof for all the claims. (C) drawing a conclusion before examining the evidence, and only considering evidence that supports that conclusion. (D) asking a question that includes either an unproven assumption or more than one question, thus making a straightforward yes or no answer meaningless.\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The complex question fallacy is when someone makes a single yes or no answer to a question meaningless, by including either an unproven assumption or many questions. The latter is also known as the many questions fallacy. The answer is (D).\n\nQ: Arguing that what is true of the parts must be true of the whole is the fallacy of...\n(A) Division (B) Composition (C) Appeal to the person (D) Appeal to ignorance\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. Fallacy of composition occurs when someone argues what is true of the parts must be true of the whole. The answer is (B).\n\nQ: Which of the following is true of a valid categorical syllogism?\n(A) The minor premise must deny the antecedent (B) The major premise must affirm the consequent (C) The middle term must be used in at least one premise in a universal or unqualified sense (D) All of the above\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. A valid categorical syllogism must satisfy several conditions: (1) the syllogism must have exactly three terms (2) every term of the syllogism must be used twice exactly, (3) a term may be used only once in any premise, and (4) the middle term must be used in at least one premise in a universal or unqualified sense, etc. Only (C) is true. The answer is (C).\n\nQ: If someone attacks the character of an opposing arguer, instead of responding to that opponent's arguments, the first person has probably committed which of the following fallacies?\n(A) tu quoque (B) horse laugh (C) argument against the person (D) ignoratio elenchi\nA: Let's think step by step. We refer to Wikipedia articles on logical fallacies for help. The argument against the person fallacy occurs when someone irrelevantly attacks the character of an opposing arguer, instead of addressing that opponent's arguments. The answer is (C).Q: If you summarized an opposing argument in a way that intentionally mischaracterizes it to make it seem ridiculous, you've committed the fallacy of\n(A) ignorance of refutation (B) appeal to compassion (C) two wrongs make a right (D) reducing to an absurdity\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on logical fallacies for help. If you summarized an opposing argument in a way that intentionally mischaracterizes it to make it seem ridiculous, you've committed the fallacy of (D). The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  }
+]

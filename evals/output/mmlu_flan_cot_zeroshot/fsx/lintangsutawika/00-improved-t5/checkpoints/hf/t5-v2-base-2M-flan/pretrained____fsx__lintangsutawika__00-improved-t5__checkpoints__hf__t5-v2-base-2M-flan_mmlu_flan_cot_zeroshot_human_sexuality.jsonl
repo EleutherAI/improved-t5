@@ -1,0 +1,434 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "Axl Tulip has a thin clear discharge coming from his penis and mild discomfort when he urinates. He is most likely suffering from _______ and should be treated with ________.",
+      "subject": "human_sexuality",
+      "choices": [
+        "gonorrhea penicillin",
+        "gonorrhea tetracycline",
+        "chlamydia penicillin",
+        "chlamydia tetracycline"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: Axl Tulip has a thin clear discharge coming from his penis and mild discomfort when he urinates. He is most likely suffering from _______ and should be treated with ________.\n(A) gonorrhea penicillin (B) gonorrhea tetracycline (C) chlamydia penicillin (D) chlamydia tetracycline\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Axl Tulip has a thin clear discharge coming from his penis and mild discomfort when he urinates. He is most likely suffering from _____ and should be treated with _____.<0x0A>Thus, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "The people of Inis Beag believe that:",
+      "subject": "human_sexuality",
+      "choices": [
+        "menopause can produce insanity",
+        "masturbation produces facial deformities",
+        "incest is acceptable with daughters but not with sons",
+        "masturbation produces genital deformities"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The people of Inis Beag believe that:\n(A) menopause can produce insanity (B) masturbation produces facial deformities (C) incest is acceptable with daughters but not with sons (D) masturbation produces genital deformities\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Inis Beag believes that:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "In adulthood, exhibitionists",
+      "subject": "human_sexuality",
+      "choices": [
+        "are typically psychiatrically disturbed",
+        "are unassertive",
+        "have excellent social skills",
+        "have fulfilling sex lives"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: In adulthood, exhibitionists\n(A) are typically psychiatrically disturbed (B) are unassertive (C) have excellent social skills (D) have fulfilling sex lives\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "In adulthood, exhibitionists are typically psychiatrically disturbed. In adulthood, exhibitionists are typically psychiatrically disturbed. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "The bulk of the research evidence suggests that:",
+      "subject": "human_sexuality",
+      "choices": [
+        "all women have a G-spot",
+        "all women with a G-spot ejaculate",
+        "all women with a G-spot also have a prostate gland",
+        "none of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The bulk of the research evidence suggests that:\n(A) all women have a G-spot (B) all women with a G-spot ejaculate (C) all women with a G-spot also have a prostate gland (D) none of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "All women with a G-spot ejaculate. The majority of research evidence suggests that:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "Before contact with Europeans, many First Nations populations viewed gay men, lesbians, and people who assumed cross-gender roles with",
+      "subject": "human_sexuality",
+      "choices": [
+        "disgust and revulsion.",
+        "pity and indulgence.",
+        "fear and awe.",
+        "respect and admiration."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: Before contact with Europeans, many First Nations populations viewed gay men, lesbians, and people who assumed cross-gender roles with\n(A) disgust and revulsion. (B) pity and indulgence. (C) fear and awe. (D) respect and admiration.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The First Nations view gay men, lesbians, and people who assumed cross-gender roles with   _ ."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "The feedback loop in women which regulates the production of sex hormones includes all but which of the following?",
+      "subject": "human_sexuality",
+      "choices": [
+        "introitus",
+        "progesterone",
+        "follicle-stimulating hormone",
+        "pituitary gland"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: The feedback loop in women which regulates the production of sex hormones includes all but which of the following?\n(A) introitus (B) progesterone (C) follicle-stimulating hormone (D) pituitary gland\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The feedback loop in women which regulates the production of sex hormones includes all but which of the following?"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "Vaginal lubrication begins __________ after the onset of arousing stimuli",
+      "subject": "human_sexuality",
+      "choices": [
+        "10 to 30 seconds",
+        "30 to 60 seconds",
+        "1 to 2 minutes",
+        "2 to 4 minutes"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: Vaginal lubrication begins __________ after the onset of arousing stimuli\n(A) 10 to 30 seconds (B) 30 to 60 seconds (C) 1 to 2 minutes (D) 2 to 4 minutes\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A vaginal lubrication begins 10 to 30 seconds after the onset of arousing stimuli.<0x0A>Thus, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "IUD use has been linked with which of the following",
+      "subject": "human_sexuality",
+      "choices": [
+        "pelvic inflammatory disease",
+        "tubal infections",
+        "uterine infections",
+        "all of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: IUD use has been linked with which of the following\n(A) pelvic inflammatory disease (B) tubal infections (C) uterine infections (D) all of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "IUD use has been linked with pelvic inflammatory disease.<0x0A>So, the final answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "__________, an odorous steroid that is well documented as a pheremone in pigs, has been isolated in the underarm sweat of humans.",
+      "subject": "human_sexuality",
+      "choices": [
+        "Ephderine",
+        "Human Chorionic Gonadotropin (hCG)",
+        "Hyalunronidase",
+        "Androstenol"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: __________, an odorous steroid that is well documented as a pheremone in pigs, has been isolated in the underarm sweat of humans.\n(A) Ephderine (B) Human Chorionic Gonadotropin (hCG) (C) Hyalunronidase (D) Androstenol\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Question: What is the most common steroid in humans?Options:A Ephderine.B Hyalunronidase.C Androstenol.D Androstenol.Answer:D"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "Which of the following drugs inhibits sexual performance by activating the sympathetic system?",
+      "subject": "human_sexuality",
+      "choices": [
+        "alcohol",
+        "cocaine",
+        "marijuana",
+        "opium"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: Which of the following drugs inhibits sexual performance by activating the sympathetic system?\n(A) alcohol (B) cocaine (C) marijuana (D) opium\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Cocaine inhibits sexual performance by activating the sympathetic system. Cocaine inhibits sexual performance by activating the sympathetic system. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "Which of the following changes is NOT associated with menopause?",
+      "subject": "human_sexuality",
+      "choices": [
+        "the walls of the vagina become thick",
+        "the vagina shrinks in length",
+        "the labia minora shrink",
+        "production of estrogen declines"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: Which of the following changes is NOT associated with menopause?\n(A) the walls of the vagina become thick (B) the vagina shrinks in length (C) the labia minora shrink (D) production of estrogen declines\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The walls of the vagina become thick. Menopause is a period of sexual activity. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "What is the last stage in the \"coming out\" process?",
+      "subject": "human_sexuality",
+      "choices": [
+        "Integration",
+        "Relationship Development",
+        "Segregation",
+        "Exploration"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about human sexuality.\n\nQ: What is the last stage in the \"coming out\" process?\n(A) Integration (B) Relationship Development (C) Segregation (D) Exploration\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "D is the last stage in the \"coming out\" process. Integration is the last stage in the \"coming out\" process. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  }
+]

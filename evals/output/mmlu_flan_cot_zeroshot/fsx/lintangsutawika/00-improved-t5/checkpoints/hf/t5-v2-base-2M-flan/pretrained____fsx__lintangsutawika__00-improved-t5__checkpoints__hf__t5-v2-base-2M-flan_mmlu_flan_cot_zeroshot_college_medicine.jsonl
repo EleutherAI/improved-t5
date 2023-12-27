@@ -1,0 +1,794 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "A student observes that mercury forms a convex meniscus in the graduated cylinder but that water forms a concave one. This behavior is best explained by the fact that:",
+      "subject": "college_medicine",
+      "choices": [
+        "the two liquids are being kept in graduated cylinders made of different materials.",
+        "the adhesive forces between water and the walls of the graduated cylinder are greater than the adhesive forces between the mercury and the walls of the graduated cylinder.",
+        "the cohesive forces between two mercury atoms are stronger than the cohesive forces between two water molecules.",
+        "the mercury has strong cohesive than adhesive forces, whereas water has strong adhesive than cohesive ones."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: A student observes that mercury forms a convex meniscus in the graduated cylinder but that water forms a concave one. This behavior is best explained by the fact that:\n(A) the two liquids are being kept in graduated cylinders made of different materials. (B) the adhesive forces between water and the walls of the graduated cylinder are greater than the adhesive forces between the mercury and the walls of the graduated cylinder. (C) the cohesive forces between two mercury atoms are stronger than the cohesive forces between two water molecules. (D) the mercury has strong cohesive than adhesive forces, whereas water has strong adhesive than cohesive ones.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Question: Which of the following statements is true according to the passage?Options:A The two liquids are kept in graduated cylinders made of different materials.B The adhesive forces between mercury and the walls of the graduated cylinder are greater than the adhesive forces between water and the walls of the graduated cylinder.C The cohesive forces between two mercury atoms are stronger than the cohesive forces between two water molecules.D The cohesive forces between two mercury atoms are stronger than the cohesive forces between two water molecules.Answer:C"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "A young adult man begins seeing a therapist and tells the therapist that he has homosexual feelings, and that he self-identifies as gay. He is plagued by feelings of worthlessness and fears that he will be subject to what his religion terms \u201ceternal damnation\u201d. He feels alienated from his family and friends, as he knows of no other homosexuals in his peer group or family. In the course of working with the man, the therapist helps him see that his feelings are exceptionally common among people who have recently discovered their same-sex feelings, and encourages him to attend a support group for newly \u201cout\u201d gay men. The therapist\u2019s approach demonstrates which of the following phenomena?",
+      "subject": "college_medicine",
+      "choices": [
+        "Stereotype threat",
+        "Groupthink",
+        "Universalization",
+        "Spatial discrimination"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: A young adult man begins seeing a therapist and tells the therapist that he has homosexual feelings, and that he self-identifies as gay. He is plagued by feelings of worthlessness and fears that he will be subject to what his religion terms \u201ceternal damnation\u201d. He feels alienated from his family and friends, as he knows of no other homosexuals in his peer group or family. In the course of working with the man, the therapist helps him see that his feelings are exceptionally common among people who have recently discovered their same-sex feelings, and encourages him to attend a support group for newly \u201cout\u201d gay men. The therapist\u2019s approach demonstrates which of the following phenomena?\n(A) Stereotype threat (B) Groupthink (C) Universalization (D) Spatial discrimination\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A: A"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "question": "The creatine kinase reaction is:",
+      "subject": "college_medicine",
+      "choices": [
+        "irreversible.",
+        "slow compared with glycolysis.",
+        "not activated until all the ATP has been used up.",
+        "inhibited by low pH in the muscle."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: The creatine kinase reaction is:\n(A) irreversible. (B) slow compared with glycolysis. (C) not activated until all the ATP has been used up. (D) inhibited by low pH in the muscle.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The creatine kinase reaction is:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "Human beings require many outside resources in order to survive. An individual will not survive without water, air, etc. Thankfully, the human brain is wired to seek out these resources when they are depleted before harm occurs to the individual. The downside of this, however, is that they can produce too much reward, and become a temptation. Which of the following statements would mean a desire has become a temptation?",
+      "subject": "college_medicine",
+      "choices": [
+        "A person desiring to lose weight makes a late night snack to quell a craving.",
+        "A marathon runner seeks out water after finishing a race.",
+        "A free diver delays leaving the beach after a dive by a few minutes in order to regain their breath.",
+        "A person pauses their show on TV in order to grab a blanket because they are cold."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: Human beings require many outside resources in order to survive. An individual will not survive without water, air, etc. Thankfully, the human brain is wired to seek out these resources when they are depleted before harm occurs to the individual. The downside of this, however, is that they can produce too much reward, and become a temptation. Which of the following statements would mean a desire has become a temptation?\n(A) A person desiring to lose weight makes a late night snack to quell a craving. (B) A marathon runner seeks out water after finishing a race. (C) A free diver delays leaving the beach after a dive by a few minutes in order to regain their breath. (D) A person pauses their show on TV in order to grab a blanket because they are cold.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A person desiring to lose weight makes a late night snack to quell a craving. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "A 1 meter tall jug of water, while sitting on a countertop 2 meters high with its lid open, springs a leak from a weak spot in the plastic at the very bottom of the side. How fast will water empty from the jug?",
+      "subject": "college_medicine",
+      "choices": [
+        "4.47 m/s",
+        "6.25 m/s",
+        "8.26 m/s",
+        "2.22 m/s"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: A 1 meter tall jug of water, while sitting on a countertop 2 meters high with its lid open, springs a leak from a weak spot in the plastic at the very bottom of the side. How fast will water empty from the jug?\n(A) 4.47 m/s (B) 6.25 m/s (C) 8.26 m/s (D) 2.22 m/s\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The speed of water from the jug is 1/2 * 100 = 5 m/s. So the final answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "question": "A young woman comes to the clinic for feeling like her \u201cheart is beating too fast\u201d. When her pulse is recorded it is in normal range. Upon interview, you learn that she is often concerned about lots of things. In fact, she can\u2019t remember many instances in which she has not had some event playing over and over in her head. She says that she often seeks out relationships to comfort her self-esteem, and admits she stays in these relationships too long for fear of being alone. What personality cluster would this person fall under?",
+      "subject": "college_medicine",
+      "choices": [
+        "Cluster A",
+        "Cluster B",
+        "Cluster C",
+        "This does not seem like a personality disorder."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: A young woman comes to the clinic for feeling like her \u201cheart is beating too fast\u201d. When her pulse is recorded it is in normal range. Upon interview, you learn that she is often concerned about lots of things. In fact, she can\u2019t remember many instances in which she has not had some event playing over and over in her head. She says that she often seeks out relationships to comfort her self-esteem, and admits she stays in these relationships too long for fear of being alone. What personality cluster would this person fall under?\n(A) Cluster A (B) Cluster B (C) Cluster C (D) This does not seem like a personality disorder.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Cluster B is a personality disorder. The young woman comes to the clinic for feeling like her heart is beating too fast. She is often concerned about lots of things. She admits she stays in these relationships too long for fear of being alone. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "How many chromosomes do all human somatic cells contain?",
+      "subject": "college_medicine",
+      "choices": [
+        "3",
+        "20",
+        "23",
+        "46"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: How many chromosomes do all human somatic cells contain?\n(A) 3 (B) 20 (C) 23 (D) 46\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The number of chromosomes in all human somatic cells is:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "The two principal contractile proteins found in skeletal muscle are:",
+      "subject": "college_medicine",
+      "choices": [
+        "actin and troponin.",
+        "actin and myosin.",
+        "troponin and tropomyosin.",
+        "myosin and tropomyosin."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: The two principal contractile proteins found in skeletal muscle are:\n(A) actin and troponin. (B) actin and myosin. (C) troponin and tropomyosin. (D) myosin and tropomyosin.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The two principal contractile proteins found in skeletal muscle are:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 18,
+    "doc": {
+      "question": "An allele that is masked is referred to as:",
+      "subject": "college_medicine",
+      "choices": [
+        "recessive.",
+        "redundant.",
+        "repressed.",
+        "reclusive."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: An allele that is masked is referred to as:\n(A) recessive. (B) redundant. (C) repressed. (D) reclusive.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The term \"recessive\" is used to describe an allele that is masked.<0x0A>So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "In all-out exercise such as sprinting the first fibre types to fatigue are the:",
+      "subject": "college_medicine",
+      "choices": [
+        "Type I fibres.",
+        "Type Ia fibres.",
+        "Type IIa fibres.",
+        "Type IIX fibres."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: In all-out exercise such as sprinting the first fibre types to fatigue are the:\n(A) Type I fibres. (B) Type Ia fibres. (C) Type IIa fibres. (D) Type IIX fibres.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The first fibre types to fatigue are the:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "A psychology study run on a college campus was set up right outside of the gym on a weekday. Chocolate chip cookies were offered right outside the door, and then a sign was placed 15 feet further down the hall that asked people to avoid using the stairs, forcing them to go around in a longer hallway. There were no barriers to using the stairs other than the sign. The results returned, and it showed that individuals who took a sweet from the tray were twice as likely to use the longer hallway as individuals who refused. This is an example of what psychological concept?",
+      "subject": "college_medicine",
+      "choices": [
+        "Learned helplessness",
+        "Insecure attachment",
+        "Ego depletion",
+        "Tyranny of choice"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: A psychology study run on a college campus was set up right outside of the gym on a weekday. Chocolate chip cookies were offered right outside the door, and then a sign was placed 15 feet further down the hall that asked people to avoid using the stairs, forcing them to go around in a longer hallway. There were no barriers to using the stairs other than the sign. The results returned, and it showed that individuals who took a sweet from the tray were twice as likely to use the longer hallway as individuals who refused. This is an example of what psychological concept?\n(A) Learned helplessness (B) Insecure attachment (C) Ego depletion (D) Tyranny of choice\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "D"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 19,
+    "doc": {
+      "question": "In general, the higher the intensity of exercise, the greater the proportional contribution of:",
+      "subject": "college_medicine",
+      "choices": [
+        "aerobic energy production.",
+        "anaerobic energy production.",
+        "the TCA cycle (Krebs' cycle) to the production of ATP.",
+        "the electron transfer chain to the production of ATP."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: In general, the higher the intensity of exercise, the greater the proportional contribution of:\n(A) aerobic energy production. (B) anaerobic energy production. (C) the TCA cycle (Krebs' cycle) to the production of ATP. (D) the electron transfer chain to the production of ATP.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The higher the intensity of exercise, the greater the proportional contribution of:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "The term gene doping refers to:",
+      "subject": "college_medicine",
+      "choices": [
+        "the use of drugs to modify gene transcription.",
+        "the use of genetic manipulation techniques to enhance performance in sport.",
+        "the activation or inhibition of genes to mask drug taking by athletes.",
+        "the use of drugs to modify the myostatin gene."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: The term gene doping refers to:\n(A) the use of drugs to modify gene transcription. (B) the use of genetic manipulation techniques to enhance performance in sport. (C) the activation or inhibition of genes to mask drug taking by athletes. (D) the use of drugs to modify the myostatin gene.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The term gene doping refers to:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "Cystic Fibrosis (CF) patients often have a loss of pancreas activity during their adolescent years. Loss of which enzyme, if isolated would lead to the most extensive effects on nutrient absorption?",
+      "subject": "college_medicine",
+      "choices": [
+        "Lipase",
+        "Elastinogen",
+        "Trypsinogen",
+        "Carboxypeptidase"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: Cystic Fibrosis (CF) patients often have a loss of pancreas activity during their adolescent years. Loss of which enzyme, if isolated would lead to the most extensive effects on nutrient absorption?\n(A) Lipase (B) Elastinogen (C) Trypsinogen (D) Carboxypeptidase\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Cystic fibrosis patients often have a loss of pancreas activity during their adolescent years. Loss of pancreas activity would lead to the most extensive effects on nutrient absorption. So, the answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 20,
+    "doc": {
+      "question": "The main factors determining success in sport are:",
+      "subject": "college_medicine",
+      "choices": [
+        "a high energy diet and large appetite.",
+        "high intelligence and motivation to succeed.",
+        "a good coach and the motivation to succeed.",
+        "innate ability and the capacity to respond to the training stimulus."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: The main factors determining success in sport are:\n(A) a high energy diet and large appetite. (B) high intelligence and motivation to succeed. (C) a good coach and the motivation to succeed. (D) innate ability and the capacity to respond to the training stimulus.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The main factors determining success in sport are:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "Which of the following would be the most accurate definition of Nietzsche\u2019s Will to Truth?\"",
+      "subject": "college_medicine",
+      "choices": [
+        "An intrinsic desire to know the truth.",
+        "Moral drive to act toward what is good.",
+        "A subset of our ego that acts towards what is right.",
+        "Our desire for love."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: Which of the following would be the most accurate definition of Nietzsche\u2019s Will to Truth?\"\n(A) An intrinsic desire to know the truth. (B) Moral drive to act toward what is good. (C) A subset of our ego that acts towards what is right. (D) Our desire for love.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Will to Truth is a moral drive to act toward what is good.<0x0A>Thus, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "Somatic eukaryotic cells in the human body proceed normally through repetitive phases of the cell cycle in order to divide and make replicates of themselves. The point at which a cell commits to dividing is known as the restriction point (R). Prior to this, how many chromosomes and chromatids does the cell have?",
+      "subject": "college_medicine",
+      "choices": [
+        "23 chromosomes, 46 chromatids",
+        "46 chromosomes, 92 chromatids",
+        "23 chromosomes, 23 chromatids",
+        "46 chromosomes, 46 chromatids"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: Somatic eukaryotic cells in the human body proceed normally through repetitive phases of the cell cycle in order to divide and make replicates of themselves. The point at which a cell commits to dividing is known as the restriction point (R). Prior to this, how many chromosomes and chromatids does the cell have?\n(A) 23 chromosomes, 46 chromatids (B) 46 chromosomes, 92 chromatids (C) 23 chromosomes, 23 chromatids (D) 46 chromosomes, 46 chromatids\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The restriction point is known as the  _ ."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 21,
+    "doc": {
+      "question": "The social phenomenon of groupthink is characterized by all of the following EXCEPT:",
+      "subject": "college_medicine",
+      "choices": [
+        "A significant over-rating of the decision-making abilities of members of the ingroup.",
+        "A decrease in the creativity of individual group members in contributing to solutions the ingroup wants to achieve.",
+        "High loyalty and group cohesiveness causing members to feel safe raising controversial issues and proposing alternative solutions.",
+        "An effort to minimize conflict and ensure consensus."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: The social phenomenon of groupthink is characterized by all of the following EXCEPT:\n(A) A significant over-rating of the decision-making abilities of members of the ingroup. (B) A decrease in the creativity of individual group members in contributing to solutions the ingroup wants to achieve. (C) High loyalty and group cohesiveness causing members to feel safe raising controversial issues and proposing alternative solutions. (D) An effort to minimize conflict and ensure consensus.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The social phenomenon of groupthink is characterized by all of the following EXCEPT:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "Which of the following physiological characteristics is not important for success in endurance events such as the marathon race?",
+      "subject": "college_medicine",
+      "choices": [
+        "The ability to regulate body temperature.",
+        "The ability to supply oxygen to the exercising muscles.",
+        "The availability of body stores of carbohydrate.",
+        "Muscle ATP and phosphocreatine content."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: Which of the following physiological characteristics is not important for success in endurance events such as the marathon race?\n(A) The ability to regulate body temperature. (B) The ability to supply oxygen to the exercising muscles. (C) The availability of body stores of carbohydrate. (D) Muscle ATP and phosphocreatine content.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The ability to regulate body temperature is not important for success in endurance events such as the marathon race. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "A person suffering from severe dehydration and starvation would NOT be expected to have elevated plasma concentrations for which of the following hormones?",
+      "subject": "college_medicine",
+      "choices": [
+        "ADH",
+        "Cortisol",
+        "Aldosterone",
+        "Insulin"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: A person suffering from severe dehydration and starvation would NOT be expected to have elevated plasma concentrations for which of the following hormones?\n(A) ADH (B) Cortisol (C) Aldosterone (D) Insulin\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The hormones cortisol and aldosterone are the hormones that are elevated in a person suffering from severe dehydration and starvation.<0x0A>So, the final answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "During exercise, adrenaline secretion from the adrenal glands is stimulated by:",
+      "subject": "college_medicine",
+      "choices": [
+        "increased plasma glucose.",
+        "increased plasma fatty acids.",
+        "increased plasma ACTH.",
+        "increased sympathetic nerve activity."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: During exercise, adrenaline secretion from the adrenal glands is stimulated by:\n(A) increased plasma glucose. (B) increased plasma fatty acids. (C) increased plasma ACTH. (D) increased sympathetic nerve activity.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Adrenaline secretion from the adrenal glands is stimulated by:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": "The recommended dose of creatine to load the muscles of a 70 kg man within one week is:",
+      "subject": "college_medicine",
+      "choices": [
+        "2 g/day.",
+        "5 g/day.",
+        "10 g/day.",
+        "20 g/day."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about college medicine.\n\nQ: The recommended dose of creatine to load the muscles of a 70 kg man within one week is:\n(A) 2 g/day. (B) 5 g/day. (C) 10 g/day. (D) 20 g/day.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The recommended dose of creatine to load the muscles of a 70 kg man within one week is:<0x0A>(A) 2 g/day.<0x0A>(B) 5 g/day.<0x0A>(C) 10 g/day.<0x0A>(D) 20 g/day."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  }
+]

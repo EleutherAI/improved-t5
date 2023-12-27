@@ -1,0 +1,7252 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "input": "((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =",
+      "target": "24"
+    },
+    "target": "24",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 + 2 + 9 * 5) - (-2 + -4 + -4 * -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "input": "((-7 * -9 + 8 * -3) * (5 + -7 - 4 * -5)) =",
+      "target": "702"
+    },
+    "target": "702",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 * -9 + 8 * -3) * (5 + -7 - 4 * -5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "1017"
+      ]
+    ],
+    "filtered_resps": [
+      "1017"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "input": "((8 + 9 - 4 - -9) + (8 + 7 - 6 * 1)) =",
+      "target": "31"
+    },
+    "target": "31",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 + 9 - 4 - -9) + (8 + 7 - 6 * 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 24,
+    "doc": {
+      "input": "((5 * -8 - -5 * -9) * (2 - -7 * 6 - 4)) =",
+      "target": "-3400"
+    },
+    "target": "-3400",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 * -8 - -5 * -9) * (2 - -7 * 6 - 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "1028"
+      ]
+    ],
+    "filtered_resps": [
+      "1028"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 32,
+    "doc": {
+      "input": "((-7 + -2 * 1 - 6) + (3 + 9 * 7 + -7)) =",
+      "target": "44"
+    },
+    "target": "44",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 + -2 * 1 - 6) + (3 + 9 * 7 + -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 40,
+    "doc": {
+      "input": "((-5 - 2 + 9 * -1) * (7 - 5 + 9 * -7)) =",
+      "target": "976"
+    },
+    "target": "976",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 - 2 + 9 * -1) * (7 - 5 + 9 * -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 48,
+    "doc": {
+      "input": "((5 * -2 + 8 * 1) * (9 + -3 * -8 - -5)) =",
+      "target": "-76"
+    },
+    "target": "-76",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 * -2 + 8 * 1) * (9 + -3 * -8 - -5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 56,
+    "doc": {
+      "input": "((1 + 1 * 3 - 2) * (-8 - -2 - 9 + -9)) =",
+      "target": "-48"
+    },
+    "target": "-48",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 + 1 * 3 - 2) * (-8 - -2 - 9 + -9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 64,
+    "doc": {
+      "input": "((4 + -1 + -7 + 2) - (-7 + -9 * -6 + -3)) =",
+      "target": "-46"
+    },
+    "target": "-46",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((4 + -1 + -7 + 2) - (-7 + -9 * -6 + -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 72,
+    "doc": {
+      "input": "((6 - 1 - -3 + -2) + (5 * 5 + -1 - -8)) =",
+      "target": "38"
+    },
+    "target": "38",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((6 - 1 - -3 + -2) + (5 * 5 + -1 - -8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 80,
+    "doc": {
+      "input": "((-6 + -2 * 3 * 0) + (3 + -4 - 7 - -4)) =",
+      "target": "-10"
+    },
+    "target": "-10",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 + -2 * 3 * 0) + (3 + -4 - 7 - -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 88,
+    "doc": {
+      "input": "((-6 - -1 - -5 * -5) + (8 + -5 - 9 * -7)) =",
+      "target": "36"
+    },
+    "target": "36",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 - -1 - -5 * -5) + (8 + -5 - 9 * -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 96,
+    "doc": {
+      "input": "((9 + 2 + 3 - -3) + (-5 + 6 - -6 - -9)) =",
+      "target": "33"
+    },
+    "target": "33",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((9 + 2 + 3 - -3) + (-5 + 6 - -6 - -9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 104,
+    "doc": {
+      "input": "((7 + -9 * -5 + -3) * (-8 * 8 - -5 + -5)) =",
+      "target": "-3136"
+    },
+    "target": "-3136",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((7 + -9 * -5 + -3) * (-8 * 8 - -5 + -5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 112,
+    "doc": {
+      "input": "((8 + 1 + 6 + 6) - (7 - -7 - 9 - -8)) =",
+      "target": "8"
+    },
+    "target": "8",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 + 1 + 6 + 6) - (7 - -7 - 9 - -8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 120,
+    "doc": {
+      "input": "((-2 - 3 - 0 - 2) * (1 - -7 - -3 + -6)) =",
+      "target": "-35"
+    },
+    "target": "-35",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-2 - 3 - 0 - 2) * (1 - -7 - -3 + -6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 128,
+    "doc": {
+      "input": "((-1 * -3 - 2 + -7) + (4 * 8 * -6 - -2)) =",
+      "target": "-196"
+    },
+    "target": "-196",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 * -3 - 2 + -7) + (4 * 8 * -6 - -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "102"
+      ]
+    ],
+    "filtered_resps": [
+      "102"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 136,
+    "doc": {
+      "input": "((-4 + -6 + -6 - -9) + (-2 * -5 * 5 * 7)) =",
+      "target": "343"
+    },
+    "target": "343",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-4 + -6 + -6 - -9) + (-2 * -5 * 5 * 7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 144,
+    "doc": {
+      "input": "((3 - 9 - 3 - 4) + (1 * -2 * -3 - -3)) =",
+      "target": "-4"
+    },
+    "target": "-4",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 - 9 - 3 - 4) + (1 * -2 * -3 - -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 152,
+    "doc": {
+      "input": "((3 - 1 + -3 * -4) - (8 * 9 - -7 - -6)) =",
+      "target": "-71"
+    },
+    "target": "-71",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 - 1 + -3 * -4) - (8 * 9 - -7 - -6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 160,
+    "doc": {
+      "input": "((-4 + -2 + -6 + -1) + (-4 * 2 + -5 * 8)) =",
+      "target": "-61"
+    },
+    "target": "-61",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-4 + -2 + -6 + -1) + (-4 * 2 + -5 * 8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "111"
+      ]
+    ],
+    "filtered_resps": [
+      "111"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 168,
+    "doc": {
+      "input": "((-1 * -5 - -3 + -9) + (-5 - 3 * -2 - 5)) =",
+      "target": "-5"
+    },
+    "target": "-5",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 * -5 - -3 + -9) + (-5 - 3 * -2 - 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 176,
+    "doc": {
+      "input": "((-3 - -8 - -7 + -2) - (-2 - 8 + -1 - -6)) =",
+      "target": "15"
+    },
+    "target": "15",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-3 - -8 - -7 + -2) - (-2 - 8 + -1 - -6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 184,
+    "doc": {
+      "input": "((7 * 2 + 4 - -6) * (6 - 7 - 7 * -2)) =",
+      "target": "312"
+    },
+    "target": "312",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((7 * 2 + 4 - -6) * (6 - 7 - 7 * -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "102"
+      ]
+    ],
+    "filtered_resps": [
+      "102"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 192,
+    "doc": {
+      "input": "((-9 * 6 - -3 * -3) + (-4 - -9 + 4 - -4)) =",
+      "target": "-50"
+    },
+    "target": "-50",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 * 6 - -3 * -3) + (-4 - -9 + 4 - -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 200,
+    "doc": {
+      "input": "((3 * -7 * -4 * 2) + (7 - -3 - -3 * 1)) =",
+      "target": "181"
+    },
+    "target": "181",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 * -7 * -4 * 2) + (7 - -3 - -3 * 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 208,
+    "doc": {
+      "input": "((5 + -7 + 1 - 5) - (-3 * -1 * 7 + -1)) =",
+      "target": "-26"
+    },
+    "target": "-26",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 + -7 + 1 - 5) - (-3 * -1 * 7 + -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "10"
+      ]
+    ],
+    "filtered_resps": [
+      "10"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 216,
+    "doc": {
+      "input": "((9 - 5 - 4 + -2) + (-9 + 1 - 1 - 9)) =",
+      "target": "-20"
+    },
+    "target": "-20",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((9 - 5 - 4 + -2) + (-9 + 1 - 1 - 9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 224,
+    "doc": {
+      "input": "((-9 + 5 * 0 - -8) + (6 - -5 * -7 + -8)) =",
+      "target": "-38"
+    },
+    "target": "-38",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 + 5 * 0 - -8) + (6 - -5 * -7 + -8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 232,
+    "doc": {
+      "input": "((5 * -9 - 4 - 4) - (-3 * 2 * 9 + -7)) =",
+      "target": "8"
+    },
+    "target": "8",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 * -9 - 4 - 4) - (-3 * 2 * 9 + -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 240,
+    "doc": {
+      "input": "((4 - -6 + -9 + -7) - (9 + -3 - -7 * -8)) =",
+      "target": "44"
+    },
+    "target": "44",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((4 - -6 + -9 + -7) - (9 + -3 - -7 * -8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 248,
+    "doc": {
+      "input": "((-6 * 9 - -5 + 8) * (-8 * -6 - -1 * 0)) =",
+      "target": "-1968"
+    },
+    "target": "-1968",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 * 9 - -5 + 8) * (-8 * -6 - -1 * 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "input": "((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1)) =",
+      "target": "63"
+    },
+    "target": "63",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 * -5 - 6 + -2) - (-8 - -6 * -3 * 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "input": "((-9 - 1 * 5 * -5) - (6 + -3 - -1 * -7)) =",
+      "target": "20"
+    },
+    "target": "20",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 - 1 * 5 * -5) - (6 + -3 - -1 * -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "input": "((5 * -1 + -6 * -3) + (-1 + -8 - 5 + 3)) =",
+      "target": "2"
+    },
+    "target": "2",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 * -1 + -6 * -3) + (-1 + -8 - 5 + 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 25,
+    "doc": {
+      "input": "((6 + 1 - 4 - 3) - (-4 * -6 * -3 + 1)) =",
+      "target": "71"
+    },
+    "target": "71",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((6 + 1 - 4 - 3) - (-4 * -6 * -3 + 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 33,
+    "doc": {
+      "input": "((4 + 7 * 4 - -5) - (-4 - 1 - -4 - 4)) =",
+      "target": "42"
+    },
+    "target": "42",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((4 + 7 * 4 - -5) - (-4 - 1 - -4 - 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 41,
+    "doc": {
+      "input": "((5 - 7 - 8 - 6) * (-2 * -8 * -9 + 4)) =",
+      "target": "2240"
+    },
+    "target": "2240",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 - 7 - 8 - 6) * (-2 * -8 * -9 + 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 49,
+    "doc": {
+      "input": "((-7 * 9 - -9 + 7) + (9 * -6 * -4 * -6)) =",
+      "target": "-1343"
+    },
+    "target": "-1343",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 * 9 - -9 + 7) + (9 * -6 * -4 * -6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 57,
+    "doc": {
+      "input": "((5 + 6 * 4 * 9) + (-9 - 0 * 3 - 1)) =",
+      "target": "211"
+    },
+    "target": "211",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 + 6 * 4 * 9) + (-9 - 0 * 3 - 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 65,
+    "doc": {
+      "input": "((8 * 9 * 0 - -1) - (-9 - -7 + -4 - 8)) =",
+      "target": "15"
+    },
+    "target": "15",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 * 9 * 0 - -1) - (-9 - -7 + -4 - 8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 73,
+    "doc": {
+      "input": "((-4 + 4 + 3 * 1) - (-9 - -3 + -6 - 5)) =",
+      "target": "20"
+    },
+    "target": "20",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-4 + 4 + 3 * 1) - (-9 - -3 + -6 - 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 81,
+    "doc": {
+      "input": "((-8 + -4 * -9 * 0) + (2 * -9 + 3 * -3)) =",
+      "target": "-35"
+    },
+    "target": "-35",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 + -4 * -9 * 0) + (2 * -9 + 3 * -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 89,
+    "doc": {
+      "input": "((-9 + -4 + 0 * -1) * (4 * -3 * -8 - -4)) =",
+      "target": "-1300"
+    },
+    "target": "-1300",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 + -4 + 0 * -1) * (4 * -3 * -8 - -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "1088"
+      ]
+    ],
+    "filtered_resps": [
+      "1088"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 97,
+    "doc": {
+      "input": "((5 - 6 - 7 + 6) - (-1 - 1 * -7 + 9)) =",
+      "target": "-17"
+    },
+    "target": "-17",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 - 6 - 7 + 6) - (-1 - 1 * -7 + 9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 105,
+    "doc": {
+      "input": "((3 * 4 * 0 * -3) - (6 + -4 + 2 * -7)) =",
+      "target": "12"
+    },
+    "target": "12",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 * 4 * 0 * -3) - (6 + -4 + 2 * -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 113,
+    "doc": {
+      "input": "((-9 * -5 - 5 + 7) - (-3 - 8 + 9 * -2)) =",
+      "target": "76"
+    },
+    "target": "76",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 * -5 - 5 + 7) - (-3 - 8 + 9 * -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 121,
+    "doc": {
+      "input": "((3 + 3 - -4 - 2) + (-2 - -7 * -2 * 1)) =",
+      "target": "-8"
+    },
+    "target": "-8",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 + 3 - -4 - 2) + (-2 - -7 * -2 * 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 129,
+    "doc": {
+      "input": "((8 + 6 * -1 - -3) * (-5 * 0 - -7 * 1)) =",
+      "target": "35"
+    },
+    "target": "35",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 + 6 * -1 - -3) * (-5 * 0 - -7 * 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 137,
+    "doc": {
+      "input": "((-5 * 5 + 1 - 4) + (9 * 0 - -7 - 3)) =",
+      "target": "-24"
+    },
+    "target": "-24",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 * 5 + 1 - 4) + (9 * 0 - -7 - 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 145,
+    "doc": {
+      "input": "((-6 * -4 + 1 + -1) * (-1 + 2 * 7 + 2)) =",
+      "target": "360"
+    },
+    "target": "360",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 * -4 + 1 + -1) * (-1 + 2 * 7 + 2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 153,
+    "doc": {
+      "input": "((-6 * -7 * -8 - -2) + (-5 - 2 + 0 + -2)) =",
+      "target": "-343"
+    },
+    "target": "-343",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 * -7 * -8 - -2) + (-5 - 2 + 0 + -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 161,
+    "doc": {
+      "input": "((-8 - -1 - -2 * -7) + (3 + 2 - 3 * 3)) =",
+      "target": "-25"
+    },
+    "target": "-25",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 - -1 - -2 * -7) + (3 + 2 - 3 * 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-107"
+      ]
+    ],
+    "filtered_resps": [
+      "-107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 169,
+    "doc": {
+      "input": "((5 * -1 - 7 * 5) - (6 - -5 * 3 * 7)) =",
+      "target": "-151"
+    },
+    "target": "-151",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 * -1 - 7 * 5) - (6 - -5 * 3 * 7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 177,
+    "doc": {
+      "input": "((-5 * -6 + 3 * -3) - (-1 + -8 * 8 * -9)) =",
+      "target": "-554"
+    },
+    "target": "-554",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 * -6 + 3 * -3) - (-1 + -8 * 8 * -9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 185,
+    "doc": {
+      "input": "((-6 * -9 + 1 * 7) - (0 + 3 * 5 - 2)) =",
+      "target": "48"
+    },
+    "target": "48",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 * -9 + 1 * 7) - (0 + 3 * 5 - 2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-107"
+      ]
+    ],
+    "filtered_resps": [
+      "-107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 193,
+    "doc": {
+      "input": "((-8 * -8 - -5 * -6) * (3 + -9 - 5 - -1)) =",
+      "target": "-340"
+    },
+    "target": "-340",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 * -8 - -5 * -6) * (3 + -9 - 5 - -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 201,
+    "doc": {
+      "input": "((-5 * -6 + -9 - 3) + (-7 - -2 - 6 * 6)) =",
+      "target": "-23"
+    },
+    "target": "-23",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 * -6 + -9 - 3) + (-7 - -2 - 6 * 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 209,
+    "doc": {
+      "input": "((-7 * -2 + -4 + -4) - (9 * 1 * -6 * 6)) =",
+      "target": "330"
+    },
+    "target": "330",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 * -2 + -4 + -4) - (9 * 1 * -6 * 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 217,
+    "doc": {
+      "input": "((6 - 9 * -6 - -9) + (3 * 3 + -5 * -9)) =",
+      "target": "123"
+    },
+    "target": "123",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((6 - 9 * -6 - -9) + (3 * 3 + -5 * -9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 225,
+    "doc": {
+      "input": "((-2 - -7 - 5 * 2) + (-3 - 5 * 3 + -7)) =",
+      "target": "-30"
+    },
+    "target": "-30",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-2 - -7 - 5 * 2) + (-3 - 5 * 3 + -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 233,
+    "doc": {
+      "input": "((4 * -9 * 3 * -8) + (-9 - 4 - -9 - -7)) =",
+      "target": "867"
+    },
+    "target": "867",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((4 * -9 * 3 * -8) + (-9 - 4 - -9 - -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "1077"
+      ]
+    ],
+    "filtered_resps": [
+      "1077"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 241,
+    "doc": {
+      "input": "((0 * -7 - 6 * 3) * (-9 + -5 - 2 * -1)) =",
+      "target": "216"
+    },
+    "target": "216",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((0 * -7 - 6 * 3) * (-9 + -5 - 2 * -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 249,
+    "doc": {
+      "input": "((5 - -2 * 7 + -2) - (0 * 9 * -6 - -7)) =",
+      "target": "10"
+    },
+    "target": "10",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 - -2 * 7 + -2) - (0 * 9 * -6 - -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "input": "((3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7)) =",
+      "target": "-50"
+    },
+    "target": "-50",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 * -3 * 6 + -5) - (-2 + -7 - 7 - -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "input": "((6 - 0 * 5 + -3) * (6 - -7 + -2 - -7)) =",
+      "target": "54"
+    },
+    "target": "54",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((6 - 0 * 5 + -3) * (6 - -7 + -2 - -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 18,
+    "doc": {
+      "input": "((-6 - 6 + 7 - 7) - (5 + 3 - 9 * -8)) =",
+      "target": "-92"
+    },
+    "target": "-92",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 - 6 + 7 - 7) - (5 + 3 - 9 * -8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 26,
+    "doc": {
+      "input": "((-9 - -9 + 0 + -3) + (-2 - -1 - 1 + 2)) =",
+      "target": "-3"
+    },
+    "target": "-3",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 - -9 + 0 + -3) + (-2 - -1 - 1 + 2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 34,
+    "doc": {
+      "input": "((1 - 6 * 0 - -7) * (6 * 0 + 6 - -3)) =",
+      "target": "72"
+    },
+    "target": "72",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 - 6 * 0 - -7) * (6 * 0 + 6 - -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 42,
+    "doc": {
+      "input": "((-5 + 1 - 2 - -3) * (-9 * 3 + 9 + -1)) =",
+      "target": "57"
+    },
+    "target": "57",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 + 1 - 2 - -3) * (-9 * 3 + 9 + -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 50,
+    "doc": {
+      "input": "((4 - 3 * -1 * 3) * (3 + 8 + 1 - 7)) =",
+      "target": "65"
+    },
+    "target": "65",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((4 - 3 * -1 * 3) * (3 + 8 + 1 - 7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 58,
+    "doc": {
+      "input": "((-1 - 9 + -9 * -9) - (1 + -3 - 5 - 5)) =",
+      "target": "83"
+    },
+    "target": "83",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 - 9 + -9 * -9) - (1 + -3 - 5 - 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 66,
+    "doc": {
+      "input": "((4 + 5 * -9 * -8) - (-9 + -7 - -6 - -9)) =",
+      "target": "365"
+    },
+    "target": "365",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((4 + 5 * -9 * -8) - (-9 + -7 - -6 - -9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 74,
+    "doc": {
+      "input": "((-3 - -6 - -7 + 3) + (5 * 5 * 1 - -3)) =",
+      "target": "41"
+    },
+    "target": "41",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-3 - -6 - -7 + 3) + (5 * 5 * 1 - -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 82,
+    "doc": {
+      "input": "((-8 + 6 - 8 * -9) - (9 - 9 * -2 + -1)) =",
+      "target": "44"
+    },
+    "target": "44",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 + 6 - 8 * -9) - (9 - 9 * -2 + -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 90,
+    "doc": {
+      "input": "((-2 - 2 * 2 + 0) - (7 - 6 - -7 - -1)) =",
+      "target": "-15"
+    },
+    "target": "-15",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-2 - 2 * 2 + 0) - (7 - 6 - -7 - -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 98,
+    "doc": {
+      "input": "((-9 - -7 + 2 + 2) + (-7 + -9 - -1 - 0)) =",
+      "target": "-13"
+    },
+    "target": "-13",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 - -7 + 2 + 2) + (-7 + -9 - -1 - 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 106,
+    "doc": {
+      "input": "((2 + -6 * -7 - 7) + (-2 - -5 + -4 + -2)) =",
+      "target": "34"
+    },
+    "target": "34",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((2 + -6 * -7 - 7) + (-2 - -5 + -4 + -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 114,
+    "doc": {
+      "input": "((0 + 1 - -6 * 9) * (4 + 7 + -9 - 8)) =",
+      "target": "-330"
+    },
+    "target": "-330",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((0 + 1 - -6 * 9) * (4 + 7 + -9 - 8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 122,
+    "doc": {
+      "input": "((-9 - -8 + 3 * -1) * (-9 * -2 * 4 + -6)) =",
+      "target": "-264"
+    },
+    "target": "-264",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 - -8 + 3 * -1) * (-9 * -2 * 4 + -6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 130,
+    "doc": {
+      "input": "((-5 - -1 - 7 * 8) * (-1 - -4 * -7 * 2)) =",
+      "target": "3420"
+    },
+    "target": "3420",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 - -1 - 7 * 8) * (-1 - -4 * -7 * 2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "102"
+      ]
+    ],
+    "filtered_resps": [
+      "102"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 138,
+    "doc": {
+      "input": "((1 - -8 + 0 - -3) + (-3 + -4 + 1 + 2)) =",
+      "target": "8"
+    },
+    "target": "8",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 - -8 + 0 - -3) + (-3 + -4 + 1 + 2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "10"
+      ]
+    ],
+    "filtered_resps": [
+      "10"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 146,
+    "doc": {
+      "input": "((-9 * -3 - 8 - 5) + (1 * -2 - -4 * 5)) =",
+      "target": "32"
+    },
+    "target": "32",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 * -3 - 8 - 5) + (1 * -2 - -4 * 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-107"
+      ]
+    ],
+    "filtered_resps": [
+      "-107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 154,
+    "doc": {
+      "input": "((5 * 7 * -4 + 7) * (-5 - -6 + -8 * -5)) =",
+      "target": "-5453"
+    },
+    "target": "-5453",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 * 7 * -4 + 7) * (-5 - -6 + -8 * -5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 162,
+    "doc": {
+      "input": "((4 + 5 - 7 + 9) * (-1 - -4 + -7 - -5)) =",
+      "target": "11"
+    },
+    "target": "11",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((4 + 5 - 7 + 9) * (-1 - -4 + -7 - -5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 170,
+    "doc": {
+      "input": "((9 - -5 - 1 + -2) * (-5 * 3 - -5 - 0)) =",
+      "target": "-110"
+    },
+    "target": "-110",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((9 - -5 - 1 + -2) * (-5 * 3 - -5 - 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 178,
+    "doc": {
+      "input": "((-5 - -7 - 4 - 8) - (-4 + 4 + 1 + 0)) =",
+      "target": "-11"
+    },
+    "target": "-11",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 - -7 - 4 - 8) - (-4 + 4 + 1 + 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "111"
+      ]
+    ],
+    "filtered_resps": [
+      "111"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 186,
+    "doc": {
+      "input": "((-8 - -1 + -8 + -3) * (-4 * 6 - 2 - 3)) =",
+      "target": "522"
+    },
+    "target": "522",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 - -1 + -8 + -3) * (-4 * 6 - 2 - 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 194,
+    "doc": {
+      "input": "((0 + 3 * 4 * 9) - (4 - -5 + -4 - 4)) =",
+      "target": "107"
+    },
+    "target": "107",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((0 + 3 * 4 * 9) - (4 - -5 + -4 - 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 202,
+    "doc": {
+      "input": "((6 - 5 + 5 + -9) - (9 + 8 * -6 * -1)) =",
+      "target": "-60"
+    },
+    "target": "-60",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((6 - 5 + 5 + -9) - (9 + 8 * -6 * -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 210,
+    "doc": {
+      "input": "((1 + 0 - 3 + 0) - (-7 - 9 * 1 + -3)) =",
+      "target": "17"
+    },
+    "target": "17",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 + 0 - 3 + 0) - (-7 - 9 * 1 + -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "10"
+      ]
+    ],
+    "filtered_resps": [
+      "10"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 218,
+    "doc": {
+      "input": "((-2 * 5 + -3 + 0) * (-9 + 2 + 5 * 4)) =",
+      "target": "-169"
+    },
+    "target": "-169",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-2 * 5 + -3 + 0) * (-9 + 2 + 5 * 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 226,
+    "doc": {
+      "input": "((-9 + -7 + -1 - -1) * (3 - -7 - -1 * 0)) =",
+      "target": "-160"
+    },
+    "target": "-160",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 + -7 + -1 - -1) * (3 - -7 - -1 * 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 234,
+    "doc": {
+      "input": "((-7 - 2 - 0 + 2) * (-4 * -5 + -8 + 9)) =",
+      "target": "-147"
+    },
+    "target": "-147",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 - 2 - 0 + 2) * (-4 * -5 + -8 + 9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 242,
+    "doc": {
+      "input": "((-8 * 1 * -1 + -5) + (-2 - -3 + 1 * -7)) =",
+      "target": "-3"
+    },
+    "target": "-3",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 * 1 * -1 + -5) + (-2 - -3 + 1 * -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "input": "((6 * -6 * 8 * 1) * (-1 * 7 * -6 + -2)) =",
+      "target": "-11520"
+    },
+    "target": "-11520",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((6 * -6 * 8 * 1) * (-1 * 7 * -6 + -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "input": "((2 - -2 + -7 * 8) * (-7 * -8 * 3 - -2)) =",
+      "target": "-8840"
+    },
+    "target": "-8840",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((2 - -2 + -7 * 8) * (-7 * -8 * 3 - -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 19,
+    "doc": {
+      "input": "((7 - 4 + -3 * 4) - (5 + -8 - 6 + -5)) =",
+      "target": "5"
+    },
+    "target": "5",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((7 - 4 + -3 * 4) - (5 + -8 - 6 + -5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 27,
+    "doc": {
+      "input": "((9 - 3 + 2 + -1) - (5 - -1 - -6 * -4)) =",
+      "target": "25"
+    },
+    "target": "25",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((9 - 3 + 2 + -1) - (5 - -1 - -6 * -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 35,
+    "doc": {
+      "input": "((-1 + -7 + -2 - 7) * (6 - 1 - -1 * 5)) =",
+      "target": "-170"
+    },
+    "target": "-170",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 + -7 + -2 - 7) * (6 - 1 - -1 * 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 43,
+    "doc": {
+      "input": "((-2 * -8 * 9 + -5) + (7 - -1 - -4 - 1)) =",
+      "target": "150"
+    },
+    "target": "150",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-2 * -8 * 9 + -5) + (7 - -1 - -4 - 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 51,
+    "doc": {
+      "input": "((-3 - 8 * 5 + 5) - (-1 * -3 - -2 - 6)) =",
+      "target": "-37"
+    },
+    "target": "-37",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-3 - 8 * 5 + 5) - (-1 * -3 - -2 - 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 59,
+    "doc": {
+      "input": "((-1 + -6 - -4 + -6) - (-2 * -5 - -1 * 1)) =",
+      "target": "-20"
+    },
+    "target": "-20",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 + -6 - -4 + -6) - (-2 * -5 - -1 * 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 67,
+    "doc": {
+      "input": "((-8 + 5 - 0 - 6) * (-5 * -4 - 6 + -3)) =",
+      "target": "-99"
+    },
+    "target": "-99",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 + 5 - 0 - 6) * (-5 * -4 - 6 + -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 75,
+    "doc": {
+      "input": "((-8 * 4 + 7 - 5) + (9 + -6 + -2 * 5)) =",
+      "target": "-37"
+    },
+    "target": "-37",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 * 4 + 7 - 5) + (9 + -6 + -2 * 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 83,
+    "doc": {
+      "input": "((9 - -6 * 9 * 4) - (6 - 4 * -8 * -7)) =",
+      "target": "443"
+    },
+    "target": "443",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((9 - -6 * 9 * 4) - (6 - 4 * -8 * -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 91,
+    "doc": {
+      "input": "((-7 - -4 * 2 - 9) * (9 - 6 - 1 + -4)) =",
+      "target": "16"
+    },
+    "target": "16",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 - -4 * 2 - 9) * (9 - 6 - 1 + -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 99,
+    "doc": {
+      "input": "((-6 * -4 + -1 + 1) + (-9 * -6 + 7 + 9)) =",
+      "target": "94"
+    },
+    "target": "94",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 * -4 + -1 + 1) + (-9 * -6 + 7 + 9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 107,
+    "doc": {
+      "input": "((-3 + -4 * 5 * -7) - (-1 * -4 + -9 + 2)) =",
+      "target": "140"
+    },
+    "target": "140",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-3 + -4 * 5 * -7) - (-1 * -4 + -9 + 2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 115,
+    "doc": {
+      "input": "((-1 + -6 + -3 * -2) * (-9 * -1 + 2 - 3)) =",
+      "target": "-8"
+    },
+    "target": "-8",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 + -6 + -3 * -2) * (-9 * -1 + 2 - 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 123,
+    "doc": {
+      "input": "((-1 - 9 * 6 + 3) * (0 - 8 - -4 - -4)) =",
+      "target": "0"
+    },
+    "target": "0",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 - 9 * 6 + 3) * (0 - 8 - -4 - -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 131,
+    "doc": {
+      "input": "((4 - 8 - -9 * 7) - (5 + -8 * 9 * -2)) =",
+      "target": "-90"
+    },
+    "target": "-90",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((4 - 8 - -9 * 7) - (5 + -8 * 9 * -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 139,
+    "doc": {
+      "input": "((8 - -5 + -9 + 7) + (-9 * -1 * -6 + 4)) =",
+      "target": "-39"
+    },
+    "target": "-39",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 - -5 + -9 + 7) + (-9 * -1 * -6 + 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 147,
+    "doc": {
+      "input": "((3 + -6 * -2 + 7) * (-6 - -4 - -6 + 6)) =",
+      "target": "220"
+    },
+    "target": "220",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 + -6 * -2 + 7) * (-6 - -4 - -6 + 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 155,
+    "doc": {
+      "input": "((4 - 2 * 2 + 3) + (-3 - -9 - -4 - 5)) =",
+      "target": "8"
+    },
+    "target": "8",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((4 - 2 * 2 + 3) + (-3 - -9 - -4 - 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 163,
+    "doc": {
+      "input": "((7 + 7 * 3 - 3) - (-3 + 4 - -6 + -3)) =",
+      "target": "21"
+    },
+    "target": "21",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((7 + 7 * 3 - 3) - (-3 + 4 - -6 + -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 171,
+    "doc": {
+      "input": "((-8 - -3 * 5 + 4) * (2 * 7 - -3 - -1)) =",
+      "target": "198"
+    },
+    "target": "198",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 - -3 * 5 + 4) * (2 * 7 - -3 - -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 179,
+    "doc": {
+      "input": "((9 + 7 - 4 - 7) - (-5 + 6 + -1 * 0)) =",
+      "target": "4"
+    },
+    "target": "4",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((9 + 7 - 4 - 7) - (-5 + 6 + -1 * 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 187,
+    "doc": {
+      "input": "((0 * -4 - -7 * 5) + (-4 * 0 + 6 + 0)) =",
+      "target": "41"
+    },
+    "target": "41",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((0 * -4 - -7 * 5) + (-4 * 0 + 6 + 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "105"
+      ]
+    ],
+    "filtered_resps": [
+      "105"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 195,
+    "doc": {
+      "input": "((-4 + -7 - 3 + 3) - (-3 + -2 - -3 * -3)) =",
+      "target": "3"
+    },
+    "target": "3",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-4 + -7 - 3 + 3) - (-3 + -2 - -3 * -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 203,
+    "doc": {
+      "input": "((8 * 3 - -1 - -3) * (-4 * 7 * -3 * 3)) =",
+      "target": "7056"
+    },
+    "target": "7056",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 * 3 - -1 - -3) * (-4 * 7 * -3 * 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 211,
+    "doc": {
+      "input": "((7 * 6 - -2 - 7) * (4 * 5 * -3 + 2)) =",
+      "target": "-2146"
+    },
+    "target": "-2146",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((7 * 6 - -2 - 7) * (4 * 5 * -3 + 2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "102"
+      ]
+    ],
+    "filtered_resps": [
+      "102"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 219,
+    "doc": {
+      "input": "((5 * -3 * 3 * 7) * (0 + -9 - -5 - -2)) =",
+      "target": "630"
+    },
+    "target": "630",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 * -3 * 3 * 7) * (0 + -9 - -5 - -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "1087"
+      ]
+    ],
+    "filtered_resps": [
+      "1087"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 227,
+    "doc": {
+      "input": "((-1 + 6 + 9 + 3) - (-5 - 9 - -3 + 4)) =",
+      "target": "24"
+    },
+    "target": "24",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 + 6 + 9 + 3) - (-5 - 9 - -3 + 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 235,
+    "doc": {
+      "input": "((-1 + 7 * 7 * -9) * (4 + 3 + -8 * 4)) =",
+      "target": "11050"
+    },
+    "target": "11050",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 + 7 * 7 * -9) * (4 + 3 + -8 * 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "1077"
+      ]
+    ],
+    "filtered_resps": [
+      "1077"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 243,
+    "doc": {
+      "input": "((8 - -9 * 4 * 9) * (-4 * -3 * 7 * 9)) =",
+      "target": "250992"
+    },
+    "target": "250992",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 - -9 * 4 * 9) * (-4 * -3 * 7 * 9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "1087"
+      ]
+    ],
+    "filtered_resps": [
+      "1087"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "input": "((-6 - -4 + 9 + 0) + (1 + -4 - -9 * 6)) =",
+      "target": "58"
+    },
+    "target": "58",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 - -4 + 9 + 0) + (1 + -4 - -9 * 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "input": "((8 - 2 + -2 * 6) * (8 + -6 + -8 + -1)) =",
+      "target": "42"
+    },
+    "target": "42",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 - 2 + -2 * 6) * (8 + -6 + -8 + -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "111"
+      ]
+    ],
+    "filtered_resps": [
+      "111"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 20,
+    "doc": {
+      "input": "((-6 * -1 - 2 + -2) + (9 - 4 + -1 - 7)) =",
+      "target": "-1"
+    },
+    "target": "-1",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 * -1 - 2 + -2) + (9 - 4 + -1 - 7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 28,
+    "doc": {
+      "input": "((-8 + 6 * -2 + 4) * (-4 * 5 + 2 - 8)) =",
+      "target": "416"
+    },
+    "target": "416",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 + 6 * -2 + 4) * (-4 * 5 + 2 - 8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 36,
+    "doc": {
+      "input": "((-5 + 6 - -5 + -6) + (-4 + -6 - 3 - 7)) =",
+      "target": "-20"
+    },
+    "target": "-20",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 + 6 - -5 + -6) + (-4 + -6 - 3 - 7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 44,
+    "doc": {
+      "input": "((-2 - 5 * -5 - 6) + (-5 * -4 + 2 + -2)) =",
+      "target": "37"
+    },
+    "target": "37",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-2 - 5 * -5 - 6) + (-5 * -4 + 2 + -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 52,
+    "doc": {
+      "input": "((1 + 3 - -5 - 4) + (-3 - -3 + 6 * 9)) =",
+      "target": "59"
+    },
+    "target": "59",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 + 3 - -5 - 4) + (-3 - -3 + 6 * 9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 60,
+    "doc": {
+      "input": "((-2 - -7 + 5 * -3) + (2 - 8 + 5 * -7)) =",
+      "target": "-51"
+    },
+    "target": "-51",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-2 - -7 + 5 * -3) + (2 - 8 + 5 * -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 68,
+    "doc": {
+      "input": "((-4 + -5 * 7 + 7) + (3 * -3 - -4 + 4)) =",
+      "target": "-33"
+    },
+    "target": "-33",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-4 + -5 * 7 + 7) + (3 * -3 - -4 + 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 76,
+    "doc": {
+      "input": "((-8 - -6 * 7 * 0) * (0 + -5 * -8 - 0)) =",
+      "target": "-320"
+    },
+    "target": "-320",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 - -6 * 7 * 0) * (0 + -5 * -8 - 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "1088"
+      ]
+    ],
+    "filtered_resps": [
+      "1088"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 84,
+    "doc": {
+      "input": "((8 + 3 * -8 - -8) - (2 + 2 * -9 - 6)) =",
+      "target": "14"
+    },
+    "target": "14",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 + 3 * -8 - -8) - (2 + 2 * -9 - 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "102"
+      ]
+    ],
+    "filtered_resps": [
+      "102"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 92,
+    "doc": {
+      "input": "((-9 * 4 * -9 - -9) * (5 * 2 * 6 * -2)) =",
+      "target": "-39960"
+    },
+    "target": "-39960",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 * 4 * -9 - -9) * (5 * 2 * 6 * -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "1088"
+      ]
+    ],
+    "filtered_resps": [
+      "1088"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 100,
+    "doc": {
+      "input": "((7 - 5 * 7 + -1) + (6 * 4 - 9 + -7)) =",
+      "target": "-21"
+    },
+    "target": "-21",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((7 - 5 * 7 + -1) + (6 * 4 - 9 + -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 108,
+    "doc": {
+      "input": "((0 + -9 * 6 * 4) + (5 - -3 + 8 * 5)) =",
+      "target": "-168"
+    },
+    "target": "-168",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((0 + -9 * 6 * 4) + (5 - -3 + 8 * 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 116,
+    "doc": {
+      "input": "((6 * 5 + 0 - -3) * (4 * 5 * 3 + 0)) =",
+      "target": "1980"
+    },
+    "target": "1980",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((6 * 5 + 0 - -3) * (4 * 5 * 3 + 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "100"
+      ]
+    ],
+    "filtered_resps": [
+      "100"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 124,
+    "doc": {
+      "input": "((-9 - 8 * 9 - 0) + (-4 + 4 + -2 - 0)) =",
+      "target": "-83"
+    },
+    "target": "-83",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 - 8 * 9 - 0) + (-4 + 4 + -2 - 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-102"
+      ]
+    ],
+    "filtered_resps": [
+      "-102"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 132,
+    "doc": {
+      "input": "((-7 - -8 + 5 - -4) + (6 - -6 * 4 - 3)) =",
+      "target": "37"
+    },
+    "target": "37",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 - -8 + 5 - -4) + (6 - -6 * 4 - 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 140,
+    "doc": {
+      "input": "((0 * 3 - -9 + -1) - (-5 * -6 - 6 + 8)) =",
+      "target": "-24"
+    },
+    "target": "-24",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((0 * 3 - -9 + -1) - (-5 * -6 - 6 + 8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 148,
+    "doc": {
+      "input": "((-7 * 2 + -4 * -8) - (-5 * 0 * 1 * 5)) =",
+      "target": "18"
+    },
+    "target": "18",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 * 2 + -4 * -8) - (-5 * 0 * 1 * 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 156,
+    "doc": {
+      "input": "((8 - 7 - -3 + -9) - (-6 * -6 + -4 * -4)) =",
+      "target": "-57"
+    },
+    "target": "-57",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 - 7 - -3 + -9) - (-6 * -6 + -4 * -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 164,
+    "doc": {
+      "input": "((-4 + 5 - 4 - -6) * (-3 * -1 * 2 - -4)) =",
+      "target": "30"
+    },
+    "target": "30",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-4 + 5 - 4 - -6) * (-3 * -1 * 2 - -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "102"
+      ]
+    ],
+    "filtered_resps": [
+      "102"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 172,
+    "doc": {
+      "input": "((5 - 7 + -6 + 4) * (2 - -9 + 3 - 6)) =",
+      "target": "-32"
+    },
+    "target": "-32",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 - 7 + -6 + 4) * (2 - -9 + 3 - 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 180,
+    "doc": {
+      "input": "((8 * -6 + -9 + 9) * (0 - 4 - 0 - -9)) =",
+      "target": "-240"
+    },
+    "target": "-240",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 * -6 + -9 + 9) * (0 - 4 - 0 - -9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 188,
+    "doc": {
+      "input": "((9 * -9 + -4 * -8) - (5 * 0 + 8 - 5)) =",
+      "target": "-52"
+    },
+    "target": "-52",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((9 * -9 + -4 * -8) - (5 * 0 + 8 - 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "105"
+      ]
+    ],
+    "filtered_resps": [
+      "105"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 196,
+    "doc": {
+      "input": "((-7 * -2 * -1 + -9) - (-7 + 5 - 0 * -4)) =",
+      "target": "-21"
+    },
+    "target": "-21",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 * -2 * -1 + -9) - (-7 + 5 - 0 * -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 204,
+    "doc": {
+      "input": "((5 + 3 - 6 + 1) + (-5 + 5 - 6 - 4)) =",
+      "target": "-7"
+    },
+    "target": "-7",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 + 3 - 6 + 1) + (-5 + 5 - 6 - 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 212,
+    "doc": {
+      "input": "((3 * -9 * 3 - 7) - (-9 + 4 * 8 + 2)) =",
+      "target": "-113"
+    },
+    "target": "-113",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 * -9 * 3 - 7) - (-9 + 4 * 8 + 2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 220,
+    "doc": {
+      "input": "((8 - 3 + 0 + 7) + (-9 * -6 * 2 - 0)) =",
+      "target": "120"
+    },
+    "target": "120",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 - 3 + 0 + 7) + (-9 * -6 * 2 - 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "102"
+      ]
+    ],
+    "filtered_resps": [
+      "102"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 228,
+    "doc": {
+      "input": "((-7 + 9 * 9 * 6) - (-2 - -5 + 9 + -7)) =",
+      "target": "474"
+    },
+    "target": "474",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 + 9 * 9 * 6) - (-2 - -5 + 9 + -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 236,
+    "doc": {
+      "input": "((7 * 8 + 1 + 3) - (3 + -1 - -9 + -6)) =",
+      "target": "55"
+    },
+    "target": "55",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((7 * 8 + 1 + 3) - (3 + -1 - -9 + -6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 244,
+    "doc": {
+      "input": "((1 * -9 - 4 + -9) + (-1 + -6 + 9 - 5)) =",
+      "target": "-25"
+    },
+    "target": "-25",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 * -9 - 4 + -9) + (-1 + -6 + 9 - 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "input": "((-6 - 4 * 2 - 6) + (1 + -2 * 1 * 7)) =",
+      "target": "-33"
+    },
+    "target": "-33",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 - 4 * 2 - 6) + (1 + -2 * 1 * 7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "input": "((-6 + -9 - -6 + -4) * (-1 - -6 + -4 - 3)) =",
+      "target": "26"
+    },
+    "target": "26",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 + -9 - -6 + -4) * (-1 - -6 + -4 - 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 21,
+    "doc": {
+      "input": "((8 * -6 + 6 * 1) - (-3 * 7 * 0 - 7)) =",
+      "target": "-35"
+    },
+    "target": "-35",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 * -6 + 6 * 1) - (-3 * 7 * 0 - 7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 29,
+    "doc": {
+      "input": "((3 + -1 * 7 * -6) - (-7 * -1 + -5 - -3)) =",
+      "target": "40"
+    },
+    "target": "40",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 + -1 * 7 * -6) - (-7 * -1 + -5 - -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 37,
+    "doc": {
+      "input": "((0 - -1 + -1 + -3) - (-3 * 0 * 8 + 6)) =",
+      "target": "-9"
+    },
+    "target": "-9",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((0 - -1 + -1 + -3) - (-3 * 0 * 8 + 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "10"
+      ]
+    ],
+    "filtered_resps": [
+      "10"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 45,
+    "doc": {
+      "input": "((-5 - 6 * 5 + -9) + (1 + -4 - -2 * 6)) =",
+      "target": "-35"
+    },
+    "target": "-35",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 - 6 * 5 + -9) + (1 + -4 - -2 * 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 53,
+    "doc": {
+      "input": "((3 * 9 - 3 * 2) + (-1 * -7 - 1 - -9)) =",
+      "target": "36"
+    },
+    "target": "36",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 * 9 - 3 * 2) + (-1 * -7 - 1 - -9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 61,
+    "doc": {
+      "input": "((3 - -6 - 7 + 3) + (-7 + 6 * 9 + 8)) =",
+      "target": "60"
+    },
+    "target": "60",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 - -6 - 7 + 3) + (-7 + 6 * 9 + 8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 69,
+    "doc": {
+      "input": "((0 * 8 - -9 * 6) - (-3 * -9 * -1 - 7)) =",
+      "target": "88"
+    },
+    "target": "88",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((0 * 8 - -9 * 6) - (-3 * -9 * -1 - 7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 77,
+    "doc": {
+      "input": "((5 * 1 * 3 - 9) * (-7 + 4 - -7 * -3)) =",
+      "target": "-144"
+    },
+    "target": "-144",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 * 1 * 3 - 9) * (-7 + 4 - -7 * -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 85,
+    "doc": {
+      "input": "((-9 + 8 - -4 * 2) - (1 - 9 + -6 * 3)) =",
+      "target": "33"
+    },
+    "target": "33",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 + 8 - -4 * 2) - (1 - 9 + -6 * 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 93,
+    "doc": {
+      "input": "((-9 + -3 + 6 - 8) - (-7 * -2 * -6 + -6)) =",
+      "target": "76"
+    },
+    "target": "76",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 + -3 + 6 - 8) - (-7 * -2 * -6 + -6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 101,
+    "doc": {
+      "input": "((6 + -8 * -3 - -5) * (2 - 7 * -2 * -8)) =",
+      "target": "-3850"
+    },
+    "target": "-3850",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((6 + -8 * -3 - -5) * (2 - 7 * -2 * -8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "102"
+      ]
+    ],
+    "filtered_resps": [
+      "102"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 109,
+    "doc": {
+      "input": "((-4 - -6 - -5 - 5) - (-2 + -4 - -8 + 6)) =",
+      "target": "-6"
+    },
+    "target": "-6",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-4 - -6 - -5 - 5) - (-2 + -4 - -8 + 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 117,
+    "doc": {
+      "input": "((-2 * -1 + 1 * -3) - (7 * -7 + -5 * 6)) =",
+      "target": "78"
+    },
+    "target": "78",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-2 * -1 + 1 * -3) - (7 * -7 + -5 * 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 125,
+    "doc": {
+      "input": "((-6 - -5 - -9 - -9) * (-6 * 4 - 8 - -9)) =",
+      "target": "-391"
+    },
+    "target": "-391",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 - -5 - -9 - -9) * (-6 * 4 - 8 - -9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 133,
+    "doc": {
+      "input": "((-3 * 4 * 3 + -5) + (-7 - 5 + 7 * -4)) =",
+      "target": "-81"
+    },
+    "target": "-81",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-3 * 4 * 3 + -5) + (-7 - 5 + 7 * -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 141,
+    "doc": {
+      "input": "((-4 + -9 + -7 * 8) - (-8 + 0 * -5 + -1)) =",
+      "target": "-60"
+    },
+    "target": "-60",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-4 + -9 + -7 * 8) - (-8 + 0 * -5 + -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 149,
+    "doc": {
+      "input": "((-4 * 4 + -1 * 5) - (-6 + 1 - -8 - 6)) =",
+      "target": "-18"
+    },
+    "target": "-18",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-4 * 4 + -1 * 5) - (-6 + 1 - -8 - 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 157,
+    "doc": {
+      "input": "((-7 + 9 + -9 * -4) - (-7 * 6 - 7 * 3)) =",
+      "target": "101"
+    },
+    "target": "101",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 + 9 + -9 * -4) - (-7 * 6 - 7 * 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 165,
+    "doc": {
+      "input": "((2 + 7 - -5 - 1) - (0 - 5 - 9 + 0)) =",
+      "target": "27"
+    },
+    "target": "27",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((2 + 7 - -5 - 1) - (0 - 5 - 9 + 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 173,
+    "doc": {
+      "input": "((-5 - -1 - 6 * 0) + (-3 + 5 * 0 + 1)) =",
+      "target": "-6"
+    },
+    "target": "-6",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 - -1 - 6 * 0) + (-3 + 5 * 0 + 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 181,
+    "doc": {
+      "input": "((-4 * 1 + 8 + 9) * (7 * -6 * -5 - 6)) =",
+      "target": "2652"
+    },
+    "target": "2652",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-4 * 1 + 8 + 9) * (7 * -6 * -5 - 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 189,
+    "doc": {
+      "input": "((-6 + -9 - -6 + -1) + (-8 * 5 * -6 + 7)) =",
+      "target": "237"
+    },
+    "target": "237",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 + -9 - -6 + -1) + (-8 * 5 * -6 + 7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 197,
+    "doc": {
+      "input": "((-3 + 2 * -7 * 5) * (-9 - 9 - -9 + -7)) =",
+      "target": "1168"
+    },
+    "target": "1168",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-3 + 2 * -7 * 5) * (-9 - 9 - -9 + -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 205,
+    "doc": {
+      "input": "((-9 + 6 + 1 - 7) * (2 - -2 + -9 + -2)) =",
+      "target": "63"
+    },
+    "target": "63",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 + 6 + 1 - 7) * (2 - -2 + -9 + -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 213,
+    "doc": {
+      "input": "((9 + 6 - 9 + 8) * (9 - -9 * -6 + -2)) =",
+      "target": "-658"
+    },
+    "target": "-658",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((9 + 6 - 9 + 8) * (9 - -9 * -6 + -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "102"
+      ]
+    ],
+    "filtered_resps": [
+      "102"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 221,
+    "doc": {
+      "input": "((-2 * 9 * -8 + 8) - (0 * -4 - -6 * 4)) =",
+      "target": "128"
+    },
+    "target": "128",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-2 * 9 * -8 + 8) - (0 * -4 - -6 * 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 229,
+    "doc": {
+      "input": "((-8 - -7 + 0 + 3) + (-3 + 5 - -5 * -8)) =",
+      "target": "-36"
+    },
+    "target": "-36",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 - -7 + 0 + 3) + (-3 + 5 - -5 * -8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 237,
+    "doc": {
+      "input": "((3 + -9 + 8 + -4) * (-4 + -6 - 4 - -8)) =",
+      "target": "12"
+    },
+    "target": "12",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 + -9 + 8 + -4) * (-4 + -6 - 4 - -8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 245,
+    "doc": {
+      "input": "((-1 + 2 - 9 + 0) * (0 - -2 + -6 - 2)) =",
+      "target": "48"
+    },
+    "target": "48",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 + 2 - 9 + 0) * (0 - -2 + -6 - 2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "input": "((1 - 0 + 1 - 4) - (-3 * 1 - -6 * -8)) =",
+      "target": "49"
+    },
+    "target": "49",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 - 0 + 1 - 4) - (-3 * 1 - -6 * -8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "10"
+      ]
+    ],
+    "filtered_resps": [
+      "10"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "input": "((-5 - 4 * -8 + 8) * (4 + 3 - 9 * 7)) =",
+      "target": "-1960"
+    },
+    "target": "-1960",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 - 4 * -8 + 8) * (4 + 3 - 9 * 7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 22,
+    "doc": {
+      "input": "((-6 - 8 - -7 * -2) - (-9 - 5 + 7 + 1)) =",
+      "target": "-22"
+    },
+    "target": "-22",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 - 8 - -7 * -2) - (-9 - 5 + 7 + 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 30,
+    "doc": {
+      "input": "((3 - 3 - -3 + -2) + (8 - 2 + -8 - -6)) =",
+      "target": "5"
+    },
+    "target": "5",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 - 3 - -3 + -2) + (8 - 2 + -8 - -6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 38,
+    "doc": {
+      "input": "((-8 + -6 * 9 - 7) + (8 + 2 * -9 * -7)) =",
+      "target": "65"
+    },
+    "target": "65",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 + -6 * 9 - 7) + (8 + 2 * -9 * -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 46,
+    "doc": {
+      "input": "((-8 + 0 * 0 * -1) - (7 + -1 + -3 * -2)) =",
+      "target": "-20"
+    },
+    "target": "-20",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 + 0 * 0 * -1) - (7 + -1 + -3 * -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-107"
+      ]
+    ],
+    "filtered_resps": [
+      "-107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 54,
+    "doc": {
+      "input": "((7 * 9 * 3 * 6) * (-8 * -6 + -9 + -5)) =",
+      "target": "38556"
+    },
+    "target": "38556",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((7 * 9 * 3 * 6) * (-8 * -6 + -9 + -5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "105"
+      ]
+    ],
+    "filtered_resps": [
+      "105"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 62,
+    "doc": {
+      "input": "((-1 - -9 * 8 - -9) + (-9 - 2 * -6 + -6)) =",
+      "target": "77"
+    },
+    "target": "77",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 - -9 * 8 - -9) + (-9 - 2 * -6 + -6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 70,
+    "doc": {
+      "input": "((0 * 9 + -8 * 7) - (7 - 9 + 1 + 0)) =",
+      "target": "-55"
+    },
+    "target": "-55",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((0 * 9 + -8 * 7) - (7 - 9 + 1 + 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 78,
+    "doc": {
+      "input": "((5 - -2 * -9 + 8) - (3 - 4 * -3 - -6)) =",
+      "target": "-26"
+    },
+    "target": "-26",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 - -2 * -9 + 8) - (3 - 4 * -3 - -6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 86,
+    "doc": {
+      "input": "((-1 * -6 - -1 - -8) - (8 + -7 * 8 * -4)) =",
+      "target": "-217"
+    },
+    "target": "-217",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 * -6 - -1 - -8) - (8 + -7 * 8 * -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 94,
+    "doc": {
+      "input": "((-7 + 5 * -6 * -6) * (7 * -5 + -6 - 7)) =",
+      "target": "-8304"
+    },
+    "target": "-8304",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 + 5 * -6 * -6) * (7 * -5 + -6 - 7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 102,
+    "doc": {
+      "input": "((-1 * -1 * -6 - 7) - (-4 * 0 - -4 - 9)) =",
+      "target": "-8"
+    },
+    "target": "-8",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 * -1 * -6 - 7) - (-4 * 0 - -4 - 9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 110,
+    "doc": {
+      "input": "((-3 + -4 * 3 - -8) + (8 - 1 - -4 - -1)) =",
+      "target": "5"
+    },
+    "target": "5",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-3 + -4 * 3 - -8) + (8 - 1 - -4 - -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 118,
+    "doc": {
+      "input": "((-1 + 5 - -1 + 3) + (0 - -3 - -5 * 0)) =",
+      "target": "11"
+    },
+    "target": "11",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 + 5 - -1 + 3) + (0 - -3 - -5 * 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 126,
+    "doc": {
+      "input": "((1 + 2 * -1 - -8) - (-8 - 2 - -1 + 6)) =",
+      "target": "10"
+    },
+    "target": "10",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 + 2 * -1 - -8) - (-8 - 2 - -1 + 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 134,
+    "doc": {
+      "input": "((-2 - 1 - -6 + -9) - (4 * 8 + -8 * 5)) =",
+      "target": "2"
+    },
+    "target": "2",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-2 - 1 - -6 + -9) - (4 * 8 + -8 * 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "105"
+      ]
+    ],
+    "filtered_resps": [
+      "105"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 142,
+    "doc": {
+      "input": "((7 + -7 * 9 * 5) - (-2 + -6 - -8 * -2)) =",
+      "target": "-284"
+    },
+    "target": "-284",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((7 + -7 * 9 * 5) - (-2 + -6 - -8 * -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "105"
+      ]
+    ],
+    "filtered_resps": [
+      "105"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 150,
+    "doc": {
+      "input": "((7 - -9 + 0 - 0) + (-9 + 5 - -9 * -1)) =",
+      "target": "3"
+    },
+    "target": "3",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((7 - -9 + 0 - 0) + (-9 + 5 - -9 * -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 158,
+    "doc": {
+      "input": "((-6 * -2 + 6 - -8) - (-2 * -4 * 8 + 5)) =",
+      "target": "-43"
+    },
+    "target": "-43",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 * -2 + 6 - -8) - (-2 * -4 * 8 + 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "115"
+      ]
+    ],
+    "filtered_resps": [
+      "115"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 166,
+    "doc": {
+      "input": "((4 * -4 + -6 - -2) - (9 + -7 + -8 * 6)) =",
+      "target": "26"
+    },
+    "target": "26",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((4 * -4 + -6 - -2) - (9 + -7 + -8 * 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "102"
+      ]
+    ],
+    "filtered_resps": [
+      "102"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 174,
+    "doc": {
+      "input": "((-3 - 9 - 3 - 1) + (-4 * -9 * -7 - -6)) =",
+      "target": "-262"
+    },
+    "target": "-262",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-3 - 9 - 3 - 1) + (-4 * -9 * -7 - -6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 182,
+    "doc": {
+      "input": "((-5 - 6 * 2 + 4) - (1 - 9 - 0 * 5)) =",
+      "target": "-5"
+    },
+    "target": "-5",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 - 6 * 2 + 4) - (1 - 9 - 0 * 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 190,
+    "doc": {
+      "input": "((5 + 4 + 7 - 6) - (-8 * 0 - 9 + 4)) =",
+      "target": "15"
+    },
+    "target": "15",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 + 4 + 7 - 6) - (-8 * 0 - 9 + 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 198,
+    "doc": {
+      "input": "((1 + 0 + 2 - 4) + (-9 + 6 * -5 + 8)) =",
+      "target": "-32"
+    },
+    "target": "-32",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 + 0 + 2 - 4) + (-9 + 6 * -5 + 8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 206,
+    "doc": {
+      "input": "((1 * 0 - -5 - 3) + (9 * 6 + -4 - 0)) =",
+      "target": "52"
+    },
+    "target": "52",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 * 0 - -5 - 3) + (9 * 6 + -4 - 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "100"
+      ]
+    ],
+    "filtered_resps": [
+      "100"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 214,
+    "doc": {
+      "input": "((5 * 6 + -6 - 8) * (-5 - 6 - 5 - -4)) =",
+      "target": "-192"
+    },
+    "target": "-192",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 * 6 + -6 - 8) * (-5 - 6 - 5 - -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 222,
+    "doc": {
+      "input": "((-7 * -6 * 0 - 5) * (-3 - 9 * -8 * -9)) =",
+      "target": "3255"
+    },
+    "target": "3255",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 * -6 * 0 - 5) * (-3 - 9 * -8 * -9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "1057"
+      ]
+    ],
+    "filtered_resps": [
+      "1057"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 230,
+    "doc": {
+      "input": "((8 - 4 - -8 - -7) + (6 - 5 - -1 - 4)) =",
+      "target": "17"
+    },
+    "target": "17",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((8 - 4 - -8 - -7) + (6 - 5 - -1 - 4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 238,
+    "doc": {
+      "input": "((1 * 5 * -8 - -2) * (-2 * 6 - -5 * 3)) =",
+      "target": "-114"
+    },
+    "target": "-114",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 * 5 * -8 - -2) * (-2 * 6 - -5 * 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 246,
+    "doc": {
+      "input": "((7 * -5 * -9 + 7) - (2 + -8 * 6 * 3)) =",
+      "target": "464"
+    },
+    "target": "464",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((7 * -5 * -9 + 7) - (2 + -8 * 6 * 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "input": "((1 + 7 * -9 + -5) + (3 + -5 * 2 - 6)) =",
+      "target": "-80"
+    },
+    "target": "-80",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 + 7 * -9 + -5) + (3 + -5 * 2 - 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "input": "((-5 * -7 * -6 + 9) * (-2 - 8 + -5 + 7)) =",
+      "target": "1608"
+    },
+    "target": "1608",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 * -7 * -6 + 9) * (-2 - 8 + -5 + 7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 23,
+    "doc": {
+      "input": "((1 - 7 - -8 * 3) + (-7 - -2 + -3 * 6)) =",
+      "target": "-5"
+    },
+    "target": "-5",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 - 7 - -8 * 3) + (-7 - -2 + -3 * 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 31,
+    "doc": {
+      "input": "((-2 + -9 - -2 * 2) - (6 * 1 * -2 * -1)) =",
+      "target": "-19"
+    },
+    "target": "-19",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-2 + -9 - -2 * 2) - (6 * 1 * -2 * -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 39,
+    "doc": {
+      "input": "((-3 * 0 * 4 - -7) + (-9 * -6 - -8 + 1)) =",
+      "target": "70"
+    },
+    "target": "70",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-3 * 0 * 4 - -7) + (-9 * -6 - -8 + 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 47,
+    "doc": {
+      "input": "((-9 - -3 * 1 - -3) * (-9 - 5 - -2 * -7)) =",
+      "target": "84"
+    },
+    "target": "84",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-9 - -3 * 1 - -3) * (-9 - 5 - -2 * -7)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 55,
+    "doc": {
+      "input": "((1 + 1 + -7 * -6) - (4 * 2 * -5 + -5)) =",
+      "target": "89"
+    },
+    "target": "89",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 + 1 + -7 * -6) - (4 * 2 * -5 + -5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 63,
+    "doc": {
+      "input": "((-5 + 6 + -6 * -1) + (-5 + -5 + 9 + -2)) =",
+      "target": "4"
+    },
+    "target": "4",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 + 6 + -6 * -1) + (-5 + -5 + 9 + -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 71,
+    "doc": {
+      "input": "((9 * 4 - 6 - -8) + (6 - 8 - -4 * 3)) =",
+      "target": "48"
+    },
+    "target": "48",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((9 * 4 - 6 - -8) + (6 - 8 - -4 * 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 79,
+    "doc": {
+      "input": "((7 + 1 + 9 * 1) + (7 - -3 + 3 * 1)) =",
+      "target": "30"
+    },
+    "target": "30",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((7 + 1 + 9 * 1) + (7 - -3 + 3 * 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 87,
+    "doc": {
+      "input": "((-3 * 6 - 0 * 6) - (-6 * -6 * 7 + -8)) =",
+      "target": "-262"
+    },
+    "target": "-262",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-3 * 6 - 0 * 6) - (-6 * -6 * 7 + -8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 95,
+    "doc": {
+      "input": "((-8 * 0 + 2 * 2) * (-9 - 1 * -9 * 3)) =",
+      "target": "72"
+    },
+    "target": "72",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 * 0 + 2 * 2) * (-9 - 1 * -9 * 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 103,
+    "doc": {
+      "input": "((-6 + 1 - -4 * -2) + (4 - -8 - -1 - -2)) =",
+      "target": "2"
+    },
+    "target": "2",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 + 1 - -4 * -2) + (4 - -8 - -1 - -2)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 111,
+    "doc": {
+      "input": "((-4 - 5 + 2 + 7) - (-9 * 6 * -1 - -3)) =",
+      "target": "-57"
+    },
+    "target": "-57",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-4 - 5 + 2 + 7) - (-9 * 6 * -1 - -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 119,
+    "doc": {
+      "input": "((0 - 5 + 0 + 3) * (-7 + -8 * 4 - -3)) =",
+      "target": "72"
+    },
+    "target": "72",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((0 - 5 + 0 + 3) * (-7 + -8 * 4 - -3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 127,
+    "doc": {
+      "input": "((-6 * -2 + -2 - -9) + (-9 * 3 * -1 + -1)) =",
+      "target": "45"
+    },
+    "target": "45",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 * -2 + -2 - -9) + (-9 * 3 * -1 + -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 135,
+    "doc": {
+      "input": "((-2 * 4 - 3 - 3) - (-9 * -3 - -8 * 6)) =",
+      "target": "-89"
+    },
+    "target": "-89",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-2 * 4 - 3 - 3) - (-9 * -3 - -8 * 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 143,
+    "doc": {
+      "input": "((-4 - -8 + 2 + -8) * (-3 * 0 + 4 * 1)) =",
+      "target": "-8"
+    },
+    "target": "-8",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-4 - -8 + 2 + -8) * (-3 * 0 + 4 * 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 151,
+    "doc": {
+      "input": "((4 + 3 + -9 + -2) * (7 * 2 + 8 - 1)) =",
+      "target": "-84"
+    },
+    "target": "-84",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((4 + 3 + -9 + -2) * (7 * 2 + 8 - 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 159,
+    "doc": {
+      "input": "((-1 + 5 * 4 + 9) - (-7 - 6 * -8 - 0)) =",
+      "target": "-13"
+    },
+    "target": "-13",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-1 + 5 * 4 + 9) - (-7 - 6 * -8 - 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 167,
+    "doc": {
+      "input": "((3 - 2 - 3 * 3) + (-8 * -1 * -9 * 3)) =",
+      "target": "-224"
+    },
+    "target": "-224",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 - 2 - 3 * 3) + (-8 * -1 * -9 * 3)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "107"
+      ]
+    ],
+    "filtered_resps": [
+      "107"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 175,
+    "doc": {
+      "input": "((1 * -1 + 5 * -4) + (-2 - 5 * 4 - 5)) =",
+      "target": "-48"
+    },
+    "target": "-48",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 * -1 + 5 * -4) + (-2 - 5 * 4 - 5)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 183,
+    "doc": {
+      "input": "((-7 - 1 + 3 * -2) + (0 - 4 + 6 + 1)) =",
+      "target": "-11"
+    },
+    "target": "-11",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-7 - 1 + 3 * -2) + (0 - 4 + 6 + 1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 191,
+    "doc": {
+      "input": "((9 - 6 + -4 + -5) * (4 - -8 + -9 + 0)) =",
+      "target": "-18"
+    },
+    "target": "-18",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((9 - 6 + -4 + -5) * (4 - -8 + -9 + 0)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 199,
+    "doc": {
+      "input": "((-3 + -4 * 4 + -8) + (1 - -3 + 4 - -9)) =",
+      "target": "-10"
+    },
+    "target": "-10",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-3 + -4 * 4 + -8) + (1 - -3 + 4 - -9)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 207,
+    "doc": {
+      "input": "((1 - 2 + 5 * 2) + (-2 - -7 + 3 * -8)) =",
+      "target": "-10"
+    },
+    "target": "-10",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((1 - 2 + 5 * 2) + (-2 - -7 + 3 * -8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 215,
+    "doc": {
+      "input": "((5 + 4 - -1 * -1) + (-6 - -7 + -1 * 6)) =",
+      "target": "3"
+    },
+    "target": "3",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((5 + 4 - -1 * -1) + (-6 - -7 + -1 * 6)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 223,
+    "doc": {
+      "input": "((3 * 8 * -1 * -9) - (-2 + 2 * -8 * 8)) =",
+      "target": "346"
+    },
+    "target": "346",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((3 * 8 * -1 * -9) - (-2 + 2 * -8 * 8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "-101"
+      ]
+    ],
+    "filtered_resps": [
+      "-101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 231,
+    "doc": {
+      "input": "((-6 * 8 + -6 - -5) + (-4 - 9 * 5 - -1)) =",
+      "target": "-97"
+    },
+    "target": "-97",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-6 * 8 + -6 - -5) + (-4 - 9 * 5 - -1)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 239,
+    "doc": {
+      "input": "((-8 - -1 * -8 * -2) * (-6 + 8 + -5 * -8)) =",
+      "target": "336"
+    },
+    "target": "336",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-8 - -1 * -8 * -2) * (-6 + 8 + -5 * -8)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "108"
+      ]
+    ],
+    "filtered_resps": [
+      "108"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 247,
+    "doc": {
+      "input": "((-5 + -8 - -6 * 7) + (9 * -7 - -5 - -4)) =",
+      "target": "-25"
+    },
+    "target": "-25",
+    "arguments": [
+      [
+        "Solve multi-step arithmetic problems.\n\nQ: ((-5 + 9 * -4 - 0) * (4 + -7 + 0 * -5)) =\nA: 123\n\nQ: ((-9 * 7 * 7 * -9) + (4 * -9 - 8 - -4)) =\nA: 3929\n\nQ: ((-3 + 5 * 8 * -4) - (9 - 8 * -7 + -9)) =\nA: -219\n\nQ: ((-5 + -8 - -6 * 7) + (9 * -7 - -5 - -4)) =\nA:",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "101"
+      ]
+    ],
+    "filtered_resps": [
+      "101"
+    ],
+    "exact_match": 0.0
+  }
+]

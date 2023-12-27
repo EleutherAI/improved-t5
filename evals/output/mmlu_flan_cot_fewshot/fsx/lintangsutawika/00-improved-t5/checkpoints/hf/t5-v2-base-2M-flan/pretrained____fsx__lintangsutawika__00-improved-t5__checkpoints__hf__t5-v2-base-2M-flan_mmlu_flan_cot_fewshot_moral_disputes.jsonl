@@ -1,0 +1,1370 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": " Which of the following best describes Gill's response to Kass's argument that the notion of being \"better off dead\" is incoherent?",
+      "subject": "moral_disputes",
+      "choices": [
+        "Nonexistent people can still benefit from some things.",
+        "Even if the notion is incoherent, there's nothing incoherent about preferring to be dead.",
+        "Not suffering is always better than suffering.",
+        "Kass unjustifiably assumes that dying implies no longer existing."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Which of the following best describes Gill's response to Kass's argument that the notion of being \"better off dead\" is incoherent?\n(A) Nonexistent people can still benefit from some things. (B) Even if the notion is incoherent, there's nothing incoherent about preferring to be dead. (C) Not suffering is always better than suffering. (D) Kass unjustifiably assumes that dying implies no longer existing.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The notion of being \"better off dead\" is incoherent. Gill's response to Kass's argument is that the notion of being \"better off dead\" is incoherent. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": " The main difference between \"actual act principles\" (like the harm principle) and \"internal principles\" (like the universalizability principle) is that",
+      "subject": "moral_disputes",
+      "choices": [
+        "internal principles focus on the agent's motives for acting.",
+        "internal principles focus only on the immediate effects of an action.",
+        "actual act principles focus on the agent's actual motives for acting.",
+        "actual act principles concern how we ought to think about other people."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: The main difference between \"actual act principles\" (like the harm principle) and \"internal principles\" (like the universalizability principle) is that\n(A) internal principles focus on the agent's motives for acting. (B) internal principles focus only on the immediate effects of an action. (C) actual act principles focus on the agent's actual motives for acting. (D) actual act principles concern how we ought to think about other people.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on moral principles for help. The main difference between \"actual act principles\" (like the harm principle) and \"internal principles\" (like the universalizability principle) is that internal principles focus on the agent's motives for acting. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "question": " Pogge argues that even though we cannot be held responsible for the wrongful acts that others did long ago, we can be held responsible for",
+      "subject": "moral_disputes",
+      "choices": [
+        "claiming the benefits gained by those wrongs.",
+        "failing to address those wrongs as if they were our own.",
+        "whether or not we respect other persons",
+        "all of the above"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Pogge argues that even though we cannot be held responsible for the wrongful acts that others did long ago, we can be held responsible for\n(A) claiming the benefits gained by those wrongs. (B) failing to address those wrongs as if they were our own. (C) whether or not we respect other persons (D) all of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on moral disputes for help. Pogge argues that even though we cannot be held responsible for the wrongful acts that others did long ago, we can be held responsible for: (A) claiming the benefits gained by those wrongs. (B) failing to address those wrongs as if they were our own. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 24,
+    "doc": {
+      "question": " According to de Marneffe, what is the central difference between drug legalization and mere decriminalization?",
+      "subject": "moral_disputes",
+      "choices": [
+        "Legalization allows for the manufacture and sale of drugs; mere decriminalization doesn't.",
+        "Mere decriminalization allows for the manufacture and sale of drugs; legalization doesn't.",
+        "Legalization is a federal issue, but decriminalization is a state issue.",
+        "none of the above; de Marneffe believes legalization and decriminalization are equivalent."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: According to de Marneffe, what is the central difference between drug legalization and mere decriminalization?\n(A) Legalization allows for the manufacture and sale of drugs; mere decriminalization doesn't. (B) Mere decriminalization allows for the manufacture and sale of drugs; legalization doesn't. (C) Legalization is a federal issue, but decriminalization is a state issue. (D) none of the above; de Marneffe believes legalization and decriminalization are equivalent.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Legalization allows for the manufacture and sale of drugs; mere decriminalization doesn't. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 32,
+    "doc": {
+      "question": " Singer claims that the best way to avoid loss of equality of opportunity through the genetic supermarket is to",
+      "subject": "moral_disputes",
+      "choices": [
+        "provide genetic enhancement to those at the top and limit it to those at the bottom.",
+        "provide genetic enhancement to those at the bottom and limit it to those at the top.",
+        "distinguish intrinsic from positional goods.",
+        "enact a global ban on genetic enhancement."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Singer claims that the best way to avoid loss of equality of opportunity through the genetic supermarket is to\n(A) provide genetic enhancement to those at the top and limit it to those at the bottom. (B) provide genetic enhancement to those at the bottom and limit it to those at the top. (C) distinguish intrinsic from positional goods. (D) enact a global ban on genetic enhancement.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Bioethicist Peter Singer claims that the best way to avoid loss of equality of opportunity through the genetic supermarket is to provide genetic enhancement to those at the top and limit it to those at the bottom. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": " According to Locke, our natural rights are bestowed on us by",
+      "subject": "moral_disputes",
+      "choices": [
+        "nature.",
+        "God.",
+        "human psychology.",
+        "society."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: According to Locke, our natural rights are bestowed on us by\n(A) nature. (B) God. (C) human psychology. (D) society.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on natural rights for help. Locke believes that our natural rights are bestowed on us by nature. Nature is the source of our natural rights. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": " In response to Sandel's \"social justice\" argument, Kamm argues that",
+      "subject": "moral_disputes",
+      "choices": [
+        "even if we were able to enhance ourselves or others, we would not thereby be obligated to do so.",
+        "there is a difference between (i) choosing that one have a certain trait and (ii) being responsible for bearing the costs of that choice.",
+        "having the option to enhance will lead to fewer instances of people who require the assistance of others.",
+        "all of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: In response to Sandel's \"social justice\" argument, Kamm argues that\n(A) even if we were able to enhance ourselves or others, we would not thereby be obligated to do so. (B) there is a difference between (i) choosing that one have a certain trait and (ii) being responsible for bearing the costs of that choice. (C) having the option to enhance will lead to fewer instances of people who require the assistance of others. (D) all of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on moral disputes for help. Sandel's \"social justice\" argument is a rejection of the idea that we should enhance ourselves or others. Kamm argues that we should not be obligated to enhance ourselves or others. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "question": " According to Mill, the only things desirable as ends are",
+      "subject": "moral_disputes",
+      "choices": [
+        "virtuous character traits.",
+        "satisfactions of prima facie duties.",
+        "pleasure and freedom from pain.",
+        "satisfactions of the categorical imperative."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: According to Mill, the only things desirable as ends are\n(A) virtuous character traits. (B) satisfactions of prima facie duties. (C) pleasure and freedom from pain. (D) satisfactions of the categorical imperative.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on moral disputes for help. Virtuous character traits are desirable as ends. Virtuous character traits are desirable as ends. Virtuous character traits are desirable as ends. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 25,
+    "doc": {
+      "question": " To say that the consequentialist account of right action is a maximizing conception is to say that, according to the account,",
+      "subject": "moral_disputes",
+      "choices": [
+        "we are obligated to convince as many people as possible to accept consequentialism.",
+        "we ought to perform that action the consequences of which will have at least as much overall value as any of the alternative actions.",
+        "we are to perform that action the consequences of which will have the least overall value compared to any of the alternative actions.",
+        "none of the above"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: To say that the consequentialist account of right action is a maximizing conception is to say that, according to the account,\n(A) we are obligated to convince as many people as possible to accept consequentialism. (B) we ought to perform that action the consequences of which will have at least as much overall value as any of the alternative actions. (C) we are to perform that action the consequences of which will have the least overall value compared to any of the alternative actions. (D) none of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on moral disputes for help. Consequentialism is a maximizing conception of right action. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 33,
+    "doc": {
+      "question": " On Huemer's view, it is wrong to think that",
+      "subject": "moral_disputes",
+      "choices": [
+        "the government should prohibit things that do not degrade our dignity.",
+        "the government should prohibit things that on the basis of likely outcomes.",
+        "the government should prohibit things that cause people to harm themselves.",
+        "the government should prohibit things that fail to realize certain basic values."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: On Huemer's view, it is wrong to think that\n(A) the government should prohibit things that do not degrade our dignity. (B) the government should prohibit things that on the basis of likely outcomes. (C) the government should prohibit things that cause people to harm themselves. (D) the government should prohibit things that fail to realize certain basic values.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on moral disputes for help. Huemer thinks that the government should prohibit things that degrade our dignity. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": " Lukianoff and Haidt postulate that social media",
+      "subject": "moral_disputes",
+      "choices": [
+        "has contributed to the rise of vindictive protectiveness.",
+        "has helped to combat the rise of vindictive protectiveness.",
+        "shifted the balance of power between students and professors.",
+        "Both A and C"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Lukianoff and Haidt postulate that social media\n(A) has contributed to the rise of vindictive protectiveness. (B) has helped to combat the rise of vindictive protectiveness. (C) shifted the balance of power between students and professors. (D) Both A and C\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Social media has contributed to the rise of vindictive protectiveness. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": " According to retributivist theories of punishment, those who break the law should be punished because",
+      "subject": "moral_disputes",
+      "choices": [
+        "doing so will benefit society.",
+        "they deserve it.",
+        "punishment will give them an opportunity to correct their behavior.",
+        "lawbreakers unconsciously desire to be punished."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: According to retributivist theories of punishment, those who break the law should be punished because\n(A) doing so will benefit society. (B) they deserve it. (C) punishment will give them an opportunity to correct their behavior. (D) lawbreakers unconsciously desire to be punished.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The retributivist theories of punishment are based on the belief that punishment will benefit society. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 18,
+    "doc": {
+      "question": " For the purposes of Norcross's discussion, to claim that humans have a superior ethical status to animals is to claim that",
+      "subject": "moral_disputes",
+      "choices": [
+        "it is morally wrong to give the interests of humans greater weight than those of animals in deciding how to behave.",
+        "it is morally right to give the interests of humans greater weight than those of animals in deciding how to behave.",
+        "both A and B",
+        "neither A nor B"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: For the purposes of Norcross's discussion, to claim that humans have a superior ethical status to animals is to claim that\n(A) it is morally wrong to give the interests of humans greater weight than those of animals in deciding how to behave. (B) it is morally right to give the interests of humans greater weight than those of animals in deciding how to behave. (C) both A and B (D) neither A nor B\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Humans have a superior ethical status to animals. For the purposes of Norcross's discussion, to claim that humans have a superior ethical status to animals is to claim that "
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 26,
+    "doc": {
+      "question": " Van den Haag suggests that the actual costs of imposing the death penalty are trumped by",
+      "subject": "moral_disputes",
+      "choices": [
+        "equality.",
+        "morality.",
+        "deterrence.",
+        "justice."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Van den Haag suggests that the actual costs of imposing the death penalty are trumped by\n(A) equality. (B) morality. (C) deterrence. (D) justice.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The death penalty is a punishment for the death of a person. The actual costs of imposing the death penalty are trumped by morality. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 34,
+    "doc": {
+      "question": " During his discussion of Japan, Caren claims that to answer the question of whether limitations on freedom of entry are justified, we have to weigh the claims of those trying to get in _____ the claims of those who are already inside.",
+      "subject": "moral_disputes",
+      "choices": [
+        "more heavily with",
+        "less heavily with",
+        "independently of",
+        "equally with"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: During his discussion of Japan, Caren claims that to answer the question of whether limitations on freedom of entry are justified, we have to weigh the claims of those trying to get in _____ the claims of those who are already inside.\n(A) more heavily with (B) less heavily with (C) independently of (D) equally with\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on moral disputes for help. Caren claims that to answer the question of whether limitations on freedom of entry are justified, we have to weigh the claims of those trying to get in _____ the claims of those who are already inside. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": " Fine argues that states are not clubs because",
+      "subject": "moral_disputes",
+      "choices": [
+        "it is not possible today for would-be immigrants to get together to set up a state of their own.",
+        "exclusion from a golf club is unlikely to have a devastating impact on the life of a would-be member.",
+        "both A and B",
+        "neither A nor B"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Fine argues that states are not clubs because\n(A) it is not possible today for would-be immigrants to get together to set up a state of their own. (B) exclusion from a golf club is unlikely to have a devastating impact on the life of a would-be member. (C) both A and B (D) neither A nor B\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": " According to Gardiner, which of the following is an important implication of the fact that carbon dioxide is a long-lived greenhouse gas?",
+      "subject": "moral_disputes",
+      "choices": [
+        "That climate change is a resilient phenomenon.",
+        "That the impacts of climate change are seriously back-loaded.",
+        "That climate change is a substantially deferred phenomenon.",
+        "all of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: According to Gardiner, which of the following is an important implication of the fact that carbon dioxide is a long-lived greenhouse gas?\n(A) That climate change is a resilient phenomenon. (B) That the impacts of climate change are seriously back-loaded. (C) That climate change is a substantially deferred phenomenon. (D) all of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The impacts of climate change are seriously back-loaded. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 19,
+    "doc": {
+      "question": " Which of the following best characterizes Cohen's view about animal rights?",
+      "subject": "moral_disputes",
+      "choices": [
+        "Animals do not have rights, and as such we do not have any obligations toward them.",
+        "Animals do have rights; nonetheless, we do not have any obligations toward them.",
+        "Animals do not have rights, but they still deserve some moral consideration.",
+        "Animals do have rights, and we have an obligation not to cause them suffering."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Which of the following best characterizes Cohen's view about animal rights?\n(A) Animals do not have rights, and as such we do not have any obligations toward them. (B) Animals do have rights; nonetheless, we do not have any obligations toward them. (C) Animals do not have rights, but they still deserve some moral consideration. (D) Animals do have rights, and we have an obligation not to cause them suffering.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Animals do not have rights, and as such we do not have any obligations toward them. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 27,
+    "doc": {
+      "question": " According to Walzer, \"in the absence of political support, terrorism may indeed be the one available strategy, but it is hard to see how its evils can then be excused\" because",
+      "subject": "moral_disputes",
+      "choices": [
+        "the absence of political support implies that the terrorists do not represent the weak.",
+        "terrorism can never be the only available strategy.",
+        "evils, by definition, cannot be excused.",
+        "none of the above"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: According to Walzer, \"in the absence of political support, terrorism may indeed be the one available strategy, but it is hard to see how its evils can then be excused\" because\n(A) the absence of political support implies that the terrorists do not represent the weak. (B) terrorism can never be the only available strategy. (C) evils, by definition, cannot be excused. (D) none of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The absence of political support implies that the terrorists do not represent the weak. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 35,
+    "doc": {
+      "question": " According to Kate Manne, sexism involves",
+      "subject": "moral_disputes",
+      "choices": [
+        "the patriarchy-reinforcing naturalization of sex differences.",
+        "the belief that men and women are different.",
+        "coercive mechanisms to enforce patriarchy.",
+        "violent oppression."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: According to Kate Manne, sexism involves\n(A) the patriarchy-reinforcing naturalization of sex differences. (B) the belief that men and women are different. (C) coercive mechanisms to enforce patriarchy. (D) violent oppression.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on sexism for help. Sexism involves the patriarchy-reinforcing naturalization of sex differences. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": " According to Singer, thinking ethically is all about",
+      "subject": "moral_disputes",
+      "choices": [
+        "thinking about what is in one's own self-interest.",
+        "putting yourself in the place of others.",
+        "considering how to sacrifice oneself for the sake of others.",
+        "all of the above"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: According to Singer, thinking ethically is all about\n(A) thinking about what is in one's own self-interest. (B) putting yourself in the place of others. (C) considering how to sacrifice oneself for the sake of others. (D) all of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Bioethicist Peter Singer sees ethical thinking as all about thinking about what is in one's own self-interest. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": " The doctrine of double effect is so named because it concerns",
+      "subject": "moral_disputes",
+      "choices": [
+        "actions that are composites of simpler actions.",
+        "cases in which performing an action would have at least one good effect and one bad effect.",
+        "cases in which an action would have at least two good effects or two bad effects.",
+        "cases in which two actions of the same type are performed at the same time."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: The doctrine of double effect is so named because it concerns\n(A) actions that are composites of simpler actions. (B) cases in which performing an action would have at least one good effect and one bad effect. (C) cases in which an action would have at least two good effects or two bad effects. (D) cases in which two actions of the same type are performed at the same time.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on double effect for help. Double effect is a doctrine of two effects. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 20,
+    "doc": {
+      "question": " The \"double standard\" with which states and nonstate entities are judged, according to Andrew Valls, is that",
+      "subject": "moral_disputes",
+      "choices": [
+        "violence by nonstate entities is more easily accepted than state violence.",
+        "state violence is treated differently from nonmilitary action by the state (e.g., economic sanctions).",
+        "state violence is more easily accepted than violence by nonstate entities.",
+        "state violence is evaluated via just war theory, but violence by nonstate entities is evaluated via consequentialism."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: The \"double standard\" with which states and nonstate entities are judged, according to Andrew Valls, is that\n(A) violence by nonstate entities is more easily accepted than state violence. (B) state violence is treated differently from nonmilitary action by the state (e.g., economic sanctions). (C) state violence is more easily accepted than violence by nonstate entities. (D) state violence is evaluated via just war theory, but violence by nonstate entities is evaluated via consequentialism.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on double standard for help. The \"double standard\" with which states and nonstate entities are judged is that: (A) violence by nonstate entities is more easily accepted than state violence. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 28,
+    "doc": {
+      "question": " What, according to Singer, is the only defensible boundary of concern for the interests of others?",
+      "subject": "moral_disputes",
+      "choices": [
+        "intelligence",
+        "rationality",
+        "sentience",
+        "none of the above"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: What, according to Singer, is the only defensible boundary of concern for the interests of others?\n(A) intelligence (B) rationality (C) sentience (D) none of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Bioethicist Peter Singer sees innate value as innate values conferred by oneself, for oneself. Intrinsic value is the only defensible boundary of concern for the interests of others. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 36,
+    "doc": {
+      "question": " The principle of proportionality requires that",
+      "subject": "moral_disputes",
+      "choices": [
+        "murderers receive the death penalty.",
+        "punishments must be in proportion to the crime.",
+        "we should do to the wrongdoer the same kind of action done to the victim.",
+        "punishments must be equal to the crime."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: The principle of proportionality requires that\n(A) murderers receive the death penalty. (B) punishments must be in proportion to the crime. (C) we should do to the wrongdoer the same kind of action done to the victim. (D) punishments must be equal to the crime.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on proportionality for help. The principle of proportionality requires that punishments must be in proportion to the crime. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": " In Altman's terminology, which of the following would qualify as \"low value\" speech in a university context?",
+      "subject": "moral_disputes",
+      "choices": [
+        "hate speech couched in the discourse of science",
+        "the use of a racial epithet by one student directed at another",
+        "both A and B",
+        "neither A nor B"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: In Altman's terminology, which of the following would qualify as \"low value\" speech in a university context?\n(A) hate speech couched in the discourse of science (B) the use of a racial epithet by one student directed at another (C) both A and B (D) neither A nor B\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Hate speech couched in the discourse of science is low value speech. Hate speech couched in the discourse of science is low value speech. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": " Gill describes Kass, Pelegrino, and Callahan as arguing that the withdrawal of life-sustaining treatment is morally acceptable while physician-assisted suicide is not. In their view, this is because",
+      "subject": "moral_disputes",
+      "choices": [
+        "the main intention of physicians who withdraw treatment is to kill the patient, not relieve suffering.",
+        "the main intention of physicians who withdraw treatment is to relieve suffering, not kill the patient.",
+        "killing and letting die are morally equivalent.",
+        "many patients recover even after their treatment is withheld."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Gill describes Kass, Pelegrino, and Callahan as arguing that the withdrawal of life-sustaining treatment is morally acceptable while physician-assisted suicide is not. In their view, this is because\n(A) the main intention of physicians who withdraw treatment is to kill the patient, not relieve suffering. (B) the main intention of physicians who withdraw treatment is to relieve suffering, not kill the patient. (C) killing and letting die are morally equivalent. (D) many patients recover even after their treatment is withheld.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The main intention of physicians who withdraw treatment is to kill the patient, not relieve suffering. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 21,
+    "doc": {
+      "question": " Reiman could be described as a(n)",
+      "subject": "moral_disputes",
+      "choices": [
+        "consequentialist",
+        "believer in the principle of equality",
+        "abolitionist",
+        "retentionist"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Reiman could be described as a(n)\n(A) consequentialist (B) believer in the principle of equality (C) abolitionist (D) retentionist\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Reiman is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century American writer. He is a 19th-century writer. He is a 19th-century American writer. He is a 19th-century writer. He"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 29,
+    "doc": {
+      "question": " Suppose Mary says, \"I understand that the use of the pesticide DDT will prevent thousands of human beings from dying of malaria. But it is still wrong to use DDT, because ultimately all that matters is the functional integrity of the ecosystems in which human beings live, and using DDT will severely damage this integrity.\" Mary is most likely a proponent of",
+      "subject": "moral_disputes",
+      "choices": [
+        "biocentrism.",
+        "anthropocentrism.",
+        "ecoholism.",
+        "ecocentrism."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Suppose Mary says, \"I understand that the use of the pesticide DDT will prevent thousands of human beings from dying of malaria. But it is still wrong to use DDT, because ultimately all that matters is the functional integrity of the ecosystems in which human beings live, and using DDT will severely damage this integrity.\" Mary is most likely a proponent of\n(A) biocentrism. (B) anthropocentrism. (C) ecoholism. (D) ecocentrism.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Biocentrism is the belief that the use of pesticides will prevent thousands of human beings from dying of malaria. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 37,
+    "doc": {
+      "question": " If animals have no direct or indirect moral standing, then using them for human purposes is",
+      "subject": "moral_disputes",
+      "choices": [
+        "always wrong.",
+        "always obligatory.",
+        "never wrong.",
+        "never optional."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: If animals have no direct or indirect moral standing, then using them for human purposes is\n(A) always wrong. (B) always obligatory. (C) never wrong. (D) never optional.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on moral disputes for help. Animals have no direct or indirect moral standing, so using them for human purposes is always wrong. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": " Which of the following is an example of a virtue?",
+      "subject": "moral_disputes",
+      "choices": [
+        "pleasure",
+        "hunger",
+        "desire",
+        "courage"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Which of the following is an example of a virtue?\n(A) pleasure (B) hunger (C) desire (D) courage\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "D is a virtue. Pleasure is a feeling of pleasure. Pleasure is a feeling of pleasure. Pleasure is an example of a virtue. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": " Reiman raises objections to the arguments presented by",
+      "subject": "moral_disputes",
+      "choices": [
+        "Nathanson.",
+        "Kant.",
+        "abolitionists.",
+        "van den Haag."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Reiman raises objections to the arguments presented by\n(A) Nathanson. (B) Kant. (C) abolitionists. (D) van den Haag.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Reiman raises objections to the arguments presented by Nathanson. Nathanson is a philosopher. Kant is a philosopher. Kant is a philosopher. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 22,
+    "doc": {
+      "question": " The idea of moral injury involves",
+      "subject": "moral_disputes",
+      "choices": [
+        "the natural law idea of the doctrine of double effect.",
+        "the Rossian idea of prima facie duties.",
+        "the utilitarian idea of greatest good for the greatest number.",
+        "the Kantian idea of the equal dignity of all persons."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: The idea of moral injury involves\n(A) the natural law idea of the doctrine of double effect. (B) the Rossian idea of prima facie duties. (C) the utilitarian idea of greatest good for the greatest number. (D) the Kantian idea of the equal dignity of all persons.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on moral disputes for help. The idea of moral injury involves the idea of moral injury. The idea of moral injury involves the idea of moral injury. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 30,
+    "doc": {
+      "question": " Which of the following is a central claim in Shapiro's argument?",
+      "subject": "moral_disputes",
+      "choices": [
+        "With easy access to drugs, we can expect a significant increase in drug addiction.",
+        "Even with easy access to drugs, most drug users don't become addicts.",
+        "Legal restrictions on drug use are justified because illegal drugs are inherently addictive.",
+        "Only by restricting access to drugs can we solve the drug problem."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: Which of the following is a central claim in Shapiro's argument?\n(A) With easy access to drugs, we can expect a significant increase in drug addiction. (B) Even with easy access to drugs, most drug users don't become addicts. (C) Legal restrictions on drug use are justified because illegal drugs are inherently addictive. (D) Only by restricting access to drugs can we solve the drug problem.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "We refer to Wikipedia articles on drug addiction for help. Shapiro's central claim is that with easy access to drugs, we can expect a significant increase in drug addiction. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": " According to Marquis, which of the following are benefits of his position on abortion?",
+      "subject": "moral_disputes",
+      "choices": [
+        "It gets around problems with personhood accounts such as how to account for infanticide being wrong.",
+        "It provides a plausible analysis of personhood.",
+        "both of the above",
+        "neither of the above"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: According to Marquis, which of the following are benefits of his position on abortion?\n(A) It gets around problems with personhood accounts such as how to account for infanticide being wrong. (B) It provides a plausible analysis of personhood. (C) both of the above (D) neither of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The position of Marquis on abortion is a position that gets around problems with personhood accounts such as how to account for infanticide being wrong. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": " According to Cohen, if I promise to give you a dollar, then",
+      "subject": "moral_disputes",
+      "choices": [
+        "you have a right to my dollar.",
+        "I am obligated to give you my dollar.",
+        "both A and B",
+        "neither A nor B"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: According to Cohen, if I promise to give you a dollar, then\n(A) you have a right to my dollar. (B) I am obligated to give you my dollar. (C) both A and B (D) neither A nor B\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Cohen is a lawyer who is a lawyer who is a lawyer. He is a lawyer who is a lawyer. Cohen is a lawyer who is a lawyer who is a lawyer. Cohen is a lawyer who is a lawyer who is a lawyer. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 23,
+    "doc": {
+      "question": " The main purpose of the veil of ignorance in Rawls's theory of justice is to",
+      "subject": "moral_disputes",
+      "choices": [
+        "prevent people in the original position from making rational decisions about guiding social principles.",
+        "prevent people in the original position from selecting principles that favor their particular positions .",
+        "guarantee that people in the original position do not form alliances with others.",
+        "ensure that everyone in the original position is aware of his or her own conception of the good."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: The main purpose of the veil of ignorance in Rawls's theory of justice is to\n(A) prevent people in the original position from making rational decisions about guiding social principles. (B) prevent people in the original position from selecting principles that favor their particular positions . (C) guarantee that people in the original position do not form alliances with others. (D) ensure that everyone in the original position is aware of his or her own conception of the good.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The veil of ignorance is a veil of ignorance that prevents people in the original position from making rational decisions about guiding social principles. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 31,
+    "doc": {
+      "question": " According to Hursthouse's characterization of virtue ethics, an action is right if and only if",
+      "subject": "moral_disputes",
+      "choices": [
+        "it is what a virtuous person would do in the circumstances.",
+        "it is what a vicious person would not avoid doing in the circumstances.",
+        "it produces the most virtue in the world compared to alternative actions.",
+        "all of the above"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about moral disputes.\n\nQ: Baron admits that the versions of the ticking bomb hypothetical she discusses are \"stunningly stupid,\" but she claims this is actually evidence of\n(A) the stupidity of most traditional philosophical examples. (B) a general lack of intelligence among people with advanced degrees. (C) the wrongness of torture. (D) the readiness on the part of many intelligent people to see torture as the best solution to deal with terrorism.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. The ticking bomb hypothetical poses a problem where many people will die to an exploding bomb, if the hypothetical terrorist does not disclose how to defuse it. Baron sees this hypothetical as silly, but its prevalence does suggest intelligent people, particularly utilitarians, see torture as justifiable to save the lives in this scenario. The answer is (D).\n\nQ: A fertilized ovum is also known as\n(A) a zygote. (B) an embryo. (C) a viability. (D) a blastocyst.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Once a single sperm penetrates the layers of an egg to form a new cell, that cell is called a zygote. The answer is (A).\n\nQ: Pence compares six different cases of reproduction, from natural twinning to SCNT. What conclusion does he draw from this comparison?\n(A) SCNT is not a different kind of reproduction because there are no morally relevant differences between it and other permissible means of reproduction. (B) Because there is a low risk of harm for natural twinning, there will be a low risk of harm for SCNT. (C) both A and B (D) neither A nor B\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. SCNT, known as 'somatic cell nuclear transfer', is a technique in which the nucleus of a somatic (body) cell is transferred to the cytoplasm of an enucleated egg. This is used in farm animal cloning. Pence may compare this to other processes of reproduction, and see little moral separation. The answer is (A).\n\nQ: Which of the following is an intrinsic good, according to Singer?\n(A) being in the upper class (B) the ability to learn and solve problems (C) being more beautiful than most of the population (D) being shorter than average\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Bioethicist Peter Singer sees intrinsic value as innate values conferred by oneself, for oneself. Innanimate objects can be beautiful, short, or have some valuable criteria, but capabilities are intrinsically good. The answer is (B).\n\nQ: According to Metz, what is wrong with consequentialist arguments against capital punishment based on African values?\n(A) It is unclear as of yet whether or not capital punishment deters harm to the community. (B) It is unclear as of yet whether or not capital punishment deters harm to any individuals. (C) Consequentialism is not supported by African values. (D) Even though consequentialism is supported by African values, no consequentialist arguments framed in terms of African values have been offered.\nA: Let's think step by step. We refer to Wikipedia articles on moral disputes for help. Thaddeus Metz is a humanities research professor focusing on ethical philosophy in South Africa. Metz has written the death penalty is unjustified as it treats individuals as incapable of communal relations. It is unclear that capital punishment is to the benefit of, or a deterrent of harm to the community. The answer is (A).Q: According to Hursthouse's characterization of virtue ethics, an action is right if and only if\n(A) it is what a virtuous person would do in the circumstances. (B) it is what a vicious person would not avoid doing in the circumstances. (C) it produces the most virtue in the world compared to alternative actions. (D) all of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A virtuous person would do in the circumstances. A vicious person would not avoid doing in the circumstances. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  }
+]

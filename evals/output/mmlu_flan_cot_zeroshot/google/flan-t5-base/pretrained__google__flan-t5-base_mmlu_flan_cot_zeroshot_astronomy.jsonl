@@ -1,0 +1,578 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "You cool a blackbody to half its original temperature. How does its spectrum change?",
+      "subject": "astronomy",
+      "choices": [
+        "Power emitted is 1/16 times as high; peak emission wavelength is 1/2 as long.",
+        "Power emitted is 1/4 times as high; peak emission wavelength is 2 times longer.",
+        "Power emitted is 1/4 times as high; peak emission wavelength is 1/2 as long.",
+        "Power emitted is 1/16 times as high; peak emission wavelength is 2 times longer."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: You cool a blackbody to half its original temperature. How does its spectrum change?\n(A) Power emitted is 1/16 times as high; peak emission wavelength is 1/2 as long. (B) Power emitted is 1/4 times as high; peak emission wavelength is 2 times longer. (C) Power emitted is 1/4 times as high; peak emission wavelength is 1/2 as long. (D) Power emitted is 1/16 times as high; peak emission wavelength is 2 times longer.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Power emitted is 1/16 times as high; peak emission wavelength is 1/2 as long. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "The reason that small planets tend to lose interior heat faster than larger planets is essentially the same as the reason that ________.",
+      "subject": "astronomy",
+      "choices": [
+        "a large baked potato takes longer to cool than a small baked potato",
+        "Earth contains more metal than the Moon",
+        "thunderstorms tend to form on hot summer days",
+        "gas bubbles form and rise upward in boiling water"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: The reason that small planets tend to lose interior heat faster than larger planets is essentially the same as the reason that ________.\n(A) a large baked potato takes longer to cool than a small baked potato (B) Earth contains more metal than the Moon (C) thunderstorms tend to form on hot summer days (D) gas bubbles form and rise upward in boiling water\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Small planets lose interior heat faster than larger planets because _."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "What drives differentiation?",
+      "subject": "astronomy",
+      "choices": [
+        "Spontaneous emission from radioactive atoms.",
+        "The minimization of gravitational potential energy.",
+        "Thermally induced collisions.",
+        "Plate tectonics."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: What drives differentiation?\n(A) Spontaneous emission from radioactive atoms. (B) The minimization of gravitational potential energy. (C) Thermally induced collisions. (D) Plate tectonics.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Spontaneous emission from radioactive atoms is the most important factor in the formation of a new atom. The minimum of gravitational potential energy is the most important factor in the formation of a new atom. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "If the Moon is setting at noon the phase of the Moon must be",
+      "subject": "astronomy",
+      "choices": [
+        "third quarter.",
+        "waning crescent.",
+        "waxing crescent.",
+        "full."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: If the Moon is setting at noon the phase of the Moon must be\n(A) third quarter. (B) waning crescent. (C) waxing crescent. (D) full.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Moon is set at noon. If the Moon is setting at noon, the phase of the Moon must be (A) third quarter. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "How did the lunar maria form?",
+      "subject": "astronomy",
+      "choices": [
+        "The giant impact that created the Moon left smooth areas that we call the maria.",
+        "Volatiles escaping from the Moon's interior heated and eroded the surface in the regions of the maria.",
+        "The early bombardment created heat that melted the lunar surface in the regions of the maria.",
+        "Large impacts fractured the Moon's lithosphere allowing lava to fill the impact basins."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: How did the lunar maria form?\n(A) The giant impact that created the Moon left smooth areas that we call the maria. (B) Volatiles escaping from the Moon's interior heated and eroded the surface in the regions of the maria. (C) The early bombardment created heat that melted the lunar surface in the regions of the maria. (D) Large impacts fractured the Moon's lithosphere allowing lava to fill the impact basins.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The lunar maria formed by the giant impact that created the Moon left smooth areas that we call the maria. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "In astronomy the concept of black bodies is very important to better calculate the radiation of stars. Which one is the correct definition of a black body?",
+      "subject": "astronomy",
+      "choices": [
+        "An idealized physical object that reflects all electromagnetic radiation.",
+        "An idealized physical object that absorbs all electromagnetic radiation.",
+        "An idealized physical object that reflects all polarized radiation.",
+        "An idealized physical object that absorbs all polarized radiation."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: In astronomy the concept of black bodies is very important to better calculate the radiation of stars. Which one is the correct definition of a black body?\n(A) An idealized physical object that reflects all electromagnetic radiation. (B) An idealized physical object that absorbs all electromagnetic radiation. (C) An idealized physical object that reflects all polarized radiation. (D) An idealized physical object that absorbs all polarized radiation.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "(A) An idealized physical object that reflects all electromagnetic radiation. (B) An idealized physical object that absorbs all electromagnetic radiation. (C) An idealized physical object that reflects all polarized radiation. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "Why doesn't Venus have seasons like Mars and Earth do?",
+      "subject": "astronomy",
+      "choices": [
+        "Its rotation axis is nearly perpendicular to the plane of the Solar System.",
+        "It does not have an ozone layer.",
+        "It does not rotate fast enough.",
+        "It is too close to the Sun."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Why doesn't Venus have seasons like Mars and Earth do?\n(A) Its rotation axis is nearly perpendicular to the plane of the Solar System. (B) It does not have an ozone layer. (C) It does not rotate fast enough. (D) It is too close to the Sun.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Venus has a rotation axis that is nearly perpendicular to the plane of the Solar System. Venus has a rotation axis that is nearly perpendicular to the plane of the Solar System. The answer: A."
+      ]
+    ],
+    "filtered_resps": [
+      "A"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "The Coriolis effect is observed on planets because",
+      "subject": "astronomy",
+      "choices": [
+        "they are rotating and spherical so different latitudes rotate at different speeds (meters/second)",
+        "their surfaces rotate at the same speed (meters/second) at all latitudes",
+        "they rotate and have magnetic fields",
+        "the solar wind interacts with their magnetospheres"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: The Coriolis effect is observed on planets because\n(A) they are rotating and spherical so different latitudes rotate at different speeds (meters/second) (B) their surfaces rotate at the same speed (meters/second) at all latitudes (C) they rotate and have magnetic fields (D) the solar wind interacts with their magnetospheres\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Coriolis effect is observed on planets because they rotate and have magnetic fields. The answer: A."
+      ]
+    ],
+    "filtered_resps": [
+      "A"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "The mass of Saturn's rings is 2x1019 kg. What is the ratio of this mass to that of a 200 km diameter spherical moon made entirely of water-ice (density ~ 1 g/cm3)? That is what is Mrings : Micy moon?",
+      "subject": "astronomy",
+      "choices": [
+        "1 : 1",
+        "50 : 1",
+        "5 : 1",
+        "0.5 : 1"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: The mass of Saturn's rings is 2x1019 kg. What is the ratio of this mass to that of a 200 km diameter spherical moon made entirely of water-ice (density ~ 1 g/cm3)? That is what is Mrings : Micy moon?\n(A) 1 : 1 (B) 50 : 1 (C) 5 : 1 (D) 0.5 : 1\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Saturn's rings weigh 2x1019 kg. The ratio of Saturn's mass to that of a 200 km diameter spherical moon is 200 / 100 = 1 : 1 The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "The International Space Station (ISS) circles the Earth approximately 410 km above the ground. Find the best estimate for the orbital speed of the ISS:",
+      "subject": "astronomy",
+      "choices": [
+        "19000 km/h",
+        "21000 km/h",
+        "28000 km/h",
+        "32000 km/h"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: The International Space Station (ISS) circles the Earth approximately 410 km above the ground. Find the best estimate for the orbital speed of the ISS:\n(A) 19000 km/h (B) 21000 km/h (C) 28000 km/h (D) 32000 km/h\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The orbital speed of the ISS is 410 km/h. The orbital speed of the ISS is 410 km/h. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "Which mechanism can NOT explain Mercury's lack of a permanent atmosphere?",
+      "subject": "astronomy",
+      "choices": [
+        "Impact Heating",
+        "Volcanic Heating",
+        "Ablation by the solar wind",
+        "Thermal Escape"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Which mechanism can NOT explain Mercury's lack of a permanent atmosphere?\n(A) Impact Heating (B) Volcanic Heating (C) Ablation by the solar wind (D) Thermal Escape\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Mercury is a proton. Mercury is a proton. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "Which is the least likely cause of death?",
+      "subject": "astronomy",
+      "choices": [
+        "Being hit in the head by a bullet.",
+        "Being hit by a small meteorite.",
+        "Starvation during global winter caused by a major impact.",
+        "Driving while intoxicated without wearing seatbelts."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Which is the least likely cause of death?\n(A) Being hit in the head by a bullet. (B) Being hit by a small meteorite. (C) Starvation during global winter caused by a major impact. (D) Driving while intoxicated without wearing seatbelts.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Starvation during global winter caused by a major impact is the least likely cause of death. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "Which property of our solar system does a formation theory NOT need to explain?",
+      "subject": "astronomy",
+      "choices": [
+        "patterns of motion",
+        "the presence of asteroids and comets",
+        "the measured ages of meteorites",
+        "the presence of life on Earth"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: Which property of our solar system does a formation theory NOT need to explain?\n(A) patterns of motion (B) the presence of asteroids and comets (C) the measured ages of meteorites (D) the presence of life on Earth\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The presence of asteroids and comets is a property of our solar system. A formation theory does not explain the presence of asteroids and comets. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "How have we been able to construct detailed maps of surface features on Venus?",
+      "subject": "astronomy",
+      "choices": [
+        "by studying Venus from Earth with powerful optical telescopes",
+        "by landing spacecraft on the surface for close-up study",
+        "by studying Venus with powerful optical telescopes on spacecraft that were sent to orbit Venus",
+        "by using radar from spacecraft that were sent to orbit Venus"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: How have we been able to construct detailed maps of surface features on Venus?\n(A) by studying Venus from Earth with powerful optical telescopes (B) by landing spacecraft on the surface for close-up study (C) by studying Venus with powerful optical telescopes on spacecraft that were sent to orbit Venus (D) by using radar from spacecraft that were sent to orbit Venus\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Venus is a planet in the Solar System. We have been able to construct detailed maps of surface features on Venus by studying Venus from Earth with powerful optical telescopes. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "What dangers are currently faced by each Mars Exploration Rover?",
+      "subject": "astronomy",
+      "choices": [
+        "Opportunity may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit's instruments are being corroded by the acidic hot spring environment it is exploring.",
+        "Opportunity may not be able to move its arm again; Spirit may not be able to drive out of Victoria Crater due to its broken sixth wheel.",
+        "Opportunity may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit may not get enough solar power during the winter months immediately ahead.",
+        "Opportunity may not be able to move its arm again; Spirit may not get enough solar power during the winter months immediately ahead."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: What dangers are currently faced by each Mars Exploration Rover?\n(A) Opportunity may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit's instruments are being corroded by the acidic hot spring environment it is exploring. (B) Opportunity may not be able to move its arm again; Spirit may not be able to drive out of Victoria Crater due to its broken sixth wheel. (C) Opportunity may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit may not get enough solar power during the winter months immediately ahead. (D) Opportunity may not be able to move its arm again; Spirit may not get enough solar power during the winter months immediately ahead.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Opportunity may not be able to drive out of Victoria Crater due to its broken sixth wheel; Spirit may not be able to drive out of Victoria Crater due to its broken sixth wheel. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": "A comet\u2019s tail points in the following direction:",
+      "subject": "astronomy",
+      "choices": [
+        "away from the Sun",
+        "towards the Sun",
+        "in the direction of movement",
+        "against the direction of movement"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about astronomy.\n\nQ: A comet\u2019s tail points in the following direction:\n(A) away from the Sun (B) towards the Sun (C) in the direction of movement (D) against the direction of movement\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A comet\u2019s tail points in the direction of movement. The direction of movement of a comet is the direction of its rotation. The direction of movement of a comet is the direction of its rotation. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  }
+]

@@ -1,0 +1,614 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "A lightweight toy car crashes head-on into a heavier toy truck. Which of the following statements is true as a result of the collision? I. The car will experience a greater impulse than the truck. II. The car will experience a greater change in momentum than the truck. III. The magnitude of the acceleration experienced by the car will be greater than that experienced by the truck.",
+      "subject": "high_school_physics",
+      "choices": [
+        "I and II only",
+        "II only",
+        "III only",
+        "II and III only"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: A lightweight toy car crashes head-on into a heavier toy truck. Which of the following statements is true as a result of the collision? I. The car will experience a greater impulse than the truck. II. The car will experience a greater change in momentum than the truck. III. The magnitude of the acceleration experienced by the car will be greater than that experienced by the truck.\n(A) I and II only (B) II only (C) III only (D) II and III only\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "III. The magnitude of the acceleration experienced by the car will be greater than that experienced by the truck. The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "A uniform bar is lying on a flat table. Besides the gravitational and normal forces (which cancel), the bar is acted upon by two other forces, F1 and F2, which are parallel to the surface of the table. If the net force on the rod is zero, then which one of the following is true?",
+      "subject": "high_school_physics",
+      "choices": [
+        "The net torque on the bar must also be zero.",
+        "The bar can accelerate translationally if F1 and F2 are not applied at the same point.",
+        "The net torque will be zero if F1 and F2 are applied at the same point.",
+        "The bar cannot accelerate translationally or rotationally."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: A uniform bar is lying on a flat table. Besides the gravitational and normal forces (which cancel), the bar is acted upon by two other forces, F1 and F2, which are parallel to the surface of the table. If the net force on the rod is zero, then which one of the following is true?\n(A) The net torque on the bar must also be zero. (B) The bar can accelerate translationally if F1 and F2 are not applied at the same point. (C) The net torque will be zero if F1 and F2 are applied at the same point. (D) The bar cannot accelerate translationally or rotationally.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The net torque on the bar must also be zero. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "question": "Given that the Earth\u2019s mass is m, its tangential speed as it revolves around the Sun is v, and the distance from the Sun to the Earth is R, which of the following correctly describes the work done by the centripetal force, Wc, in one year\u2019s time?",
+      "subject": "high_school_physics",
+      "choices": [
+        "Wc > 2R(mv^2/R)",
+        "Wc = 2R(mv^2/R)",
+        "Wc < 2R(mv^2/R)",
+        "Cannot be determined"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: Given that the Earth\u2019s mass is m, its tangential speed as it revolves around the Sun is v, and the distance from the Sun to the Earth is R, which of the following correctly describes the work done by the centripetal force, Wc, in one year\u2019s time?\n(A) Wc > 2R(mv^2/R) (B) Wc = 2R(mv^2/R) (C) Wc < 2R(mv^2/R) (D) Cannot be determined\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The work done by the centripetal force in one year\u2019s time is 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) = 2R(mv2/R) ="
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "A light bulb rated at 100 W is twice as bright as a bulb rated at 50 W when both are connected in parallel directly to a 100-V source. Now imagine that these bulbs are instead connected in series with each other. Which is brighter, and by how much?",
+      "subject": "high_school_physics",
+      "choices": [
+        "The bulbs have the same brightness.",
+        "The 100-W bulb is twice as bright.",
+        "The 50-W bulb is twice as bright.",
+        "The 100-W bulb is four times as bright."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: A light bulb rated at 100 W is twice as bright as a bulb rated at 50 W when both are connected in parallel directly to a 100-V source. Now imagine that these bulbs are instead connected in series with each other. Which is brighter, and by how much?\n(A) The bulbs have the same brightness. (B) The 100-W bulb is twice as bright. (C) The 50-W bulb is twice as bright. (D) The 100-W bulb is four times as bright.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The 100-W bulb is twice as bright as the 50-W bulb. The 100-W bulb is twice as bright as the 50-W bulb. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "An arrow is aimed horizontally, directly at the center of a target 20 m away. The arrow hits 0.050 m below the center of the target. Neglecting air resistance, what was the initial speed of the arrow?",
+      "subject": "high_school_physics",
+      "choices": [
+        "20 m/s",
+        "40 m/s",
+        "100 m/s",
+        "200 m/s"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: An arrow is aimed horizontally, directly at the center of a target 20 m away. The arrow hits 0.050 m below the center of the target. Neglecting air resistance, what was the initial speed of the arrow?\n(A) 20 m/s (B) 40 m/s (C) 100 m/s (D) 200 m/s\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The arrow hit 0.050 m below the target, which is 20 m away. The arrow's initial speed is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 20 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 100 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 100 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 100 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 100 m/s, and it hit 0.050 m below the target, which is 20 m away. The speed of the arrow is 100 m/s, and it hit 0.050 m below the target, which is 20 m/s. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "You have a wire of length L, radius Q, and resistance Q. You need to obtain half that resistance using the same material and changing only one factor. You could",
+      "subject": "high_school_physics",
+      "choices": [
+        "use half the length",
+        "use twice the length",
+        "use half the radius",
+        "use twice the radius"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: You have a wire of length L, radius Q, and resistance Q. You need to obtain half that resistance using the same material and changing only one factor. You could\n(A) use half the length (B) use twice the length (C) use half the radius (D) use twice the radius\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The wire length should be twice the length of the wire length. The wire radius should be twice the length of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length. The wire length should be twice the diameter of the wire length."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "If L, M, and T denote the dimensions of length, mass, and time, respectively, what are the dimensions of power?",
+      "subject": "high_school_physics",
+      "choices": [
+        "(L^2)M/T^2",
+        "(M^2)L/T^2",
+        "(L^2)M/T^3",
+        "M(L^2)/T^3"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: If L, M, and T denote the dimensions of length, mass, and time, respectively, what are the dimensions of power?\n(A) (L^2)M/T^2 (B) (M^2)L/T^2 (C) (L^2)M/T^3 (D) M(L^2)/T^3\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Power is the distance between two points. If L=2 and M=2 and T=3 and L=2 and T=3 and T=2 and L=2 and T=3 and T=2 and T=3 and T=2 and T=3 and T=2 and T=3 and T=2 and T=3 and T=2 and T=3 and T=2 and T=3 and T=2 and T=3 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T=2 and T="
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "A swimmer is able to propel himself forward through the water by moving his arms. Which of the following correctly states the applicant and recipient of the force responsible for the swimmer\u2019s forward acceleration?",
+      "subject": "high_school_physics",
+      "choices": [
+        "The force of the surrounding water on the swimmer\u2019s arms",
+        "The force of the swimmer\u2019s arms on the swimmer\u2019s torso",
+        "The force of the swimmer\u2019s arms on the surrounding water",
+        "The force of the swimmer\u2019s torso on the swimmer\u2019s arms"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: A swimmer is able to propel himself forward through the water by moving his arms. Which of the following correctly states the applicant and recipient of the force responsible for the swimmer\u2019s forward acceleration?\n(A) The force of the surrounding water on the swimmer\u2019s arms (B) The force of the swimmer\u2019s arms on the swimmer\u2019s torso (C) The force of the swimmer\u2019s arms on the surrounding water (D) The force of the swimmer\u2019s torso on the swimmer\u2019s arms\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The swimmer is the recipient of the force responsible for the swimmer\u2019s forward acceleration. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "A projectile is launched on level ground in a parabolic path so that its range would normally be 500 m. When the projectile is at the peak of its flight, the projectile breaks into two pieces of equal mass. One of these pieces falls straight down, with no further horizontal motion. How far away from the launch point does the other piece land?",
+      "subject": "high_school_physics",
+      "choices": [
+        "250 m",
+        "375 m",
+        "500 m",
+        "750 m"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: A projectile is launched on level ground in a parabolic path so that its range would normally be 500 m. When the projectile is at the peak of its flight, the projectile breaks into two pieces of equal mass. One of these pieces falls straight down, with no further horizontal motion. How far away from the launch point does the other piece land?\n(A) 250 m (B) 375 m (C) 500 m (D) 750 m\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The other piece falls down, so it is 500 m away from the launch point. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "A spherical balloon filled with helium is floating in air. If the balloon is inflated until its radius is doubled, how will the buoyant force on the balloon be affected?",
+      "subject": "high_school_physics",
+      "choices": [
+        "It will decrease by a factor of 4.",
+        "It will increase by a factor of 4.",
+        "It will increase by a factor of 8.",
+        "It will not be affected."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: A spherical balloon filled with helium is floating in air. If the balloon is inflated until its radius is doubled, how will the buoyant force on the balloon be affected?\n(A) It will decrease by a factor of 4. (B) It will increase by a factor of 4. (C) It will increase by a factor of 8. (D) It will not be affected.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The buoyant force on the balloon will decrease by a factor of 4. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "In the laboratory, a cart experiences a single horizontal force as it moves horizontally in a straight line. Of the following data collected about this experiment, which is sufficient to determine the work done on the cart by the horizontal force?",
+      "subject": "high_school_physics",
+      "choices": [
+        "The magnitude of the force, the cart\u2019s initial speed, and the cart\u2019s final speed",
+        "The mass of the cart and the distance the cart moved",
+        "The mass of the cart, the cart\u2019s initial speed, and the cart\u2019s final speed",
+        "The mass of the cart and the magnitude of the force"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: In the laboratory, a cart experiences a single horizontal force as it moves horizontally in a straight line. Of the following data collected about this experiment, which is sufficient to determine the work done on the cart by the horizontal force?\n(A) The magnitude of the force, the cart\u2019s initial speed, and the cart\u2019s final speed (B) The mass of the cart and the distance the cart moved (C) The mass of the cart, the cart\u2019s initial speed, and the cart\u2019s final speed (D) The mass of the cart and the magnitude of the force\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The mass of the cart and the distance the cart moved are the same. The mass of the cart and the magnitude of the force are the same. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "An object initially at rest experiences a time-varying acceleration given by a = (2 m/s^3)t for t \u2265 0. How far does the object travel in the first 3 seconds?",
+      "subject": "high_school_physics",
+      "choices": [
+        "9 m",
+        "12 m",
+        "18 m",
+        "24 m"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: An object initially at rest experiences a time-varying acceleration given by a = (2 m/s^3)t for t \u2265 0. How far does the object travel in the first 3 seconds?\n(A) 9 m (B) 12 m (C) 18 m (D) 24 m\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The object initially at rest experiences a time-varying acceleration given by a = (2 m/s3)t for t  0. The object initially travels in the first 3 seconds = 3 * 3 = 9 m. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "It is observed that sounds can be heard around a corner but that light cannot be seen around a corner. What is a reasonable explanation for this observation?",
+      "subject": "high_school_physics",
+      "choices": [
+        "Light travels at 3 \u00d7 10^8 m/s, which is too fast to change direction around a corner.",
+        "Sound has a longer wavelength, which increases the diffraction.",
+        "Light is an electromagnetic wave that is behaving as a particle.",
+        "Sound is a mechanical wave that can change direction in its propagation media."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: It is observed that sounds can be heard around a corner but that light cannot be seen around a corner. What is a reasonable explanation for this observation?\n(A) Light travels at 3 \u00d7 10^8 m/s, which is too fast to change direction around a corner. (B) Sound has a longer wavelength, which increases the diffraction. (C) Light is an electromagnetic wave that is behaving as a particle. (D) Sound is a mechanical wave that can change direction in its propagation media.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Light travels at 3  108 m/s, which is too fast to change direction around a corner. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "A pair of protective headphones reduces the sound of a jet engine from 140 dB to 110 dB. What percent of the noise is being blocked?",
+      "subject": "high_school_physics",
+      "choices": [
+        "99.90%",
+        "78.60%",
+        "21.40%",
+        "0.10%"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: A pair of protective headphones reduces the sound of a jet engine from 140 dB to 110 dB. What percent of the noise is being blocked?\n(A) 99.90% (B) 78.60% (C) 21.40% (D) 0.10%\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The noise is reduced by 78.60% because 140 - 110 = 78.60. The noise is also reduced by 0.10% because 78.60 / 140 = 0.10%. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "A spherical conductor carries a net charge. How is this charge distributed on the sphere?",
+      "subject": "high_school_physics",
+      "choices": [
+        "The charge is evenly distributed on the surface.",
+        "The charge resides on the surface only; the distribution of charge on the surface depends on what other charged objects are near the sphere.",
+        "The charge moves continually within the sphere.",
+        "The charge is distributed uniformly throughout the sphere."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: A spherical conductor carries a net charge. How is this charge distributed on the sphere?\n(A) The charge is evenly distributed on the surface. (B) The charge resides on the surface only; the distribution of charge on the surface depends on what other charged objects are near the sphere. (C) The charge moves continually within the sphere. (D) The charge is distributed uniformly throughout the sphere.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The charge is distributed evenly throughout the sphere. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "An equal number of hydrogen and carbon dioxide molecules are placed in a sealed container. The gases are initially at a temperature of 300 K when the container is placed in an oven and brought to a new equilibrium temperature of 600 K. Which of the following best describes what is happening to the molecular speeds and kinetic energies of the gases\u2019 molecules as they move from 300 K to 600 K?",
+      "subject": "high_school_physics",
+      "choices": [
+        "The molecules of both gases, on average, end with the speed and the same average kinetic energy.",
+        "The molecules of hydrogen, on average, end with a higher speed, but the molecules of both gases end with the same average kinetic energy.",
+        "The molecules of hydrogen, on average, speed up more and end with a higher average kinetic energy.",
+        "As heat flows into the container, the entropy rises, and it is not possible to determine the average velocity and average kinetic energy of the gases."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: An equal number of hydrogen and carbon dioxide molecules are placed in a sealed container. The gases are initially at a temperature of 300 K when the container is placed in an oven and brought to a new equilibrium temperature of 600 K. Which of the following best describes what is happening to the molecular speeds and kinetic energies of the gases\u2019 molecules as they move from 300 K to 600 K?\n(A) The molecules of both gases, on average, end with the speed and the same average kinetic energy. (B) The molecules of hydrogen, on average, end with a higher speed, but the molecules of both gases end with the same average kinetic energy. (C) The molecules of hydrogen, on average, speed up more and end with a higher average kinetic energy. (D) As heat flows into the container, the entropy rises, and it is not possible to determine the average velocity and average kinetic energy of the gases.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The molecules of the gases are moving at a constant speed, and the average speed is increasing. The molecules of the gases are moving at a constant average speed, and the average kinetic energy is decreasing. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": "A car travelling at a speed of v0 applies its brakes, skidding to a stop over a distance of x m. Assuming that the deceleration due to the brakes is constant, what would be the skidding distance of the same car if it were traveling with twice the initial speed?",
+      "subject": "high_school_physics",
+      "choices": [
+        "2x m",
+        "3x m",
+        "4x m",
+        "8x m"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school physics.\n\nQ: A microwave oven is connected to an outlet, 120 V, and draws a current of 2 amps. At what rate is energy being used by the microwave oven?\n(A) 10 W (B) 30 W (C) 60 W (D) 240 W\nA: Let's think step by step. Rate of energy usage is known as power; in an dissipative electrical circuit, power is given by voltage times current. So in our case, the power is 120 V times 2 amps, or 240 W. The answer is (D).\n\nQ: A point charge, Q = +1 mC, is fixed at the origin. How much work is required to move a charge, Q = +8 \u00b5C, from the point (0, 4 meters) to the point (3 meters, 0)?\n(A) 3.5 J (B) 6.0 J (C) 22.5 J (D) 40 J\nA: Let's think step by step. To calculate the work required to move a charge from one location to another in a fixed electric field, it is enough to calculate the potential difference between the two locations. Here, the potential only depends on the distance between the charges; it\u2019s $k q_1 q_2 / r$, where $k$ is Coulomb\u2019s constant. Plugging in values $q_1 = $ 1 mC, $q_2 = 8 \\mu$ C, gives the answer as 5.992 J, which rounds to 6 J. The answer is (B).\n\nQ: Which of the following conditions will ensure that angular momentum is conserved? I. Conservation of linear momentum II. Zero net external force III. Zero net external torque\n(A) I and II only (B) I and III only (C) II and III only (D) III only\nA: Let's think step by step. Torque is defined as the change in angular momentum; if there is zero external torque, angular momentum is conserved. The answer is (D).\n\nQ: A photocell of work function \u03d5 = 2eV is connected to a resistor in series. Light of frequency f = 1 \u00d7 10^15 Hz hits a metal plate of the photocell. If the power of the light is P = 100 W, what is the current through the resistor?\n(A) 2:00 AM (B) 6:00 AM (C) 12:00 AM (D) 24 A\nA: Let's think step by step. The only answer above which has units of current is D, 24 A. The answer is (D).\n\nQ: A pipe full of air is closed at one end. A standing wave is produced in the pipe, causing the pipe to sound a note. Which of the following is a correct statement about the wave\u2019s properties at the closed end of the pipe?\n(A) The pressure is at a node, but the particle displacement is at an antinode. (B) The pressure is at an antinode, but the particle displacement is at a node. (C) The pressure and the particle displacement are both at nodes. (D) The pressure and the particle displacement are both at antinodes.\nA: Let's think step by step. At the closed end of the pipe, the particles cannot have any net displacement because the pipe closure stops them. So the particle displacement is at a node. This closure also causes the pressure to be maximal, i.e. an antinode. The answer is (B).Q: A car travelling at a speed of v0 applies its brakes, skidding to a stop over a distance of x m. Assuming that the deceleration due to the brakes is constant, what would be the skidding distance of the same car if it were traveling with twice the initial speed?\n(A) 2x m (B) 3x m (C) 4x m (D) 8x m\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "If the car is traveling at a speed of v0, the deceleration due to the brakes is constant, so the car would have a deceleration of v0 - v1 = 2x m. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  }
+]

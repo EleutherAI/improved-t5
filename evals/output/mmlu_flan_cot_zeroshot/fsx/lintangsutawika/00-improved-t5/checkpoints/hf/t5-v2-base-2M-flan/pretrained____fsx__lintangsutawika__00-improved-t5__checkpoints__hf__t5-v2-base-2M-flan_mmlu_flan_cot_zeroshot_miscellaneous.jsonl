@@ -1,0 +1,3098 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "Which American colony known for its religious tolerance did Roger Williams found in 1636?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Massachusetts",
+        "Rhode Island",
+        "Virginia",
+        "Vermont"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which American colony known for its religious tolerance did Roger Williams found in 1636?\n(A) Massachusetts (B) Rhode Island (C) Virginia (D) Vermont\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The first American colony known for its religious tolerance was Massachusetts. Roger Williams found the first American colony known for its religious tolerance in 1636. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "Which of the following is most commonly kept in a terrarium?",
+      "subject": "miscellaneous",
+      "choices": [
+        "money",
+        "books",
+        "ice",
+        "plants"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of the following is most commonly kept in a terrarium?\n(A) money (B) books (C) ice (D) plants\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A terrarium is a place where animals are kept. Miscellaneous items are kept in a terrarium. So, the answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "question": "According to the popular saying what should you do 'when in Rome'?",
+      "subject": "miscellaneous",
+      "choices": [
+        "watch your wallet",
+        "see the Coliseum",
+        "as the Romans do",
+        "don't drink the water"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: According to the popular saying what should you do 'when in Rome'?\n(A) watch your wallet (B) see the Coliseum (C) as the Romans do (D) don't drink the water\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The popular saying 'when in Rome' is that you should watch your wallet. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 24,
+    "doc": {
+      "question": "Which of the following text features should a student examine first when determining the main idea of a passage in an informational text?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Table of contents",
+        "Italicized words",
+        "Headings",
+        "Captions"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of the following text features should a student examine first when determining the main idea of a passage in an informational text?\n(A) Table of contents (B) Italicized words (C) Headings (D) Captions\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A table of contents is a list of all the information in a text. The main idea of a passage is to find out what is the main idea of the passage.<0x0A>Thus, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 32,
+    "doc": {
+      "question": "What chemical do people frequently use to bleach hair?",
+      "subject": "miscellaneous",
+      "choices": [
+        "folic acid",
+        "hydrogen peroxide",
+        "sodium chloride",
+        "nitrous oxide"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What chemical do people frequently use to bleach hair?\n(A) folic acid (B) hydrogen peroxide (C) sodium chloride (D) nitrous oxide\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Hydrogen peroxide is a chemical used to bleach hair. Hydrogen peroxide is a chemical used to bleach hair. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 40,
+    "doc": {
+      "question": "The boy is very quiet. The sentence above is an example of which of the following?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Simple sentence",
+        "Complex sentence",
+        "Compound sentence",
+        "Compound-complex sentence"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: The boy is very quiet. The sentence above is an example of which of the following?\n(A) Simple sentence (B) Complex sentence (C) Compound sentence (D) Compound-complex sentence\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The boy is very quiet because he is quiet."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 48,
+    "doc": {
+      "question": "What kind of worker uses a \"paddy wagon\"?",
+      "subject": "miscellaneous",
+      "choices": [
+        "limo driver",
+        "police officer",
+        "rice farmer",
+        "paramedic"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What kind of worker uses a \"paddy wagon\"?\n(A) limo driver (B) police officer (C) rice farmer (D) paramedic\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A limo driver is a person who drives a limo. Limos are used to transport people. Limos are used to transport people. Limos are used to transport people. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 56,
+    "doc": {
+      "question": "Huffy Schwinn and Raleigh are all brands of what?",
+      "subject": "miscellaneous",
+      "choices": [
+        "sportswear",
+        "dishwashers",
+        "cigarettes",
+        "bicycles"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Huffy Schwinn and Raleigh are all brands of what?\n(A) sportswear (B) dishwashers (C) cigarettes (D) bicycles\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Sportswear is a type of miscellaneous. Huffy Schwinn and Raleigh are all brands of sportswear. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 64,
+    "doc": {
+      "question": "Which of the following is a natural sugar found in most fruits?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Necrose",
+        "Fructose",
+        "Bellicose",
+        "Pantiose"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of the following is a natural sugar found in most fruits?\n(A) Necrose (B) Fructose (C) Bellicose (D) Pantiose\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Fructose is a natural sugar found in most fruits. Fructose is a natural sugar found in most fruits. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 72,
+    "doc": {
+      "question": "What is the oldest continuously run sporting event in the United States?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Westminster Dog Show",
+        "Boston Marathon",
+        "Kentucky Derby",
+        "Indianapolis 500"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What is the oldest continuously run sporting event in the United States?\n(A) Westminster Dog Show (B) Boston Marathon (C) Kentucky Derby (D) Indianapolis 500\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The oldest continuously run sporting event in the United States is the Indianapolis 500. So, the answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 80,
+    "doc": {
+      "question": "Which of these actors did one-handed push-ups on stage at the 1992 Academy Awards?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Sylvester Stallone",
+        "Jack Nicholson",
+        "Jack Palance",
+        "Marisa Tomei"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of these actors did one-handed push-ups on stage at the 1992 Academy Awards?\n(A) Sylvester Stallone (B) Jack Nicholson (C) Jack Palance (D) Marisa Tomei\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The 1992 Academy Awards were held at the Academy Theatre in Los Angeles. The actors did one-handed push-ups on stage at the 1992 Academy Awards. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "Which of these months has 31 days?",
+      "subject": "miscellaneous",
+      "choices": [
+        "March",
+        "April",
+        "June",
+        "September"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of these months has 31 days?\n(A) March (B) April (C) June (D) September\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The month of April has 31 days. The month of April has 31 days. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "How many balloons would be required to fill the Empire State Building, which is about 100 stories tall?",
+      "subject": "miscellaneous",
+      "choices": [
+        "60,000,000",
+        "60,000,000",
+        "600,000,000",
+        "6,000,000,000"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: How many balloons would be required to fill the Empire State Building, which is about 100 stories tall?\n(A) 60,000,000 (B) 60,000,000 (C) 600,000,000 (D) 6,000,000,000\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Empire State Building is about 100 stories tall. The total number of balloons required to fill the Empire State Building is:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "question": "Which of these toys answers questions?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Magic 8 Ball",
+        "Barbie",
+        "Frisbee",
+        "Slinky"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of these toys answers questions?\n(A) Magic 8 Ball (B) Barbie (C) Frisbee (D) Slinky\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Magic 8 Ball is a toy that is used to play with. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 25,
+    "doc": {
+      "question": "Polarized sunglasses are used to cut glare from sunlight reflected at a glancing angle off cars, water, and other surfaces. Such sunglasses are a practical application of which of the following physical principles?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Brewster's law",
+        "Lenz's law",
+        "Coulomb's law",
+        "Snell's law"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Polarized sunglasses are used to cut glare from sunlight reflected at a glancing angle off cars, water, and other surfaces. Such sunglasses are a practical application of which of the following physical principles?\n(A) Brewster's law (B) Lenz's law (C) Coulomb's law (D) Snell's law\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Polarized sunglasses are used to cut glare from sunlight reflected at a glancing angle off cars, water, and other surfaces. Polarized sunglasses are a practical application of which physical principles?"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 33,
+    "doc": {
+      "question": "A person heterozygous for the recessive gene for cystic fibrosis marries a person who does not carry or have the trait (homozygous dominant). What is the probability that the couple's first child will be a carrier?",
+      "subject": "miscellaneous",
+      "choices": [
+        "0",
+        "0.25",
+        "0.5",
+        "1"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: A person heterozygous for the recessive gene for cystic fibrosis marries a person who does not carry or have the trait (homozygous dominant). What is the probability that the couple's first child will be a carrier?\n(A) 0 (B) 0.25 (C) 0.5 (D) 1\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The probability that the couple's first child will be a carrier is?<0x0A>Options:<0x0A>(A) 0.25<0x0A>(B) 0.25<0x0A>(C) 0.5<0x0A>(D) 0.5"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 41,
+    "doc": {
+      "question": "Which of the following systems within a vehicle produces the power needed to move it?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Guidance",
+        "Control",
+        "Propulsion",
+        "Structural"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of the following systems within a vehicle produces the power needed to move it?\n(A) Guidance (B) Control (C) Propulsion (D) Structural\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Propulsion is the power needed to move a vehicle."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 49,
+    "doc": {
+      "question": "Which 'Rocky' film features Mr T?",
+      "subject": "miscellaneous",
+      "choices": [
+        "'Rocky II'",
+        "'Rocky III'",
+        "'Rocky IV'",
+        "'Rocky '"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which 'Rocky' film features Mr T?\n(A) 'Rocky II' (B) 'Rocky III' (C) 'Rocky IV' (D) 'Rocky '\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Rocky II stars Mr T. Rocky III stars Mr T. Rocky III stars Mr T. Rocky III stars Mr T. Rocky III stars Mr T. Rocky III stars Mr T. Rocky III stars Mr T. Rocky IV stars Mr T. Rocky III stars Mr T. Rocky III stars Mr T. Rocky IV stars Mr T. Rocky III stars Mr T. Rocky III stars Mr T. Rocky IV stars Mr T. Rocky III stars Mr T. Rocky III stars Mr T. Rocky IV stars Rocky II. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 57,
+    "doc": {
+      "question": "When preparing a presentation, which of the following might make data-heavy text more reader friendly?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Providing an overview of data",
+        "Using italics on numbers",
+        "Using double-spacing for all text",
+        "Including relevant graphics with text"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: When preparing a presentation, which of the following might make data-heavy text more reader friendly?\n(A) Providing an overview of data (B) Using italics on numbers (C) Using double-spacing for all text (D) Including relevant graphics with text\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "D) Including relevant graphics with text. When preparing a presentation, you should use double-spacing for all text. So, the answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 65,
+    "doc": {
+      "question": "If an empty room measures about 50 feet wide by 50 feet long, which of the following is a good estimate of how many people can stand shoulder-to-shoulder in the room?",
+      "subject": "miscellaneous",
+      "choices": [
+        "1000",
+        "3000",
+        "6000",
+        "9000"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: If an empty room measures about 50 feet wide by 50 feet long, which of the following is a good estimate of how many people can stand shoulder-to-shoulder in the room?\n(A) 1000 (B) 3000 (C) 6000 (D) 9000\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "There are 1000 people in the room. If the room is 50 feet wide by 50 feet long, then there are 1000 people in the room.<0x0A>Thus, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 73,
+    "doc": {
+      "question": "Into what body of water does the Rhone River flow?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Atlantic Ocean",
+        "Caspian Sea",
+        "North Sea",
+        "Mediterranean Sea"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Into what body of water does the Rhone River flow?\n(A) Atlantic Ocean (B) Caspian Sea (C) North Sea (D) Mediterranean Sea\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Rhone River flows into the Atlantic Ocean. The Rhone River flows into the Atlantic Ocean. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 81,
+    "doc": {
+      "question": "What is the second longest bone in the human body?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Fibula",
+        "Tibia",
+        "Humerus",
+        "Femur"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What is the second longest bone in the human body?\n(A) Fibula (B) Tibia (C) Humerus (D) Femur\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The femur is the second longest bone in the human body. The femur is the second longest bone in the human body. So, the answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "A student who earns a JD can begin his or her career as a what?",
+      "subject": "miscellaneous",
+      "choices": [
+        "lawyer",
+        "bricklayer",
+        "doctor",
+        "accountant"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: A student who earns a JD can begin his or her career as a what?\n(A) lawyer (B) bricklayer (C) doctor (D) accountant\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A student who earns a JD can begin his or her career as a lawyer.<0x0A>So, the final answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "Which of these is not a type of rock?",
+      "subject": "miscellaneous",
+      "choices": [
+        "metamorphic",
+        "sedimentary",
+        "igneous",
+        "deciduous"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of these is not a type of rock?\n(A) metamorphic (B) sedimentary (C) igneous (D) deciduous\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A rock is a type of rock. Sedimentary rocks are not a type of rock. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 18,
+    "doc": {
+      "question": "Which of these would you most commonly find in a sconce?",
+      "subject": "miscellaneous",
+      "choices": [
+        "candle",
+        "food",
+        "birds",
+        "books"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of these would you most commonly find in a sconce?\n(A) candle (B) food (C) birds (D) books\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A sconce is a small box with a sconce. Miscellaneous items are found in a sconce. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 26,
+    "doc": {
+      "question": "What are the plastic boxes that hold compact discs called?",
+      "subject": "miscellaneous",
+      "choices": [
+        "frame cases",
+        "jewel cases",
+        "slip cases",
+        "wafer boxes"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What are the plastic boxes that hold compact discs called?\n(A) frame cases (B) jewel cases (C) slip cases (D) wafer boxes\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Plastic boxes that hold compact discs are called frame cases. Frame cases are plastic boxes that hold compact discs. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 34,
+    "doc": {
+      "question": "Which of the following states that geological processes and natural laws that operate now have operated in the past?",
+      "subject": "miscellaneous",
+      "choices": [
+        "The evolutionary theory",
+        "The law of superposition",
+        "The law of thermodynamics",
+        "The principle of uniformitarianism"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of the following states that geological processes and natural laws that operate now have operated in the past?\n(A) The evolutionary theory (B) The law of superposition (C) The law of thermodynamics (D) The principle of uniformitarianism\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The law of superposition states that geological processes and natural laws that operate now have operated in the past. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 42,
+    "doc": {
+      "question": "Which of the following methods of reforestation has the lowest direct cost but is also the slowest method and the least reliable?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Natural seeding",
+        "Direct seeding",
+        "Planting seedlings",
+        "Planting cuttings"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of the following methods of reforestation has the lowest direct cost but is also the slowest method and the least reliable?\n(A) Natural seeding (B) Direct seeding (C) Planting seedlings (D) Planting cuttings\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The direct cost of reforestation is 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 50,
+    "doc": {
+      "question": "Assume the demand for wheat is relatively price inelastic. An increase in the supply of wheat will result in which of the following?",
+      "subject": "miscellaneous",
+      "choices": [
+        "A decrease in quantity demanded and an increase in total revenue",
+        "A decrease in quantity demanded and a decrease in total revenue",
+        "An increase in quantity demanded and an increase in total revenue",
+        "An increase in quantity demanded and a decrease in total revenue"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Assume the demand for wheat is relatively price inelastic. An increase in the supply of wheat will result in which of the following?\n(A) A decrease in quantity demanded and an increase in total revenue (B) A decrease in quantity demanded and a decrease in total revenue (C) An increase in quantity demanded and an increase in total revenue (D) An increase in quantity demanded and a decrease in total revenue\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "D"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 58,
+    "doc": {
+      "question": "If you have a 'sawbuck' how much money do you have?",
+      "subject": "miscellaneous",
+      "choices": [
+        "$1 ",
+        "$5 ",
+        "$10 ",
+        "$20 "
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: If you have a 'sawbuck' how much money do you have?\n(A) $1  (B) $5  (C) $10  (D) $20 \nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A sawbuck is a small piece of paper. It is worth 10 dollars.<0x0A>Thus, the answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 66,
+    "doc": {
+      "question": "What is an alternate name for the food dish 'Beijing duck'?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Shanghai duck",
+        "Peking duck",
+        "Hong Kong duck",
+        "Brooklyn duck"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What is an alternate name for the food dish 'Beijing duck'?\n(A) Shanghai duck (B) Peking duck (C) Hong Kong duck (D) Brooklyn duck\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Chinese word for duck is 'Beijing duck'. The Chinese word for duck is 'Beijing duck'. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 74,
+    "doc": {
+      "question": "According to folklore the 'jackalope' is an antlered version of what animal?",
+      "subject": "miscellaneous",
+      "choices": [
+        "chicken",
+        "rabbit",
+        "moose",
+        "snake"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: According to folklore the 'jackalope' is an antlered version of what animal?\n(A) chicken (B) rabbit (C) moose (D) snake\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The jackalope is a type of animal that is antlered. The jackalope is a type of animal that is antlered. So, the answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 82,
+    "doc": {
+      "question": "In storing printmaking supplies, it is important to store which of the following materials separately from the others?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Acetic acid",
+        "Rosin powder",
+        "Nitric acid",
+        "Solvents"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: In storing printmaking supplies, it is important to store which of the following materials separately from the others?\n(A) Acetic acid (B) Rosin powder (C) Nitric acid (D) Solvents\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Solvents are miscellaneous. In storing printmaking supplies, it is important to store which of the following materials separately from the others:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "The buildup of military forces and the formation of a rigid military alliance system were major causes of which of the following wars?",
+      "subject": "miscellaneous",
+      "choices": [
+        "The Spanish-American War",
+        "The First World War",
+        "The Second World War",
+        "The Vietnam War"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: The buildup of military forces and the formation of a rigid military alliance system were major causes of which of the following wars?\n(A) The Spanish-American War (B) The First World War (C) The Second World War (D) The Vietnam War\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The buildup of military forces and the formation of a rigid military alliance system were major causes of which wars?<0x0A>The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "Which of the following items will be attracted to the north pole of a permanent magnet by a magnetic force?",
+      "subject": "miscellaneous",
+      "choices": [
+        "The north pole of another permanent magnet",
+        "A piece of iron that is not a permanent magnet",
+        "A positively charged glass rod",
+        "A negatively charged rubber rod"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of the following items will be attracted to the north pole of a permanent magnet by a magnetic force?\n(A) The north pole of another permanent magnet (B) A piece of iron that is not a permanent magnet (C) A positively charged glass rod (D) A negatively charged rubber rod\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A piece of iron that is not a permanent magnet will be attracted to the north pole of a permanent magnet by a magnetic force. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 19,
+    "doc": {
+      "question": "With which of the following statements would both Thomas Hobbes and John Locke most probably have agreed?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Government authority is created as the result of a social contract.",
+        "Government must enforce religious law to prevent moral decay.",
+        "Government must enforce the majority's will regardless of the wishes of the minority.",
+        "Government must bend to the will of the educated minority."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: With which of the following statements would both Thomas Hobbes and John Locke most probably have agreed?\n(A) Government authority is created as the result of a social contract. (B) Government must enforce religious law to prevent moral decay. (C) Government must enforce the majority's will regardless of the wishes of the minority. (D) Government must bend to the will of the educated minority.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Government authority is created as the result of a social contract.<0x0A>Thus, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 27,
+    "doc": {
+      "question": "If equal and opposite charges are placed on the two plates of a parallel plate capacitor and the plates are then moved apart, which of the following remain(s) constant? I. Voltage II. Capacitance III. Charge",
+      "subject": "miscellaneous",
+      "choices": [
+        "I only",
+        "II only",
+        "III only",
+        "I and II only"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: If equal and opposite charges are placed on the two plates of a parallel plate capacitor and the plates are then moved apart, which of the following remain(s) constant? I. Voltage II. Capacitance III. Charge\n(A) I only (B) II only (C) III only (D) I and II only\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "I and II only"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 35,
+    "doc": {
+      "question": "Which is the hottest planet?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Venus",
+        "Mercury",
+        "Saturn",
+        "Jupiter"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which is the hottest planet?\n(A) Venus (B) Mercury (C) Saturn (D) Jupiter\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The hottest planet is Venus. Venus is the hottest planet.<0x0A>So, the final answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 43,
+    "doc": {
+      "question": "Which of these Australian birds is most closely related to the0ostrich?",
+      "subject": "miscellaneous",
+      "choices": [
+        "puffin",
+        "kookaburra",
+        "cockatoo",
+        "emu"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of these Australian birds is most closely related to the0ostrich?\n(A) puffin (B) kookaburra (C) cockatoo (D) emu\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The 0ostrich is a bird in the family Crambidae. Crambidae is a bird in the family Crambidae.<0x0A>So, the final answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 51,
+    "doc": {
+      "question": "What is the principal ingredient in traditional cole slaw?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Lettuce",
+        "Spinach",
+        "Cabbage",
+        "Chicory"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What is the principal ingredient in traditional cole slaw?\n(A) Lettuce (B) Spinach (C) Cabbage (D) Chicory\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The main ingredients in traditional cole slaw are:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 59,
+    "doc": {
+      "question": "Who is the star of the movie 'Casablanca'?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Errol Flynn",
+        "Clark Gable",
+        "Cary Grant",
+        "Humphrey Bogart"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Who is the star of the movie 'Casablanca'?\n(A) Errol Flynn (B) Clark Gable (C) Cary Grant (D) Humphrey Bogart\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Cary Grant is the star of the movie Casablanca. Cary Grant is the star of the movie Casablanca. So, the answer is Cary Grant."
+      ]
+    ],
+    "filtered_resps": [
+      "Cary Grant"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 67,
+    "doc": {
+      "question": "How many leaves will fall in the United States this fall?",
+      "subject": "miscellaneous",
+      "choices": [
+        "3*10^9",
+        "3*10^12",
+        "3*10^15",
+        "3*10^18"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: How many leaves will fall in the United States this fall?\n(A) 3*10^9 (B) 3*10^12 (C) 3*10^15 (D) 3*10^18\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The number of leaves in the United States this fall is:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 75,
+    "doc": {
+      "question": "How many atoms that are in your body right now were ever part of Marie Curie's body?  Consider food, drink, and air.",
+      "subject": "miscellaneous",
+      "choices": [
+        "10^12 atoms",
+        "10^14 atoms",
+        "10^16 atoms",
+        "10^18 atoms"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: How many atoms that are in your body right now were ever part of Marie Curie's body?  Consider food, drink, and air.\n(A) 10^12 atoms (B) 10^14 atoms (C) 10^16 atoms (D) 10^18 atoms\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Marie Curie's body has 10^12 atoms. The number of atoms in your body right now were ever part of Marie Curie's body.<0x0A>The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 83,
+    "doc": {
+      "question": "Which of these colors is a shade of blue?",
+      "subject": "miscellaneous",
+      "choices": [
+        "ochre",
+        "periwinkle",
+        "mauve",
+        "ecru"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of these colors is a shade of blue?\n(A) ochre (B) periwinkle (C) mauve (D) ecru\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The color blue is a shade of blue. The color blue is a shade of blue. So, the answer is D."
+      ]
+    ],
+    "filtered_resps": [
+      "D"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "What is the revenue of peugeots sold in France per year (as of 2013)?",
+      "subject": "miscellaneous",
+      "choices": [
+        "approximately $200 million",
+        "approximately $2 billion",
+        "approximately $20 billion",
+        "approximately $200 billion"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What is the revenue of peugeots sold in France per year (as of 2013)?\n(A) approximately $200 million (B) approximately $2 billion (C) approximately $20 billion (D) approximately $200 billion\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The revenue of peugeots sold in France per year is:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "What does an animal produce when it lactates?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Sweat",
+        "Wool",
+        "Milk",
+        "Methane"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What does an animal produce when it lactates?\n(A) Sweat (B) Wool (C) Milk (D) Methane\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Milk is a liquid that is produced when an animal lactates. Milk is a liquid that is produced when an animal lactates. So, the answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 20,
+    "doc": {
+      "question": "If each of the following meals provides the same number of calories, which meal requires the most land to produce the food?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Red beans and rice",
+        "Steak and a baked potato",
+        "Corn tortilla and refried beans",
+        "Lentil soup and brown bread"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: If each of the following meals provides the same number of calories, which meal requires the most land to produce the food?\n(A) Red beans and rice (B) Steak and a baked potato (C) Corn tortilla and refried beans (D) Lentil soup and brown bread\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Red beans and rice provides the same number of calories, but each meal requires the most land to produce the food. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 28,
+    "doc": {
+      "question": "Which of these is referred to as a 'pigskin'?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Football",
+        "Basketball",
+        "hockey puck",
+        "catcher's Mitt"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of these is referred to as a 'pigskin'?\n(A) Football (B) Basketball (C) hockey puck (D) catcher's Mitt\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A pigskin is a type of miscellaneous. Pigskins are used to keep a pig in a pigskin. So, the answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 36,
+    "doc": {
+      "question": "What is the singular form of the word 'graffiti'?",
+      "subject": "miscellaneous",
+      "choices": [
+        "graffita",
+        "graffitem",
+        "graffito",
+        "graffitus"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What is the singular form of the word 'graffiti'?\n(A) graffita (B) graffitem (C) graffito (D) graffitus\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Graffiti is a type of miscellaneous. Graffiti is a type of miscellaneous. So, the answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 44,
+    "doc": {
+      "question": "The federal government can influence the policies of state governments through use of",
+      "subject": "miscellaneous",
+      "choices": [
+        "grants-in-aid",
+        "the line-item veto",
+        "executive privilege",
+        "separation of powers"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: The federal government can influence the policies of state governments through use of\n(A) grants-in-aid (B) the line-item veto (C) executive privilege (D) separation of powers\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The federal government can influence the policies of state governments through use of   _ ."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 52,
+    "doc": {
+      "question": "Which of the following was one social effect of the Second World War on the United States home front during the war years?",
+      "subject": "miscellaneous",
+      "choices": [
+        "The proportion of women in the workforce increased substantially.",
+        "Social segregation between African Americans and Whites in the southern United States rapidly diminished.",
+        "The baby boom caused rapid population growth during the war.",
+        "The generation gap grew more pronounced because many young people were alienated from the war effort."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of the following was one social effect of the Second World War on the United States home front during the war years?\n(A) The proportion of women in the workforce increased substantially. (B) Social segregation between African Americans and Whites in the southern United States rapidly diminished. (C) The baby boom caused rapid population growth during the war. (D) The generation gap grew more pronounced because many young people were alienated from the war effort.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The proportion of women in the workforce increased substantially."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 60,
+    "doc": {
+      "question": "Which of these states is not the birthplace of a US president?",
+      "subject": "miscellaneous",
+      "choices": [
+        "New Jersey",
+        "Nebraska",
+        "Kansas",
+        "California"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of these states is not the birthplace of a US president?\n(A) New Jersey (B) Nebraska (C) Kansas (D) California\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "New Jersey is the birthplace of a US president. New Jersey is the birthplace of a US president. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 68,
+    "doc": {
+      "question": "Continued high agricultural production by farms in the United States depends most on which of the following natural resources?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Coal",
+        "Limestone",
+        "Gypsum",
+        "Petroleum"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Continued high agricultural production by farms in the United States depends most on which of the following natural resources?\n(A) Coal (B) Limestone (C) Gypsum (D) Petroleum\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Limestone is a natural resource. Continued high agricultural production by farms in the United States depends most on Limestone.<0x0A>So, the final answer is B."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 76,
+    "doc": {
+      "question": "In the famous baseball poem 'Casey at the Bat' Casey plays for the team from what town?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Stormfield",
+        "Fog City",
+        "Mudville",
+        "Waterlog"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: In the famous baseball poem 'Casey at the Bat' Casey plays for the team from what town?\n(A) Stormfield (B) Fog City (C) Mudville (D) Waterlog\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The team from Stormfield is called the \"Bat\" because Casey plays for the team from Stormfield.<0x0A>So, the final answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 84,
+    "doc": {
+      "question": "An external circuit has a resistance of 7.0 ohms and a current of 2.0 amperes. The potential difference across the circuit is which of the following?",
+      "subject": "miscellaneous",
+      "choices": [
+        "14.0 volts",
+        "9.0 volts",
+        "3.5 volts",
+        "0.28 volts"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: An external circuit has a resistance of 7.0 ohms and a current of 2.0 amperes. The potential difference across the circuit is which of the following?\n(A) 14.0 volts (B) 9.0 volts (C) 3.5 volts (D) 0.28 volts\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The resistance of the circuit is 7.0 ohms and the current is 2.0 amperes. The potential difference across the circuit is 14.0 volts. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "In Mister Rogers' theme song what does he ask you to be?",
+      "subject": "miscellaneous",
+      "choices": [
+        "his cook",
+        "his student",
+        "his neighbor",
+        "all you can be"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: In Mister Rogers' theme song what does he ask you to be?\n(A) his cook (B) his student (C) his neighbor (D) all you can be\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "All you can be is the name of the person who is asked to be all you can be. So, the answer is D."
+      ]
+    ],
+    "filtered_resps": [
+      "D"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "Which of the following skills must be mastered before a child can learn to skip?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Hopping",
+        "Running",
+        "Walking backward",
+        "Crab walking"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of the following skills must be mastered before a child can learn to skip?\n(A) Hopping (B) Running (C) Walking backward (D) Crab walking\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A child must be able to skip because he/she is a child. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 21,
+    "doc": {
+      "question": "A triptych is a work of art that is painted on how many panels?",
+      "subject": "miscellaneous",
+      "choices": [
+        "two",
+        "three",
+        "five",
+        "eight"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: A triptych is a work of art that is painted on how many panels?\n(A) two (B) three (C) five (D) eight\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A triptych is a work of art that is painted on how many panels?<0x0A>The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 29,
+    "doc": {
+      "question": "What corporation was founded by a candlemaker and a soapmaker?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Simon & Schuster",
+        "Procter & Gamble",
+        "Johnson & Johnson",
+        "Smith & Wesson"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What corporation was founded by a candlemaker and a soapmaker?\n(A) Simon & Schuster (B) Procter & Gamble (C) Johnson & Johnson (D) Smith & Wesson\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The company that was founded by a candlemaker and a soapmaker is called Procter & Gamble. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 37,
+    "doc": {
+      "question": "Which of the following has contributed to low voter turnout in United States elections?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Robust political parties",
+        "Voter registration requirements",
+        "An increase in the average age of American citizens",
+        "The Australian ballot"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of the following has contributed to low voter turnout in United States elections?\n(A) Robust political parties (B) Voter registration requirements (C) An increase in the average age of American citizens (D) The Australian ballot\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Voter registration requirements have contributed to low voter turnout in United States elections.<0x0A>So, the final answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 45,
+    "doc": {
+      "question": "How many men has actress Elizabeth Taylor been divorced from?",
+      "subject": "miscellaneous",
+      "choices": [
+        "five",
+        "six",
+        "seven",
+        "eight"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: How many men has actress Elizabeth Taylor been divorced from?\n(A) five (B) six (C) seven (D) eight\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The number of men that Elizabeth Taylor has been divorced from is:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 53,
+    "doc": {
+      "question": "In the television network abbreviation 'ABC' what does the 'A' stand for?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Artistic",
+        "Audio",
+        "American",
+        "Adult"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: In the television network abbreviation 'ABC' what does the 'A' stand for?\n(A) Artistic (B) Audio (C) American (D) Adult\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The abbreviation 'ABC' is a miscellaneous abbreviation. The word 'A' is a miscellaneous abbreviation. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 61,
+    "doc": {
+      "question": "In what war did Joan of Arc fight?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Hundred Years' War",
+        "Franco-Prussian War",
+        "French Revolution",
+        "French and Indian War"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: In what war did Joan of Arc fight?\n(A) Hundred Years' War (B) Franco-Prussian War (C) French Revolution (D) French and Indian War\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Hundred Years' War was a war between France and Germany. Joan of Arc fought in the Franco-Prussian War. So, the answer is B."
+      ]
+    ],
+    "filtered_resps": [
+      "B"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 69,
+    "doc": {
+      "question": "As a quick assessment of lesson vocabulary, a teacher writes the following definition on the board. A set of expected behaviors for citizens who hold particular positions in society The teacher then asks students to write on their whiteboard the vocabulary word related to the definition. Which of the following students wrote the correct word?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Bob, who wrote \"influence\"",
+        "Danielle, who wrote \"roles\"",
+        "Mike, who wrote \"laws\"",
+        "Gretchen, who wrote \"ethos\""
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: As a quick assessment of lesson vocabulary, a teacher writes the following definition on the board. A set of expected behaviors for citizens who hold particular positions in society The teacher then asks students to write on their whiteboard the vocabulary word related to the definition. Which of the following students wrote the correct word?\n(A) Bob, who wrote \"influence\" (B) Danielle, who wrote \"roles\" (C) Mike, who wrote \"laws\" (D) Gretchen, who wrote \"ethos\"\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Gretchen, who wrote \"ethos\""
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 77,
+    "doc": {
+      "question": "What are the dimensions of a 'letter size' piece of paper?",
+      "subject": "miscellaneous",
+      "choices": [
+        "3 1/2  5 inches",
+        "5  10 inches",
+        "8 1/2  11 inches",
+        "11 17 inches"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What are the dimensions of a 'letter size' piece of paper?\n(A) 3 1/2  5 inches (B) 5  10 inches (C) 8 1/2  11 inches (D) 11 17 inches\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The dimensions of a 'letter size' piece of paper are:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 85,
+    "doc": {
+      "question": "Which symphony did Haydn write to wake up the audience?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Surprise",
+        "Bear",
+        "Military",
+        "Hen"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which symphony did Haydn write to wake up the audience?\n(A) Surprise (B) Bear (C) Military (D) Hen\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The title of the symphony was Surprise. Haydn wrote the symphony Surprise to wake up the audience. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "Barium belongs to which metal group?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Transition",
+        "Lanthanide",
+        "Alkali",
+        "Alkaline Earth"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Barium belongs to which metal group?\n(A) Transition (B) Lanthanide (C) Alkali (D) Alkaline Earth\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Barium is a metal that belongs to the transition metal group.<0x0A>So, the final answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "What is the last book of the New Testament?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Revelation",
+        "Judges",
+        "Ruth",
+        "John"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What is the last book of the New Testament?\n(A) Revelation (B) Judges (C) Ruth (D) John\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The last book of the New Testament is Revelation. The last book of the New Testament is Revelation. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 22,
+    "doc": {
+      "question": "When driving which of the following gestures means 'left turn'?",
+      "subject": "miscellaneous",
+      "choices": [
+        "arm bent upwards",
+        "thumbs up",
+        "closed fist",
+        "arm straight out"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: When driving which of the following gestures means 'left turn'?\n(A) arm bent upwards (B) thumbs up (C) closed fist (D) arm straight out\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "D is the opposite of A."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 30,
+    "doc": {
+      "question": "In the novel 'Around the World in 80 Days' Phileas Fogg's faithful valet is named what?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Sancho Panza",
+        "Passepartout",
+        "Renfield",
+        "Savoir Faire"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: In the novel 'Around the World in 80 Days' Phileas Fogg's faithful valet is named what?\n(A) Sancho Panza (B) Passepartout (C) Renfield (D) Savoir Faire\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The valet of Phileas Fogg is named Passepartout.<0x0A>So, the final answer is B."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 38,
+    "doc": {
+      "question": "'Nature Mr Allnut is what we are put in this world to rise above' is a line from what film?",
+      "subject": "miscellaneous",
+      "choices": [
+        "'Citizen Kane'",
+        "'The African Queen'",
+        "'The Deer Hunter'",
+        "'Adam's Rib'"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: 'Nature Mr Allnut is what we are put in this world to rise above' is a line from what film?\n(A) 'Citizen Kane' (B) 'The African Queen' (C) 'The Deer Hunter' (D) 'Adam's Rib'\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The African Queen is a film about the African Queen. The African Queen is a film about the African Queen. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 46,
+    "doc": {
+      "question": "In the novel 'The Adventures of Tom Sawyer' what is the name of Tom's sweetheart?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Polly Finn",
+        "Becky Thatcher",
+        "Nancy Drew",
+        "Emma Bovary"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: In the novel 'The Adventures of Tom Sawyer' what is the name of Tom's sweetheart?\n(A) Polly Finn (B) Becky Thatcher (C) Nancy Drew (D) Emma Bovary\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The name of Tom's sweetheart is Polly Finn. Polly Finn is Tom's sweetheart. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 54,
+    "doc": {
+      "question": "How long is Hanukkah?",
+      "subject": "miscellaneous",
+      "choices": [
+        "one day",
+        "five days",
+        "eight days",
+        "two weeks"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: How long is Hanukkah?\n(A) one day (B) five days (C) eight days (D) two weeks\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Hanukkah is a holiday that lasts for 12 days. Hanukkah is a holiday that lasts for 12 days. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 62,
+    "doc": {
+      "question": "On the TV show 'Hill Street Blues' What is Joyce Davenport's nickname For Captain Frank Furillo?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Furry Monster",
+        "Pizza Man",
+        "Snookums",
+        "Baby Cakes"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: On the TV show 'Hill Street Blues' What is Joyce Davenport's nickname For Captain Frank Furillo?\n(A) Furry Monster (B) Pizza Man (C) Snookums (D) Baby Cakes\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The nickname for Captain Frank Furillo is \"Furry Monster\". So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 70,
+    "doc": {
+      "question": "What is another name for the camelopard?",
+      "subject": "miscellaneous",
+      "choices": [
+        "circus",
+        "giraffe",
+        "cantaloupe",
+        "oasis"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What is another name for the camelopard?\n(A) circus (B) giraffe (C) cantaloupe (D) oasis\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The camelopard is a species of animal that is found in the wild. The camelopard is a species of animal that is found in the wild.<0x0A>So, the final answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 78,
+    "doc": {
+      "question": "How many ounces are in a pound?",
+      "subject": "miscellaneous",
+      "choices": [
+        "4",
+        "12",
+        "16",
+        "32"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: How many ounces are in a pound?\n(A) 4 (B) 12 (C) 16 (D) 32\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The number of ounces in a pound is:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "How many quarts are there in a gallon?",
+      "subject": "miscellaneous",
+      "choices": [
+        "one",
+        "two",
+        "three",
+        "four"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: How many quarts are there in a gallon?\n(A) one (B) two (C) three (D) four\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The number of quarts in a gallon is:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": "In one hour, Amanda can type five pages of a report or she can make 10 sandwiches. The opportunity cost of typing one page of a report is",
+      "subject": "miscellaneous",
+      "choices": [
+        "2 sandwiches",
+        "5 sandwiches",
+        "10 sandwiches",
+        "50 sandwiches"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: In one hour, Amanda can type five pages of a report or she can make 10 sandwiches. The opportunity cost of typing one page of a report is\n(A) 2 sandwiches (B) 5 sandwiches (C) 10 sandwiches (D) 50 sandwiches\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Amanda can make 10 sandwiches in one hour. She can make 10 sandwiches in one hour. So, the answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 23,
+    "doc": {
+      "question": "Which of these television programs did not feature characters introduced on 'Happy Days'?",
+      "subject": "miscellaneous",
+      "choices": [
+        "'Mork & Mindy'",
+        "'Perfect Strangers'",
+        "'Joanie Loves Chachi'",
+        "'Laverne & Shirley'"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of these television programs did not feature characters introduced on 'Happy Days'?\n(A) 'Mork & Mindy' (B) 'Perfect Strangers' (C) 'Joanie Loves Chachi' (D) 'Laverne & Shirley'\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The show Happy Days was aired on ABC from 1999 to 2000. The show was not aired on the network until 2000.<0x0A>So, the final answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 31,
+    "doc": {
+      "question": "According to Greek mythology who was Apollo's twin sister?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Aphrodite",
+        "Artemis",
+        "Venus",
+        "Athena"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: According to Greek mythology who was Apollo's twin sister?\n(A) Aphrodite (B) Artemis (C) Venus (D) Athena\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Aphrodite was the twin sister of Apollo. Aphrodite was the twin sister of Aphrodite.<0x0A>Thus, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 39,
+    "doc": {
+      "question": "Which of these pastas is spiral shaped?",
+      "subject": "miscellaneous",
+      "choices": [
+        "fettuccine",
+        "rigatoni",
+        "tortellini",
+        "rotini"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of these pastas is spiral shaped?\n(A) fettuccine (B) rigatoni (C) tortellini (D) rotini\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Fettuccine is a pasta that is spiral shaped. Fettuccine is a pasta that is spiral shaped.<0x0A>Thus, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 47,
+    "doc": {
+      "question": "Which of these Hemingway characters is a newspaperman?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Jake Barnes",
+        "Rogelio Gomez",
+        "Frederic Henry",
+        "John MacWalsey"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Which of these Hemingway characters is a newspaperman?\n(A) Jake Barnes (B) Rogelio Gomez (C) Frederic Henry (D) John MacWalsey\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Hemingway character Rogelio Gomez is a newspaper reporter. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 55,
+    "doc": {
+      "question": "What mathematical term is used to describe the average of a series of numbers?",
+      "subject": "miscellaneous",
+      "choices": [
+        "median",
+        "mode",
+        "majority",
+        "mean"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What mathematical term is used to describe the average of a series of numbers?\n(A) median (B) mode (C) majority (D) mean\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Mean is the average of a series of numbers. The average of a series of numbers is called the median. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 63,
+    "doc": {
+      "question": "What football player was known as 'The Galloping Ghost'?",
+      "subject": "miscellaneous",
+      "choices": [
+        "Jim Thorpe",
+        "Dick Butkus",
+        "Red Grange",
+        "George Halas"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What football player was known as 'The Galloping Ghost'?\n(A) Jim Thorpe (B) Dick Butkus (C) Red Grange (D) George Halas\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Galloping Ghost was a fictional character in the 1930s. Jim Thorpe was a football player. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 71,
+    "doc": {
+      "question": "What is the revenue for the board game Monopoly sold in India per year (as of 2013)?",
+      "subject": "miscellaneous",
+      "choices": [
+        "$3.6 million.",
+        "$36 million.",
+        "$360 million.",
+        "$3.6 billion."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: What is the revenue for the board game Monopoly sold in India per year (as of 2013)?\n(A) $3.6 million. (B) $36 million. (C) $360 million. (D) $3.6 billion.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The revenue for the board game Monopoly sold in India per year is?<0x0A>Options:<0x0A>(A) $36 million.<0x0A>(B) $36 million.<0x0A>(C) $360 million.<0x0A>(D) $3.6 billion. So, the answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 79,
+    "doc": {
+      "question": "Excluding wisdom teeth how many adult teeth do humans have?",
+      "subject": "miscellaneous",
+      "choices": [
+        "28",
+        "32",
+        "35",
+        "40"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about miscellaneous.\n\nQ: Excluding wisdom teeth how many adult teeth do humans have?\n(A) 28 (B) 32 (C) 35 (D) 40\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The number of adult teeth in humans is 28. The number of wisdom teeth is 32. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  }
+]

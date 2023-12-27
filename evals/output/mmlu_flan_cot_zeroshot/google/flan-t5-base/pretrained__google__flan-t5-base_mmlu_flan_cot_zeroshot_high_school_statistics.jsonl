@@ -1,0 +1,830 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "What are the mean and standard deviation of a binomial experiment that occurs with probability of success 0.76 and is repeated 150 times?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "114, 27.35",
+        "100.5, 5.23",
+        "114, 5.23",
+        "The mean is 114, but there is not enough information given to determine the standard deviation."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: What are the mean and standard deviation of a binomial experiment that occurs with probability of success 0.76 and is repeated 150 times?\n(A) 114, 27.35 (B) 100.5, 5.23 (C) 114, 5.23 (D) The mean is 114, but there is not enough information given to determine the standard deviation.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The probability of success is 0.76. The mean and standard deviation are 114. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "For which of these is a binomial probability model most reasonable?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "The number of times, out of 10 attempts, that a particular child can throw a ball into a basket from six feet away",
+        "The colors of the cars in the parking lot of a particular grocery store on a randomly selected Sunday",
+        "The number of times that a randomly selected resident of California has visited a museum in the last 12 months",
+        "The number of cards drawn from a well-shuffled deck until all four aces are found"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: For which of these is a binomial probability model most reasonable?\n(A) The number of times, out of 10 attempts, that a particular child can throw a ball into a basket from six feet away (B) The colors of the cars in the parking lot of a particular grocery store on a randomly selected Sunday (C) The number of times that a randomly selected resident of California has visited a museum in the last 12 months (D) The number of cards drawn from a well-shuffled deck until all four aces are found\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A binomial probability model is a probability model that can be used to estimate the probability of a particular child throwing a ball into a basket from six feet away. The probability model is a probability model that can be used to estimate the probability of a particular child throwing a ball into a basket from six feet away. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "question": "The number of leasable square feet of office space available in a city on any given day has a normal distribution with mean 640,000 square feet and standard deviation 18,000 square feet. What is the interquartile range for this distribution?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "652,000 - 628,000",
+        "658,000 - 622,000",
+        "667,000 - 613,000",
+        "676,000 - 604,000"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: The number of leasable square feet of office space available in a city on any given day has a normal distribution with mean 640,000 square feet and standard deviation 18,000 square feet. What is the interquartile range for this distribution?\n(A) 652,000 - 628,000 (B) 658,000 - 622,000 (C) 667,000 - 613,000 (D) 676,000 - 604,000\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The mean square feet of office space available in a city on any given day is 640,000 square feet. The standard deviation of the square feet of office space available in a city is 18,000 square feet. The interquartile range for this distribution is 640,000 - 620,000. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "Random samples of size n are drawn from a population. The mean of each sample is calculated, and the standard deviation of this set of sample means is found. Then the procedure is repeated, this time with samples of size 4n. How does the standard deviation of the second group compare with the standard deviation of the first group?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "It will be the same.",
+        "It will be twice as large.",
+        "It will be four times as large.",
+        "It will be half as large."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: Random samples of size n are drawn from a population. The mean of each sample is calculated, and the standard deviation of this set of sample means is found. Then the procedure is repeated, this time with samples of size 4n. How does the standard deviation of the second group compare with the standard deviation of the first group?\n(A) It will be the same. (B) It will be twice as large. (C) It will be four times as large. (D) It will be half as large.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard deviation of the first group. The standard deviation of the second group is the same as the standard"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "According to the central limit theorem, the sample mean X is approximately normally distributed",
+      "subject": "high_school_statistics",
+      "choices": [
+        "for a large sample, regardless of the distribution of random variable X",
+        "for a large sample, provided the random variable X is normally distributed",
+        "regardless of the sample size",
+        "for a small sample, regardless of the distribution of random variable X"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: According to the central limit theorem, the sample mean X is approximately normally distributed\n(A) for a large sample, regardless of the distribution of random variable X (B) for a large sample, provided the random variable X is normally distributed (C) regardless of the sample size (D) for a small sample, regardless of the distribution of random variable X\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The sample mean X is approximately normally distributed for a large sample, regardless of the distribution of random variable X. The answer: A."
+      ]
+    ],
+    "filtered_resps": [
+      "A"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "question": "A sample of size 35 is to be drawn from a large population. The sampling technique is such that every possible sample of size 35 that could be drawn from the population is equally likely. What name is given to this type of sample?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "Systematic sample",
+        "Cluster sample",
+        "Voluntary response sample",
+        "Simple random sample"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: A sample of size 35 is to be drawn from a large population. The sampling technique is such that every possible sample of size 35 that could be drawn from the population is equally likely. What name is given to this type of sample?\n(A) Systematic sample (B) Cluster sample (C) Voluntary response sample (D) Simple random sample\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Cluster sample is a type of sample. A cluster sample is a large population. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "In sample surveys, what is meant by bias?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "A systematic error in a sampling method that leads to an unrepresentative sample.",
+        "Prejudice, as in ethnic and gender-related studies.",
+        "Natural variability seen between samples.",
+        "Tendency for some distributions to be skewed."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: In sample surveys, what is meant by bias?\n(A) A systematic error in a sampling method that leads to an unrepresentative sample. (B) Prejudice, as in ethnic and gender-related studies. (C) Natural variability seen between samples. (D) Tendency for some distributions to be skewed.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A systematic error in a sampling method that leads to an unrepresentative sample is called a sampling error. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "Jonathan obtained a score of 80 on a statistics exam, placing him at the 90th percentile. Suppose five points are added to everyone's score. Jonathan's new score will be at the",
+      "subject": "high_school_statistics",
+      "choices": [
+        "80th percentile.",
+        "85th percentile.",
+        "90th percentile.",
+        "95th percentile."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: Jonathan obtained a score of 80 on a statistics exam, placing him at the 90th percentile. Suppose five points are added to everyone's score. Jonathan's new score will be at the\n(A) 80th percentile. (B) 85th percentile. (C) 90th percentile. (D) 95th percentile.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The new score is the 90th percentile because 80 x 5 = 90. The new score is the 85th percentile because 90 - 80 = 85. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 18,
+    "doc": {
+      "question": "In the correlation coefficient r = 0.78, what percentage of variation in y is explained by the linear regression model?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "22%",
+        "39%",
+        "44%",
+        "61%"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: In the correlation coefficient r = 0.78, what percentage of variation in y is explained by the linear regression model?\n(A) 22% (B) 39% (C) 44% (D) 61%\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The correlation coefficient r = 0.78 is a measure of the variance of a variable. The variance of a variable is the percentage of variance that is explained by the linear regression model. The percentage of variance that is explained by the linear regression model is 44%. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "Which of the following are examples of continuous data? I. The speed your car goes II. The number of outcomes of a binomial experiment III. The average temperature in San Francisco IV. The wingspan of a bird V. The jersey numbers of a football team",
+      "subject": "high_school_statistics",
+      "choices": [
+        "I, III, and IV only",
+        "II and V only",
+        "I, III, and V only",
+        "II, III, and IV only"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: Which of the following are examples of continuous data? I. The speed your car goes II. The number of outcomes of a binomial experiment III. The average temperature in San Francisco IV. The wingspan of a bird V. The jersey numbers of a football team\n(A) I, III, and IV only (B) II and V only (C) I, III, and V only (D) II, III, and IV only\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "V. is a football team's jersey number. The jersey numbers of a football team are continuous data. The answer: V."
+      ]
+    ],
+    "filtered_resps": [
+      "V"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "For which of the following purposes would it be most unreasonable to use a census?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "To determine the proportion of students with a learning disability in a small rural area high school",
+        "To determine the proportion of red snappers with a high mercury level in the Gulf of Mexico",
+        "To determine the difference between the proportion of engineering professors and the proportion of business professors in favor of the new teaching initiative at a large university",
+        "To determine the mean wage earned by construction workers in a small town"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: For which of the following purposes would it be most unreasonable to use a census?\n(A) To determine the proportion of students with a learning disability in a small rural area high school (B) To determine the proportion of red snappers with a high mercury level in the Gulf of Mexico (C) To determine the difference between the proportion of engineering professors and the proportion of business professors in favor of the new teaching initiative at a large university (D) To determine the mean wage earned by construction workers in a small town\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A census is used to determine the proportion of students with a learning disability in a small rural area high school. The population of a small rural area high school is larger than the population of a large city. The population of a small rural area high school is smaller than the population of a large city. The population of a small rural area high school is larger than the population of a large city. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 19,
+    "doc": {
+      "question": "To conduct a survey of which long distance carriers are used in a particular locality, a researcher opens a telephone book to a random page, closes his eyes, puts his finger down on the page, and then calls the next 75 names. Which of the following is a correct statement?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "The procedure results in a simple random sample.",
+        "While the survey design does incorporate chance, the procedure could easily result in selection bias.",
+        "This is an example of cluster sampling with 26 clusters.",
+        "This is an example of stratified sampling with 26 strata."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: To conduct a survey of which long distance carriers are used in a particular locality, a researcher opens a telephone book to a random page, closes his eyes, puts his finger down on the page, and then calls the next 75 names. Which of the following is a correct statement?\n(A) The procedure results in a simple random sample. (B) While the survey design does incorporate chance, the procedure could easily result in selection bias. (C) This is an example of cluster sampling with 26 clusters. (D) This is an example of stratified sampling with 26 strata.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A survey of which long distance carriers are used in a particular locality is called a cluster sampling. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "A local library has a scanner to detect library materials that have not been checked out. Each item has a chip somewhere inside. Upon checkout, the chip is deactivated so the scanner will not set off the alarm. The scanner has a 98% chance of detecting an active chip (meaning the material has not been checked out) and setting off the alarm. The scanner also has a 3% chance of sounding the alarm when someone passes through without an active chip. It is estimated that 0.5% of library customers actually try to leave the library with an active chip. What is the probability that, if the alarm sounds, the patron leaving the library has an item with an active chip?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "0.0049",
+        "0.0348",
+        "0.141",
+        "0.97"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: A local library has a scanner to detect library materials that have not been checked out. Each item has a chip somewhere inside. Upon checkout, the chip is deactivated so the scanner will not set off the alarm. The scanner has a 98% chance of detecting an active chip (meaning the material has not been checked out) and setting off the alarm. The scanner also has a 3% chance of sounding the alarm when someone passes through without an active chip. It is estimated that 0.5% of library customers actually try to leave the library with an active chip. What is the probability that, if the alarm sounds, the patron leaving the library has an item with an active chip?\n(A) 0.0049 (B) 0.0348 (C) 0.141 (D) 0.97\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The probability that the scanner will detect an active chip is 98% - 3% = 0.0049. The probability that the scanner will sound the alarm is 0.0348 - 0.0348 = 0.0049. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "A random sample of families was taken in order to estimate the relation between fertility and level of education (measured in number of years). A confidence interval needs to be constructed for the slope of the regression line. The social worker in charge of the project is debating whether to use a 90 percent or a 95 percent confidence interval. Which of the following statements about the length of these intervals is true?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "The 95 percent confidence interval will be wider than the 90 percent confidence interval.",
+        "The 95 percent confidence interval will be narrower than the 90 percent confidence interval.",
+        "Both intervals will be of the same length, because they are computed from the same sample.",
+        "The length of the confidence interval will depend on the sample size, not on the confidence level."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: A random sample of families was taken in order to estimate the relation between fertility and level of education (measured in number of years). A confidence interval needs to be constructed for the slope of the regression line. The social worker in charge of the project is debating whether to use a 90 percent or a 95 percent confidence interval. Which of the following statements about the length of these intervals is true?\n(A) The 95 percent confidence interval will be wider than the 90 percent confidence interval. (B) The 95 percent confidence interval will be narrower than the 90 percent confidence interval. (C) Both intervals will be of the same length, because they are computed from the same sample. (D) The length of the confidence interval will depend on the sample size, not on the confidence level.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The 95 percent confidence interval will be wider than the 90 percent confidence interval. The 95 percent confidence interval will be narrower than the 90 percent confidence interval. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 20,
+    "doc": {
+      "question": "The distribution of weights of 16-ounce bags of a particular brand of potato chips is approximately normal with a standard deviation of 0.28 ounce. How does the weight of a bag at the 40th percentile compare with the mean weight?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "0.40 ounce above the mean",
+        "0.25 ounce above the mean",
+        "0.07 ounce above the mean",
+        "0.07 ounce below the mean"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: The distribution of weights of 16-ounce bags of a particular brand of potato chips is approximately normal with a standard deviation of 0.28 ounce. How does the weight of a bag at the 40th percentile compare with the mean weight?\n(A) 0.40 ounce above the mean (B) 0.25 ounce above the mean (C) 0.07 ounce above the mean (D) 0.07 ounce below the mean\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The mean weight of 16-ounce bags is 0.28 ounces. The weight of a bag at the 40th percentile is 0.40 ounce above the mean. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "A skeptic decides to conduct an experiment in ESP in which a blindfolded subject calls out the color of a card dealt from a regular deck of cards (half the cards are red; the other half, black). One hundred cards are dealt from a well-shuffled pack, with each card being replaced after a deal. Using a 5 percent level of significance, what is the lowest number of cards that the subject needs to call out correctly in order to show that he is doing better than he would if he were simply guessing?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "51",
+        "59",
+        "75",
+        "95"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: A skeptic decides to conduct an experiment in ESP in which a blindfolded subject calls out the color of a card dealt from a regular deck of cards (half the cards are red; the other half, black). One hundred cards are dealt from a well-shuffled pack, with each card being replaced after a deal. Using a 5 percent level of significance, what is the lowest number of cards that the subject needs to call out correctly in order to show that he is doing better than he would if he were simply guessing?\n(A) 51 (B) 59 (C) 75 (D) 95\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The subject must call out the color of a card dealt from a regular deck of cards, which is half the red card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the black card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the red card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the black card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the red card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the black card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the red card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the black card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the red card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the black card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the red card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the black card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the red card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the black card. The subject must call out the color of a card dealt from a regular deck of cards, which is half the red card. The subject must call out the color of a card dealt from a regular deck of cards, which is half"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "A particular crop of one variety of onion has weights that are approximately normally distributed with mean 9.8 oz. and standard deviation 2.1 oz. How does an onion in the 28th percentile for weight compare to the mean?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "1.22 ounces below the mean",
+        "0.59 ounces below the mean",
+        "0.59 ounces above the mean",
+        "1.22 ounces above the mean"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: A particular crop of one variety of onion has weights that are approximately normally distributed with mean 9.8 oz. and standard deviation 2.1 oz. How does an onion in the 28th percentile for weight compare to the mean?\n(A) 1.22 ounces below the mean (B) 0.59 ounces below the mean (C) 0.59 ounces above the mean (D) 1.22 ounces above the mean\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The mean of the onion is 9.8 oz. The standard deviation is 2.1 oz. The 28th percentile is 0.59 oz below the mean. The mean is 0.59 oz below the mean. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 21,
+    "doc": {
+      "question": "Suppose 4% of the population have a certain disease. A laboratory blood test gives a positive reading for 95% of people who have the disease and for 5% of people who do not have the disease. If a person tests positive, what is the probability the person has the disease?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "0.038",
+        "0.086",
+        "0.442",
+        "0.558"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: Suppose 4% of the population have a certain disease. A laboratory blood test gives a positive reading for 95% of people who have the disease and for 5% of people who do not have the disease. If a person tests positive, what is the probability the person has the disease?\n(A) 0.038 (B) 0.086 (C) 0.442 (D) 0.558\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The probability that a person has the disease is.4 *.4 = 0.038. The probability that a person does not have the disease is.4 *.5 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 *.4 = 0.086. The probability that a person has the disease is.4 * "
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "A survey was conducted to determine the percentage of parents who would support raising the legal driving age to 18. The results were stated as 67% with a margin of error of \u00b13%. What is meant by \u00b13%?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "Three percent of the population were not surveyed.",
+        "In the sample, the percentage of parents who would support raising the driving age is between 64% and 70%.",
+        "The percentage of the entire population of parents who would support raising the driving age is between 64% and 70%.",
+        "It is unlikely that the given sample proportion result could be obtained unless the true percentage was between 64% and 70%."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: A survey was conducted to determine the percentage of parents who would support raising the legal driving age to 18. The results were stated as 67% with a margin of error of \u00b13%. What is meant by \u00b13%?\n(A) Three percent of the population were not surveyed. (B) In the sample, the percentage of parents who would support raising the driving age is between 64% and 70%. (C) The percentage of the entire population of parents who would support raising the driving age is between 64% and 70%. (D) It is unlikely that the given sample proportion result could be obtained unless the true percentage was between 64% and 70%.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The percentage of parents who would support raising the driving age is between 64% and 70%. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "A set consists of four numbers. The largest value is 200, and the range is 50. Which of the following statements is true?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "The mean is less than 185.",
+        "The mean is greater than 165.",
+        "The median is less than 195.",
+        "The median is the mean of the second and third numbers if the set is arranged in ascending order."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: A set consists of four numbers. The largest value is 200, and the range is 50. Which of the following statements is true?\n(A) The mean is less than 185. (B) The mean is greater than 165. (C) The median is less than 195. (D) The median is the mean of the second and third numbers if the set is arranged in ascending order.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The median is the mean of the second and third numbers if the set is arranged in ascending order. The largest number is 200. The median is the mean of the second and third numbers if the set is arranged in ascending order. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 22,
+    "doc": {
+      "question": "Two variables, xand y, seem to be exponentially related. The natural logarithm of each yvalue is taken and the least-squares regression line of ln(y) on xis determined to be ln(y) = 3.2 + 0.42x. What is the predicted value of ywhen x= 7?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "464.05",
+        "1380384.27",
+        "521.35",
+        "6.14"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: Two variables, xand y, seem to be exponentially related. The natural logarithm of each yvalue is taken and the least-squares regression line of ln(y) on xis determined to be ln(y) = 3.2 + 0.42x. What is the predicted value of ywhen x= 7?\n(A) 464.05 (B) 1380384.27 (C) 521.35 (D) 6.14\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The natural logarithm of x is 3.2 + 0.42x = 3.2 + 0.42x. The predicted value of ywhen x = 7 is y = 3.2 + 0.42x = 3.6. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "In basketball, an offensive rebound occurs when a player shoots and misses, and a player from the same team recovers the ball. For the 176 players on the roster for one season of professional men's basketball, the third quartile for the total number of offensive rebounds for one season was 143. If five players are selected at random (with replacement) from that season, what is the approximate probability that at least three of them had more than 143 rebounds that season?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "0.0127",
+        "0.0879",
+        "0.1035",
+        "0.8965"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: In basketball, an offensive rebound occurs when a player shoots and misses, and a player from the same team recovers the ball. For the 176 players on the roster for one season of professional men's basketball, the third quartile for the total number of offensive rebounds for one season was 143. If five players are selected at random (with replacement) from that season, what is the approximate probability that at least three of them had more than 143 rebounds that season?\n(A) 0.0127 (B) 0.0879 (C) 0.1035 (D) 0.8965\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The probability that at least three of the players had more than 143 rebounds that season is 0.0127 - 0.0127 = 0.0127. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": "Which of the following is a true statement?",
+      "subject": "high_school_statistics",
+      "choices": [
+        "While observational studies gather information on an already existing condition, they still often involve intentionally forcing some treatment to note the response.",
+        "In an experiment, researchers decide on the treatment but typically allow the subjects to self-select into the control group.",
+        "If properly designed, either observational studies or controlled experiments can easily be used to establish cause and effect.",
+        "Stratifying in sampling is the same idea as blocking for experiments."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school statistics.\n\nQ: Which of the following is a true statement?\n(A) While observational studies gather information on an already existing condition, they still often involve intentionally forcing some treatment to note the response. (B) In an experiment, researchers decide on the treatment but typically allow the subjects to self-select into the control group. (C) If properly designed, either observational studies or controlled experiments can easily be used to establish cause and effect. (D) Stratifying in sampling is the same idea as blocking for experiments.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The following are examples of observational studies. The following are examples of controlled experiments. The following are examples of observational studies. The following are examples of controlled experiments. The following are examples of observational studies. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples of controlled experiments. The following are examples"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  }
+]

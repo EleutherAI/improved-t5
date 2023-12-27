@@ -1,0 +1,794 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "Consider the Lewis structures for the following molecules: CO2, CO32-, NO2-, and NO3-. Which molecule would have the smallest bond angle between terminal atoms?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "CO2",
+        "CO32-",
+        "NO2-",
+        "NO3-"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: Consider the Lewis structures for the following molecules: CO2, CO32-, NO2-, and NO3-. Which molecule would have the smallest bond angle between terminal atoms?\n(A) CO2 (B) CO32- (C) NO2- (D) NO3-\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Lewis structure for the CO2 molecules is the same as the Lewis structure for the CO32- molecules. The smallest bond angle between terminal atoms is the smallest of the three molecules. The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "The average mass, in grams, of one mole of carbon atoms is equal to",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "the average mass of a single carbon atom, measured in amus.",
+        "the ratio of the number of carbon atoms to the mass of a single carbon atom.",
+        "the number of carbon atoms in one amu of carbon.",
+        "the mass, in grams, of the most abundant isotope of carbon."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: The average mass, in grams, of one mole of carbon atoms is equal to\n(A) the average mass of a single carbon atom, measured in amus. (B) the ratio of the number of carbon atoms to the mass of a single carbon atom. (C) the number of carbon atoms in one amu of carbon. (D) the mass, in grams, of the most abundant isotope of carbon.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The average mass of a mole of carbon atoms is equal to the average mass of a single carbon atom, measured in amus. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "question": "A sample of an unknown chloride compound was dissolved in water, and then titrated with excess Pb(NO3)2 to create a precipitate. After drying, it is determined there are 0.0050 mol of precipitate present. What mass of chloride is present in the original sample?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "0.177 g",
+        "0.355 g",
+        "0.522 g",
+        "0.710 g"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: A sample of an unknown chloride compound was dissolved in water, and then titrated with excess Pb(NO3)2 to create a precipitate. After drying, it is determined there are 0.0050 mol of precipitate present. What mass of chloride is present in the original sample?\n(A) 0.177 g (B) 0.355 g (C) 0.522 g (D) 0.710 g\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The mass of the precipitate is 0.0050 g = 0.0050 g. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "An element in its ground state",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "has all of its electrons in the lowest possible energy levels",
+        "is an element as found in nature",
+        "is an element that is unreactive and found free in nature",
+        "has all of its electrons paired"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: An element in its ground state\n(A) has all of its electrons in the lowest possible energy levels (B) is an element as found in nature (C) is an element that is unreactive and found free in nature (D) has all of its electrons paired\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The ground state of an element is the lowest energy level. The ground state of an element is the lowest energy level. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "Dissolving one mole of each of the oxoacids HNO2, HClO4, H2CO3, and H3PO4 in 2.0 L of distilled water results in solutions with different pH values. Arrange these acid solutions from the one with the highest pH to the one with the lowest pH.",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "HNO2 > HClO4 > H2CO3 > H3PO4",
+        "HClO4 > HNO2 > H2CO3 > H3PO4",
+        "H2CO3 > H3PO4 > HNO2 > HClO4",
+        "H2CO3 > HNO2 > HClO4 > H3PO4"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: Dissolving one mole of each of the oxoacids HNO2, HClO4, H2CO3, and H3PO4 in 2.0 L of distilled water results in solutions with different pH values. Arrange these acid solutions from the one with the highest pH to the one with the lowest pH.\n(A) HNO2 > HClO4 > H2CO3 > H3PO4 (B) HClO4 > HNO2 > H2CO3 > H3PO4 (C) H2CO3 > H3PO4 > HNO2 > HClO4 (D) H2CO3 > HNO2 > HClO4 > H3PO4\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The lowest pH solution is (A). The highest pH solution is (B). The lowest pH solution is (C). The lowest pH solution is (D). The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "question": "Which of the following pairs of ions would make the best buffer with a basic pH? Ka for HC3H2O2 = 1.75 \u00d7 10^-5. Ka for HPO42- = 4.8 \u00d7 10^-13.",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "H2SO4 and H2PO4",
+        "HPO42- and NaH2PO4-",
+        "HC3H2O2 and NaC3H2O2",
+        "NaOH and HC2H3O2"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: Which of the following pairs of ions would make the best buffer with a basic pH? Ka for HC3H2O2 = 1.75 \u00d7 10^-5. Ka for HPO42- = 4.8 \u00d7 10^-13.\n(A) H2SO4 and H2PO4 (B) HPO42- and NaH2PO4- (C) HC3H2O2 and NaC3H2O2 (D) NaOH and HC2H3O2\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The basic pH of a buffer is 0.5. The ion pairs for HC3H2O2 and HPO42- are HPO42- and NaH2PO4-. The ion pairs for HPO42- and NaH2PO4- are HPO42- and NaH2PO4-. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "Based on periodic relationships, the bond strength, and the concept relating bond strength to acid strengths, which of the following correctly predicts the strength of binary acids from strongest to weakest?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "H2Se > H2O > H2S",
+        "H2Se > H2S > H2O",
+        "H2O < H2S < H2Se",
+        "H2O > H2S > H2Se"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: Based on periodic relationships, the bond strength, and the concept relating bond strength to acid strengths, which of the following correctly predicts the strength of binary acids from strongest to weakest?\n(A) H2Se > H2O > H2S (B) H2Se > H2S > H2O (C) H2O < H2S < H2Se (D) H2O > H2S > H2Se\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Bond strength is the number of bonds that form between two or more bonds. Binary acids are bonded to each other by the bond strength. The answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "Twenty-five milligrams of sucrose (C12H22O11) are dissolved in enough water to make 1.00 liter of solution. What is the molality of the solution?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "7.3 \u00d7 10^-5",
+        "7.31 \u00d7 10^-2",
+        "73.1",
+        "1.36"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: Twenty-five milligrams of sucrose (C12H22O11) are dissolved in enough water to make 1.00 liter of solution. What is the molality of the solution?\n(A) 7.3 \u00d7 10^-5 (B) 7.31 \u00d7 10^-2 (C) 73.1 (D) 1.36\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The molality of the solution is 7.3  10-5 The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 18,
+    "doc": {
+      "question": "4NH3(g) + 5O2(g) \u2192 4NO(g) + 6H2O(g) This reaction will experience a rate increase by the addition of a cataylst such as platinum. Which of the following best explains why?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "The catalyst increases the overall frequency of collisions in the reactant molecules.",
+        "The catalyst increases the frequency of collisions that occur at the proper orientation in the reactant molecules.",
+        "The catalyst introduces a new reaction mechanism for the reaction.",
+        "The catalyst increases the activation energy for the reaction."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: 4NH3(g) + 5O2(g) \u2192 4NO(g) + 6H2O(g) This reaction will experience a rate increase by the addition of a cataylst such as platinum. Which of the following best explains why?\n(A) The catalyst increases the overall frequency of collisions in the reactant molecules. (B) The catalyst increases the frequency of collisions that occur at the proper orientation in the reactant molecules. (C) The catalyst introduces a new reaction mechanism for the reaction. (D) The catalyst increases the activation energy for the reaction.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The reaction will increase the rate of the reaction by adding a catalyst. The reaction will increase the rate of the reaction by adding a catalyst. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "Chemical reactions can be classified as either heterogeneous or homogeneous. Which of the following equations below is best classified as a heterogeneous reaction?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "2C2H2(g) + 5O2(g) \u2192 4CO2(g) + 2H2O(g)",
+        "2SO2(aq) + O2(g) \u2192 2SO3(g)",
+        "C2H2(g) + 5N2O(g) \u2192 CO2(g) + H2O(g) + 5N2(g)",
+        "C(s) + H2O(g) \u2192 H2(g) + CO(g)"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: Chemical reactions can be classified as either heterogeneous or homogeneous. Which of the following equations below is best classified as a heterogeneous reaction?\n(A) 2C2H2(g) + 5O2(g) \u2192 4CO2(g) + 2H2O(g) (B) 2SO2(aq) + O2(g) \u2192 2SO3(g) (C) C2H2(g) + 5N2O(g) \u2192 CO2(g) + H2O(g) + 5N2(g) (D) C(s) + H2O(g) \u2192 H2(g) + CO(g)\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The following equations are a general description of chemical reactions. The following equations are a general description of chemical reactions. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "The first ionization energy of sodium is 496 kJ/mol, and its atomic radius is 186 pm.",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "160 pm, 737 kJ/mol",
+        "86 pm, 398 kJ/mol",
+        "235 pm, 523 kJ/mol",
+        "240 pm, 1200 kJ/mol"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: The first ionization energy of sodium is 496 kJ/mol, and its atomic radius is 186 pm.\n(A) 160 pm, 737 kJ/mol (B) 86 pm, 398 kJ/mol (C) 235 pm, 523 kJ/mol (D) 240 pm, 1200 kJ/mol\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The ionization energy of sodium is 496 kJ/mol, and its atomic radius is 186 pm. The first ionization energy of sodium is 496 kJ/mol, and its atomic radius is 186 pm. The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 19,
+    "doc": {
+      "question": "The rate law for the reaction of 2 A + B \u2192 2 P is",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "impossible to determine without experimental data",
+        "[A]2[B]",
+        "k[A]2[B]",
+        "second order with respect to A"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: The rate law for the reaction of 2 A + B \u2192 2 P is\n(A) impossible to determine without experimental data (B) [A]2[B] (C) k[A]2[B] (D) second order with respect to A\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The rate law for the reaction of 2 A + B  2 P is: (A) impossible to determine without experimental data; (B) [A]2[B]; (C) k[A]2[B]; (D) second order with respect to A; (A + B + P + 1) = 2 * A + B + P. The answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "The electron configuration 1s2 2s2 2p6 3s2 3p6 4s2 signifies the ground state of the element",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "V",
+        "Ti",
+        "Co",
+        "Ca"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: The electron configuration 1s2 2s2 2p6 3s2 3p6 4s2 signifies the ground state of the element\n(A) V (B) Ti (C) Co (D) Ca\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3s2 3p6 4s2 The electron configuration of the element is 1s2 2s2 2p6 3"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "A large positive value for the standard Gibbs free energy change (\u0394G\u00b0) for a reaction means",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "the reaction is thermodynamically favored with virtual complete conversion of reactants to products",
+        "an extremely fast chemical reaction",
+        "a reaction with a very large increase in entropy",
+        "none of the above"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: A large positive value for the standard Gibbs free energy change (\u0394G\u00b0) for a reaction means\n(A) the reaction is thermodynamically favored with virtual complete conversion of reactants to products (B) an extremely fast chemical reaction (C) a reaction with a very large increase in entropy (D) none of the above\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Gibbs free energy change (G\u00b0) for a reaction is a measure of the reaction's thermodynamic advantage. The Gibbs free energy change is the standard Gibbs free energy change for a reaction. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 20,
+    "doc": {
+      "question": "Which is the easiest way to burn a silver coin?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "Hold the silver coin with crucible tongs, and heat strongly in the flame of a Bunsen burner.",
+        "Use the method in (A), but use an oxyacetylene torch to reach a higher temperature.",
+        "Grind the silver coin into very small, dust-sized particles, and spray the particles into a Bunsen burner flame.",
+        "Dissolve the silver coin in acid, precipitate the hydroxide, and heat in a Bunsen burner flame to make the oxide."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: Which is the easiest way to burn a silver coin?\n(A) Hold the silver coin with crucible tongs, and heat strongly in the flame of a Bunsen burner. (B) Use the method in (A), but use an oxyacetylene torch to reach a higher temperature. (C) Grind the silver coin into very small, dust-sized particles, and spray the particles into a Bunsen burner flame. (D) Dissolve the silver coin in acid, precipitate the hydroxide, and heat in a Bunsen burner flame to make the oxide.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The easiest way to burn a silver coin is to hold the silver coin with crucible tongs, and heat strongly in the flame of a Bunsen burner. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "Which of the following lists the electromagnetic spectral regions in order of decreasing wavelength?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "ultraviolet, visible, infrared, X-ray",
+        "X-ray, visible, ultraviolet, infrared",
+        "X-ray, ultraviolet, visible, infrared",
+        "infrared, visible, ultraviolet, X-ray"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: Which of the following lists the electromagnetic spectral regions in order of decreasing wavelength?\n(A) ultraviolet, visible, infrared, X-ray (B) X-ray, visible, ultraviolet, infrared (C) X-ray, ultraviolet, visible, infrared (D) infrared, visible, ultraviolet, X-ray\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The electromagnetic spectral regions are: (A) ultraviolet, visible, infrared, X-ray (B) visible, infrared, X-ray (C) visible, infrared, X-ray (D) visible, infrared, X-ray (A) visible, infrared, X-ray (D)"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "Which of the following salts is expected to produce an alkaline solution when one mole is dissolved in one liter of water?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "NaClO4",
+        "CaCl2",
+        "NH4Br",
+        "Na2S"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: Which of the following salts is expected to produce an alkaline solution when one mole is dissolved in one liter of water?\n(A) NaClO4 (B) CaCl2 (C) NH4Br (D) Na2S\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "NaClO4 is a salt that is expected to produce an alkaline solution when one mole is dissolved in one liter of water. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 21,
+    "doc": {
+      "question": "Why do vinegar (a dilute solution of ethanoic acid in water) and vegetable oil (long-chain organic acids esterified with glycerol) not mix to form solutions?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "The attractive forces in vinegar are much stronger than those in vegetable oil, so the liquids always separate into two phases.",
+        "Organic compounds rarely dissolve in water.",
+        "Attractive forces in vinegar are mainly hydrogen bonding, while those in vegetable oil are due to instantaneous dipoles.",
+        "The unfavorably large endothermic process of \"separating\" the molecules in the two solutes compared with the energy released when the solutes interact makes a solution thermodynamically unfavored."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: Why do vinegar (a dilute solution of ethanoic acid in water) and vegetable oil (long-chain organic acids esterified with glycerol) not mix to form solutions?\n(A) The attractive forces in vinegar are much stronger than those in vegetable oil, so the liquids always separate into two phases. (B) Organic compounds rarely dissolve in water. (C) Attractive forces in vinegar are mainly hydrogen bonding, while those in vegetable oil are due to instantaneous dipoles. (D) The unfavorably large endothermic process of \"separating\" the molecules in the two solutes compared with the energy released when the solutes interact makes a solution thermodynamically unfavored.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The attractive forces in vinegar are much stronger than those in vegetable oil, so the liquids always separate into two phases. The answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "Which of the following pairs of substances would make a good buffer solution?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "HC2H3O2(aq) and NaC2H3O2(aq)",
+        "H2SO4(aq) and LiOH(aq)",
+        "HCl(aq) and KCl(aq)",
+        "HF(aq) and NH3(aq)"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: Which of the following pairs of substances would make a good buffer solution?\n(A) HC2H3O2(aq) and NaC2H3O2(aq) (B) H2SO4(aq) and LiOH(aq) (C) HCl(aq) and KCl(aq) (D) HF(aq) and NH3(aq)\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "HCl(aq) and KCl(aq) are good buffers. HF(aq) and NH3(aq) are good buffers. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "An experiment was performed to determine the moles of hydrogen gas formed (collected over water) when an acid reacts with magnesium metal. To do this, a piece of dry magnesium was weighed. Then 50 mL of hydrogen was collected. Next the Mg was dried to remove about 0.1 mL of water and weighed again to see how much Mg had reacted. The volume of hydrogen was measured and converted into moles of hydrogen. Which mistake will give the largest error in the result?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "Forgetting to dry the magnesium before both weighings",
+        "Failing to take the vapor pressure of water (23 torr at 25 \u00b0C) into account",
+        "Failing to convert \u00b0C to K",
+        "Reading the gas-collecting container to \u00b120 mL"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: An experiment was performed to determine the moles of hydrogen gas formed (collected over water) when an acid reacts with magnesium metal. To do this, a piece of dry magnesium was weighed. Then 50 mL of hydrogen was collected. Next the Mg was dried to remove about 0.1 mL of water and weighed again to see how much Mg had reacted. The volume of hydrogen was measured and converted into moles of hydrogen. Which mistake will give the largest error in the result?\n(A) Forgetting to dry the magnesium before both weighings (B) Failing to take the vapor pressure of water (23 torr at 25 \u00b0C) into account (C) Failing to convert \u00b0C to K (D) Reading the gas-collecting container to \u00b120 mL\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "(A) The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C. The vapor pressure of water is 23 torr at 25 \u00b0C"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "Consider the following reaction showing photosynthesis: 6CO2(g) + 6H2O(l) \u2192 C6H12O6(s) + 6O2(g) DH = + 2800 kJ/mol Which of the following is true regarding the thermal energy in this system?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "It is transferred from the surroundings to the reaction.",
+        "It is transferred from the reaction to the surroundings.",
+        "It is transferred from the reactants to the products.",
+        "It is transferred from the products to the reactants."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: Consider the following reaction showing photosynthesis: 6CO2(g) + 6H2O(l) \u2192 C6H12O6(s) + 6O2(g) DH = + 2800 kJ/mol Which of the following is true regarding the thermal energy in this system?\n(A) It is transferred from the surroundings to the reaction. (B) It is transferred from the reaction to the surroundings. (C) It is transferred from the reactants to the products. (D) It is transferred from the products to the reactants.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "(C) It is transferred from the reactants to the products. The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": "The equilibrium constant of a certain reaction is 2.6 \u00d7 10^8 at 25 \u00b0C. What is the value of \u0394G\u00b0?",
+      "subject": "high_school_chemistry",
+      "choices": [
+        "-48.0 kJ/mol",
+        "20.8 J mol-1",
+        "4.68 \u00d7 10^-3 kJ/mol",
+        "-4.03 kJ mol-1"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school chemistry.\n\nQ: Which of the following is considered an acid anhydride?\n(A) HCl (B) H2SO3 (C) SO2 (D) Al(NO3)3\nA: Let's think step by step. An acid anhydride is a compound that is derived by removing water from an acid. The chemical formula for water is H2O, which means that we need to determine which of these options, when combined with H2O, forms an acid. SO2, or Sulfur dioxide, when combined with H2O, makes H2SO4, or sulfuric acid. The answer is (C).\n\nQ: Which of the following is expected to be a polar molecule?\n(A) PCl4F (B) BF3 (C) CO2 (D) Si(CH3)4\nA: Let's think step by step. A polar molecule is one that has a slightly positive charge on one end of the molecule and a slightly negative charge on the other end. Boron trifluoride (BF3) has Boron as the center atom and three fluorine atoms attached to it; it is trigonal planar and symmetric, so it is nonpolar. Carbon Dioxide (CO2) has Carbon as the central atom with double bonds to two Oxygen atoms - this is also symmetrical and therefore nonpolar. The same is the case for tetramethyl silane (SI(CH3)4), which is a Silicon atom surrounded by four methyl groups. The structure of PCL4F is that Phosphorus is the central atom, attached to four chlorines and one fluorine atom. This is asymmetrical, and therefore has a net dipole and is expected to be a polar molecule. The answer is (A).\n\nQ: From the solubility rules, which of the following is true?\n(A) All chlorides, bromides, and iodides are soluble (B) All sulfates are soluble (C) All hydroxides are soluble (D) All ammonium-containing compounds are soluble\nA: Let's think step by step. The chlorides, bromides, and iodides of lead, silver, and mercury are not soluble in water. This rules out (A). The sulfates of lead, barium, and calcium are not soluble in water, which rules out (B). The hydroxides of any metal besides sodium, potassium, ammonium, calcium, and barium are insoluble. This rules out (C). Typically ammonium ions indicate a soluble ionic substance. The answer is (D).\n\nQ: A new compound is synthesized and found to be a monoprotic acid with a molar mass of 248 g/mol. When 0.0050 mol of this acid are dissolved in 0.500 L of water, the pH is measured as 3.89. What is the pKa of this acid?\n(A) 3.89 (B) 7.78 (C) 5.78 (D) 2.33\nA: Let's think step by step. Recall that $[A] = [H^{+}]$. Here, this is equal to $$10^{-3.89}$. Then we have $K_{a} = $\nrac{[H^{+}][A^{-}]}{[HA]} = \nrac{10^{-3.89} \\cdot 10^{-3.89}}{10^{-2}}. The resulting exponent is $-3.89 + (-3.89) - (-2) = 5.78$, therefore $K_a = 10^{-5.78}$. The $pK_a$ is the negative log of $K_a$, which is equal to $5.78$. The answer is (C).\n\nQ: A solution contains 2.00 mole of acetic acid, CH3COOH, and 1.00 mole of calcium acetate, Ca(CH3COO)2. The solution is able to resist the addition of a small amount of strong acid or strong base with only minor changes in the pH of the solution. Larger quantities of strong acid or strong base can cause a significant change in pH. How many moles of nitric acid, HNO3, may be added before the pH begins to change significantly?\n(A) 0.500 mole (B) 1.00 mole (C) 2.00 mole (D) 3.00 mole\nA: Let's think step by step. We would like to compute the buffer capacity of this solution. First we write the equation for the ionization of the weak acid, in this case of acetic acid. $CH_{3}COOH (aq) + H_{2}O \nightarrow H_{3}O^{+} + CH3COO^{-}$. The conjugate base is therefore the acetate ion. The added strong acid, Nitric acid, will react with the conjugate base. Therefore the maximum amount of acid that can be added will be equal to the amount of acetate ion, or 2 moles. The answer is (C).Q: The equilibrium constant of a certain reaction is 2.6 \u00d7 10^8 at 25 \u00b0C. What is the value of \u0394G\u00b0?\n(A) -48.0 kJ/mol (B) 20.8 J mol-1 (C) 4.68 \u00d7 10^-3 kJ/mol (D) -4.03 kJ mol-1\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The G\u00b0 value is 2.6  108 = 2.6  108 kJ/mol The answer is (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  }
+]

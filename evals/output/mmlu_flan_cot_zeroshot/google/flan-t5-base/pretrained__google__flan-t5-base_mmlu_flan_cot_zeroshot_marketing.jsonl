@@ -1,0 +1,902 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "___________ act as cues by indicating to a potential customer that there is a bargain to be had.",
+      "subject": "marketing",
+      "choices": [
+        "Odd-number pricing.",
+        "Sale signs.",
+        "Relative price.",
+        "Price surplus."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: ___________ act as cues by indicating to a potential customer that there is a bargain to be had.\n(A) Odd-number pricing. (B) Sale signs. (C) Relative price. (D) Price surplus.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Odd-number pricing signals. Odd-number pricing signals are used to indicate that there is a bargain to be had. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "A marketing researcher is conducting a survey in a large selling area by contacting a small group of people that is representative of all people in that area. The small, representative group is known as the",
+      "subject": "marketing",
+      "choices": [
+        "population",
+        "sample",
+        "stratification",
+        "universe"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: A marketing researcher is conducting a survey in a large selling area by contacting a small group of people that is representative of all people in that area. The small, representative group is known as the\n(A) population (B) sample (C) stratification (D) universe\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A population is a group of people that is representative of all people in a large selling area. The population is a small, representative group. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "question": "The _________ model emphasizes that each phase occurs in a particular sequence, which, according to Theodorson and Theodorson (1969), enables the 'transmission of information, ideas, attitudes, or emotion from one person or group to another (or others), primarily through symbols'.",
+      "subject": "marketing",
+      "choices": [
+        "Circular",
+        "Linear",
+        "Two-way",
+        "AIDA"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: The _________ model emphasizes that each phase occurs in a particular sequence, which, according to Theodorson and Theodorson (1969), enables the 'transmission of information, ideas, attitudes, or emotion from one person or group to another (or others), primarily through symbols'.\n(A) Circular (B) Linear (C) Two-way (D) AIDA\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "AIDA is a model of marketing. The AIDA model emphasizes that each phase occurs in a particular sequence, which, according to Theodorson and Theodorson (1969), enables the 'transmission of information, ideas, attitudes, or emotion from one person or group to another (or others), primarily through symbols'. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 24,
+    "doc": {
+      "question": "Which of the following refers to a listing of merchandise lines carried and the depth and breadth in which these products are stocked?",
+      "subject": "marketing",
+      "choices": [
+        "Basic stock list",
+        "Buying plan",
+        "Merchandise mix",
+        "Price-line list"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: Which of the following refers to a listing of merchandise lines carried and the depth and breadth in which these products are stocked?\n(A) Basic stock list (B) Buying plan (C) Merchandise mix (D) Price-line list\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A basic stock list is a list of merchandise lines carried and the depth and breadth in which these products are stocked. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "Considering what the audiences' communications needs and engaging with them using one-way, two-way, or dialogic communications is referred to as:",
+      "subject": "marketing",
+      "choices": [
+        "Engagement.",
+        "Responses.",
+        "Advertisement.",
+        "Publicity."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: Considering what the audiences' communications needs and engaging with them using one-way, two-way, or dialogic communications is referred to as:\n(A) Engagement. (B) Responses. (C) Advertisement. (D) Publicity.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "(A) is the process of evaluating the audience's communications needs. The audience is the audience. (A) is the process of evaluating the audience's communications needs. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": " _______________ have become increasingly necessary as the incidence of crises has increased. This appears to be due to an increasing number of simple managerial mistakes, incorrect decision making, technology failures, and uncontrollable events in the external environment.",
+      "subject": "marketing",
+      "choices": [
+        "Crisis communications.",
+        "Advertising.",
+        "Public relations.",
+        "Viral marketing."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: _______________ have become increasingly necessary as the incidence of crises has increased. This appears to be due to an increasing number of simple managerial mistakes, incorrect decision making, technology failures, and uncontrollable events in the external environment.\n(A) Crisis communications. (B) Advertising. (C) Public relations. (D) Viral marketing.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "(A)"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "question": " This is the unpaid peer-to-peer communication of often provocative content originating from an identified sponsor using the Internet to persuade or influence an audience to pass along the content to others:",
+      "subject": "marketing",
+      "choices": [
+        "Viral marketing.",
+        "Word-of-mouth marketing.",
+        "Direct-response advertising.",
+        "Peer-to-peer marketing."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: This is the unpaid peer-to-peer communication of often provocative content originating from an identified sponsor using the Internet to persuade or influence an audience to pass along the content to others:\n(A) Viral marketing. (B) Word-of-mouth marketing. (C) Direct-response advertising. (D) Peer-to-peer marketing.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Viral marketing is the unpaid peer-to-peer communication of often provocative content originating from an identified sponsor using the Internet to persuade or influence an audience to pass along the content to others. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": " An electronic version of the spoken endorsement of an offering is known as:",
+      "subject": "marketing",
+      "choices": [
+        "Viral marketing.",
+        "Social media marketing.",
+        "Electronic marketing.",
+        "Digital marketing."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: An electronic version of the spoken endorsement of an offering is known as:\n(A) Viral marketing. (B) Social media marketing. (C) Electronic marketing. (D) Digital marketing.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Viral marketing is the use of an electronic version of the spoken endorsement of an offering. An electronic version of the spoken endorsement of an offering is known as (C). The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "Salespeople at a large consumer goods manufacturer are encouraged to ask probing questions of customers to identify their interests. Once their key desires have been uncovered, the salesperson should tailor a presentation so that the customers can see how the product will satisfy their wants. Which of the following presentation formats does the scenario best represent?",
+      "subject": "marketing",
+      "choices": [
+        "Hard selling format",
+        "Formula selling format",
+        "Need-satisfaction format",
+        "Stimulus-response format"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: Salespeople at a large consumer goods manufacturer are encouraged to ask probing questions of customers to identify their interests. Once their key desires have been uncovered, the salesperson should tailor a presentation so that the customers can see how the product will satisfy their wants. Which of the following presentation formats does the scenario best represent?\n(A) Hard selling format (B) Formula selling format (C) Need-satisfaction format (D) Stimulus-response format\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "(C) The salesperson should tailor a presentation to the customers' needs. The salesperson should ask probing questions of customers to identify their key desires. The salesperson should tailor a presentation to the customers' needs. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 18,
+    "doc": {
+      "question": "Bollywood cinema aimed at audiences in the Indian sub-continent and at diaspora around the world, using strong love and ethical themes, and a musical format, is an example of:",
+      "subject": "marketing",
+      "choices": [
+        "Group influence.",
+        "Ethnic marketing.",
+        "Social grade.",
+        "Lifestyle."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: Bollywood cinema aimed at audiences in the Indian sub-continent and at diaspora around the world, using strong love and ethical themes, and a musical format, is an example of:\n(A) Group influence. (B) Ethnic marketing. (C) Social grade. (D) Lifestyle.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Bollywood cinema is a marketing medium. Bollywood cinema is a marketing medium. Bollywood cinema is a marketing medium. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": " _____________ is influenced by perceptions of the fairness of prices set, latitude of price acceptance (customers appear willing to accept a price within a range of prices suggesting a 'price zone of tolerance'), magnitude (absolute price) and frequency of purchase, price presentation (how prices are presented might produce different levels of willingness to pay), and advertising.",
+      "subject": "marketing",
+      "choices": [
+        "Brand awareness.",
+        "Price perception.",
+        "Willingness to pay.",
+        "Price consciousness."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: _____________ is influenced by perceptions of the fairness of prices set, latitude of price acceptance (customers appear willing to accept a price within a range of prices suggesting a 'price zone of tolerance'), magnitude (absolute price) and frequency of purchase, price presentation (how prices are presented might produce different levels of willingness to pay), and advertising.\n(A) Brand awareness. (B) Price perception. (C) Willingness to pay. (D) Price consciousness.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Price perception is influenced by perceptions of the fairness of prices set, latitude of price acceptance (customers appear willing to accept a price within a range of prices suggesting a 'price zone of tolerance'), magnitude (absolute price) and frequency of purchase, price presentation (how prices are presented might produce different levels of willingness to pay), and advertising. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": " When customers assess prices, they estimate value using __________, because they do not always know the true cost and price of the item that they are purchasing. These pricing cues include: sale signs; odd-number pricing; the purchase context; and price bundling and rebates.",
+      "subject": "marketing",
+      "choices": [
+        "Pricing strategies.",
+        "Sale price.",
+        "Pricing cues.",
+        "Pricing bundles."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: When customers assess prices, they estimate value using __________, because they do not always know the true cost and price of the item that they are purchasing. These pricing cues include: sale signs; odd-number pricing; the purchase context; and price bundling and rebates.\n(A) Pricing strategies. (B) Sale price. (C) Pricing cues. (D) Pricing bundles.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "(C)"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 19,
+    "doc": {
+      "question": " Segmentation by benefits sought is a type of product-related segmentation:",
+      "subject": "marketing",
+      "choices": [
+        "To determine the marketer's effectiveness in satisfying the consumer.",
+        "Used to create a psychographic profile of the benefit of having the product as a common alternative.",
+        "As a post-consumption evaluation tool.",
+        "That focuses on the attributes that people seek in a product."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: Segmentation by benefits sought is a type of product-related segmentation:\n(A) To determine the marketer's effectiveness in satisfying the consumer. (B) Used to create a psychographic profile of the benefit of having the product as a common alternative. (C) As a post-consumption evaluation tool. (D) That focuses on the attributes that people seek in a product.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Segmentation by benefits sought is a type of product-related segmentation. Segmentation by benefits sought is a type of product-related segmentation. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "Which of the following terms best fits the activity of marketing communications?",
+      "subject": "marketing",
+      "choices": [
+        "Making products available.",
+        "Convenience of location.",
+        "High level of regulation.",
+        "Developing messages that can be understood and acted on by target audiences."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: Which of the following terms best fits the activity of marketing communications?\n(A) Making products available. (B) Convenience of location. (C) High level of regulation. (D) Developing messages that can be understood and acted on by target audiences.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "(D) is the activity of Developing messages that can be understood and acted on by target audiences. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "A more comprehensive set of data than that traditionally used to provide marketing information and customer insights is referred to as:_______________",
+      "subject": "marketing",
+      "choices": [
+        "Management information system.",
+        "Big data.",
+        "Internet of things.",
+        "Data analysis."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: A more comprehensive set of data than that traditionally used to provide marketing information and customer insights is referred to as:_______________\n(A) Management information system. (B) Big data. (C) Internet of things. (D) Data analysis.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Big data is a set of data that is used to provide marketing information and customer insights. Big data is a more comprehensive set of data than that traditionally used to provide marketing information and customer insights. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 20,
+    "doc": {
+      "question": " _____________ are involved professionally in the topic of interest. Their defining characteristic is that they exert personal influence because of their profession, authority, education, or status associated with the object of the communication process.",
+      "subject": "marketing",
+      "choices": [
+        "Opinion aggregators.",
+        "Opinion followers.",
+        "Opinion formers.",
+        "Opinion gatherers."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: _____________ are involved professionally in the topic of interest. Their defining characteristic is that they exert personal influence because of their profession, authority, education, or status associated with the object of the communication process.\n(A) Opinion aggregators. (B) Opinion followers. (C) Opinion formers. (D) Opinion gatherers.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "(B) Opinion aggregators. Opinion aggregators are people who influence the public. Opinion aggregators are people who influence the public. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "The marketing communications strategy of the marketing mix deals exclusively with:",
+      "subject": "marketing",
+      "choices": [
+        "Engagement, audiences, and advertising.",
+        "Advertising, audiences, and responses.",
+        "Advertising, publicity, and responses",
+        "Engagement, audiences, and responses."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: The marketing communications strategy of the marketing mix deals exclusively with:\n(A) Engagement, audiences, and advertising. (B) Advertising, audiences, and responses. (C) Advertising, publicity, and responses (D) Engagement, audiences, and responses.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The marketing communications strategy of the marketing mix deals exclusively with: (A) engagement, audiences, and advertising. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "Which of the following are the three broad groups of consumer segmentation criteria?",
+      "subject": "marketing",
+      "choices": [
+        "Behavioural, psychological, and profile criteria.",
+        "Behavioural-, gender-, and industry-type variables.",
+        "Organizational size, demographic, and behavioural variables.",
+        "Psychographic, sociological, and price variables."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: Which of the following are the three broad groups of consumer segmentation criteria?\n(A) Behavioural, psychological, and profile criteria. (B) Behavioural-, gender-, and industry-type variables. (C) Organizational size, demographic, and behavioural variables. (D) Psychographic, sociological, and price variables.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Behavioural, psychological, and profile criteria are the three broad categories of consumer segmentation criteria. Behavioural, psychological, and profile criteria are the three broad categories of consumer segmentation criteria. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 21,
+    "doc": {
+      "question": "_________ is a strategic activity and is used to differentiate and distinguish a brand, so that a consumer understands the brand, not just remembers it.",
+      "subject": "marketing",
+      "choices": [
+        "Brand heritage.",
+        "Brand anatomy.",
+        "Brand extension.",
+        "Brand positioning."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: _________ is a strategic activity and is used to differentiate and distinguish a brand, so that a consumer understands the brand, not just remembers it.\n(A) Brand heritage. (B) Brand anatomy. (C) Brand extension. (D) Brand positioning.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Brand positioning is a strategic activity that helps a brand to stand out from the competition. Brand positioning is a strategic activity that helps a brand to stand out from the competition. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "Which of the following terms refers specifically to marketing goods directly to the consumer in the home?",
+      "subject": "marketing",
+      "choices": [
+        "Comparison shopping",
+        "Consignment",
+        "Direct selling",
+        "Merchandising"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: Which of the following terms refers specifically to marketing goods directly to the consumer in the home?\n(A) Comparison shopping (B) Consignment (C) Direct selling (D) Merchandising\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Direct selling is the marketing of goods directly to the consumer in the home. Direct selling is the marketing of goods directly to the consumer in the home. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "This is when customers visit the service facility so that they are personally involved throughout the service delivery process:",
+      "subject": "marketing",
+      "choices": [
+        "High-contact services.",
+        "Information processing services.",
+        "Medium-contact services.",
+        "Low-contact services."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: This is when customers visit the service facility so that they are personally involved throughout the service delivery process:\n(A) High-contact services. (B) Information processing services. (C) Medium-contact services. (D) Low-contact services.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "High-contact services are when customers visit a service facility to receive information. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 22,
+    "doc": {
+      "question": "The ________________method is one of the main approaches to segmenting markets by adopting the view that the market consists of customers that are essentially the same, so the task is to identify groups which share particular differences.",
+      "subject": "marketing",
+      "choices": [
+        "Sample design.",
+        "Breakdown.",
+        "Build up.",
+        "Profile identification."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: The ________________method is one of the main approaches to segmenting markets by adopting the view that the market consists of customers that are essentially the same, so the task is to identify groups which share particular differences.\n(A) Sample design. (B) Breakdown. (C) Build up. (D) Profile identification.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The _ method is a method for identifying groups of customers. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "_____________ often help set the technical specifications for the proposed purchase and assist the evaluation of alternative offerings by potential suppliers. These may be consultants hired to complete a particular project.",
+      "subject": "marketing",
+      "choices": [
+        "Users.",
+        "Influencers.",
+        "Initiators.",
+        "Buyers."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: _____________ often help set the technical specifications for the proposed purchase and assist the evaluation of alternative offerings by potential suppliers. These may be consultants hired to complete a particular project.\n(A) Users. (B) Influencers. (C) Initiators. (D) Buyers.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "(B)"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": " For a long time commercial media have been used to convey messages designed to develop consumers' attitudes and feelings towards brands. This is referred to as:",
+      "subject": "marketing",
+      "choices": [
+        "Direct response.",
+        "Behavioural response.",
+        "Attitudinal response.",
+        "Call-to-action response ."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: For a long time commercial media have been used to convey messages designed to develop consumers' attitudes and feelings towards brands. This is referred to as:\n(A) Direct response. (B) Behavioural response. (C) Attitudinal response. (D) Call-to-action response .\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Advertising is a form of marketing that uses advertising to communicate a message. Advertising is a form of marketing that uses advertising to communicate a message. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 23,
+    "doc": {
+      "question": " Supply chain management (SCM) embraces four main activities. Which of the following is NOT one of the activities?",
+      "subject": "marketing",
+      "choices": [
+        "Fulfilment.",
+        "Transportation",
+        "Customer services.",
+        "Stock management"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about marketing.\n\nQ: Supply chain management (SCM) embraces four main activities. Which of the following is NOT one of the activities?\n(A) Fulfilment. (B) Transportation (C) Customer services. (D) Stock management\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "(D) Stock management is the management of stock. Supply chain management is the management of stock. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  }
+]

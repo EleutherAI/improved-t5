@@ -1,0 +1,938 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "A real image can be cast on a screen by a",
+      "subject": "conceptual_physics",
+      "choices": [
+        "converging lens",
+        "diverging lens",
+        "Either of these",
+        "Neither of these"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: A real image can be cast on a screen by a\n(A) converging lens (B) diverging lens (C) Either of these (D) Neither of these\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A converging lens is a type of lens that can be used to cast a real image.<0x0A>So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "A machine cannot multiply",
+      "subject": "conceptual_physics",
+      "choices": [
+        "forces",
+        "distances",
+        "energy",
+        "None of these"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: A machine cannot multiply\n(A) forces (B) distances (C) energy (D) None of these\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A machine is a machine that is used to multiply forces.<0x0A>So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "question": "How many electrons are there in the third shell of sodium, Na (atomic number 11)?",
+      "subject": "conceptual_physics",
+      "choices": [
+        "None",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: How many electrons are there in the third shell of sodium, Na (atomic number 11)?\n(A) None (B) One (C) Two (D) Three\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The third shell of sodium, Na (atomic number 11), has 11 electrons. The number of electrons in the third shell of sodium is 11. So, the answer is (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 24,
+    "doc": {
+      "question": "A hologram best illustrates",
+      "subject": "conceptual_physics",
+      "choices": [
+        "polarization",
+        "diffraction",
+        "superposition",
+        "electron interference"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: A hologram best illustrates\n(A) polarization (B) diffraction (C) superposition (D) electron interference\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A hologram is a visual representation of a hologram. The hologram is a visual representation of a hologram.<0x0A>Thus, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "Consider a ball rolling down an inclined plane. The normal force on the ball (the force perpendicular to the plane).",
+      "subject": "conceptual_physics",
+      "choices": [
+        "is mg",
+        "is greater than mg always",
+        "may be greater or less than mg",
+        "is less than mg always"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: Consider a ball rolling down an inclined plane. The normal force on the ball (the force perpendicular to the plane).\n(A) is mg (B) is greater than mg always (C) may be greater or less than mg (D) is less than mg always\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The normal force on the ball is   _ ."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "Atmospheric pressure is due to the weight",
+      "subject": "conceptual_physics",
+      "choices": [
+        "of the atmosphere",
+        "and volume of the atmosphere",
+        "density and volume of the atmosphere",
+        "of planet Earth itself"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: Atmospheric pressure is due to the weight\n(A) of the atmosphere (B) and volume of the atmosphere (C) density and volume of the atmosphere (D) of planet Earth itself\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The weight of the atmosphere is due to the weight of the atmosphere. Which of the following is not a factor in atmospheric pressure?"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "question": "Which process would release energy from gold: fission or fusion? From carbon?",
+      "subject": "conceptual_physics",
+      "choices": [
+        "Gold: fission; carbon: fusion",
+        "Gold: fusion; carbon: fission",
+        "Gold: fission; carbon: fission",
+        "Gold: fusion; carbon: fusion"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: Which process would release energy from gold: fission or fusion? From carbon?\n(A) Gold: fission; carbon: fusion (B) Gold: fusion; carbon: fission (C) Gold: fission; carbon: fission (D) Gold: fusion; carbon: fusion\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Gold is a metal and fission is the process that releases energy from carbon. Fission is the process that releases energy from carbon. So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 25,
+    "doc": {
+      "question": "From quantum mechanics we learn that a radioactive nucleus is governed by",
+      "subject": "conceptual_physics",
+      "choices": [
+        "Newton\u2019s laws",
+        "probability",
+        "certainty",
+        "no laws at all"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: From quantum mechanics we learn that a radioactive nucleus is governed by\n(A) Newton\u2019s laws (B) probability (C) certainty (D) no laws at all\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The radioactive nucleus is governed by what?"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "Which of these can NOT be deflected by electrical or magnetic means?",
+      "subject": "conceptual_physics",
+      "choices": [
+        "Alpha rays",
+        "Beta rays",
+        "Gamma rays",
+        "All can"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: Which of these can NOT be deflected by electrical or magnetic means?\n(A) Alpha rays (B) Beta rays (C) Gamma rays (D) All can\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "All can be deflected by electrical or magnetic means. Alpha rays are not deflected by electrical or magnetic means. So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "Einstein\u2019s second postulate tells us that the speed of light",
+      "subject": "conceptual_physics",
+      "choices": [
+        "depends on one\u2019s frame of reference.",
+        "is a constant in all frames of reference.",
+        "provides accurate clocks.",
+        "slows in a transparent medium."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: Einstein\u2019s second postulate tells us that the speed of light\n(A) depends on one\u2019s frame of reference. (B) is a constant in all frames of reference. (C) provides accurate clocks. (D) slows in a transparent medium.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The speed of light depends on one\u2019s frame of reference. Which of the following is not true?"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 18,
+    "doc": {
+      "question": "Immediately after two separated charged particles are released from rest, both increase in speed. The sign of charge of the particles is therefore",
+      "subject": "conceptual_physics",
+      "choices": [
+        "the same",
+        "opposite",
+        "Either of these",
+        "Need more information"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: Immediately after two separated charged particles are released from rest, both increase in speed. The sign of charge of the particles is therefore\n(A) the same (B) opposite (C) Either of these (D) Need more information\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The sign of charge of the particles is  _ ."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "Immediately after two separated charged particles are released from rest both increase in speed. The particles therefore have",
+      "subject": "conceptual_physics",
+      "choices": [
+        "the same sign of charge.",
+        "opposite signs of charge.",
+        "either the same or opposite signs of charge.",
+        "Need more information."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: Immediately after two separated charged particles are released from rest both increase in speed. The particles therefore have\n(A) the same sign of charge. (B) opposite signs of charge. (C) either the same or opposite signs of charge. (D) Need more information.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The particles are separated from each other by a force that is  _ ."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "Planck\u2019s constant can be found by dividing the energy of a photon by its",
+      "subject": "conceptual_physics",
+      "choices": [
+        "wavelength",
+        "frequency",
+        "amplitude",
+        "None of these"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: Planck\u2019s constant can be found by dividing the energy of a photon by its\n(A) wavelength (B) frequency (C) amplitude (D) None of these\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Planck\u2019s constant can be found by dividing the energy of a photon by its?"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 19,
+    "doc": {
+      "question": "Sound will travel fastest in",
+      "subject": "conceptual_physics",
+      "choices": [
+        "a steel beam",
+        "a wooden plank",
+        "ocean water",
+        "air in a balloon"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: Sound will travel fastest in\n(A) a steel beam (B) a wooden plank (C) ocean water (D) air in a balloon\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Sound travels fastest in<0x0A>(A) a steel beam.<0x0A>(B) a wooden plank.<0x0A>(C) ocean water.<0x0A>(D) air in a balloon."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "A high-temperature source radiates relatively",
+      "subject": "conceptual_physics",
+      "choices": [
+        "short wavelengths",
+        "long wavelengths",
+        "low frequencies of radiation",
+        "None of these"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: A high-temperature source radiates relatively\n(A) short wavelengths (B) long wavelengths (C) low frequencies of radiation (D) None of these\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A high-temperature source radiates relatively in what?"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "The \"greenhouse gases\" that contribute to global warming absorb",
+      "subject": "conceptual_physics",
+      "choices": [
+        "more visible radiation than infrared.",
+        "more infrared radiation than visible.",
+        "visible and infrared about equally.",
+        "very little radiation of any kind."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: The \"greenhouse gases\" that contribute to global warming absorb\n(A) more visible radiation than infrared. (B) more infrared radiation than visible. (C) visible and infrared about equally. (D) very little radiation of any kind.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The \"greenhouse gases\" that contribute to global warming absorb  _ ."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 20,
+    "doc": {
+      "question": "When energy is released by the process of fusion, the total mass of the material after the event is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "less",
+        "the same",
+        "more",
+        "zero"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: When energy is released by the process of fusion, the total mass of the material after the event is\n(A) less (B) the same (C) more (D) zero\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The total mass of the material after the event is?"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "According to the correspondence principle,",
+      "subject": "conceptual_physics",
+      "choices": [
+        "new theory must agree with old theory where they overlap.",
+        "Newton\u2019s mechanics is as valid as Einstein\u2019s mechanics.",
+        "relativity equations apply to high speeds while Newton\u2019s equations apply to low speeds.",
+        "special relativity and general relativity are two sides of the same coin."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: According to the correspondence principle,\n(A) new theory must agree with old theory where they overlap. (B) Newton\u2019s mechanics is as valid as Einstein\u2019s mechanics. (C) relativity equations apply to high speeds while Newton\u2019s equations apply to low speeds. (D) special relativity and general relativity are two sides of the same coin.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Question: What is the main idea of the correspondence principle?Options:A New theory must agree with old theory where they overlap.B Newton\u2019s mechanics is as valid as Einstein\u2019s mechanics.C Newton\u2019s mechanics is as valid as Einstein\u2019s mechanics.D Newton\u2019s mechanics is as valid as Einstein\u2019s mechanics.Answer:B"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "Standing waves are the result of",
+      "subject": "conceptual_physics",
+      "choices": [
+        "interference",
+        "waves overlapping in phase and out of phase",
+        "waves reflecting upon themselves",
+        "All of these"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: Standing waves are the result of\n(A) interference (B) waves overlapping in phase and out of phase (C) waves reflecting upon themselves (D) All of these\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The waves are the result of   _ ."
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 21,
+    "doc": {
+      "question": "A 5.0 kg mass is placed in an elevator that is accelerating upwards at 4.0 m/s2. The apparent weight of this mass is",
+      "subject": "conceptual_physics",
+      "choices": [
+        "20. N",
+        "29 N",
+        "49 N",
+        "69 N"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: A 5.0 kg mass is placed in an elevator that is accelerating upwards at 4.0 m/s2. The apparent weight of this mass is\n(A) 20. N (B) 29 N (C) 49 N (D) 69 N\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The apparent weight of the mass is 5.0 kg * 4.0 m/s2 = 20.<0x0A>The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "A magnetic force can act on an electron even when it",
+      "subject": "conceptual_physics",
+      "choices": [
+        "is at rest",
+        "moves parallel to magnetic field lines",
+        "Both of these",
+        "Neither of these"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: A magnetic force can act on an electron even when it\n(A) is at rest (B) moves parallel to magnetic field lines (C) Both of these (D) Neither of these\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A magnetic force can act on an electron even when it is at rest.<0x0A>The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "Heat is simply another word for",
+      "subject": "conceptual_physics",
+      "choices": [
+        "temperature.",
+        "internal energy.",
+        "internal energy that flows from hot to cold.",
+        "radiant energy."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: Heat is simply another word for\n(A) temperature. (B) internal energy. (C) internal energy that flows from hot to cold. (D) radiant energy.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Heat is simply another word for?"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 22,
+    "doc": {
+      "question": "An object that absorbs energy well also",
+      "subject": "conceptual_physics",
+      "choices": [
+        "conducts well",
+        "convects well",
+        "radiates well",
+        "None of these"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: An object that absorbs energy well also\n(A) conducts well (B) convects well (C) radiates well (D) None of these\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A conducting object absorbs energy well also.<0x0A>So, the answer is (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "The sound waves that most humans cannot hear are",
+      "subject": "conceptual_physics",
+      "choices": [
+        "infrasonic",
+        "ultrasonic",
+        "Both of these",
+        "Neither of these"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: The sound waves that most humans cannot hear are\n(A) infrasonic (B) ultrasonic (C) Both of these (D) Neither of these\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Infrasonic sound waves are called?"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": "The greenhouse gases that contribute to global warming are",
+      "subject": "conceptual_physics",
+      "choices": [
+        "water vapor",
+        "carbon dioxide",
+        "Both",
+        "Neither"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: The greenhouse gases that contribute to global warming are\n(A) water vapor (B) carbon dioxide (C) Both (D) Neither\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Carbon dioxide and water vapor are two of the greenhouse gases that contribute to global warming.<0x0A>So, the answer is (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 23,
+    "doc": {
+      "question": "When you breathe on your hand, the temperature of the exhaled air reaching your hand",
+      "subject": "conceptual_physics",
+      "choices": [
+        "increases",
+        "decreases",
+        "remains unchanged",
+        "depends on how you blow"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about conceptual physics.\n\nQ: When you breathe on your hand, the temperature of the exhaled air reaching your hand\n(A) increases (B) decreases (C) remains unchanged (D) depends on how you blow\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The temperature of the exhaled air reaching your hand increases when you breathe on your hand.<0x0A>The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  }
+]

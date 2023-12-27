@@ -1,0 +1,794 @@
+[
+  {
+    "doc_id": 0,
+    "doc": {
+      "question": "Which of the following situations does NOT occur in a federal state?",
+      "subject": "high_school_geography",
+      "choices": [
+        "Central government possesses a two-level system of government.",
+        "Central government governs country as a single unit.",
+        "It often possesses a written constitution.",
+        "Lower-level divisions have unique powers."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: Which of the following situations does NOT occur in a federal state?\n(A) Central government possesses a two-level system of government. (B) Central government governs country as a single unit. (C) It often possesses a written constitution. (D) Lower-level divisions have unique powers.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A federal state is a state that governs country as a single unit. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 8,
+    "doc": {
+      "question": "What is the most widespread primary economic activity in the world?",
+      "subject": "high_school_geography",
+      "choices": [
+        "Mining",
+        "Hunting and gathering",
+        "Fishing",
+        "Agriculture"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: What is the most widespread primary economic activity in the world?\n(A) Mining (B) Hunting and gathering (C) Fishing (D) Agriculture\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Agriculture is the most widespread primary economic activity in the world. The most widespread primary economic activity in the world is farming. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 16,
+    "doc": {
+      "question": "State-sponsored terrorism has occurred recently in which of the following countries?",
+      "subject": "high_school_geography",
+      "choices": [
+        "Rwanda",
+        "United States",
+        "Canada",
+        "Spain"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: State-sponsored terrorism has occurred recently in which of the following countries?\n(A) Rwanda (B) United States (C) Canada (D) Spain\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The United States has been a country that has been a target of state-sponsored terrorism. State-sponsored terrorism has occurred in the following countries: (A) Rwanda (B) Canada (C) Canada (D) Spain (A) Rwanda (A)"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 1,
+    "doc": {
+      "question": "How do city planners separate discordant land uses such as housing and sewage plants?",
+      "subject": "high_school_geography",
+      "choices": [
+        "Malls",
+        "Fences",
+        "Zoning",
+        "Tunnels"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: How do city planners separate discordant land uses such as housing and sewage plants?\n(A) Malls (B) Fences (C) Zoning (D) Tunnels\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Zoning is the practice of dividing land into separate uses. Zoning is the practice of dividing land into separate uses. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 9,
+    "doc": {
+      "question": "Which of the following is NOT usually a possible reason for migration?",
+      "subject": "high_school_geography",
+      "choices": [
+        "Educational opportunities",
+        "Environmental appeals or dislikes",
+        "Changes in life cycle",
+        "Political party affiliation"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: Which of the following is NOT usually a possible reason for migration?\n(A) Educational opportunities (B) Environmental appeals or dislikes (C) Changes in life cycle (D) Political party affiliation\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "(D) is a political party affiliation. Migration is a political party affiliation. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 17,
+    "doc": {
+      "question": "The practice of drawing the boundaries of voting districts to give an unfair advantage to one political party is called",
+      "subject": "high_school_geography",
+      "choices": [
+        "separatism.",
+        "gerrymandering.",
+        "containment.",
+        "domino theory."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: The practice of drawing the boundaries of voting districts to give an unfair advantage to one political party is called\n(A) separatism. (B) gerrymandering. (C) containment. (D) domino theory.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Gerrymandering is the practice of drawing the boundaries of voting districts to give an unfair advantage to one political party. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 2,
+    "doc": {
+      "question": "Due to a decrease in population, the city of Detroit, Michigan, has proposed to shrink its physical size by bulldozing abandoned neighborhoods and selling the vacant land to farmers. The cause of Detroit's shrinking population can be attributed to",
+      "subject": "high_school_geography",
+      "choices": [
+        "gentrification",
+        "agglomeration",
+        "deindustrialization",
+        "conurbation"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: Due to a decrease in population, the city of Detroit, Michigan, has proposed to shrink its physical size by bulldozing abandoned neighborhoods and selling the vacant land to farmers. The cause of Detroit's shrinking population can be attributed to\n(A) gentrification (B) agglomeration (C) deindustrialization (D) conurbation\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Detroit is a city in Michigan. The population of Detroit is decreasing. The population of Detroit is shrinking. The answer: A."
+      ]
+    ],
+    "filtered_resps": [
+      "A"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 10,
+    "doc": {
+      "question": "Which of the following is an example of a stateless nation?",
+      "subject": "high_school_geography",
+      "choices": [
+        "Germany",
+        "Israel",
+        "Palestine",
+        "Romania"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: Which of the following is an example of a stateless nation?\n(A) Germany (B) Israel (C) Palestine (D) Romania\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Israel is a stateless country. Israel is a country that is a stateless country. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 18,
+    "doc": {
+      "question": "College students who live in dormitories near the college cafeteria are more likely to eat in the cafeteria. This is an example of",
+      "subject": "high_school_geography",
+      "choices": [
+        "gravity concept.",
+        "distance decay.",
+        "complementarity.",
+        "transferability."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: College students who live in dormitories near the college cafeteria are more likely to eat in the cafeteria. This is an example of\n(A) gravity concept. (B) distance decay. (C) complementarity. (D) transferability.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "College students who live in dormitories near the cafeteria are more likely to eat in the cafeteria. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 3,
+    "doc": {
+      "question": "World population tends to be concentrated",
+      "subject": "high_school_geography",
+      "choices": [
+        "in continental interiors.",
+        "on continental margins.",
+        "in the desert.",
+        "in the tropical lowlands and river valleys."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: World population tends to be concentrated\n(A) in continental interiors. (B) on continental margins. (C) in the desert. (D) in the tropical lowlands and river valleys.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Population tends to be concentrated in the tropical lowlands and river valleys. The world population is concentrated in the tropical lowlands and river valleys. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 11,
+    "doc": {
+      "question": "Which of the following experiences the greatest temperature extremes due to continentality?",
+      "subject": "high_school_geography",
+      "choices": [
+        "Maritime provinces of Canada",
+        "Siberia in Russia",
+        "La Mancha in Spain",
+        "Patagonia in Argentina"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: Which of the following experiences the greatest temperature extremes due to continentality?\n(A) Maritime provinces of Canada (B) Siberia in Russia (C) La Mancha in Spain (D) Patagonia in Argentina\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The Maritime provinces of Canada have the greatest temperature extremes due to continentality. The Maritime provinces of Canada are located in the Atlantic Ocean. The Maritime provinces of Canada have the greatest temperature extremes due to continentality. The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 19,
+    "doc": {
+      "question": "The idea that people, and not their environment, are the forces that create cultural development is called",
+      "subject": "high_school_geography",
+      "choices": [
+        "possibilism.",
+        "animism.",
+        "environmental determinism.",
+        "cultural ecology."
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: The idea that people, and not their environment, are the forces that create cultural development is called\n(A) possibilism. (B) animism. (C) environmental determinism. (D) cultural ecology.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Cultural ecology is the study of how people influence the development of a culture. The idea that people, and not their environment, are the forces that create cultural development is called (D). The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 4,
+    "doc": {
+      "question": "Walter Christaller developed central place theory as a tool to describe the spatial relationships between",
+      "subject": "high_school_geography",
+      "choices": [
+        "central business districts and suburbs",
+        "a market and its sources for raw materials",
+        "cities of different sizes and functions",
+        "the hubs of airline transportation systems"
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: Walter Christaller developed central place theory as a tool to describe the spatial relationships between\n(A) central business districts and suburbs (B) a market and its sources for raw materials (C) cities of different sizes and functions (D) the hubs of airline transportation systems\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Central place theory was developed by Walter Christaller to describe the spatial relationships between cities. The following are the most important things that Christaller did:"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 12,
+    "doc": {
+      "question": "What is the oldest, biggest, and most widely distributed language family from the Hudson Bay to Tierra del Fuego?",
+      "subject": "high_school_geography",
+      "choices": [
+        "Amerindian",
+        "Malayo-Polynesian",
+        "Austronesian",
+        "Eskimo-Aleut"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: What is the oldest, biggest, and most widely distributed language family from the Hudson Bay to Tierra del Fuego?\n(A) Amerindian (B) Malayo-Polynesian (C) Austronesian (D) Eskimo-Aleut\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The oldest, biggest, and most widely distributed language family is the Amerindian language. The Amerindian language is the oldest, biggest, and most widely distributed language family from the Hudson Bay to Tierra del Fuego. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 20,
+    "doc": {
+      "question": "Which term below best describes a religion that uses missionaries to spread its faith?",
+      "subject": "high_school_geography",
+      "choices": [
+        "Ethnic",
+        "Universalizing",
+        "Monotheistic",
+        "Polytheistic"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: Which term below best describes a religion that uses missionaries to spread its faith?\n(A) Ethnic (B) Universalizing (C) Monotheistic (D) Polytheistic\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Ethnic religions are groups of people who are agnostic or believe in a religion. Ethnic religions are groups of people who are agnostic or believe in a religion. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 5,
+    "doc": {
+      "question": "A society in which two or more population groups coexist while maintaining their unique culture demonstrates",
+      "subject": "high_school_geography",
+      "choices": [
+        "racial segregation.",
+        "miscegenation.",
+        "cultural pluralism.",
+        "cultural segregation."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: A society in which two or more population groups coexist while maintaining their unique culture demonstrates\n(A) racial segregation. (B) miscegenation. (C) cultural pluralism. (D) cultural segregation.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A society in which two or more population groups coexist while maintaining their unique culture demonstrates (C). The answer: (D)."
+      ]
+    ],
+    "filtered_resps": [
+      "(D)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 13,
+    "doc": {
+      "question": "Which religion below is a universalizing religion?",
+      "subject": "high_school_geography",
+      "choices": [
+        "Taoism",
+        "Islam",
+        "Shintoism",
+        "Confucianism"
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: Which religion below is a universalizing religion?\n(A) Taoism (B) Islam (C) Shintoism (D) Confucianism\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "A universalizing religion is the belief that all people are equal. The religion of Shintoism is the belief that all people are equal. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 21,
+    "doc": {
+      "question": "Which of the following languages is NOT an example of a creole language in use today?",
+      "subject": "high_school_geography",
+      "choices": [
+        "Haitian Creole",
+        "Bazaar Malay",
+        "Swahili",
+        "Hindi"
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: Which of the following languages is NOT an example of a creole language in use today?\n(A) Haitian Creole (B) Bazaar Malay (C) Swahili (D) Hindi\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Bazaar Malay is a language that is spoken in the United States. Bazaar Malay is a language that is spoken in the United States. The answer: (A)."
+      ]
+    ],
+    "filtered_resps": [
+      "(A)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 6,
+    "doc": {
+      "question": "The rehabilitation of old, rundown inner-city neighborhoods by middle- and high-income people is called",
+      "subject": "high_school_geography",
+      "choices": [
+        "urbanization.",
+        "gentrification.",
+        "suburbanization.",
+        "multiplier effect."
+      ],
+      "answer": 1
+    },
+    "target": "(B)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: The rehabilitation of old, rundown inner-city neighborhoods by middle- and high-income people is called\n(A) urbanization. (B) gentrification. (C) suburbanization. (D) multiplier effect.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Urbanization is the rehabilitation of old, rundown inner-city neighborhoods by middle- and high-income people. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 1.0
+  },
+  {
+    "doc_id": 14,
+    "doc": {
+      "question": "The rectangular land survey system is based on all of the following EXCEPT",
+      "subject": "high_school_geography",
+      "choices": [
+        "block pattern of land survey.",
+        "rural road patterns.",
+        "dispersed pattern of isolated farmsteads.",
+        "French and Spanish settlement patterns."
+      ],
+      "answer": 3
+    },
+    "target": "(D)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: The rectangular land survey system is based on all of the following EXCEPT\n(A) block pattern of land survey. (B) rural road patterns. (C) dispersed pattern of isolated farmsteads. (D) French and Spanish settlement patterns.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "The rectangular land survey system is based on the following EXCEPT"
+      ]
+    ],
+    "filtered_resps": [
+      "[invalid]"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 7,
+    "doc": {
+      "question": "Which stage of the demographic transition model is characterized by high birth rates and high variable death rates?",
+      "subject": "high_school_geography",
+      "choices": [
+        "Stage 1",
+        "Stage 2",
+        "Stage 3",
+        "Stage 4"
+      ],
+      "answer": 0
+    },
+    "target": "(A)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: Which stage of the demographic transition model is characterized by high birth rates and high variable death rates?\n(A) Stage 1 (B) Stage 2 (C) Stage 3 (D) Stage 4\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "Stage 2 is a stage of the demographic transition model. The population is characterized by high birth rates and high variable death rates. The answer: (B)."
+      ]
+    ],
+    "filtered_resps": [
+      "(B)"
+    ],
+    "exact_match": 0.0
+  },
+  {
+    "doc_id": 15,
+    "doc": {
+      "question": "An immigrant learning English in the United States is an example of",
+      "subject": "high_school_geography",
+      "choices": [
+        "structural assimilation.",
+        "amalgamation theory.",
+        "acculturation.",
+        "adaptation."
+      ],
+      "answer": 2
+    },
+    "target": "(C)",
+    "arguments": [
+      [
+        "The following are multiple choice questions (with answers) about high school geography.\n\nQ: An immigrant learning English in the United States is an example of\n(A) structural assimilation. (B) amalgamation theory. (C) acculturation. (D) adaptation.\nA: Let's think step by step.",
+        {
+          "until": [
+            "</s>"
+          ],
+          "do_sample": false,
+          "temperature": 0.0
+        }
+      ]
+    ],
+    "resps": [
+      [
+        "An immigrant learning English in the United States is an example of (C) acculturation. The answer: (C)."
+      ]
+    ],
+    "filtered_resps": [
+      "(C)"
+    ],
+    "exact_match": 1.0
+  }
+]
