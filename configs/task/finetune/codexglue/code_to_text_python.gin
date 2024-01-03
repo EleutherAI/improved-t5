@@ -30,9 +30,13 @@ train_script.train:
   partitioner = @partitioning.PjitPartitioner()
 
 partitioning.PjitPartitioner:
-  num_partitions = 2
+  num_partitions = 1
   model_parallel_submesh = None
   logical_axis_rules = @partitioning.standard_logical_axis_rules()
+
+partitioning.standard_logical_axis_rules:
+  activation_partitioning_dims = 2
+  parameter_partitioning_dims = 2
 
 infer_eval/utils.DatasetConfig:
   mixture_or_task_name = %MIXTURE_OR_TASK_NAME
