@@ -2,6 +2,7 @@ from __gin__ import dynamic_registration
 
 import __main__ as train_script
 from t5x import utils
+from t5x import partitioning
 
 import seqio
 import data.codexglue.tasks
@@ -26,6 +27,12 @@ train_script.train:
   eval_period = %SAVING_PERIOD
   infer_eval_dataset_cfg = @infer_eval/utils.DatasetConfig()
   inference_evaluator_cls = @seqio.Evaluator
+  partitioner = @partitioning.PjitPartitioner()
+
+partitioning.PjitPartitioner:
+  num_partitions = 2
+  model_parallel_submesh = None
+  logical_axis_rules = @partitioning.standard_logical_axis_rules()
 
 infer_eval/utils.DatasetConfig:
   mixture_or_task_name = %MIXTURE_OR_TASK_NAME
