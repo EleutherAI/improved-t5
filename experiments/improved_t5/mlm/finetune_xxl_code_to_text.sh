@@ -29,8 +29,8 @@ python -m t5x.train \
     --gin_file="models/scalable_t5/t5_1_1/xxl.gin" \
     --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""gs://improved-t5/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
-    --gin.train.partitioning.num_partitions=2 \
     --gin_file="configs/task/finetune/codexglue/code_to_text_${CODE_LANG}.gin" \
+    --gin.train.partitioning.num_partitions=2 \
     --gin.train.concurrent_metrics=False \
     --gin.TRAIN_STEPS=${TRAIN_STEPS} \
     --gin.SAVING_PERIOD=${SAVING_PERIOD} \
