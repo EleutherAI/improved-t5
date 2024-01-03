@@ -30,7 +30,7 @@ python -m t5x.train \
     --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""gs://improved-t5/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
     --gin_file="configs/task/finetune/codexglue/code_to_text_${CODE_LANG}.gin" \
-    --gin.train.partitioning.num_partitions=2 \
+    --gin.partitioning.num_partitions=2 \
     --gin.train.concurrent_metrics=False \
     --gin.TRAIN_STEPS=${TRAIN_STEPS} \
     --gin.SAVING_PERIOD=${SAVING_PERIOD} \
