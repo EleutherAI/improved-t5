@@ -31,7 +31,7 @@ train_script.train:
 
 partitioning.PjitPartitioner:
   num_partitions = 2
-  model_parallel_submesh = None
+  model_parallel_submesh = (4,2,2,1)
   logical_axis_rules = @partitioning.standard_logical_axis_rules()
 
 infer_eval/utils.DatasetConfig:
