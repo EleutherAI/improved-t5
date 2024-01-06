@@ -2,7 +2,7 @@ from __gin__ import dynamic_registration
 
 import __main__ as train_script
 from t5x import utils
-from t5x import partitioning
+# from t5x import partitioning
 
 import seqio
 import data.flan.tasks
@@ -27,12 +27,12 @@ train_script.train:
   eval_period = %SAVING_PERIOD
   infer_eval_dataset_cfg = @infer_eval/utils.DatasetConfig()
   inference_evaluator_cls = @seqio.Evaluator
-  partitioner = @partitioning.PjitPartitioner()
+#   partitioner = @partitioning.PjitPartitioner()
 
-partitioning.PjitPartitioner:
-  num_partitions = 1
-  model_parallel_submesh = (4,2,2,1)
-  logical_axis_rules = @partitioning.standard_logical_axis_rules()
+# partitioning.PjitPartitioner:
+#   num_partitions = 1
+#   model_parallel_submesh = (4,2,2,1)
+#   logical_axis_rules = @partitioning.standard_logical_axis_rules()
 
 train_eval/utils.DatasetConfig:
   split = 'train'
