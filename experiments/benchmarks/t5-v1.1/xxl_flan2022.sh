@@ -7,6 +7,7 @@ python -m t5x.train \
     --gin.partitioning.standard_logical_axis_rules.activation_partitioning_dims=1 \
     --gin.partitioning.standard_logical_axis_rules.parameter_partitioning_dims=2 \
     --gin.TRAIN_STEPS=1_014_000 \
+    --gin.train.concurrent_metrics=False \
     --gin.SAVING_PERIOD=2000 \
     --gin.MODEL_DIR=\"gs://improved-t5/ckpts/t5_1_1_xxl/finetune_flan2022\" \
     --gin.INITIAL_CHECKPOINT_PATH=\"gs://t5-data/pretrained_models/t5x/t5_1_1_xxl/checkpoint_1000000\" \
