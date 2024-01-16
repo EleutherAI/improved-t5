@@ -265,6 +265,10 @@ if __name__ == "__main__":
         default=False,
     )
     args = parser.parse_args()
+
+    if os.path.exists(args.pytorch_dump_path) is False:
+        os.makedirs(args.pytorch_dump_path, exist_ok=True)
+
     convert_t5x_checkpoint_to_pytorch(
         args.t5x_checkpoint_path,
         args.config_file,
