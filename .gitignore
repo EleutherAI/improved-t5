@@ -1,6 +1,7 @@
 # Repo-specific
 ckpts/
 logs/
+evals/output/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
