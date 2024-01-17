@@ -1,0 +1,64 @@
+{
+  "results": {
+    "code2text_java": {
+      "smoothed_bleu_4,none": 18.523233606582412,
+      "smoothed_bleu_4_stderr,none": 0.15561371937616736,
+      "alias": "code2text_java"
+    }
+  },
+  "configs": {
+    "code2text_java": {
+      "task": "code2text_java",
+      "group": [
+        "codexglue_code2text"
+      ],
+      "dataset_path": "CM/codexglue_code2text_java",
+      "training_split": "train",
+      "validation_split": "validation",
+      "test_split": "test",
+      "doc_to_text": "<function doc_to_text at 0x7fc2fa087a30>",
+      "doc_to_target": "<function doc_to_target at 0x7fc2fa1448b0>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "<function smoothed_bleu_4 at 0x7fc2fa1451b0>",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "num_beams": 10,
+        "max_length": 128,
+        "until": [
+          "</s>"
+        ]
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    }
+  },
+  "versions": {
+    "code2text_java": 1.0
+  },
+  "n-shot": {
+    "code2text_java": 0
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=/weka/lintangsutawika/01-t5v2/ckpts/hf/_t5-v2-xxl-codexglue-java",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": "0623b3a"
+}

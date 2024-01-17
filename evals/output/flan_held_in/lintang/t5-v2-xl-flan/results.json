@@ -1,0 +1,2289 @@
+{
+  "results": {
+    "flan_held_in": {
+      "exact_match,none": 0.7370997203036705,
+      "exact_match_stderr,none": 0.13523140924915564,
+      "alias": "flan_held_in"
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-0": {
+      "exact_match,none": 0.5785953177257525,
+      "exact_match_stderr,none": 0.02860414716444676,
+      "alias": " - ai2_arc_ARC-Challenge_arc.yaml:template-0"
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-1": {
+      "exact_match,none": 0.5418060200668896,
+      "exact_match_stderr,none": 0.028862800696528707,
+      "alias": " - ai2_arc_ARC-Challenge_arc.yaml:template-1"
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-2": {
+      "exact_match,none": 0.5384615384615384,
+      "exact_match_stderr,none": 0.02887840221155805,
+      "alias": " - ai2_arc_ARC-Challenge_arc.yaml:template-2"
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-3": {
+      "exact_match,none": 0.5719063545150501,
+      "exact_match_stderr,none": 0.028663137012965127,
+      "alias": " - ai2_arc_ARC-Challenge_arc.yaml:template-3"
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-4": {
+      "exact_match,none": 0.5618729096989966,
+      "exact_match_stderr,none": 0.02874160181077118,
+      "alias": " - ai2_arc_ARC-Challenge_arc.yaml:template-4"
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-5": {
+      "exact_match,none": 0.5418060200668896,
+      "exact_match_stderr,none": 0.0288628006965287,
+      "alias": " - ai2_arc_ARC-Challenge_arc.yaml:template-5"
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-6": {
+      "exact_match,none": 0.5551839464882943,
+      "exact_match_stderr,none": 0.028787274176797755,
+      "alias": " - ai2_arc_ARC-Challenge_arc.yaml:template-6"
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-0": {
+      "exact_match,none": 0.7210526315789474,
+      "exact_match_stderr,none": 0.0188013261914929,
+      "alias": " - ai2_arc_ARC-Easy_arc.yaml:template-0"
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-1": {
+      "exact_match,none": 0.6526315789473685,
+      "exact_match_stderr,none": 0.01996057630723003,
+      "alias": " - ai2_arc_ARC-Easy_arc.yaml:template-1"
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-2": {
+      "exact_match,none": 0.6719298245614035,
+      "exact_match_stderr,none": 0.019682905228101483,
+      "alias": " - ai2_arc_ARC-Easy_arc.yaml:template-2"
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-3": {
+      "exact_match,none": 0.6666666666666666,
+      "exact_match_stderr,none": 0.01976230555762512,
+      "alias": " - ai2_arc_ARC-Easy_arc.yaml:template-3"
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-4": {
+      "exact_match,none": 0.6859649122807018,
+      "exact_match_stderr,none": 0.019457359598144725,
+      "alias": " - ai2_arc_ARC-Easy_arc.yaml:template-4"
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-5": {
+      "exact_match,none": 0.6421052631578947,
+      "exact_match_stderr,none": 0.020096694819703997,
+      "alias": " - ai2_arc_ARC-Easy_arc.yaml:template-5"
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-6": {
+      "exact_match,none": 0.6754385964912281,
+      "exact_match_stderr,none": 0.019628415382843597,
+      "alias": " - ai2_arc_ARC-Easy_arc.yaml:template-6"
+    },
+    "r1_anli.yaml:template-0": {
+      "exact_match,none": 0.714,
+      "exact_match_stderr,none": 0.01429714686251791,
+      "alias": " - r1_anli.yaml:template-0"
+    },
+    "r1_anli.yaml:template-1": {
+      "exact_match,none": 0.719,
+      "exact_match_stderr,none": 0.014221154708434922,
+      "alias": " - r1_anli.yaml:template-1"
+    },
+    "r1_anli.yaml:template-2": {
+      "exact_match,none": 0.72,
+      "exact_match_stderr,none": 0.014205696104091494,
+      "alias": " - r1_anli.yaml:template-2"
+    },
+    "r1_anli.yaml:template-3": {
+      "exact_match,none": 0.717,
+      "exact_match_stderr,none": 0.014251810906481732,
+      "alias": " - r1_anli.yaml:template-3"
+    },
+    "r1_anli.yaml:template-4": {
+      "exact_match,none": 0.719,
+      "exact_match_stderr,none": 0.01422115470843493,
+      "alias": " - r1_anli.yaml:template-4"
+    },
+    "r1_anli.yaml:template-5": {
+      "exact_match,none": 0.723,
+      "exact_match_stderr,none": 0.014158794845306263,
+      "alias": " - r1_anli.yaml:template-5"
+    },
+    "r1_anli.yaml:template-6": {
+      "exact_match,none": 0.704,
+      "exact_match_stderr,none": 0.014442734941575018,
+      "alias": " - r1_anli.yaml:template-6"
+    },
+    "r1_anli.yaml:template-7": {
+      "exact_match,none": 0.712,
+      "exact_match_stderr,none": 0.014326941797231561,
+      "alias": " - r1_anli.yaml:template-7"
+    },
+    "r1_anli.yaml:template-8": {
+      "exact_match,none": 0.673,
+      "exact_match_stderr,none": 0.014842213153411252,
+      "alias": " - r1_anli.yaml:template-8"
+    },
+    "r2_anli.yaml:template-0": {
+      "exact_match,none": 0.547,
+      "exact_match_stderr,none": 0.01574925518997758,
+      "alias": " - r2_anli.yaml:template-0"
+    },
+    "r2_anli.yaml:template-1": {
+      "exact_match,none": 0.54,
+      "exact_match_stderr,none": 0.01576859691439438,
+      "alias": " - r2_anli.yaml:template-1"
+    },
+    "r2_anli.yaml:template-2": {
+      "exact_match,none": 0.538,
+      "exact_match_stderr,none": 0.01577354762901511,
+      "alias": " - r2_anli.yaml:template-2"
+    },
+    "r2_anli.yaml:template-3": {
+      "exact_match,none": 0.554,
+      "exact_match_stderr,none": 0.015726771166750354,
+      "alias": " - r2_anli.yaml:template-3"
+    },
+    "r2_anli.yaml:template-4": {
+      "exact_match,none": 0.547,
+      "exact_match_stderr,none": 0.015749255189977582,
+      "alias": " - r2_anli.yaml:template-4"
+    },
+    "r2_anli.yaml:template-5": {
+      "exact_match,none": 0.556,
+      "exact_match_stderr,none": 0.01571976816340209,
+      "alias": " - r2_anli.yaml:template-5"
+    },
+    "r2_anli.yaml:template-6": {
+      "exact_match,none": 0.542,
+      "exact_match_stderr,none": 0.015763390640483703,
+      "alias": " - r2_anli.yaml:template-6"
+    },
+    "r2_anli.yaml:template-7": {
+      "exact_match,none": 0.551,
+      "exact_match_stderr,none": 0.015736792768752016,
+      "alias": " - r2_anli.yaml:template-7"
+    },
+    "r2_anli.yaml:template-8": {
+      "exact_match,none": 0.522,
+      "exact_match_stderr,none": 0.015803979428161946,
+      "alias": " - r2_anli.yaml:template-8"
+    },
+    "r3_anli.yaml:template-0": {
+      "exact_match,none": 0.5583333333333333,
+      "exact_match_stderr,none": 0.014341167179902794,
+      "alias": " - r3_anli.yaml:template-0"
+    },
+    "r3_anli.yaml:template-1": {
+      "exact_match,none": 0.5441666666666667,
+      "exact_match_stderr,none": 0.014383329056883748,
+      "alias": " - r3_anli.yaml:template-1"
+    },
+    "r3_anli.yaml:template-2": {
+      "exact_match,none": 0.5458333333333333,
+      "exact_match_stderr,none": 0.01437897946674421,
+      "alias": " - r3_anli.yaml:template-2"
+    },
+    "r3_anli.yaml:template-3": {
+      "exact_match,none": 0.5475,
+      "exact_match_stderr,none": 0.014374467390502991,
+      "alias": " - r3_anli.yaml:template-3"
+    },
+    "r3_anli.yaml:template-4": {
+      "exact_match,none": 0.5483333333333333,
+      "exact_match_stderr,none": 0.014372150372486023,
+      "alias": " - r3_anli.yaml:template-4"
+    },
+    "r3_anli.yaml:template-5": {
+      "exact_match,none": 0.5508333333333333,
+      "exact_match_stderr,none": 0.014364955161753446,
+      "alias": " - r3_anli.yaml:template-5"
+    },
+    "r3_anli.yaml:template-6": {
+      "exact_match,none": 0.5458333333333333,
+      "exact_match_stderr,none": 0.014378979466744202,
+      "alias": " - r3_anli.yaml:template-6"
+    },
+    "r3_anli.yaml:template-7": {
+      "exact_match,none": 0.5441666666666667,
+      "exact_match_stderr,none": 0.014383329056883744,
+      "alias": " - r3_anli.yaml:template-7"
+    },
+    "r3_anli.yaml:template-8": {
+      "exact_match,none": 0.5208333333333334,
+      "exact_match_stderr,none": 0.014427234584862739,
+      "alias": " - r3_anli.yaml:template-8"
+    },
+    "super_glue_boolq_boolq.yaml:template-0": {
+      "exact_match,none": 0.8770642201834863,
+      "exact_match_stderr,none": 0.005743113339314375,
+      "alias": " - super_glue_boolq_boolq.yaml:template-0"
+    },
+    "super_glue_boolq_boolq.yaml:template-1": {
+      "exact_match,none": 0.8752293577981651,
+      "exact_match_stderr,none": 0.0057797583796917315,
+      "alias": " - super_glue_boolq_boolq.yaml:template-1"
+    },
+    "super_glue_boolq_boolq.yaml:template-2": {
+      "exact_match,none": 0.8743119266055046,
+      "exact_match_stderr,none": 0.005797927436388133,
+      "alias": " - super_glue_boolq_boolq.yaml:template-2"
+    },
+    "super_glue_boolq_boolq.yaml:template-3": {
+      "exact_match,none": 0.8681957186544342,
+      "exact_match_stderr,none": 0.005916517022827895,
+      "alias": " - super_glue_boolq_boolq.yaml:template-3"
+    },
+    "super_glue_boolq_boolq.yaml:template-4": {
+      "exact_match,none": 0.872782874617737,
+      "exact_match_stderr,none": 0.0058279851534501406,
+      "alias": " - super_glue_boolq_boolq.yaml:template-4"
+    },
+    "super_glue_boolq_boolq.yaml:template-5": {
+      "exact_match,none": 0.8737003058103976,
+      "exact_match_stderr,none": 0.0058099839554793305,
+      "alias": " - super_glue_boolq_boolq.yaml:template-5"
+    },
+    "super_glue_boolq_boolq.yaml:template-6": {
+      "exact_match,none": 0.8703363914373089,
+      "exact_match_stderr,none": 0.005875504499916538,
+      "alias": " - super_glue_boolq_boolq.yaml:template-6"
+    },
+    "super_glue_boolq_boolq.yaml:template-7": {
+      "exact_match,none": 0.8767584097859327,
+      "exact_match_stderr,none": 0.005749249506280189,
+      "alias": " - super_glue_boolq_boolq.yaml:template-7"
+    },
+    "super_glue_boolq_boolq.yaml:template-8": {
+      "exact_match,none": 0.8703363914373089,
+      "exact_match_stderr,none": 0.005875504499916537,
+      "alias": " - super_glue_boolq_boolq.yaml:template-8"
+    },
+    "super_glue_boolq_boolq.yaml:template-9": {
+      "exact_match,none": 0.8721712538226299,
+      "exact_match_stderr,none": 0.0058399306324134525,
+      "alias": " - super_glue_boolq_boolq.yaml:template-9"
+    },
+    "super_glue_rte_rte.yaml:template-0": {
+      "exact_match,none": 0.8050541516245487,
+      "exact_match_stderr,none": 0.02384597044443889,
+      "alias": " - super_glue_rte_rte.yaml:template-0"
+    },
+    "super_glue_rte_rte.yaml:template-1": {
+      "exact_match,none": 0.7942238267148014,
+      "exact_match_stderr,none": 0.024334053478024743,
+      "alias": " - super_glue_rte_rte.yaml:template-1"
+    },
+    "super_glue_rte_rte.yaml:template-2": {
+      "exact_match,none": 0.8411552346570397,
+      "exact_match_stderr,none": 0.02200239659756621,
+      "alias": " - super_glue_rte_rte.yaml:template-2"
+    },
+    "super_glue_rte_rte.yaml:template-3": {
+      "exact_match,none": 0.851985559566787,
+      "exact_match_stderr,none": 0.021375368956596676,
+      "alias": " - super_glue_rte_rte.yaml:template-3"
+    },
+    "super_glue_rte_rte.yaml:template-4": {
+      "exact_match,none": 0.855595667870036,
+      "exact_match_stderr,none": 0.02115776838456081,
+      "alias": " - super_glue_rte_rte.yaml:template-4"
+    },
+    "super_glue_rte_rte.yaml:template-5": {
+      "exact_match,none": 0.8339350180505415,
+      "exact_match_stderr,none": 0.022400132935001527,
+      "alias": " - super_glue_rte_rte.yaml:template-5"
+    },
+    "super_glue_rte_rte.yaml:template-6": {
+      "exact_match,none": 0.8483754512635379,
+      "exact_match_stderr,none": 0.021588589390530395,
+      "alias": " - super_glue_rte_rte.yaml:template-6"
+    },
+    "super_glue_rte_rte.yaml:template-7": {
+      "exact_match,none": 0.8303249097472925,
+      "exact_match_stderr,none": 0.02259324110170705,
+      "alias": " - super_glue_rte_rte.yaml:template-7"
+    },
+    "super_glue_rte_rte.yaml:template-8": {
+      "exact_match,none": 0.8014440433212996,
+      "exact_match_stderr,none": 0.024011733902867625,
+      "alias": " - super_glue_rte_rte.yaml:template-8"
+    }
+  },
+  "groups": {
+    "flan_held_in": {
+      "exact_match,none": 0.7370997203036705,
+      "exact_match_stderr,none": 0.13523140924915564,
+      "alias": "flan_held_in"
+    }
+  },
+  "configs": {
+    "ai2_arc_ARC-Challenge_arc.yaml:template-0": {
+      "task": "ai2_arc_ARC-Challenge_arc.yaml:template-0",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Challenge",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-0",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-1": {
+      "task": "ai2_arc_ARC-Challenge_arc.yaml:template-1",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Challenge",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-1",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-2": {
+      "task": "ai2_arc_ARC-Challenge_arc.yaml:template-2",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Challenge",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-2",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-3": {
+      "task": "ai2_arc_ARC-Challenge_arc.yaml:template-3",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Challenge",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-3",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-4": {
+      "task": "ai2_arc_ARC-Challenge_arc.yaml:template-4",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Challenge",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-4",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-5": {
+      "task": "ai2_arc_ARC-Challenge_arc.yaml:template-5",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Challenge",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-5",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Challenge_arc.yaml:template-6": {
+      "task": "ai2_arc_ARC-Challenge_arc.yaml:template-6",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Challenge",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-6",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-0": {
+      "task": "ai2_arc_ARC-Easy_arc.yaml:template-0",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Easy",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-0",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-1": {
+      "task": "ai2_arc_ARC-Easy_arc.yaml:template-1",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Easy",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-1",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-2": {
+      "task": "ai2_arc_ARC-Easy_arc.yaml:template-2",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Easy",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-2",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-3": {
+      "task": "ai2_arc_ARC-Easy_arc.yaml:template-3",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Easy",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-3",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-4": {
+      "task": "ai2_arc_ARC-Easy_arc.yaml:template-4",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Easy",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-4",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-5": {
+      "task": "ai2_arc_ARC-Easy_arc.yaml:template-5",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Easy",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-5",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "ai2_arc_ARC-Easy_arc.yaml:template-6": {
+      "task": "ai2_arc_ARC-Easy_arc.yaml:template-6",
+      "group": "flan_held_in",
+      "dataset_path": "ai2_arc",
+      "dataset_name": "ARC-Easy",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/arc.yaml:template-6",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r1_anli.yaml:template-0": {
+      "task": "r1_anli.yaml:template-0",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r1",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-0",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r1_anli.yaml:template-1": {
+      "task": "r1_anli.yaml:template-1",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r1",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-1",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r1_anli.yaml:template-2": {
+      "task": "r1_anli.yaml:template-2",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r1",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-2",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r1_anli.yaml:template-3": {
+      "task": "r1_anli.yaml:template-3",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r1",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-3",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r1_anli.yaml:template-4": {
+      "task": "r1_anli.yaml:template-4",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r1",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-4",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r1_anli.yaml:template-5": {
+      "task": "r1_anli.yaml:template-5",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r1",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-5",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r1_anli.yaml:template-6": {
+      "task": "r1_anli.yaml:template-6",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r1",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-6",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r1_anli.yaml:template-7": {
+      "task": "r1_anli.yaml:template-7",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r1",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-7",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r1_anli.yaml:template-8": {
+      "task": "r1_anli.yaml:template-8",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r1",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-8",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r2_anli.yaml:template-0": {
+      "task": "r2_anli.yaml:template-0",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r2",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-0",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r2_anli.yaml:template-1": {
+      "task": "r2_anli.yaml:template-1",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r2",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-1",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r2_anli.yaml:template-2": {
+      "task": "r2_anli.yaml:template-2",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r2",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-2",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r2_anli.yaml:template-3": {
+      "task": "r2_anli.yaml:template-3",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r2",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-3",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r2_anli.yaml:template-4": {
+      "task": "r2_anli.yaml:template-4",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r2",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-4",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r2_anli.yaml:template-5": {
+      "task": "r2_anli.yaml:template-5",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r2",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-5",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r2_anli.yaml:template-6": {
+      "task": "r2_anli.yaml:template-6",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r2",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-6",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r2_anli.yaml:template-7": {
+      "task": "r2_anli.yaml:template-7",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r2",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-7",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r2_anli.yaml:template-8": {
+      "task": "r2_anli.yaml:template-8",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r2",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-8",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r3_anli.yaml:template-0": {
+      "task": "r3_anli.yaml:template-0",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r3",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-0",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r3_anli.yaml:template-1": {
+      "task": "r3_anli.yaml:template-1",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r3",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-1",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r3_anli.yaml:template-2": {
+      "task": "r3_anli.yaml:template-2",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r3",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-2",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r3_anli.yaml:template-3": {
+      "task": "r3_anli.yaml:template-3",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r3",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-3",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r3_anli.yaml:template-4": {
+      "task": "r3_anli.yaml:template-4",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r3",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-4",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r3_anli.yaml:template-5": {
+      "task": "r3_anli.yaml:template-5",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r3",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-5",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r3_anli.yaml:template-6": {
+      "task": "r3_anli.yaml:template-6",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r3",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-6",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r3_anli.yaml:template-7": {
+      "task": "r3_anli.yaml:template-7",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r3",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-7",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "r3_anli.yaml:template-8": {
+      "task": "r3_anli.yaml:template-8",
+      "group": "flan_held_in",
+      "dataset_path": "anli",
+      "validation_split": "dev_r3",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/anli.yaml:template-8",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_boolq_boolq.yaml:template-0": {
+      "task": "super_glue_boolq_boolq.yaml:template-0",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "boolq",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/boolq.yaml:template-0",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_boolq_boolq.yaml:template-1": {
+      "task": "super_glue_boolq_boolq.yaml:template-1",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "boolq",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/boolq.yaml:template-1",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_boolq_boolq.yaml:template-2": {
+      "task": "super_glue_boolq_boolq.yaml:template-2",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "boolq",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/boolq.yaml:template-2",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_boolq_boolq.yaml:template-3": {
+      "task": "super_glue_boolq_boolq.yaml:template-3",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "boolq",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/boolq.yaml:template-3",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_boolq_boolq.yaml:template-4": {
+      "task": "super_glue_boolq_boolq.yaml:template-4",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "boolq",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/boolq.yaml:template-4",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_boolq_boolq.yaml:template-5": {
+      "task": "super_glue_boolq_boolq.yaml:template-5",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "boolq",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/boolq.yaml:template-5",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_boolq_boolq.yaml:template-6": {
+      "task": "super_glue_boolq_boolq.yaml:template-6",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "boolq",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/boolq.yaml:template-6",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_boolq_boolq.yaml:template-7": {
+      "task": "super_glue_boolq_boolq.yaml:template-7",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "boolq",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/boolq.yaml:template-7",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_boolq_boolq.yaml:template-8": {
+      "task": "super_glue_boolq_boolq.yaml:template-8",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "boolq",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/boolq.yaml:template-8",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_boolq_boolq.yaml:template-9": {
+      "task": "super_glue_boolq_boolq.yaml:template-9",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "boolq",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/boolq.yaml:template-9",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_rte_rte.yaml:template-0": {
+      "task": "super_glue_rte_rte.yaml:template-0",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "rte",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/rte.yaml:template-0",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_rte_rte.yaml:template-1": {
+      "task": "super_glue_rte_rte.yaml:template-1",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "rte",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/rte.yaml:template-1",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_rte_rte.yaml:template-2": {
+      "task": "super_glue_rte_rte.yaml:template-2",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "rte",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/rte.yaml:template-2",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_rte_rte.yaml:template-3": {
+      "task": "super_glue_rte_rte.yaml:template-3",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "rte",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/rte.yaml:template-3",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_rte_rte.yaml:template-4": {
+      "task": "super_glue_rte_rte.yaml:template-4",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "rte",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/rte.yaml:template-4",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_rte_rte.yaml:template-5": {
+      "task": "super_glue_rte_rte.yaml:template-5",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "rte",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/rte.yaml:template-5",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_rte_rte.yaml:template-6": {
+      "task": "super_glue_rte_rte.yaml:template-6",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "rte",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/rte.yaml:template-6",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_rte_rte.yaml:template-7": {
+      "task": "super_glue_rte_rte.yaml:template-7",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "rte",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/rte.yaml:template-7",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    },
+    "super_glue_rte_rte.yaml:template-8": {
+      "task": "super_glue_rte_rte.yaml:template-8",
+      "group": "flan_held_in",
+      "dataset_path": "super_glue",
+      "dataset_name": "rte",
+      "validation_split": "validation",
+      "use_prompt": "/weka/lintangsutawika/01-t5v2/lm-evaluation-harness/lm_eval/tasks/benchmarks/flan/prompt_templates/rte.yaml:template-8",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "exact_match",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 0.0
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    }
+  },
+  "versions": {
+    "ai2_arc_ARC-Challenge_arc.yaml:template-0": 1.0,
+    "ai2_arc_ARC-Challenge_arc.yaml:template-1": 1.0,
+    "ai2_arc_ARC-Challenge_arc.yaml:template-2": 1.0,
+    "ai2_arc_ARC-Challenge_arc.yaml:template-3": 1.0,
+    "ai2_arc_ARC-Challenge_arc.yaml:template-4": 1.0,
+    "ai2_arc_ARC-Challenge_arc.yaml:template-5": 1.0,
+    "ai2_arc_ARC-Challenge_arc.yaml:template-6": 1.0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-0": 1.0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-1": 1.0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-2": 1.0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-3": 1.0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-4": 1.0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-5": 1.0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-6": 1.0,
+    "flan_held_in": "N/A",
+    "r1_anli.yaml:template-0": 1.0,
+    "r1_anli.yaml:template-1": 1.0,
+    "r1_anli.yaml:template-2": 1.0,
+    "r1_anli.yaml:template-3": 1.0,
+    "r1_anli.yaml:template-4": 1.0,
+    "r1_anli.yaml:template-5": 1.0,
+    "r1_anli.yaml:template-6": 1.0,
+    "r1_anli.yaml:template-7": 1.0,
+    "r1_anli.yaml:template-8": 1.0,
+    "r2_anli.yaml:template-0": 1.0,
+    "r2_anli.yaml:template-1": 1.0,
+    "r2_anli.yaml:template-2": 1.0,
+    "r2_anli.yaml:template-3": 1.0,
+    "r2_anli.yaml:template-4": 1.0,
+    "r2_anli.yaml:template-5": 1.0,
+    "r2_anli.yaml:template-6": 1.0,
+    "r2_anli.yaml:template-7": 1.0,
+    "r2_anli.yaml:template-8": 1.0,
+    "r3_anli.yaml:template-0": 1.0,
+    "r3_anli.yaml:template-1": 1.0,
+    "r3_anli.yaml:template-2": 1.0,
+    "r3_anli.yaml:template-3": 1.0,
+    "r3_anli.yaml:template-4": 1.0,
+    "r3_anli.yaml:template-5": 1.0,
+    "r3_anli.yaml:template-6": 1.0,
+    "r3_anli.yaml:template-7": 1.0,
+    "r3_anli.yaml:template-8": 1.0,
+    "super_glue_boolq_boolq.yaml:template-0": 1.0,
+    "super_glue_boolq_boolq.yaml:template-1": 1.0,
+    "super_glue_boolq_boolq.yaml:template-2": 1.0,
+    "super_glue_boolq_boolq.yaml:template-3": 1.0,
+    "super_glue_boolq_boolq.yaml:template-4": 1.0,
+    "super_glue_boolq_boolq.yaml:template-5": 1.0,
+    "super_glue_boolq_boolq.yaml:template-6": 1.0,
+    "super_glue_boolq_boolq.yaml:template-7": 1.0,
+    "super_glue_boolq_boolq.yaml:template-8": 1.0,
+    "super_glue_boolq_boolq.yaml:template-9": 1.0,
+    "super_glue_rte_rte.yaml:template-0": 1.0,
+    "super_glue_rte_rte.yaml:template-1": 1.0,
+    "super_glue_rte_rte.yaml:template-2": 1.0,
+    "super_glue_rte_rte.yaml:template-3": 1.0,
+    "super_glue_rte_rte.yaml:template-4": 1.0,
+    "super_glue_rte_rte.yaml:template-5": 1.0,
+    "super_glue_rte_rte.yaml:template-6": 1.0,
+    "super_glue_rte_rte.yaml:template-7": 1.0,
+    "super_glue_rte_rte.yaml:template-8": 1.0
+  },
+  "n-shot": {
+    "ai2_arc_ARC-Challenge_arc.yaml:template-0": 0,
+    "ai2_arc_ARC-Challenge_arc.yaml:template-1": 0,
+    "ai2_arc_ARC-Challenge_arc.yaml:template-2": 0,
+    "ai2_arc_ARC-Challenge_arc.yaml:template-3": 0,
+    "ai2_arc_ARC-Challenge_arc.yaml:template-4": 0,
+    "ai2_arc_ARC-Challenge_arc.yaml:template-5": 0,
+    "ai2_arc_ARC-Challenge_arc.yaml:template-6": 0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-0": 0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-1": 0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-2": 0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-3": 0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-4": 0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-5": 0,
+    "ai2_arc_ARC-Easy_arc.yaml:template-6": 0,
+    "flan_held_in": 0,
+    "r1_anli.yaml:template-0": 0,
+    "r1_anli.yaml:template-1": 0,
+    "r1_anli.yaml:template-2": 0,
+    "r1_anli.yaml:template-3": 0,
+    "r1_anli.yaml:template-4": 0,
+    "r1_anli.yaml:template-5": 0,
+    "r1_anli.yaml:template-6": 0,
+    "r1_anli.yaml:template-7": 0,
+    "r1_anli.yaml:template-8": 0,
+    "r2_anli.yaml:template-0": 0,
+    "r2_anli.yaml:template-1": 0,
+    "r2_anli.yaml:template-2": 0,
+    "r2_anli.yaml:template-3": 0,
+    "r2_anli.yaml:template-4": 0,
+    "r2_anli.yaml:template-5": 0,
+    "r2_anli.yaml:template-6": 0,
+    "r2_anli.yaml:template-7": 0,
+    "r2_anli.yaml:template-8": 0,
+    "r3_anli.yaml:template-0": 0,
+    "r3_anli.yaml:template-1": 0,
+    "r3_anli.yaml:template-2": 0,
+    "r3_anli.yaml:template-3": 0,
+    "r3_anli.yaml:template-4": 0,
+    "r3_anli.yaml:template-5": 0,
+    "r3_anli.yaml:template-6": 0,
+    "r3_anli.yaml:template-7": 0,
+    "r3_anli.yaml:template-8": 0,
+    "super_glue_boolq_boolq.yaml:template-0": 0,
+    "super_glue_boolq_boolq.yaml:template-1": 0,
+    "super_glue_boolq_boolq.yaml:template-2": 0,
+    "super_glue_boolq_boolq.yaml:template-3": 0,
+    "super_glue_boolq_boolq.yaml:template-4": 0,
+    "super_glue_boolq_boolq.yaml:template-5": 0,
+    "super_glue_boolq_boolq.yaml:template-6": 0,
+    "super_glue_boolq_boolq.yaml:template-7": 0,
+    "super_glue_boolq_boolq.yaml:template-8": 0,
+    "super_glue_boolq_boolq.yaml:template-9": 0,
+    "super_glue_rte_rte.yaml:template-0": 0,
+    "super_glue_rte_rte.yaml:template-1": 0,
+    "super_glue_rte_rte.yaml:template-2": 0,
+    "super_glue_rte_rte.yaml:template-3": 0,
+    "super_glue_rte_rte.yaml:template-4": 0,
+    "super_glue_rte_rte.yaml:template-5": 0,
+    "super_glue_rte_rte.yaml:template-6": 0,
+    "super_glue_rte_rte.yaml:template-7": 0,
+    "super_glue_rte_rte.yaml:template-8": 0
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=lintang/t5-v2-xl-flan,parallelize=True",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null
+  },
+  "git_hash": "c12d8b7"
+}
