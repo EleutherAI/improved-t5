@@ -2,10 +2,11 @@
 MODEL=$1
 
 export TASK=flan_held_in
-accelerate launch --no_python lm-eval \
+# accelerate launch --no_python lm-eval \
+lm-eval \
     --model hf \
-    --model_args "pretrained=${MODEL}" \
+    --model_args "pretrained=${MODEL},parallelize=True" \
     --tasks ${TASK} \
-    --batch_size 4 \
+    --batch_size 1 \
     --output "output/${TASK}/${MODEL}" \
     --log_samples

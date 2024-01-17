@@ -4,11 +4,12 @@ for TASK in mmlu mmlu_flan_n_shot_generative mmlu_flan_n_shot_loglikelihood
 do
     for NUM in 0 5
     do
-    accelerate launch --no_python lm-eval \
+    # accelerate launch --no_python lm-eval \
+    lm-eval \
         --model hf \
-        --model_args "pretrained=${MODEL}" \
+        --model_args "pretrained=${MODEL},parallelize=True" \
         --tasks ${TASK} \
-        --batch_size 4 \
+        --batch_size 1 \
         --output "output/${TASK}/${MODEL}-${NUM}-shot" \
         --num_fewshot $NUM \
         --log_samples
