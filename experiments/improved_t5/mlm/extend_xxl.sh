@@ -12,7 +12,7 @@ python -m t5x.train \
     --gin.SAVING_PERIOD=1000 \
     --gin.INITIAL_CHECKPOINT_PATH=\"'gs://improved-t5/ckpts/v2_xxl_mlm/checkpoint_1000000'\" \
     --gin.MODEL_DIR=\"'gs://improved-t5/ckpts/v2_xxl_mlm/_extend_2048'\" \
-    --gin.Trainer.num_microbatches=4 \
+    --gin.Trainer.num_microbatches=2 \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr
     # --gin.partitioning.PjitPartitioner.model_parallel_submesh="(1, 1, 8, 1)" \
