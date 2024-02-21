@@ -22,16 +22,16 @@ utils.SaveCheckpointConfig:
   period = %SAVING_PERIOD
 
 train_script.train:
-  run_eval_before_training = True
+  run_eval_before_training = False
   eval_steps = %EVAL_STEPS
   eval_period = %SAVING_PERIOD
   infer_eval_dataset_cfg = @infer_eval/utils.DatasetConfig()
   inference_evaluator_cls = @seqio.Evaluator
-  partitioner = @partitioning.PjitPartitioner()
+#   partitioner = @partitioning.PjitPartitioner()
 
-partitioning.PjitPartitioner:
-  model_parallel_submesh = (4,2,2,1)
-  logical_axis_rules = @partitioning.standard_logical_axis_rules()
+# partitioning.PjitPartitioner:
+#   model_parallel_submesh = (4,2,2,1)
+#   logical_axis_rules = @partitioning.standard_logical_axis_rules()
 
 train_eval/utils.DatasetConfig:
   split = 'train'
