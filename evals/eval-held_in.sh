@@ -1,12 +1,15 @@
 #!/bin/bash 
-MODEL=$1
+PATH=$1
+MODEL=$2
+LM_EVAL=$3
+EXTRA=$4
 
-export TASK=flan_held_in
-# accelerate launch --no_python lm-eval \
-lm-eval \
+TASK=flan_held_in
+
+${LM_EVAL} \
     --model hf \
-    --model_args "pretrained=${MODEL},parallelize=True" \
+    --model_args "pretrained=${PATH}${MODEL}${EXTRA}" \
     --tasks ${TASK} \
-    --batch_size 1 \
+    --batch_size 8 \
     --output "output/${TASK}/${MODEL}" \
     --log_samples

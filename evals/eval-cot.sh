@@ -1,14 +1,16 @@
 #!/bin/bash 
-MODEL=$1
+PATH=$1
+MODEL=$2
+LM_EVAL=$3
+EXTRA=$4
 
 for TASK in bbh_cot_zeroshot bbh_cot_fewshot mmlu_flan_cot_zeroshot mmlu_flan_cot_fewshot 
 do
-    # accelerate launch --no_python lm-eval \
-    lm-eval \
+    ${LM_EVAL} \
         --model hf \
-        --model_args "pretrained=${MODEL},parallelize=True" \
+        --model_args "pretrained=${PATH}${MODEL}${EXTRA}" \
         --tasks ${TASK} \
-        --batch_size 1 \
+        --batch_size 4 \
         --output "output/${TASK}/${MODEL}" \
         --log_samples
     done
