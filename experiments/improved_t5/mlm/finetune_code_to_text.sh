@@ -1,6 +1,10 @@
 #!/bin/bash
 
-CODE_LANG=$1
+SIZE=$1
+START_STEP=$2
+CODE_LANG=$3
+INIT_DIR=$4
+MODEL_DIR=$5
 
 if [[ $CODE_LANG == "python" ]]; then
     # python 251,820 -> 7869
@@ -23,16 +27,16 @@ elif [[ $CODE_LANG == "ruby" ]]; then
 fi
 
 SAVING_PERIOD=$STEPS
-TRAIN_STEPS=$(( ${STEPS} * 10 + 2000000 ))
+TRAIN_STEPS=$(( ${STEPS} * 10 + ${START_STEP} ))
 
 python -m t5x.train \
-    --gin_file="models/scalable_t5/t5_1_1/large.gin" \
+    --gin_file="models/scalable_t5/t5_1_1/base.gin" \
     --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""gs://improved-t5/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
     --gin_file="configs/task/finetune/codexglue/code_to_text_${CODE_LANG}.gin" \
     --gin.TRAIN_STEPS=${TRAIN_STEPS} \
     --gin.SAVING_PERIOD=${SAVING_PERIOD} \
-    --gin.MODEL_DIR=\"gs://improved-t5/ckpts/v2_large_mlm/checkpoint_2000000/codexglue_${CODE_LANG}_finetune\" \
-    --gin.INITIAL_CHECKPOINT_PATH=\"gs://improved-t5/ckpts/v2_large_mlm/checkpoint_2000000\" \
+    --gin.INITIAL_CHECKPOINT_PATH=\"${INIT_DIR}\" \
+    --gin.MODEL_DIR=\"${MODEL_DIR}\" \
     --seqio_additional_cache_dirs=\"gs://improved-t5/data\" \
     --alsologtostderr

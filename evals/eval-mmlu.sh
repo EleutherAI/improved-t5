@@ -1,5 +1,5 @@
 #!/bin/bash 
-PATH=$1
+MODEL_PATH=$1
 MODEL=$2
 LM_EVAL=$3
 EXTRA=$4
@@ -10,10 +10,10 @@ do
     do
     ${LM_EVAL} \
         --model hf \
-        --model_args "pretrained=${PATH}${MODEL}${EXTRA}" \
+        --model_args "pretrained=${MODEL_PATH}${MODEL}${EXTRA}" \
         --tasks ${TASK} \
         --batch_size 8 \
-        --output "output/${TASK}/${MODEL}-${NUM}-shot" \
+        --output "OUTPUT/${TASK}/${MODEL}-${NUM}-shot" \
         --num_fewshot $NUM \
         --log_samples
     done
@@ -25,10 +25,10 @@ do
     do
     ${LM_EVAL} \
         --model hf \
-        --model_args "pretrained=${PATH}${MODEL}${EXTRA}" \
+        --model_args "pretrained=${MODEL_PATH}${MODEL}${EXTRA}" \
         --tasks ${TASK} \
         --batch_size 8 \
-        --output "output/${TASK}/${MODEL}-${NUM}-shot" \
+        --output "OUTPUT/${TASK}/${MODEL}-${NUM}-shot" \
         --num_fewshot $NUM \
         --log_samples
     done

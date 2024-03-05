@@ -1,10 +1,11 @@
 # Copyright 2022
 
 """Defines the vocabulary"""
+import os
 import seqio
 
 T5_SPM_PATH = "gs://t5-data/vocabs/cc_all.32000.100extra/sentencepiece.model"  # GCS
-DEFAULT_SPM_PATH = "gs://improved-t5/vocabs/tokenizer.model"  # LLAMA Tokenizer
+DEFAULT_SPM_PATH = f"{os.environ['GCP_BUCKET']}/vocabs/tokenizer.model"  # LLAMA Tokenizer
 
 def get_default_vocabulary():
     return seqio.SentencePieceVocabulary(

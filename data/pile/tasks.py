@@ -11,7 +11,7 @@ seqio_cache_tasks \
 For more details, see: seqio/scripts/cache_tasks_main.py
 
 """
-
+import os
 import seqio
 
 from data.pile import pile_utils
@@ -22,8 +22,7 @@ from data.utils import make_mlm_task, make_clm_task, make_plm_task
 PILE_SIZES = [(None, None), (20, '2b'), (5, '500m'), (1, '100m')]
 
 # Pile v1
-# path="/fsx/pile_raw_deduped/dedupe0.87/train/"
-path="gs://improved-t5/pile_raw_deduped/dedupe0.87/train/"
+path=f"{os.environ['GCP_BUCKET']}/pile_raw_deduped/dedupe0.87/train/"
 
 def pile_helper(task, name, pile_files, pile_size_name, **kwargs):
     if pile_size_name:
