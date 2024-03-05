@@ -5,6 +5,7 @@ START_STEP=$2
 CODE_LANG=$3
 INIT_DIR=$4
 MODEL_DIR=$5
+OTHER_ARGS=$6
 
 if [[ $CODE_LANG == "python" ]]; then
     # python 251,820 -> 7869
@@ -30,13 +31,14 @@ SAVING_PERIOD=$STEPS
 TRAIN_STEPS=$(( ${STEPS} * 10 + ${START_STEP} ))
 
 python -m t5x.train \
-    --gin_file="models/scalable_t5/t5_1_1/base.gin" \
-    --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""gs://improved-t5/vocabs/tokenizer.model"\" \
+    --gin_file="models/scalable_t5/t5_1_1/${SIZE}.gin" \
+    --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""${GCP_BUCKET}/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
     --gin_file="configs/task/finetune/codexglue/code_to_text_${CODE_LANG}.gin" \
     --gin.TRAIN_STEPS=${TRAIN_STEPS} \
     --gin.SAVING_PERIOD=${SAVING_PERIOD} \
     --gin.INITIAL_CHECKPOINT_PATH=\"${INIT_DIR}\" \
     --gin.MODEL_DIR=\"${MODEL_DIR}\" \
-    --seqio_additional_cache_dirs=\"gs://improved-t5/data\" \
-    --alsologtostderr
+    --seqio_additional_cache_dirs=\"${GCP_BUCKET}/data\" \
+    --alsologtostderr ${OTHER_ARGS}
+    # --gin.partitioning.PjitPartitioner.model_parallel_submesh="(1, 1, 8, 1)" \

@@ -2,6 +2,7 @@ SIZE=$1
 STEP=$2
 INIT_DIR=$3
 MODEL_DIR=$4
+OTHER_ARGS=$5
 
 python -m t5x.train \
     --gin_file="models/scalable_t5/t5_1_1/${SIZE}.gin" \
@@ -13,7 +14,7 @@ python -m t5x.train \
     --gin.INITIAL_CHECKPOINT_PATH=\"${INIT_DIR}\" \
     --gin.MODEL_DIR=\"${MODEL_DIR}\" \
     --gin.USE_CACHED_TASKS=False \
-    --alsologtostderr
+    --alsologtostderr ${OTHER_ARGS}
     # --multiprocess_gpu \
     # --coordinator_address=${ADDR} \
     # --process_count=${SLURM_NTASKS} \
