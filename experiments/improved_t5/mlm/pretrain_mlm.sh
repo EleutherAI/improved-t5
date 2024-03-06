@@ -1,7 +1,6 @@
 SIZE=$1
 START_STEP=$2
 MODEL_DIR=$3
-OTHER_ARGS=$4
 
 python -m t5x.train \
     --gin_file="models/scalable_t5/t5_1_1/base.gin" \
@@ -12,7 +11,7 @@ python -m t5x.train \
     --gin.SAVING_PERIOD=10000 \
     --gin.MODEL_DIR=\"${MODEL_DIR}\" \
     --gin.USE_CACHED_TASKS=False \
-    --alsologtostderr ${OTHER_ARGS}
+    --alsologtostderr
     # --gin.Trainer.num_microbatches=2 \
     # --gin.partitioning.standard_logical_axis_rules.activation_partitioning_dims=2 \
     # --gin.partitioning.PjitPartitioner.model_parallel_submesh="(1, 1, 8, 1)" \

@@ -1,5 +1,5 @@
 SIZE=$1
-START_STEP=$2
+TRAIN_STEPS=$2
 EXTENSION=$3
 EXTEND_FROM=$4
 EXTEND_TO=$5
@@ -14,8 +14,6 @@ if [[ $NUM_MICROBATCHES == "" ]]; then
     NUM_MICROBATCHES=8
 fi
 
-TRAIN_STEPS=$(( ${START_STEP} + 5000 ))
-
 python -m t5x.train \
     --gin_file="models/scalable_t5/t5_1_1/${SIZE}.gin" \
     --gin_file="configs/task/finetune/extend_${EXTENSION}.gin" \
@@ -23,6 +21,7 @@ python -m t5x.train \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
     --gin.TRAIN_STEPS=${TRAIN_STEPS} \
     --gin.SAVING_PERIOD=1000 \
+    --gin.train.use_orbax=False \
     --gin.INITIAL_CHECKPOINT_PATH=\"${EXTEND_FROM}\" \
     --gin.MODEL_DIR=\"${EXTEND_TO}\" \
     --gin.Trainer.num_microbatches=${NUM_MICROBATCHES} \
