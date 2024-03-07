@@ -122,13 +122,13 @@ seqio.MixtureRegistry.add(
     ])
 
 seqio.MixtureRegistry.add(
-    't0',
+    't0_train',
     tasks=[
         'Commercial-Flan-Collection-P3'
     ])
 
 seqio.MixtureRegistry.add(
-    't0_t5',
+    't0_train_t5',
     tasks=[
         'Commercial-Flan-Collection-P3_t5',
     ])
