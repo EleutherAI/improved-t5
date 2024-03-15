@@ -79,11 +79,11 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
     for flan_split in FLAN_SPLIT:
 
         flan_task = flan_split.split("/")[-1]
-        flan_task.replace("-", "_")
         if OUTPUT_FEATURES == T5_OUTPUT_FEATURES:
             task_name = f"{flan_task}_t5"
         else:
             task_name = f"{flan_task}"
+        task_name = task_name.replace("-", "_")
 
         TaskRegistry.add(
             task_name,
