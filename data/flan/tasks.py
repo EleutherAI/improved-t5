@@ -79,6 +79,7 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
     for flan_split in FLAN_SPLIT:
 
         flan_task = flan_split.split("/")[-1]
+        flan_task.replace("-", "_")
         if OUTPUT_FEATURES == T5_OUTPUT_FEATURES:
             task_name = f"{flan_task}_t5"
         else:
@@ -104,31 +105,31 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
 seqio.MixtureRegistry.add(
     'flan2022_submix',
     tasks=[
-        ('Commercial-Flan-Collection-Flan-2021', 0.4),  # mixing weight = 40%
-        ('Commercial-Flan-Collection-P3', 0.32),       # mixing weight = 32%
-        ('Commercial-Flan-Collection-SNI', 0.2),      # mixing weight = 20%
-        ('Commercial-Flan-Collection-Chain-Of-Thought', 0.05),      # mixing weight = 5%
-        ('Commercial-Flan-Collection-Dialog', 0.03),   # mixing weight = 3%
+        ('Commercial_Flan_Collection_Flan_2021', 0.4),  # mixing weight = 40%
+        ('Commercial_Flan_Collection_P3', 0.32),       # mixing weight = 32%
+        ('Commercial_Flan_Collection_SNI', 0.2),      # mixing weight = 20%
+        ('Commercial_Flan_Collection_Chain_Of_Thought', 0.05),      # mixing weight = 5%
+        ('Commercial_Flan_Collection_Dialog', 0.03),   # mixing weight = 3%
     ])
 
 seqio.MixtureRegistry.add(
     'flan2022_submix_t5',
     tasks=[
-        ('Commercial-Flan-Collection-Flan-2021_t5', 0.4),  # mixing weight = 40%
-        ('Commercial-Flan-Collection-P3_t5', 0.32),       # mixing weight = 32%
-        ('Commercial-Flan-Collection-SNI_t5', 0.2),      # mixing weight = 20%
-        ('Commercial-Flan-Collection-Chain-Of-Thought_t5', 0.05),      # mixing weight = 5%
-        ('Commercial-Flan-Collection-Dialog_t5', 0.03),   # mixing weight = 3%
+        ('Commercial_Flan_Collection_Flan_2021_t5', 0.4),  # mixing weight = 40%
+        ('Commercial_Flan_Collection_P3_t5', 0.32),       # mixing weight = 32%
+        ('Commercial_Flan_Collection_SNI_t5', 0.2),      # mixing weight = 20%
+        ('Commercial_Flan_Collection_Chain_Of_Thought_t5', 0.05),      # mixing weight = 5%
+        ('Commercial_Flan_Collection_Dialog_t5', 0.03),   # mixing weight = 3%
     ])
 
 seqio.MixtureRegistry.add(
     't0_train',
     tasks=[
-        'Commercial-Flan-Collection-P3'
+        'Commercial_Flan_Collection_P3'
     ])
 
 seqio.MixtureRegistry.add(
     't0_train_t5',
     tasks=[
-        'Commercial-Flan-Collection-P3_t5',
+        'Commercial_Flan_Collection_P3_t5',
     ])
