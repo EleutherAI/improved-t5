@@ -121,15 +121,3 @@ seqio.MixtureRegistry.add(
         ('Commercial_Flan_Collection_Chain_Of_Thought_t5', 0.05),      # mixing weight = 5%
         ('Commercial_Flan_Collection_Dialog_t5', 0.03),   # mixing weight = 3%
     ])
-
-seqio.MixtureRegistry.add(
-    't0_train',
-    tasks=[
-        'Commercial_Flan_Collection_P3'
-    ])
-
-seqio.MixtureRegistry.add(
-    't0_train_t5',
-    tasks=[
-        'Commercial_Flan_Collection_P3_t5',
-    ])
