@@ -59,7 +59,7 @@ def flan_preprocessor(x):
 
     return {
         "inputs": x["inputs"],
-        "targets": x["targets"]
+        "targets": x["labels"]
     }
 
 
