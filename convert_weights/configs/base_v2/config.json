@@ -24,7 +24,7 @@
   "relative_attention_num_buckets": 32,
   "scalable_attention": true,
   "tie_word_embeddings": false,
-  "tokenizer_class": "T5Tokenizer",
+  "tokenizer_class": "LlamaTokenizerFast",
   "torch_dtype": "bfloat16",
   "transformers_version": "4.31.0",
   "use_cache": true,
