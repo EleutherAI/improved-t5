@@ -22,6 +22,7 @@ python -m t5x.train \
     --gin.TRAIN_STEPS=${TRAIN_STEPS} \
     --gin.SAVING_PERIOD=1000 \
     --gin.train.use_orbax=False \
+    --gin.train.infer_eval_dataset_cfg=None \
     --gin.INITIAL_CHECKPOINT_PATH=\"${EXTEND_FROM}\" \
     --gin.MODEL_DIR=\"${EXTEND_TO}\" \
     --gin.Trainer.num_microbatches=${NUM_MICROBATCHES} \
