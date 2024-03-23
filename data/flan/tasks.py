@@ -76,7 +76,7 @@ def dataset_fn(split, shuffle_files, seed=None, dataset=None):
 
     ds = datasets.load_dataset(
         dataset="Open-Orca/FLAN",
-        data_files=f"FLAN/{dataset}_data/*.parquet"
+        data_files=f"FLAN/{dataset}/*.parquet"
         )
     ds = ds[split]
 
@@ -90,7 +90,8 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
 
     for flan_split in FLAN_SPLIT:
 
-        flan_task = flan_split.split("/")[-1]
+        # flan_task = flan_split.split("/")[-1]
+        flan_task = flan_split.split("_data")[0]
         if OUTPUT_FEATURES == T5_OUTPUT_FEATURES:
             task_name = f"{flan_task}_t5"
         else:
