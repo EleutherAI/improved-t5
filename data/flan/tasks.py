@@ -14,6 +14,7 @@ For more details, see: seqio/scripts/cache_tasks_main.py
 
 import seqio
 import json
+import os
 import datasets
 
 import tensorflow as tf
@@ -76,6 +77,8 @@ def dataset_fn(split, shuffle_files, seed=None, dataset=None):
 
     ds = datasets.load_dataset(
         dataset="Open-Orca/FLAN",
+        split="train",
+        num_proc = os.cpu_count(),
         data_files=f"FLAN/{dataset}/*.parquet"
         )
     ds = ds[split]
