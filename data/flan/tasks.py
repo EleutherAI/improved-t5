@@ -76,8 +76,7 @@ def flan_preprocessor(x):
 def dataset_fn(split, shuffle_files, seed=None, dataset=None):
 
     ds = datasets.load_dataset(
-        dataset="Open-Orca/FLAN",
-        split="train",
+        "Open-Orca/FLAN",
         num_proc = os.cpu_count(),
         data_files=f"FLAN/{dataset}/*.parquet"
         )
