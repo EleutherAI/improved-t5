@@ -76,7 +76,7 @@ def dataset_fn(split, shuffle_files, seed=None, dataset=None):
 
     ds = datasets.load_dataset(
         dataset="Open-Orca/FLAN",
-        data_files=f"FLAN/{dataset}/*.parquet"
+        data_files=f"FLAN/{dataset}_data/*.parquet"
         )
     ds = ds[split]
 
