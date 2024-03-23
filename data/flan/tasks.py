@@ -29,11 +29,20 @@ MixtureRegistry = seqio.MixtureRegistry
 # ==================================== FLAN ======================================
 
 FLAN_SPLIT = [
-    "DataProvenanceInitiative/Commercial-Flan-Collection-Flan-2021",
-    "DataProvenanceInitiative/Commercial-Flan-Collection-P3",
-    "DataProvenanceInitiative/Commercial-Flan-Collection-SNI",
-    "DataProvenanceInitiative/Commercial-Flan-Collection-Chain-Of-Thought",
-    "DataProvenanceInitiative/Commercial-Flan-Collection-Dialog",
+    "niv2_zsopt_data",
+    "niv2_fsopt_data",
+    "flan_zsopt_data",
+    "flan_fsopt_data",
+    "dialog_zsopt_data",
+    "dialog_fsopt_data",
+    "t0_zsopt_data",
+    "t0_zsnoopt_data",
+    "t0_fsopt_data",
+    "t0_fsnoopt_data",
+    "flan_zsnoopt_data",
+    "flan_fsnoopt_data",
+    "cot_fsopt_data",
+    "cot_zsopt_data",
     ]
 
 def feature_to_spec(feature, length=False):
@@ -59,13 +68,16 @@ def flan_preprocessor(x):
 
     return {
         "inputs": x["inputs"],
-        "targets": x["labels"]
+        "targets": x["targets"]
     }
 
 
 def dataset_fn(split, shuffle_files, seed=None, dataset=None):
 
-    ds = datasets.load_dataset(dataset)
+    ds = datasets.load_dataset(
+        dataset
+        data_files=f"FLAN/{dataset}/*.parquet"
+        )
     ds = ds[split]
 
     ds = ds.map(flan_preprocessor)
@@ -101,23 +113,102 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
             output_features=OUTPUT_FEATURES
         )
 
+seqio.MixtureRegistry.add(
+    'cot_submix',
+    tasks=[
+        ('cot_zsopt', 1),    # mixing weight = 50%
+        ('cot_fsopt', 1),    # mixing weight = 50%
+    ])
+
+seqio.MixtureRegistry.add(
+    'dialog_submix',
+    tasks=[
+        ('dialog_zsopt', 1),    # mixing weight = 50%
+        ('dialog_fsopt', 1),    # mixing weight = 50%
+    ])
+
+seqio.MixtureRegistry.add(
+    'niv2_submix',
+    tasks=[
+        ('niv2_zsopt', 1),    # mixing weight = 50%
+        ('niv2_fsopt', 1),    # mixing weight = 50%
+    ])
+
+seqio.MixtureRegistry.add(
+    'flan2021_submix',
+    tasks=[
+        ('flan_zsopt', 1),      # mixing weight = 25%
+        ('flan_fsopt', 1),      # mixing weight = 25%
+        ('flan_zsnoopt', 1),    # mixing weight = 25%
+        ('flan_fsnoopt', 1),    # mixing weight = 25%
+    ])
+
+seqio.MixtureRegistry.add(
+    't0_submix',
+    tasks=[
+        ('t0_zsopt', 1),      # mixing weight = 25%
+        ('t0_fsopt', 1),      # mixing weight = 25%
+        ('t0_zsnoopt', 1),    # mixing weight = 25%
+        ('t0_fsnoopt', 1),    # mixing weight = 25%
+    ])
+
 # Define the Final Flan Collection Mixture
 seqio.MixtureRegistry.add(
     'flan2022_submix',
     tasks=[
-        ('Commercial_Flan_Collection_Flan_2021', 0.4),  # mixing weight = 40%
-        ('Commercial_Flan_Collection_P3', 0.32),       # mixing weight = 32%
-        ('Commercial_Flan_Collection_SNI', 0.2),      # mixing weight = 20%
-        ('Commercial_Flan_Collection_Chain_Of_Thought', 0.05),      # mixing weight = 5%
-        ('Commercial_Flan_Collection_Dialog', 0.03),   # mixing weight = 3%
+        ('flan2021_submix', 0.4),  # mixing weight = 40%
+        ('t0_submix', 0.32),       # mixing weight = 32%
+        ('niv2_submix', 0.2),      # mixing weight = 20%
+        ('cot_submix', 0.05),      # mixing weight = 5%
+        ('dialog_submix', 0.03),   # mixing weight = 3%
     ])
 
 seqio.MixtureRegistry.add(
+    'cot_submix_t5',
+    tasks=[
+        ('cot_zsopt_t5', 1),    # mixing weight = 50%
+        ('cot_fsopt_t5', 1),    # mixing weight = 50%
+    ])
+
+seqio.MixtureRegistry.add(
+    'dialog_submix_t5',
+    tasks=[
+        ('dialog_zsopt_t5', 1),    # mixing weight = 50%
+        ('dialog_fsopt_t5', 1),    # mixing weight = 50%
+    ])
+
+seqio.MixtureRegistry.add(
+    'niv2_submix_t5',
+    tasks=[
+        ('niv2_zsopt_t5', 1),    # mixing weight = 50%
+        ('niv2_fsopt_t5', 1),    # mixing weight = 50%
+    ])
+
+seqio.MixtureRegistry.add(
+    'flan2021_submix_t5',
+    tasks=[
+        ('flan_zsopt_t5', 1),      # mixing weight = 25%
+        ('flan_fsopt_t5', 1),      # mixing weight = 25%
+        ('flan_zsnoopt_t5', 1),    # mixing weight = 25%
+        ('flan_fsnoopt_t5', 1),    # mixing weight = 25%
+    ])
+
+seqio.MixtureRegistry.add(
+    't0_submix_t5',
+    tasks=[
+        ('t0_zsopt_t5', 1),      # mixing weight = 25%
+        ('t0_fsopt_t5', 1),      # mixing weight = 25%
+        ('t0_zsnoopt_t5', 1),    # mixing weight = 25%
+        ('t0_fsnoopt_t5', 1),    # mixing weight = 25%
+    ])
+
+# Define the Final Flan Collection Mixture
+seqio.MixtureRegistry.add(
     'flan2022_submix_t5',
     tasks=[
-        ('Commercial_Flan_Collection_Flan_2021_t5', 0.4),  # mixing weight = 40%
-        ('Commercial_Flan_Collection_P3_t5', 0.32),       # mixing weight = 32%
-        ('Commercial_Flan_Collection_SNI_t5', 0.2),      # mixing weight = 20%
-        ('Commercial_Flan_Collection_Chain_Of_Thought_t5', 0.05),      # mixing weight = 5%
-        ('Commercial_Flan_Collection_Dialog_t5', 0.03),   # mixing weight = 3%
+        ('flan2021_submix_t5', 0.4),  # mixing weight = 40%
+        ('t0_submix_t5', 0.32),       # mixing weight = 32%
+        ('niv2_submix_t5', 0.2),      # mixing weight = 20%
+        ('cot_submix_t5', 0.05),      # mixing weight = 5%
+        ('dialog_submix_t5', 0.03),   # mixing weight = 3%
     ])
