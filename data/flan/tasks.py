@@ -81,7 +81,7 @@ def dataset_fn(split, shuffle_files, seed=None, dataset=None):
     #     data_files=f"FLAN/{dataset}/*.parquet"
     #     )
 
-    ds = load_dataset(
+    ds = datasets.load_dataset(
         "parquet",
         num_proc=os.cpu_count(),
         data_files=f"gs://improved-t5/FLAN/{dataset}/*.parquet")
