@@ -65,7 +65,7 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
 
         file_path=f"gs://improved-t5/FLAN/{flan_split}"
         file_dict = {
-            "train": os.path.listdir(file_path),
+            "train": os.listdir(file_path),
             }
 
         extract_text = extract_text_from_jsonl_tf
