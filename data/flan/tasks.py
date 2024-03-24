@@ -13,16 +13,20 @@ For more details, see: seqio/scripts/cache_tasks_main.py
 """
 
 import seqio
-import json
 import os
 import datasets
+import functools
+import seqio
 
 import tensorflow as tf
+import t5.data
+
 
 from t5.evaluation import metrics
 
-from functools import partial
 from data.vocab import DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES
+
+from data.utils import CustomDataSource, extract_text_from_jsonl_tf, extract_text_from_json_tf
 
 TaskRegistry = seqio.TaskRegistry
 MixtureRegistry = seqio.MixtureRegistry
@@ -46,54 +50,6 @@ FLAN_SPLIT = [
     "cot_zsopt_data",
     ]
 
-def feature_to_spec(feature, length=False):
-    if isinstance(feature, datasets.ClassLabel):
-        return tf.TensorSpec(shape=() if not length else (None if length == -1 else length,), dtype=tf.int64)
-    elif isinstance(feature, datasets.Value):
-        return tf.TensorSpec(
-            shape=() if not length else (None if length == -1 else length,), dtype=getattr(tf.dtypes, feature.dtype)
-        )
-    elif hasattr(feature, "dtype") and hasattr(feature, "shape"):
-        return tf.TensorSpec(shape=feature.shape, dtype=feature.dtype)
-    elif isinstance(feature, datasets.Sequence):
-        return feature_to_spec(feature.feature, length=feature.length)
-    elif isinstance(feature, list):
-        return [feature_to_spec(f, length=length) for f in feature]
-    elif isinstance(feature, dict):
-        return {k: feature_to_spec(v, length=length) for k, v in feature.items()}
-    else:
-        raise ValueError(f"Unparseable feature type {type(feature)}")
-
-
-def flan_preprocessor(x):
-
-    return {
-        "inputs": x["inputs"],
-        "targets": x["targets"]
-    }
-
-
-def dataset_fn(split, shuffle_files, seed=None, dataset=None):
-
-    # ds = datasets.load_dataset(
-    #     "Open-Orca/FLAN",
-    #     num_proc = os.cpu_count(),
-    #     data_files=f"FLAN/{dataset}/*.parquet"
-    #     )
-
-    ds = datasets.load_dataset(
-        "parquet",
-        data_files=f"gs://improved-t5/FLAN/{dataset}/*.parquet",
-        streaming=True
-        )
-
-    ds = ds[split]
-
-    ds = ds.map(flan_preprocessor)
-    return tf.data.Dataset.from_generator(
-            ds.__iter__, output_signature={k: feature_to_spec(v) for k, v in ds.features.items()}
-        )
-
 
 for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
 
@@ -107,18 +63,28 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
             task_name = f"{flan_task}"
         task_name = task_name.replace("-", "_")
 
+        file_path=f"gs://improved-t5/FLAN/{flan_split}"
+        file_dict = {
+            "train": os.path.listdir(file_path),
+            }
+
+        extract_text = extract_text_from_jsonl_tf
         TaskRegistry.add(
             task_name,
-            source=seqio.FunctionDataSource(
-                dataset_fn=partial(dataset_fn, dataset=flan_split),
-                splits=["train"]
+            source=CustomDataSource(
+                split_to_filepattern=file_dict,
             ),
             preprocessors=[
+                extract_text,
+                functools.partial(
+                    t5.data.preprocessors.rekey, key_map={
+                        "inputs": "inputs",
+                        "targets": "targets"
+                    }),
                 seqio.preprocessors.tokenize,
                 seqio.CacheDatasetPlaceholder(),
                 seqio.preprocessors.append_eos_after_trim,
             ],
-            # metric_fns=[metrics.accuracy],
             metric_fns=[],
             output_features=OUTPUT_FEATURES
         )
