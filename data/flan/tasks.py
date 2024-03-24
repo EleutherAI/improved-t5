@@ -83,7 +83,8 @@ def dataset_fn(split, shuffle_files, seed=None, dataset=None):
 
     ds = datasets.load_dataset(
         "parquet",
-        data_files=f"gs://improved-t5/FLAN/{dataset}/*.parquet"
+        data_files=f"gs://improved-t5/FLAN/{dataset}/*.parquet",
+        streaming=True
         )
 
     ds = ds[split]
