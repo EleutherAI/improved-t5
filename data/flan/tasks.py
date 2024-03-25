@@ -80,9 +80,9 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
         file_path = f"gs://improved-t5/flan/{flan_split}"
         file_list = [f"gs://{file}" for file in fs.ls(file_path)], # os.listdir(file_path),
         file_dict = {
-            "train": file_list,
-            "validation": file_list[:1],
-            "test": file_list[:1],
+            "train": list(file_list),
+            "validation": list(file_list[:1]),
+            "test": list(file_list[:1]),
             }
 
         extract_text = extract_text_from_jsonl_tf
