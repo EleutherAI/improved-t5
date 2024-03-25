@@ -51,6 +51,18 @@ FLAN_SPLIT = [
     "cot_zsopt_data",
     ]
 
+@seqio.map_over_dataset
+def extract_text_from_jsonl_tf(json: str):
+    inputs = tf.strings.split(json, '"{inputs": "', maxsplit=1)[1]
+    inputs = tf.strings.split(inputs, '",', maxsplit=1)[0]
+
+    outputs = tf.strings.split(json, '"outputs": "', maxsplit=1)[1]
+    outputs = tf.strings.split(outputs, '",', maxsplit=1)[0]
+
+    return {
+        "inputs": inputs,
+        "outputs": outputs
+        }
 
 for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
 
