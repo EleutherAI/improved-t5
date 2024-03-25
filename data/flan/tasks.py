@@ -77,7 +77,7 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
         task_name = task_name.replace("-", "_")
 
         fs = gcsfs.GCSFileSystem()
-        file_path=f"gs://improved-t5/FLAN/{flan_split}"
+        file_path=f"gs://improved-t5/flan/{flan_split}"
         file_dict = {
             "train": fs.ls(file_path), # os.listdir(file_path),
             }
