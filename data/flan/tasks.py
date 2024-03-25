@@ -53,15 +53,16 @@ FLAN_SPLIT = [
 
 @seqio.map_over_dataset
 def extract_text(json: str):
-    inputs = tf.strings.split(json, '"{inputs": "', maxsplit=1)[1]
+
+    inputs = tf.strings.split(json, '{"inputs": "', maxsplit=1)[1]
     inputs = tf.strings.split(inputs, '",', maxsplit=1)[0]
 
     targets = tf.strings.split(json, '"targets": "', maxsplit=1)[1]
     targets = tf.strings.split(targets, '",', maxsplit=1)[0]
 
     return {
-        "inputs": inputs,
-        "targets": targets
+        "inputs": "inputs",
+        "targets": "targets"
         }
 
 for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
@@ -78,11 +79,8 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
 
         fs = gcsfs.GCSFileSystem()
         file_path = f"gs://improved-t5/flan/{flan_split}"
-        file_list = [f"gs://{file}" for file in fs.ls(file_path)]
         file_dict = {
-            "train": list(file_list),
-            "validation": list(file_list[:1]),
-            "test": list(file_list[:1]),
+            "train": [f"gs://{file}" for file in fs.ls(file_path)],
             }
 
         TaskRegistry.add(
