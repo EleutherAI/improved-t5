@@ -79,7 +79,7 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
         fs = gcsfs.GCSFileSystem()
         file_path=f"gs://improved-t5/flan/{flan_split}"
         file_dict = {
-            "train": fs.ls(file_path), # os.listdir(file_path),
+            "train": [f"gs://{file}" for file in fs.ls(file_path)], # os.listdir(file_path),
             }
 
         extract_text = extract_text_from_jsonl_tf
