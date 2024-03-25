@@ -27,7 +27,7 @@ from t5.evaluation import metrics
 
 from data.vocab import DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES
 
-from data.utils import CustomDataSource, extract_text_from_jsonl_tf, extract_text_from_json_tf
+from data.utils import CustomDataSource
 
 TaskRegistry = seqio.TaskRegistry
 MixtureRegistry = seqio.MixtureRegistry
