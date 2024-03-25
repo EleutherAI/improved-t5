@@ -78,7 +78,7 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
 
         fs = gcsfs.GCSFileSystem()
         file_path = f"gs://improved-t5/flan/{flan_split}"
-        file_list = [f"gs://{file}" for file in fs.ls(file_path)], # os.listdir(file_path),
+        file_list = [f"gs://{file}" for file in fs.ls(file_path)]
         file_dict = {
             "train": list(file_list),
             "validation": list(file_list[:1]),
