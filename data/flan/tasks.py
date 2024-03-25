@@ -17,6 +17,7 @@ import os
 import datasets
 import functools
 import seqio
+import gcsfs
 
 import tensorflow as tf
 import t5.data
@@ -63,9 +64,10 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
             task_name = f"{flan_task}"
         task_name = task_name.replace("-", "_")
 
+        fs = gcsfs.GCSFileSystem()
         file_path=f"gs://improved-t5/FLAN/{flan_split}"
         file_dict = {
-            "train": os.listdir(file_path),
+            "train": fs.ls(file_path), # os.listdir(file_path),
             }
 
         extract_text = extract_text_from_jsonl_tf
