@@ -52,7 +52,7 @@ FLAN_SPLIT = [
     ]
 
 @seqio.map_over_dataset
-def extract_text_from_jsonl_tf(json: str):
+def extract_text(json: str):
     inputs = tf.strings.split(json, '"{inputs": "', maxsplit=1)[1]
     inputs = tf.strings.split(inputs, '",', maxsplit=1)[0]
 
@@ -85,7 +85,6 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
             "test": list(file_list[:1]),
             }
 
-        extract_text = extract_text_from_jsonl_tf
         TaskRegistry.add(
             task_name,
             source=CustomDataSource(
@@ -93,11 +92,11 @@ for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
             ),
             preprocessors=[
                 extract_text,
-                functools.partial(
-                    t5.data.preprocessors.rekey, key_map={
-                        "inputs": "inputs",
-                        "targets": "targets"
-                    }),
+                # functools.partial(
+                #     t5.data.preprocessors.rekey, key_map={
+                #         "inputs": "inputs",
+                #         "targets": "targets"
+                #     }),
                 seqio.preprocessors.tokenize,
                 seqio.CacheDatasetPlaceholder(),
                 seqio.preprocessors.append_eos_after_trim,
