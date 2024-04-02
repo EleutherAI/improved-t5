@@ -7,8 +7,10 @@ HF_PATH=$6
 T5X_PATH=$7
 
 mkdir -p "${HF_PATH}"
+git lfs install
 git clone "https://huggingface.co/${HF_MODEL_PATH}" "${HF_PATH}"
 git -C "${HF_PATH}" remote set-url origin "https://${HF_USERNAME}:${HF_KEY}@huggingface.co/${HF_MODEL_PATH}"
+huggingface-cli lfs-enable-largefiles "${HF_PATH}"
 
 for STEP in $(eval echo "{$START..$END..$CHECKPOINT}")
 do
