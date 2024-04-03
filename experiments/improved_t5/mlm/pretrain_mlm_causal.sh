@@ -1,5 +1,5 @@
 SIZE=$1
-START_STEP=$2
+TRAIN_STEPS=$2
 MODEL_DIR=$3
 
 python -m t5x.train \
