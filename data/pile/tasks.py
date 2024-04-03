@@ -60,6 +60,12 @@ seqio.MixtureRegistry.add(
     )
 
 seqio.MixtureRegistry.add(
+    "pile_r_causal",
+    ["pile_r_denoiser", "pile_causal_lm"],
+    default_rate=1
+    )
+
+seqio.MixtureRegistry.add(
     "pile_ul2",
     ["pile_r_denoiser", "pile_s_denoiser", "pile_x_denoiser"],
     default_rate=1
