@@ -3,7 +3,7 @@ START_STEP=$2
 MODEL_DIR=$3
 
 python -m t5x.train \
-    --gin_file="models/scalable_t5/t5_1_1/base.gin" \
+    --gin_file="models/scalable_t5/t5_1_1/${SIZE}.gin" \
     --gin_file="configs/task/pretrain/pile_mlm_causal.gin" \
     --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""${GCP_BUCKET}/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
