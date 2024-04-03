@@ -54,10 +54,10 @@ FLAN_SPLIT = [
 @seqio.map_over_dataset
 def extract_text(json: str):
 
-    inputs = tf.strings.split(json, '{"inputs": "', maxsplit=1)[1]
+    inputs = tf.strings.split(json, '{"inputs":"', maxsplit=1)[1]
     inputs = tf.strings.split(inputs, '",', maxsplit=1)[0]
 
-    targets = tf.strings.split(json, '"targets": "', maxsplit=1)[1]
+    targets = tf.strings.split(json, '"targets":"', maxsplit=1)[1]
     targets = tf.strings.split(targets, '",', maxsplit=1)[0]
 
     return {
