@@ -61,8 +61,8 @@ def extract_text(json: str):
     targets = tf.strings.split(targets, '",', maxsplit=1)[0]
 
     return {
-        "inputs": "inputs",
-        "targets": "targets"
+        "inputs": inputs,
+        "targets": targets
         }
 
 for OUTPUT_FEATURES in [DEFAULT_OUTPUT_FEATURES, T5_OUTPUT_FEATURES]:
