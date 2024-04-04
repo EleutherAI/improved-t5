@@ -188,8 +188,15 @@ class CustomDataSource(seqio.FileDataSource):
             self._data_dir = ""
         self._skip_header_lines = skip_header_lines
 
+        def preprocess(line):
+            # Replace '\\n' with '\n'
+            line = tf.strings.regex_replace(line, '\\\\n', '\n')
+            return line
+
         def read_file_fn(filepattern):
-            return tf.data.TextLineDataset(filepattern).skip(skip_header_lines)
+            # return tf.data.TextLineDataset(filepattern).skip(skip_header_lines)
+            text_data = tf.data.TextLineDataset(filepattern).skip(skip_header_lines)
+            return text_data.map(preprocess)
 
 
         super().__init__(
