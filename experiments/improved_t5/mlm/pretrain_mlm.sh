@@ -7,6 +7,7 @@ python -m t5x.train \
     --gin_file="configs/task/pretrain/pile_mlm.gin" \
     --gin.seqio.SentencePieceVocabulary.sentencepiece_model_file=\""${GCP_BUCKET}/vocabs/tokenizer.model"\" \
     --gin.seqio.SentencePieceVocabulary.extra_ids=100 \
+    --gin.train.use_orbax=False \
     --gin.TRAIN_STEPS=${TRAIN_STEPS} \
     --gin.SAVING_PERIOD=10000 \
     --gin.MODEL_DIR=\"${MODEL_DIR}\" \
