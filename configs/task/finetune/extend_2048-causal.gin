@@ -10,8 +10,8 @@ import data.pile.tasks
 
 include 't5x/configs/runs/finetune.gin'
 
-MIXTURE_OR_TASK_NAME = "pile_s_denoiser"
-# MIXTURE_OR_TASK_NAME = "pile_s_causal"
+# MIXTURE_OR_TASK_NAME = "pile_s_denoiser"
+MIXTURE_OR_TASK_NAME = "pile_s_causal"
 TASK_FEATURE_LENGTHS = {"inputs": 2048, "targets": 2048}
 BATCH_SIZE = 512
 EVAL_BATCH_SIZE = 256
