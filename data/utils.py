@@ -198,6 +198,7 @@ class CustomDataSource(seqio.FileDataSource):
         def preprocess(line):
             # Replace '\\n' with '\n'
             line = tf.strings.regex_replace(line, '\\\\n', '\n')
+            line = tf.strings.regex_replace(line, '\\\\t', '\t')
             line = tf.strings.regex_replace(line, '\\\\\'', '\'')
             line = tf.strings.regex_replace(line, '\\\\\"', '\"')
             return line
