@@ -11,7 +11,6 @@ python -m t5x.train \
     --gin.TRAIN_STEPS=${TRAIN_STEPS} \
     --gin.SAVING_PERIOD=10000 \
     --gin.MODEL_DIR=\"${MODEL_DIR}\" \
-    --gin.partitioning.PjitPartitioner.model_parallel_submesh="(1, 1, 8, 1)" \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr
     # --gin.Trainer.num_microbatches=2 \
