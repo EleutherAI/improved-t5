@@ -40,5 +40,7 @@ python -m t5x.train \
     --gin.INITIAL_CHECKPOINT_PATH=\"${INIT_DIR}\" \
     --gin.MODEL_DIR=\"${MODEL_DIR}\" \
     --seqio_additional_cache_dirs=\"${GCP_BUCKET}/data\" \
+    --gin.Trainer.num_microbatches=32 \
+    --gin.partitioning.PjitPartitioner.num_partitions=8 \
     --alsologtostderr
     # --gin.partitioning.PjitPartitioner.model_parallel_submesh="(1, 1, 8, 1)" \

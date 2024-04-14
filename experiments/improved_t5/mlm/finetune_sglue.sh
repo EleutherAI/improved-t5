@@ -18,8 +18,5 @@ python -m t5x.train \
     --gin.MODEL_DIR=\"${MODEL_DIR}\" \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr
-    # --gin.Trainer.num_microbatches=2 \
-    # --gin.partitioning.standard_logical_axis_rules.activation_partitioning_dims=4 \
-    # --gin.partitioning.standard_logical_axis_rules.parameter_partitioning_dims=2 \
     # --gin.partitioning.PjitPartitioner.model_parallel_submesh="(1, 1, 8, 1)" \
-    # --gin.partitioning.standard_logical_axis_rules.parameter_partitioning_dims=2 \
+    # --gin.Trainer.num_microbatches=2 \

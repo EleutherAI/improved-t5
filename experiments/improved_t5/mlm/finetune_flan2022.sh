@@ -15,6 +15,7 @@ python -m t5x.train \
     --gin.MODEL_DIR=\"${MODEL_DIR}\" \
     --gin.USE_CACHED_TASKS=False \
     --alsologtostderr
+    # --gin.partitioning.PjitPartitioner.model_parallel_submesh="(1, 1, 8, 1)" \
     # --multiprocess_gpu \
     # --coordinator_address=${ADDR} \
     # --process_count=${SLURM_NTASKS} \
