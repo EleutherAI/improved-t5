@@ -8,7 +8,7 @@ for LANG in go java php python ruby javascript; do
         --model hf \
         --model_args "pretrained=${MODEL_PATH}${MODEL}${EXTRA},revision=${LANG}" \
         --tasks "code2text_${LANG}" \
-        --batch_size 8 \
+        --batch_size 4 \
         --output "output/codexglue_code2text/${MODEL}/${LANG}/" \
         --log_samples
 done

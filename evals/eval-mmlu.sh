@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash
 MODEL_PATH=$1
 MODEL=$2
 LM_EVAL=$3
