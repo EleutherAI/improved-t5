@@ -29,6 +29,10 @@ def extract_text_from_jsonl_tf(json: str):
     output = tf.strings.split(output, '",', maxsplit=1)[0]
     return {"text": output}
 
+@seqio.map_over_dataset
+def extract_text_from_txt(json: str):
+    return {"text": json}
+
 # Masked Language Modeling
 def make_mlm_task(
     name,
@@ -37,7 +41,8 @@ def make_mlm_task(
     noise_density=0.15,
     mean_noise_span_length=3.0
     ):
-    extract_text = extract_text_from_jsonl_tf if jsonl else extract_text_from_json_tf
+    # extract_text = extract_text_from_jsonl_tf if jsonl else extract_text_from_json_tf
+    extract_text = extract_text_from_txt
     TaskRegistry.add(
         name,
         source=CustomDataSource(
@@ -72,7 +77,8 @@ def make_clm_task(
     split_to_filepattern,
     jsonl
     ):
-    extract_text = extract_text_from_jsonl_tf if jsonl else extract_text_from_json_tf
+    # extract_text = extract_text_from_jsonl_tf if jsonl else extract_text_from_json_tf
+    extract_text = extract_text_from_txt
     TaskRegistry.add(
         name,
         source=CustomDataSource(
@@ -97,7 +103,8 @@ def make_plm_task(
     jsonl,
     noise_density=0.5,
     ):
-    extract_text = extract_text_from_jsonl_tf if jsonl else extract_text_from_json_tf
+    # extract_text = extract_text_from_jsonl_tf if jsonl else extract_text_from_json_tf
+    extract_text = extract_text_from_txt
     TaskRegistry.add(
         name,
         source=CustomDataSource(
@@ -188,8 +195,18 @@ class CustomDataSource(seqio.FileDataSource):
             self._data_dir = ""
         self._skip_header_lines = skip_header_lines
 
+        def preprocess(line):
+            # Replace '\\n' with '\n'
+            line = tf.strings.regex_replace(line, '\\\\n', '\n')
+            line = tf.strings.regex_replace(line, '\\\\t', '\t')
+            line = tf.strings.regex_replace(line, '\\\\\'', '\'')
+            line = tf.strings.regex_replace(line, '\\\\\"', '\"')
+            return line
+
         def read_file_fn(filepattern):
-            return tf.data.TextLineDataset(filepattern).skip(skip_header_lines)
+            # return tf.data.TextLineDataset(filepattern).skip(skip_header_lines)
+            text_data = tf.data.TextLineDataset(filepattern).skip(skip_header_lines)
+            return text_data.map(preprocess)
 
 
         super().__init__(

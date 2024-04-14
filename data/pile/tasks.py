@@ -22,7 +22,8 @@ from data.utils import make_mlm_task, make_clm_task, make_plm_task
 PILE_SIZES = [(None, None), (20, '2b'), (5, '500m'), (1, '100m')]
 
 # Pile v1
-path=f"{os.environ['GCP_BUCKET']}/pile_raw_deduped/dedupe0.87/train/"
+# path=f"{os.environ['GCP_BUCKET']}/pile_raw_deduped/dedupe0.87/train/"
+path=f"{os.environ['GCP_BUCKET']}/pile_raw_deduped/dedupe0.87/train_text/"
 
 def pile_helper(task, name, pile_files, pile_size_name, **kwargs):
     if pile_size_name:
@@ -56,6 +57,12 @@ for num_files, pile_size_name in PILE_SIZES:
 seqio.MixtureRegistry.add(
     "pile_s_causal",
     ["pile_s_denoiser", "pile_causal_lm"],
+    default_rate=1
+    )
+
+seqio.MixtureRegistry.add(
+    "pile_r_causal",
+    ["pile_r_denoiser", "pile_causal_lm"],
     default_rate=1
     )
 

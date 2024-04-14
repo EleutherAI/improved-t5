@@ -18,6 +18,7 @@ source env-t5x/bin/activate
 # python -m pip install -e .
 # popd
 
+pip install gcsfs
 pip install git+https://github.com/google-research/text-to-text-transfer-transformer.git
 pip install git+https://github.com/google/flaxformer.git
 

@@ -4,17 +4,16 @@ import __main__ as train_script
 import seqio
 from t5x import utils
 from t5x import models
-from t5x import trainer
 from t5x import partitioning
 
 import data.pile.tasks
 
-include 't5x/configs/runs/finetune.gin'
+include 't5x/configs/runs/pretrain.gin'
 
-MIXTURE_OR_TASK_NAME = "pile_s_causal"
+MIXTURE_OR_TASK_NAME = "pile_r_causal"
 TASK_FEATURE_LENGTHS = {"inputs": 2048, "targets": 512}
 BATCH_SIZE = 512
-EVAL_BATCH_SIZE = 256
+EVAL_BATCH_SIZE = 128
 DROPOUT_RATE = 0.0
 
 train_script.train:
@@ -39,11 +38,3 @@ seqio.Evaluator:
 utils.SaveCheckpointConfig:
   keep = None
   period = %SAVING_PERIOD
-
-trainer.Trainer:
-  learning_rate_fn = @utils.create_learning_rate_scheduler()
-
-utils.create_learning_rate_scheduler:
-  factors = 'constant * rsqrt_decay'
-  base_learning_rate = 1.0
-  warmup_steps = 10000  # 10k to keep consistent with T5/MTF defaults.
