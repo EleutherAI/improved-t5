@@ -2,10 +2,11 @@
 
 ### Overview
 
-- `configs/`
-- `experiments/`
-- `data/`
-- `model/`
+- `configs/`: Configs for pretraining and finetuning
+- `experiments/`: Scripts to launch pretraining and finetuning
+- `convert_weights/`: Scripts to convert T5x checkpoints and upload them to HF
+- `data/`: Seqio scripts for loading datasets
+- `model/`: Gin config for models
 
 ### Running Experiments on TPUs
 
