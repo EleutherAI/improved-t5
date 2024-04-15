@@ -7,12 +7,13 @@
 - `convert_weights/`: Scripts to convert T5x checkpoints and upload them to HF
 - `data/`: Seqio scripts for loading datasets
 - `model/`: Gin config for models
+- `tpu-scripts/`: Helper scripts for running training jobs on TPUs
 
 ## Running Experiments on TPUs
 
 ### Setup
 
-Experiments were run on TPUs. The main scripts involve `send.sh`, `run.sh`, `setup.sh` and `kill.sh` in `tpu_scripts/`. To setup a TPU with the required libraries and dependencies, 
+Experiments were run on TPUs. The main scripts involve `send.sh`, `run.sh`, `setup.sh` and `kill.sh` in `tpu-scripts/`. To setup a TPU with the required libraries and dependencies, 
 ```
 bash send.sh <TPU Node Name> setup.sh
 ```
